@@ -1,16 +1,36 @@
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverrideDirectory
+._*
 
-# IDEs and Editors
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Materiale PDF originale (file grandi, non necessari per il sito)
+materiale/
+
+# File temporanei di sviluppo
+formulas_review.md
+gen_esfin.py
+gen_missing_and_dump.py
+
+# Editor
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# Node (just in case they use npm later)
-node_modules/
-package-lock.json
-
-# Local env
-.env
-.env.local
+# Logs
+*.log
