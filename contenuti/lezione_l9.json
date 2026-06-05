@@ -1,0 +1,49 @@
+{
+  "titolo": "Teoremi sui Limiti",
+  "introduzione": "Lo studio dei limiti è fondamentale per comprendere il comportamento delle funzioni quando l'input si avvicina a un certo valore o all'infinito. I teoremi sui limiti forniscono strumenti potenti per calcolare e analizzare questi comportamenti, spesso evitando calcoli diretti complessi.",
+  "concetti": [
+    {
+      "nome": "Teorema di Permanenza del Segno",
+      "definizione": "Se f è una funzione tale che lim_(x→c) f(x) = L con L ≠ 0, allora esiste un intervallo aperto (a, b) contenente c tale che f(x) e L hanno lo stesso segno per ogni x ∈ (a, b).",
+      "spiegazione": "Questo teorema afferma che se il limite di una funzione in un punto è diverso da zero, la funzione mantiene lo stesso segno in un intorno del punto. In altre parole, vicino al punto in cui si calcola il limite, la funzione non cambia segno. Questo strumento è utile per determinare il segno della funzione senza analizzarla esplicitamente.",
+      "formula": "lim_(x→c) f(x) = L ≠ 0 ⇒ ∃ (a, b) ⊆ (c - ε, c + ε)\\text{  tale che  }sgn(f(x)) = sgn(L) \\text{ per ogni } x ∈ (a, b)",
+      "esempio": "Se lim_(x→2) f(x) = 3 > 0, allora esiste un intervallo attorno a 2 dove f(x) è positiva."
+    },
+    {
+      "nome": "Teoremi sull'Algebra dei Limiti",
+      "definizione": "Questi teoremi forniscono regole per calcolare i limiti di somme, differenze, prodotti e quozienti di funzioni.",
+      "spiegazione": "L'algebra dei limiti permette di scomporre problemi complessi in parti più semplici. Ad esempio, possiamo calcolare il limite di una somma trovando il limite di ciascun termine separatamente e poi sommandoli. Questi teoremi sono essenziali per semplificare i calcoli e risolvere problemi altrimenti intrattabili.",
+      "formula": "lim_(x→c) [f(x) ± g(x)] = lim_(x→c) f(x) ± lim_(x→c) g(x)\nlim_(x→c) [f(x) * g(x)] = lim_(x→c) f(x) * lim_(x→c) g(x)\nlim_(x→c) [f(x) / g(x)] = lim_(x→c) f(x) / lim_(x→c) g(x),  g(c) ≠ 0",
+      "esempio": "Se lim_(x→1) x^2 = 1 e lim_(x→1) (3x - 2) = 1, allora lim_(x→1) [x^2 + (3x - 2)] = 2."
+    },
+    {
+      "nome": "Teoremi di Confronto (Carabinieri)",
+      "definizione": "Se f(x) ≤ g(x) ≤ h(x) per ogni x in un intervallo contenente c, e lim_(x→c) f(x) = L = lim_(x→c) h(x), allora lim_(x→c) g(x) = L.",
+      "spiegazione": "I teoremi di confronto (o dei carabinieri) sono utili quando non si può calcolare direttamente il limite di una funzione, ma si sa che è limitata tra due funzioni di cui si conosce il limite. Se le due funzioni 'carabinieri' hanno lo stesso limite, allora anche la funzione centrale deve avere lo stesso limite.",
+      "formula": "f(x) ≤ g(x) ≤ h(x), lim_(x→c) f(x) = L = lim_(x→c) h(x) ⇒ lim_(x→c) g(x) = L",
+      "esempio": "Se 0 ≤ sin(x)/x ≤ 1 per x vicino a 0, e lim_(x→0) 1 = 0, allora lim_(x→0) sin(x)/x = 0."
+    }
+  ],
+  "punti_chiave": [
+    "Il teorema di permanenza del segno garantisce la conservazione del segno della funzione in prossimità di un punto dove il limite è diverso da zero.",
+    "L'algebra dei limiti consente di semplificare il calcolo dei limiti sfruttando le proprietà delle operazioni algebriche.",
+    "I teoremi di confronto (carabinieri) permettono di determinare il limite di una funzione conoscendo i limiti di due funzioni che la 'stretto' tra loro."
+  ],
+  "errori_comuni": [
+    "Applicazione impropria dell'algebra dei limiti senza considerare le condizioni necessarie, come la non nullità del denominatore.",
+    "Confusione tra il teorema di permanenza del segno e la definizione di continuità della funzione.",
+    "Interpretazione errata dei teoremi di confronto, in particolare nella scelta delle funzioni 'carabinieri'."
+  ],
+  "connessioni": "Questi teoremi costituiscono una base fondamentale per lo studio della continuità, delle derivate e degli integrali. L'algebra dei limiti è un prerequisito essenziale per affrontare il calcolo differenziale e integrale, mentre il teorema di permanenza del segno fornisce informazioni utili sull'analisi locale delle funzioni.",
+  "_meta": {
+    "id": "L9",
+    "titolo": "Teoremi sui limiti",
+    "pdf": "L9 17 ott 2025_ teoremi sui limiti.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:53:14"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:59:49",
+    "model": "gemma3:12b"
+  }
+}

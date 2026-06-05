@@ -1,0 +1,50 @@
+{
+  "titolo": "Teorema della funzione composta e limiti",
+  "introduzione": "Il teorema della funzione composta è uno strumento essenziale per calcolare i limiti di funzioni composte, semplificando il processo attraverso la scomposizione in parti più elementari. Questa lezione esplora come il limite di una composizione di funzioni si relazioni con i limiti delle singole funzioni e come sfruttare questa relazione per risolvere problemi complessi.",
+  "concetti": [
+    {
+      "nome": "Funzione Composta",
+      "definizione": "Data f: I → J e g: J → K, la funzione composta f ∘ g è definita da (f ∘ g)(x) = f(g(x)), dove x ∈ I e g(x) ∈ J. Il dominio di f ∘ g è l'insieme {x ∈ I | g(x) ∈ J}.",
+      "spiegazione": "La funzione composta applica prima la funzione 'g' all'input 'x', producendo g(x), e poi applica la funzione 'f' al risultato, ottenendo f(g(x)). In altre parole, l'argomento di 'f' è sostituito dall'intera funzione 'g(x)'. È cruciale che il dominio di 'g' sia contenuto nel dominio di 'f' affinché la composizione sia definita. La funzione composta consente di costruire funzioni più complesse combinando funzioni più semplici.",
+      "formula": "(f ∘ g)(x) = f(g(x))",
+      "esempio": "Sia f(x) = x² e g(x) = sin(x). Allora (f ∘ g)(x) = (sin(x))²."
+    },
+    {
+      "nome": "Teorema della Funzione Composta per i Limiti",
+      "definizione": "Se lim_(x→c) g(x) = L e lim_(y→L) f(y) = M, allora lim_(x→c) (f ∘ g)(x) = M.",
+      "spiegazione": "Questo teorema stabilisce che il limite della composizione di due funzioni è uguale al limite della seconda funzione valutata nel limite della prima. In pratica, si calcolano separatamente i limiti delle singole funzioni e poi si sostituisce il limite di 'g' nell'argomento di 'f'. Questo approccio semplifica notevolmente il calcolo dei limiti quando si hanno funzioni annidate.",
+      "formula": "lim_(x→c) (f ∘ g)(x) = lim_(y→L) f(y)",
+      "esempio": "Sia f(x) = x² e g(x) = x + 1. Se c = 0, allora lim_(x→0) g(x) = 1 e lim_(y→1) f(y) = 1². Quindi, lim_(x→0) (f ∘ g)(x) = 1."
+    },
+    {
+      "nome": "Continuità di Funzioni Composte",
+      "definizione": "Se f è continua in L e g è continua in x₀, dove L = g(x₀), allora la funzione composta f ∘ g è continua in x₀.",
+      "spiegazione": "La continuità di una funzione composta implica che piccole variazioni in 'x' si propagano attraverso 'g' e poi attraverso 'f', causando solo piccole variazioni nel risultato finale (f ∘ g)(x). Questa proprietà deriva dalla continuità delle singole funzioni nei punti appropriati. Se f è continua in un punto e g è continua in un altro punto tale che l'immagine di g in quel secondo punto sia nel dominio di f, allora la composizione è continua.",
+      "formula": "",
+      "esempio": "Se f(x) = x² è continua ovunque e g(x) = sin(x) è continua ovunque, allora f(g(x)) = sin²(x) è continua ovunque."
+    }
+  ],
+  "punti_chiave": [
+    "Il teorema della funzione composta semplifica il calcolo dei limiti di funzioni composte.",
+    "La continuità delle singole funzioni è una condizione necessaria per l'applicazione del teorema.",
+    "L'ordine di applicazione delle funzioni nella composizione è significativo: (f ∘ g)(x) ≠ (g ∘ f)(x).",
+    "Il teorema può essere utilizzato anche per dimostrare la non esistenza di un limite, trovando una contraddizione."
+  ],
+  "errori_comuni": [
+    "Confusione nell'ordine delle funzioni nella composizione: (f ∘ g)(x) ≠ (g ∘ f)(x).",
+    "Mancata verifica delle condizioni di applicabilità del teorema, in particolare la continuità e l'esistenza dei limiti.",
+    "Sostituzione prematura di valori senza considerare il dominio delle funzioni coinvolte."
+  ],
+  "connessioni": "Il teorema della funzione composta si collega direttamente al concetto di continuità, un prerequisito fondamentale per la derivabilità. Inoltre, fornisce le basi per comprendere concetti più avanzati come le trasformazioni continue e l'analisi funzionale.",
+  "_meta": {
+    "id": "L11",
+    "titolo": "Teorema funzione composta e limiti notevoli",
+    "pdf": "L11 24 ott 2025_ teorema fz composta e limiti notevoli.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:55:18"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:30:33",
+    "model": "gemma3:12b"
+  }
+}

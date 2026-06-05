@@ -1,0 +1,45 @@
+{
+  "titolo": "Sviluppi di McLaurin, concavità, convessità, flessi",
+  "introduzione": "Gli sviluppi di McLaurin forniscono un potente strumento per approssimare funzioni complesse con polinomi più semplici. Questa tecnica non solo semplifica l'analisi delle funzioni, ma permette anche di studiarne il comportamento locale, come la concavità e la presenza di punti di flesso.",
+  "concetti": [
+    {
+      "nome": "Sviluppo di McLaurin",
+      "definizione": "Lo sviluppo di McLaurin di una funzione f(x) è la sua rappresentazione come serie infinita di potenze centrata in x=0: ∑[n=0 to ∞] (f^(n)(0)/n!) * x^n.",
+      "spiegazione": "Immagina di voler descrivere una curva complessa con un polinomio. Lo sviluppo di McLaurin ci permette di trovare questo polinomio approssimante, calcolando i valori della funzione e delle sue derivate nel punto zero e combinandoli in una serie. Più termini includiamo nella serie, più precisa sarà l'approssimazione.",
+      "formula": "f(x) = ∑[n=0 to ∞] (f^(n)(0)/n!) * x^n",
+      "esempio": "Lo sviluppo di McLaurin per sin(x) è x - x³/3! + x⁵/5! - ... "
+    },
+    {
+      "nome": "Concavità e Convessità",
+      "definizione": "Una funzione f(x) è convessa in un intervallo se la retta che congiunge due punti qualsiasi della sua curva giace sopra la curva stessa. È concava se la retta giace sotto la curva.",
+      "spiegazione": "Pensa alla forma di una coppa: se la coppa è rivolta verso l'alto, la funzione è convessa; se è rivolta verso il basso, è concava. Matematicamente, questo si traduce nel segno della derivata seconda: f''(x) > 0 per la convessità e f''(x) < 0 per la concavità.",
+      "formula": "f'' > 0 (convessa), f'' < 0 (concava)",
+      "esempio": "La funzione f(x) = x² è convessa, mentre f(x) = -x² è concava."
+    },
+    {
+      "nome": "Punto di Flesso",
+      "definizione": "Un punto di flesso è un punto in cui la concavità della funzione cambia segno.",
+      "spiegazione": "Immagina che una curva cambi direzione, da convessa a concava o viceversa. Questo cambiamento di curvatura avviene in un punto di flesso.  In questi punti, la derivata seconda può essere zero o non esistere, ma il segno della derivata prima cambia.",
+      "formula": "f''(x) = 0 oppure f''(x) non esiste",
+      "esempio": "La funzione f(x) = x³ ha un punto di flesso in x=0."
+    }
+  ],
+  "punti_chiave": [
+    "Gli sviluppi di McLaurin permettono di approssimare funzioni complesse con polinomi.",
+    "La derivata seconda indica la concavità/convessità della funzione: f''(x) > 0 (convessa), f''(x) < 0 (concava).",
+    "I punti di flesso sono dove cambia la concavità e possono essere trovati analizzando la derivata seconda."
+  ],
+  "errori_comuni": [
+    "Confondere lo sviluppo di McLaurin con altri tipi di sviluppi (es. Taylor centrato in un punto diverso da 0).",
+    "Non considerare il segno della derivata seconda per determinare la concavità/convessità.",
+    "Trascurare che i punti di flesso possono avere derivata seconda uguale a zero o non esistente."
+  ],
+  "connessioni": "Gli sviluppi di McLaurin sono fondamentali per lo studio delle funzioni in più variabili (sviluppo di Taylor), mentre la concavità e la convessità sono cruciali nell'ottimizzazione vincolata e nello studio dei massimi e minimi.",
+  "_meta": {
+    "id": "L21",
+    "titolo": "Sviluppi di McLaurin, concavità, convessità, flessi",
+    "pdf": "L21 28 nov 2025_ sviluppi di McLaurin, concavita, convessita, flessi.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T22:25:56"
+  }
+}

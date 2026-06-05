@@ -1,0 +1,73 @@
+{
+  "titolo": "Funzioni iniettive, suriettive e inversa",
+  "introduzione": "Le funzioni sono elementi fondamentali dell'analisi matematica e descrivono relazioni tra insiemi di numeri reali. Comprendere le proprietà di iniettività, suriettività e invertibilità è cruciale per analizzare il comportamento delle funzioni e risolvere problemi complessi, come la ricerca di soluzioni a equazioni o lo studio della convergenza di serie.",
+  "concetti": [
+    {
+      "nome": "Funzione Iniettiva (o Iniezione)",
+      "definizione": "Una funzione f: A → B è iniettiva se per ogni x₁, x₂ ∈ A, si ha che f(x₁) = f(x₂) implica x₁ = x₂. Equivalentemente, se x₁ ≠ x₂, allora f(x₁) ≠ f(x₂).",
+      "spiegazione": "Una funzione iniettiva associa elementi distinti del dominio a elementi distinti del codominio; in altre parole, non ci sono due input diversi che producono lo stesso output. Questo implica una relazione 'uno-a-uno' tra gli elementi del dominio e quelli del codominio. Per verificare l'iniettività, si può anche considerare la controimmagine di ogni elemento del codominio: se è vuota o contiene un solo elemento, allora la funzione è iniettiva.",
+      "formula": "∀x₁, x₂ ∈ A, f(x₁) = f(x₂) ⇒ x₁ = x₂",
+      "esempio": "La funzione f(x) = 2x + 1 è iniettiva. Se f(a) = f(b), allora 2a + 1 = 2b + 1, il che implica a = b.",
+      "punti_chiave": [
+        "Una funzione iniettiva preserva la distinzione tra elementi del dominio.",
+        "L'iniettività può essere verificata anche considerando le controimmagini degli elementi del codominio."
+      ]
+    },
+    {
+      "nome": "Funzione Suriettiva (o Suringettive)",
+      "definizione": "Una funzione f: A → B è suriettiva se per ogni y ∈ B, esiste almeno un x ∈ A tale che f(x) = y. In altre parole, l'immagine di f coincide con il codominio B.",
+      "spiegazione": "Una funzione suriettiva garantisce che ogni elemento del codominio sia 'raggiunto' da almeno una preimmagine nel dominio. Questo significa che non ci sono elementi nel codominio che non siano immagine di alcun elemento del dominio. La suriettività dipende dalla scelta del codominio: cambiando il codominio, la proprietà può cambiare.",
+      "formula": "∀y ∈ B, ∃x ∈ A, f(x) = y",
+      "esempio": "La funzione f(x) = x² per x ∈ ℝ non è suriettiva se il codominio è ℝ, ma lo è se il codominio è [0, +∞). Per ogni y ≥ 0, esiste un x tale che x² = y.",
+      "punti_chiave": [
+        "Una funzione suriettiva 'copre' l'intero codominio.",
+        "La suriettività dipende dalla scelta del codominio."
+      ]
+    },
+    {
+      "nome": "Funzione Biettiva",
+      "definizione": "Una funzione f: A → B è biettiva se e solo se è sia iniettiva che suriettiva.",
+      "spiegazione": "Una funzione biettiva stabilisce una corrispondenza uno-a-uno tra gli elementi del dominio e quelli del codominio. Questo significa che ogni elemento del codominio ha esattamente un preimmagine nel dominio, garantendo sia la preservazione della distinzione tra elementi del dominio (iniettività) sia la copertura completa del codominio (suriettività). Le funzioni biettive sono particolarmente importanti perché ammettono una funzione inversa.",
+      "formula": "f \\text{ è iniettiva } ∧ f \\text{ è suriettiva }",
+      "esempio": "La funzione f(x) = x + 3 è biettiva, poiché è sia iniettiva che suriettiva.",
+      "punti_chiave": [
+        "Una funzione biettiva è un isomorfismo tra due insiemi.",
+        "Le funzioni biettive sono le più 'naturali' e ammettono una funzione inversa."
+      ]
+    },
+    {
+      "nome": "Funzione Inversa",
+      "definizione": "Se f: A → B è una funzione biettiva, allora esiste una funzione inversa f⁻¹: B → A tale che f⁻¹(f(x)) = x per ogni x ∈ A e f(f⁻¹(y)) = y per ogni y ∈ B.",
+      "spiegazione": "La funzione inversa 'annulla' l'effetto della funzione originale, invertendo la relazione tra input e output. Se f prende un input x e produce un output f(x), allora f⁻¹ prende l'output f(x) e restituisce l'input x. L'esistenza dell'inversa è garantita solo se la funzione originale è biettiva.",
+      "formula": "f⁻¹(f(x)) = x, ∀x ∈ A;  f(f⁻¹(y)) = y, ∀y ∈ B",
+      "esempio": "Se f(x) = 2x + 1, allora f⁻¹(y) = (y - 1)/2.",
+      "punti_chiave": [
+        "La funzione inversa esiste solo per funzioni biettive.",
+        "La composizione di una funzione con la sua inversa restituisce l'identità."
+      ]
+    }
+  ],
+  "punti_chiave": [
+    "Una funzione iniettiva garantisce che elementi distinti del dominio siano mappati in elementi distinti del codominio.",
+    "Una funzione suriettiva garantisce che ogni elemento del codominio abbia almeno una preimmagine nel dominio.",
+    "Una funzione biettiva è sia iniettiva che suriettiva e ammette una funzione inversa.",
+    "L'invertibilità di una funzione dipende dalla sua biettività."
+  ],
+  "errori_comuni": [
+    "Confondere l'iniettività con la suriettività: non tutte le funzioni iniettive sono suriettive e viceversa.",
+    "Pensare che ogni funzione abbia un'inversa: solo le funzioni biettive hanno un'inversa.",
+    "Non considerare il codominio quando si verifica la suriettività."
+  ],
+  "connessioni": "Questi concetti sono fondamentali per comprendere i limiti di una funzione, l'esistenza di soluzioni a equazioni e la costruzione di trasformazioni geometriche. Sono inoltre cruciali nello studio delle successioni e delle serie, dove le proprietà di iniettività e suriettività possono influenzare la convergenza e nel contesto dell'integrazione, dove si studiano le funzioni inverse per risolvere integrali complessi.",
+  "_meta": {
+    "id": "L4",
+    "titolo": "Funzioni iniettive, suriettive, inversa",
+    "pdf": "L4 1 ott 2025_ funzioni iniettive, suriettive, operazioni su funzioni, funzione inversa (3 ore).pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:48:24"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:53:54",
+    "model": "gemma3:12b"
+  }
+}

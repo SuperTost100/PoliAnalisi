@@ -1,0 +1,16 @@
+{
+  "name": "PoliAnalisi — Analisi Matematica 1",
+  "short_name": "PoliAnalisi",
+  "description": "Studia Analisi 1 in modo intelligente",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0e17",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

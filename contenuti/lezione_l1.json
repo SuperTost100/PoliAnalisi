@@ -1,0 +1,49 @@
+{
+  "titolo": "Introduzione al corso, proposizioni e predicati logici",
+  "introduzione": "L'Analisi Matematica 1 fornisce le fondamenta per lo studio di concetti più avanzati in ingegneria e matematica applicata. Iniziamo questo percorso con un'analisi approfondita della logica proposizionale e dei predicati, strumenti essenziali per formalizzare ragionamenti matematici e definire proprietà delle funzioni.",
+  "concetti": [
+    {
+      "nome": "Proposizioni Logiche",
+      "definizione": "Una proposizione logica è un'affermazione dichiarativa che può essere classificata univocamente come vera o falsa, ma non entrambe simultaneamente. In altre parole, una proposizione ha un valore di verità definito.",
+      "spiegazione": "Pensate alle proposizioni come a delle frasi che possono essere giudicate vere o false in modo oggettivo. Ad esempio, 'Il cielo è blu' è una proposizione (che in questo momento potrebbe essere vera), mentre 'La matematica è divertente' esprime un'opinione soggettiva e non può essere classificata come vera o falsa in senso logico. Le proposizioni sono i mattoni fondamentali per costruire ragionamenti logici più complessi.",
+      "formula": "p, q, r\\dots \\text{ (simboli che rappresentano le proposizioni)}",
+      "esempio": " '2 + 2 = 4' è una proposizione vera; '1 + 1 = 3' è una proposizione falsa."
+    },
+    {
+      "nome": "Predicati Logici",
+      "definizione": "Un predicato logico è un'espressione che associa a uno o più elementi di un insieme (il dominio) un valore booleano (vero o falso). Un predicato può essere visto come una relazione tra oggetti.",
+      "spiegazione": "A differenza delle proposizioni, i predicati non sono affermazioni complete ma esprimono una proprietà o una relazione che dipende da variabili. Ad esempio, 'x è un numero pari' è un predicato: la sua verità o falsità dipende dal valore di x. Possiamo quindi dire che un predicato è come una funzione che associa a ogni elemento del suo dominio un valore booleano (vero o falso).",
+      "formula": "P(x), Q(x, y)\\dots \\text{ dove } P \\text{ e } Q \\text{ sono i nomi dei predicati e } x, y \\text{ sono le variabili appartenenti al dominio.}",
+      "esempio": "Sia P(x) il predicato 'x è pari'. Allora P(2) è vero, mentre P(3) è falso."
+    },
+    {
+      "nome": "Condizioni Sufficienti e Necessarie",
+      "definizione": "Una condizione p è sufficiente per una condizione q se la verità di p implica necessariamente la verità di q (p → q). Una condizione p è necessaria per una condizione q se la falsità di p implica necessariamente la falsità di q (¬q → ¬p).",
+      "spiegazione": "Immaginate di avere due eventi: 'piove' (p) e 'la strada è bagnata' (q). Se piove, la strada è sicuramente bagnata. Quindi, 'piove' è una condizione sufficiente per 'la strada è bagnata'. Al contrario, se la strada non è bagnata, allora non ha potuto piovere: 'non piove' è una condizione necessaria per 'la strada non è bagnata'.",
+      "formula": "p \\to q \\text{ (p è sufficiente per q)}, \\neg q \\to \\neg p \\text{ (p è necessario per q)}. \\text{ Equivalentemente, } p \\to q \\text{ è logicamente equivalente a } \\neg q \\to \\neg p.",
+      "esempio": "'Essere un gatto' (p) è una condizione necessaria per 'essere felice di mangiare pesce' (q). Se non sei un gatto, allora non puoi essere felice di mangiare pesce."
+    }
+  ],
+  "punti_chiave": [
+    "La distinzione tra proposizioni e predicati è cruciale per la corretta formalizzazione del ragionamento matematico.",
+    "I predicati introducono variabili che rendono le affermazioni dipendenti da specifici valori all'interno di un dominio definito.",
+    "Comprendere le condizioni sufficienti e necessarie permette di analizzare relazioni logiche complesse e stabilire implicazioni."
+  ],
+  "errori_comuni": [
+    "Confondere proposizioni e predicati: non tutte le affermazioni sono proposizioni, e i predicati dipendono da variabili e un dominio.",
+    "Non considerare il dominio dei predicati: la verità o falsità di un predicato dipende dal valore delle sue variabili all'interno del dominio considerato. Un predicato può essere vero per alcuni valori e falso per altri.",
+    "Interpretare erroneamente condizioni sufficienti e necessarie: è importante capire la direzione dell'implicazione logica e riconoscere l'equivalenza tra p → q e ¬q → ¬p."
+  ],
+  "connessioni": "La comprensione dei predicati logici sarà fondamentale per lo studio delle funzioni, delle relazioni tra insiemi e per l'analisi della loro esistenza e unicità. Inoltre, questi concetti forniscono le basi per la successiva trattazione di quantificatori (universale ed esistenziale), che sono fondamentali per formalizzare dimostrazioni matematiche.",
+  "_meta": {
+    "id": "L1",
+    "titolo": "Introduzione al corso, predicati logici",
+    "pdf": "L1 24 set 2025_ introduzione al corso, predicati logici.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:45:32"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:28:10",
+    "model": "gemma3:12b"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "titolo": "Successioni",
+  "introduzione": "Le successioni rappresentano una sequenza ordinata di numeri reali, fondamentali per lo studio dei limiti e delle funzioni. Comprendere le loro proprietà ci permette di analizzare il comportamento di processi che si evolvono nel tempo o in base a un indice naturale.",
+  "concetti": [
+    {
+      "nome": "Successione",
+      "definizione": "Una successione è una funzione da N (l'insieme dei numeri naturali) nei reali, ovvero f: N → ℝ.",
+      "spiegazione": "Immagina di avere una regola che assegna un numero reale a ogni numero naturale. Questa regola definisce la nostra successione. Ad esempio, potremmo assegnare il quadrato di ogni numero naturale alla successione (1, 4, 9, 16...).  Le successioni sono fondamentali per modellare fenomeni dinamici e studiare i limiti.",
+      "formula": "a_n",
+      "esempio": "(a_n) = n^2; a_1 = 1, a_2 = 4, a_3 = 9..."
+    },
+    {
+      "nome": "Limite di una Successione",
+      "definizione": "Una successione (a_n) ha limite L se, per ogni ε > 0, esiste un indice N ∈ N tale che per ogni n > N, |a_n - L| < ε.",
+      "spiegazione": "Il limite di una successione è il valore a cui la successione si avvicina sempre più man mano che 'n' diventa grande.  In altre parole, possiamo rendere la differenza tra i termini della successione e questo limite arbitrariamente piccola scegliendo un indice 'N' sufficientemente grande. Se una successione ha un limite finito, essa converge.",
+      "formula": "lim_(n→∞) a_n = L",
+      "esempio": "Se (a_n) = 1/n, allora lim_(n→∞) 1/n = 0."
+    },
+    {
+      "nome": "Successioni Monotone",
+      "definizione": "Una successione (a_n) è crescente se a_{n+1} ≥ a_n per ogni n ∈ N; è decrescente se a_{n+1} ≤ a_n per ogni n ∈ N.",
+      "spiegazione": "Le successioni monotone sono quelle che tendono sempre ad aumentare (crescenti) o a diminuire (decrescenti).  Una successione crescente significa che ogni termine successivo è maggiore o uguale al precedente. Una successione decrescente implica il contrario: ogni termine successivo è minore o uguale al precedente.",
+      "formula": "a_{n+1} ≥ a_n (crescente), a_{n+1} ≤ a_n (decrescente)",
+      "esempio": "(a_n) = n; crescente, (b_n) = 1/n; decrescente."
+    },
+    {
+      "nome": "Teorema del Confronto",
+      "definizione": "Se an ≤ bn e lim_(n→∞) an = L, allora lim_(n→∞) bn = L.",
+      "spiegazione": "Questo teorema ci permette di determinare il limite di una successione confrontandola con un'altra che ha già un limite noto. Se una successione è sempre minore o uguale a un'altra e quest'ultima converge, allora anche la prima converge allo stesso limite.",
+      "formula": "an ≤ bn  e lim_(n→∞) an = L ⇒ lim_(n→∞) bn = L",
+      "esempio": "Se 0 ≤ an ≤ 1/n e lim_(n→∞) 1/n = 0, allora lim_(n→∞) an = 0."
+    }
+  ],
+  "punti_chiave": [
+    "Una successione convergente è limitata.",
+    "Una successione monotona e limitata è convergente.",
+    "Le forme indeterminate (es. ∞ - ∞, 0 * ∞) richiedono manipolazioni algebriche per essere risolte."
+  ],
+  "errori_comuni": [
+    "Confondere la convergenza con l'oscillazione: una successione che non converge diverge.",
+    "Non applicare correttamente il teorema del confronto, trascurando le condizioni di validità (an ≤ bn).",
+    "Trascurare la manipolazione algebrica necessaria per risolvere forme indeterminate."
+  ],
+  "connessioni": "Lo studio delle successioni è essenziale per comprendere i limiti di funzioni, le derivate e gli integrali. Inoltre, fornisce una base solida per l'analisi di serie numeriche.",
+  "_meta": {
+    "id": "L12",
+    "titolo": "Successioni",
+    "pdf": "L12 3 nov 2025_ successioni.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T22:22:27"
+  }
+}

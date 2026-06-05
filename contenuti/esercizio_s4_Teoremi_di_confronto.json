@@ -1,0 +1,50 @@
+{
+  "nome": "Teoremi di confronto",
+  "introduzione": "Questo esercizio riguarda l'applicazione dei teoremi del confronto per il calcolo di limiti. Richiede la conoscenza dei limiti notevoli (in particolare seno e logaritmo), del teorema del confronto e la comprensione del concetto di funzione mantissa.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Calcolare il limite lim x→+∞ x(3sin x)",
+      "strategia": "Si applica il teorema del confronto. Poiché -1 ≤ sin x ≤ 1 per ogni x reale, si moltiplica per 3x e si ottengono le disuguaglianze -3x ≤ 3x sin x ≤ 3x. Si valuta poi il limite delle funzioni superiori e inferiori.",
+      "soluzione": "Poiché -1 ≤ sin x ≤ 1, allora -3x ≤ 3x sin x ≤ 3x.  Quindi, lim x→+∞ (-3x) = -∞ e lim x→+∞ (3x) = +∞. Per il teorema del confronto, lim x→+∞ x(3sin x) non esiste.",
+      "formule_usate": [
+        "-1 ≤ sin x ≤ 1"
+      ],
+      "nota": "Il limite non esiste perché le funzioni superiori e inferiori tendono a valori di segno opposto. Questo implica che la funzione originale oscilla tra questi due limiti, senza convergere ad un valore specifico."
+    },
+    {
+      "numero": 2,
+      "testo": "Calcolare il limite lim x→+∞ (x^2)/(2sin(1/x))",
+      "strategia": "Si effettua la sostituzione y = 1/x. Quando x → +∞, y → 0+.  Il limite diventa \\lim_{y \\to 0}+ (1/y^2) / (2sin(y)). Si sfrutta il limite notevole sin(y)/y = 1 quando y → 0 e si semplifica l'espressione.",
+      "soluzione": "Sia y = 1/x. Allora, x → +∞ implica y → 0+. Il limite diventa \\lim_{y \\to 0}+ (1/y^2) / (2sin(y)) = \\lim_{y \\to 0}+ 1/(2y^2 sin(y)).  Utilizzando il limite notevole \\lim_{y \\to 0} sin(y)/y = 1, si può scrivere sin(y) = y * (sin(y)/y). Quindi, il limite diventa \\lim_{y \\to 0}+ 1/(2y^3). Poiché y → 0+, questo limite tende a +∞.",
+      "formule_usate": [
+        "\\lim_{y \\to 0} sin(y)/y = 1",
+        "sin(y) = y * (sin(y)/y)"
+      ],
+      "nota": "La sostituzione è cruciale per trasformare il limite in una forma più gestibile. L'uso del limite notevole sin(y)/y = 1 permette di semplificare l'espressione e determinarne il comportamento quando y tende a zero."
+    },
+    {
+      "numero": 3,
+      "testo": "Calcolare il limite lim x→+∞ log(2x)/(5cos^2(x))",
+      "strategia": "Si applica il teorema del confronto. Poiché 0 ≤ cos^2(x) ≤ 1 per ogni x reale, si moltiplica per 5 e si ottengono le disuguaglianze 0 ≤ 5cos^2(x) ≤ 5. Si valuta poi il limite delle funzioni superiori e inferiori.",
+      "soluzione": "Poiché 0 ≤ cos^2(x) ≤ 1, allora 0 ≤ 5cos^2(x) ≤ 5. Quindi, lim x→+∞ log(2x)/0 = +∞ e lim x→+∞ log(2x)/5 = +∞. Per il teorema del confronto, lim x→+∞ log(2x)/(5cos^2(x)) = +∞.",
+      "formule_usate": [
+        "0 ≤ cos^2(x) ≤ 1"
+      ],
+      "nota": "In questo caso, le funzioni superiori e inferiori tendono entrambe a +∞, quindi il teorema del confronto implica che anche il limite della funzione originale tende a +∞."
+    }
+  ],
+  "riepilogo": "Questo esercizio ha permesso di applicare il teorema del confronto per calcolare limiti indeterminati, utilizzando i limiti notevoli di seno e logaritmo. È importante capire come scegliere le funzioni superiori e inferiori appropriate per poter applicare correttamente il teorema.",
+  "_meta": {
+    "settimana": "4",
+    "nome": "Teoremi di confronto",
+    "pdf": "Teoremi di confronto.pdf",
+    "soluzione_pdf": "Teoremi di confronto_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:29:27"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:10:18",
+    "model": "gemma3:12b"
+  }
+}

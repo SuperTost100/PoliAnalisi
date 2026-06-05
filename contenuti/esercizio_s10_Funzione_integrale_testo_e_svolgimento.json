@@ -1,0 +1,30 @@
+{
+  "nome": "Funzione integrale",
+  "difficolta": "medio",
+  "argomenti": [
+    "funzioni integrali",
+    "derivata della funzione integrale",
+    "teorema fondamentale del calcolo integrale"
+  ],
+  "introduzione": "Questo esercizio riguarda lo studio di funzioni definite come integrali, la loro derivazione e l'interpretazione geometrica. Richiede la comprensione del Teorema Fondamentale del Calcolo Integrale e delle sue implicazioni.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "L'immagine fornita mostra un grafico di una funzione F(x). Si osservano punti in cui la funzione è crescente/decrescente, concava/convessa e valori minimi/massimi. I punti notevoli sono: (0,27; 0), (1; 1,4), (2,1; fresco), (2,43; 1). Si chiede di interpretare queste informazioni in termini di proprietà della funzione integrale F(x) e della funzione integranda f(x).",
+      "strategia": "1. Identificare cosa rappresenta il grafico: si tratta del grafico della funzione integrale F(x), non della funzione integranda f(x). 2. Ricordare il Teorema Fondamentale del Calcolo Integrale:  F(x) = ∫[a, x] f(t) dt. La derivata di F(x) è f(x). 3. Interpretare i punti in cui F(x) è crescente/decrescente come punti in cui f(x) > 0 / f(x) < 0 rispettivamente.  4. Interpretare i punti in cui F(x) è concava/convessa come punti in cui la derivata di f(x) (cioè, f'(x)) cambia segno. 5. I minimi e massimi di F(x) corrispondono a punti critici della funzione integranda f(x).",
+      "soluzione": "Analizziamo le informazioni fornite:\n\n* **Crescente su E (0,27; 0):**  Questo significa che per x appartenente all'intervallo (0, 0.27), la funzione F(x) è crescente. Di conseguenza, f(x) > 0 in questo intervallo.\n\n* **Decrescente su E (1; 1,4):** Questo indica che per x nell'intervallo (1, 1.4), F(x) è decrescente. Quindi, f(x) < 0 in questo intervallo.\n\n* **Minimo in (1; 1,4):**  Questo implica che f(x) ha un punto critico (un minimo locale o globale) in x = 1. La derivata di f(x), f'(x), è uguale a zero in questo punto.\n\n* **Fazzo su E (2,1; fresco):** Questo significa che F(x) è crescente nell'intervallo (2.1, valore_fresco). Quindi f(x) > 0 in questo intervallo.\n\n* **Concava su E (0,27; 1):** La concavità di F(x) indica il segno della derivata seconda di f(x), ovvero f''(x). Poiché F(x) è concava, f''(x) < 0 in questo intervallo.\n\n* **Convessa su E (2,43; 1):**  Similmente, la convessità di F(x) implica che f''(x) > 0 in questo intervallo.\n\n* **Valori specifici:** I punti (0.27, 0), (1, 1.4), (2.1, valore_fresco), (2.43, 1) sono semplicemente coordinate sul grafico di F(x).  Ad esempio, F(0.27) = 0 e F(1) = 1.4.\n\nIn sintesi, l'analisi del grafico di F(x) ci fornisce informazioni cruciali sulla funzione integranda f(x), come il suo segno, i suoi punti critici e la sua concavità/convessità.",
+      "formule_usate": [
+        "F(x) = ∫[a, x] f(t) dt",
+        "F'(x) = f(x)",
+        "f''(x) = F'''(x)"
+      ],
+      "nota": "Ricorda che il grafico fornito è quello della *funzione integrale*, non della funzione integranda. L'interpretazione corretta di questo fatto è fondamentale per risolvere l'esercizio."
+    }
+  ],
+  "riepilogo": "Questo esercizio ha permesso di consolidare la comprensione del Teorema Fondamentale del Calcolo Integrale e di applicarlo per dedurre proprietà della funzione integranda a partire dal grafico della sua integrale. È importante distinguere tra la funzione integranda e la sua integrale, e interpretare correttamente i punti critici e le variazioni di concavità/convessità.",
+  "_meta": {
+    "id": "esercizio_s10_Funzione_integrale_testo_e_svolgimento.json",
+    "pdf": "Funzione integrale_testo_e_svolgimento.pdf",
+    "model": "gemma3:12b"
+  }
+}

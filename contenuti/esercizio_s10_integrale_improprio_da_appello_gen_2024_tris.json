@@ -1,0 +1,32 @@
+{
+  "nome": "integrale improprio da appello gen 2024_tris",
+  "difficolta": "medio",
+  "argomenti": [
+    "integrali impropri",
+    "criteri di convergenza",
+    "funzioni continue",
+    "comportamento asintotico"
+  ],
+  "introduzione": "Questo esercizio riguarda la valutazione della convergenza di un integrale improprio. Richiede la conoscenza dei concetti di integrabilità in senso improprio, l'utilizzo del criterio del confronto e la comprensione del comportamento delle funzioni (crescita, decrescita, convessità, concavità) per dedurre informazioni sulla loro integrabilità.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Lituania L'inian fan\n1 set\nè continuo\nFae c\ni D\nessendo dispari\nbasta studiare il comportamento dell'integrale ne 0,1\nè It\nIfi\nim\nPertanto fasce siti Ina e atleta fece_api\nII\na\nsì e l'integrale convenga se 1\na 1\ncio se a 1",
+      "strategia": "L'esercizio richiede di determinare per quali valori del parametro 'a' l'integrale improprio converge.  Dato che la funzione è dispari, si può studiare solo il comportamento dell'integrale da 0 a 1 e poi estendere i risultati all'intervallo [-1, 0]. L'analisi della convessità/concavità fornisce informazioni utili sul comportamento asintotico della funzione, cruciale per applicare criteri di convergenza come quello del confronto.  Si deve quindi valutare il comportamento di f(x) quando x tende a 0 e a 1.",
+      "soluzione": "Data la natura dispari della funzione, l'integrale da -1 a 1 è zero se converge. Pertanto, per determinare la convergenza dell'integrale improprio, è sufficiente analizzare il comportamento dell'integrale da 0 a 1.\n\nLa soluzione fornita indica che la funzione f(x) è decrescente in [2, 1] e crescente in [2, 10]. Inoltre, è convessa in [0, 27] e concava in [2.43, ∞). Queste informazioni suggeriscono di analizzare il comportamento asintotico della funzione vicino ai punti estremi dell'intervallo di integrazione (x=0 e x=1).\n\nPer determinare la convergenza, si può utilizzare il criterio del confronto.  Se f(x) tende a zero più velocemente di 1/x quando x tende a 0 o a 1, allora l'integrale converge. Se f(x) tende a infinito più lentamente di 1/x, allora diverge.\n\nLa soluzione indica che se a=1, l'integrale converge. Questo suggerisce che il comportamento asintotico della funzione vicino a x=1 è cruciale per la convergenza.",
+      "formule_usate": [
+        "\\int f(x) \\, dx"
+      ],
+      "nota": "L'analisi della convessità/concavità può fornire indizi sul comportamento asintotico, ma non è sufficiente da sola. È necessario applicare criteri di convergenza appropriati."
+    }
+  ],
+  "riepilogo": "Questo esercizio consolida la comprensione degli integrali impropri, l'importanza dell'analisi del comportamento delle funzioni e l'applicazione dei criteri di convergenza per determinare la convergenza o divergenza di un integrale. La simmetria della funzione (dispari) semplifica l'analisi riducendo il dominio di studio.",
+  "_meta": {
+    "settimana": "10",
+    "nome": "integrale improprio da appello gen 2024_tris",
+    "pdf": "integrale improprio da appello gen 2024_tris.pdf",
+    "soluzione_pdf": "Funzione integrale_testo_e_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:20:39"
+  }
+}

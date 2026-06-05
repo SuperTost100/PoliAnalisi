@@ -1,0 +1,56 @@
+{
+  "titolo": "Limiti con dominio o immagine illimitati",
+  "introduzione": "Quando si analizzano limiti di funzioni, è frequente che il dominio o l'immagine non siano limitati. Questi casi richiedono un'attenta analisi per determinare se il limite esiste e qual è il suo valore, considerando come la funzione si comporta all'infinito o in prossimità di punti problematici. La comprensione di questi concetti è cruciale per caratterizzare il comportamento asintotico delle funzioni.",
+  "concetti": [
+    {
+      "nome": "Dominio Illimitato",
+      "definizione": "Un dominio illimitato si verifica quando l'insieme dei valori di x per cui una funzione è definita non è limitato superiormente o inferiormente. In altre parole, esistono sequenze {x_n} tali che x_n → +∞ oppure x_n → -∞.",
+      "spiegazione": "Un dominio illimitato implica che la variabile indipendente 'x' può assumere valori arbitrariamente grandi (positivi o negativi). Questo ci porta a considerare il comportamento della funzione quando x tende all'infinito, un aspetto fondamentale per determinare l'esistenza e il valore di certi limiti. È importante distinguere tra un dominio illimitato e una funzione che tende all'infinito.",
+      "formula": "\\lim_{x \\to \\infty} f(x)",
+      "esempio": "Considera la funzione f(x) = x^2. Il suo dominio è ℝ, quindi illimitato. Vogliamo calcolare \\lim_{x \\to \\infty} x^2, che risulta essere +∞."
+    },
+    {
+      "nome": "Immagine Illimitata",
+      "definizione": "Un'immagine illimitata si verifica quando l'insieme dei valori di y (l'output della funzione) non è limitato superiormente o inferiormente. Questo significa che esistono sequenze {y_n} tali che y_n → +∞ oppure y_n → -∞.",
+      "spiegazione": "L'immagine illimitata indica che la funzione assume valori arbitrariamente grandi (positivi o negativi). Anche se il dominio è limitato, una funzione può avere un'immagine illimitata a causa di oscillazioni o crescita senza limiti. Questo comportamento asintotico influenza l'analisi del limite.",
+      "formula": "lim_(x→a) f(x) = ±∞",
+      "esempio": "Considera la funzione f(x) = x^3 per x > 0. Il suo dominio è (0, +∞), ma l'immagine è [0, +∞), che è illimitata superiormente."
+    },
+    {
+      "nome": "Asintoti Verticali",
+      "definizione": "Un asintoto verticale si verifica quando il limite di una funzione tende all'infinito (positivo o negativo) mentre x si avvicina a un valore finito c. Formalmente, lim_(x→c⁻) f(x) = ±∞ oppure lim_(x→c⁺) f(x) = ±∞.",
+      "spiegazione": "Gli asintoti verticali rappresentano punti in cui la funzione presenta una discontinuità non rimovibile e assume valori infiniti. Questi punti sono spesso associati a denominatori che si annullano o a comportamenti irregolari della funzione. L'analisi di questi limiti è cruciale per comprendere il comportamento locale della funzione.",
+      "formula": "lim_(x→c) f(x) = ±∞",
+      "esempio": "Considera la funzione f(x) = 1/x. Quando x si avvicina a 0 da destra, f(x) tende all'infinito positivo: lim_(x→0+) 1/x = +∞."
+    },
+    {
+      "nome": "Asintoti Orizzontali",
+      "definizione": "Un asintoto orizzontale si verifica quando il limite di una funzione, per x che tende all'infinito positivo o negativo, è uguale a un valore finito L. Formalmente, lim_(x→+∞) f(x) = L oppure lim_(x→-∞) f(x) = L.",
+      "spiegazione": "Gli asintoti orizzontali descrivono il comportamento della funzione quando x tende all'infinito. La funzione si avvicina ad un certo valore senza raggiungerlo, indicando una sorta di stabilizzazione del suo comportamento a grandi valori di x. Questi limiti forniscono informazioni importanti sulla tendenza generale della funzione.",
+      "formula": "lim_(x→±∞) f(x) = L",
+      "esempio": "Considera la funzione f(x) = (2x+1)/(x-3). Quando x tende all'infinito, f(x) si avvicina a 2: \\lim_{x \\to \\infty} (2x+1)/(x-3) = 2."
+    }
+  ],
+  "punti_chiave": [
+    "L'analisi dei limiti con dominio o immagine illimitati richiede un'attenta considerazione del comportamento della funzione all'infinito e in prossimità di punti problematici.",
+    "Gli asintoti verticali indicano discontinuità non rimovibili e comportamenti esplosivi, mentre gli asintoti orizzontali descrivono il comportamento a grandi valori di x.",
+    "È fondamentale distinguere tra un dominio illimitato e una funzione che tende all'infinito."
+  ],
+  "errori_comuni": [
+    "Confondere un dominio illimitato con una funzione che tende all'infinito, non comprendendo la differenza tra l'insieme dei valori di x e il valore della funzione stessa.",
+    "Non considerare la possibilità di asintoti verticali o orizzontali, trascurando potenziali comportamenti significativi della funzione.",
+    "Applicare regole di calcolo dei limiti senza verificare le condizioni di applicabilità, come ad esempio non controllare il denominatore in caso di frazioni razionali."
+  ],
+  "connessioni": "Questi concetti sono fondamentali per comprendere meglio il comportamento delle funzioni e costituiscono la base per lo studio della derivata (per analizzare la crescita o decrescita all'infinito) e dell'integrale improprio (per calcolare aree in intervalli illimitati). Inoltre, forniscono gli strumenti necessari per l'analisi di serie numeriche.",
+  "_meta": {
+    "id": "L8",
+    "titolo": "Limiti con dominio o immagine illimitati",
+    "pdf": "L8 16 ott 2025_ limiti con domf o imf illimitati.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:52:06"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:58:41",
+    "model": "gemma3:12b"
+  }
+}

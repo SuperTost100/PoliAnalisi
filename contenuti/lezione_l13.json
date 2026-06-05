@@ -1,0 +1,79 @@
+{
+  "titolo": "Successioni Geometriche e Teorema di Esistenza degli Zeri",
+  "introduzione": "Dopo aver studiato i limiti delle successioni, ci concentriamo sulle successioni geometriche, un caso particolare con proprietà ben definite. Successivamente, introduciamo il teorema fondamentale dell'esistenza degli zeri per funzioni continue, uno strumento cruciale per dimostrare l'esistenza di soluzioni a equazioni e per la loro ricerca.",
+  "concetti": [
+    {
+      "nome": "Successione Geometrica",
+      "definizione": "Una successione geometrica è una successione {a_n} definita da a_n = a * r^(n-1) per n ∈ ℕ, dove 'a' rappresenta il primo termine (a_1) e 'r' la ragione della progressione.",
+      "spiegazione": "Una successione geometrica si ottiene moltiplicando ripetutamente un valore iniziale 'a' per una costante 'r'. La ragione 'r' determina il comportamento della successione: se r > 1, la successione è crescente; se 0 < r < 1, è decrescente; se r = 1, è costante; e se r < 0, oscilla tra valori positivi e negativi. Comprendere 'r' è fondamentale per prevedere l'andamento della sequenza.",
+      "formula": "a_n = a * r^(n-1)",
+      "esempio": "Consideriamo la successione geometrica con primo termine a = 2 e ragione r = 3. I primi termini sono: 2, 6, 18, 54, ...",
+      "punti_chiave": [
+        "La ragione 'r' determina se una successione geometrica è crescente, decrescente, costante o oscillante.",
+        "Il primo termine 'a' definisce il valore iniziale della successione geometrica.",
+        "Una successione geometrica può essere utilizzata per modellare fenomeni che crescono o decadono esponenzialmente."
+      ],
+      "errori_comuni": [
+        "Confondere una successione geometrica con una progressione aritmetica (dove si somma una costante invece di moltiplicare).",
+        "Non considerare il caso in cui la ragione 'r' è negativa, che porta a successioni oscillanti.",
+        "Calcolare erroneamente l'indice dell'esponente nella formula: a_n = a * r^(n-1)."
+      ]
+    },
+    {
+      "nome": "Teorema di Esistenza degli Zeri (o Teorema di Bolzano)",
+      "definizione": "Sia f una funzione continua nell'intervallo chiuso [a, b]. Se f(a) e f(b) hanno segni opposti, ovvero f(a) * f(b) < 0, allora esiste almeno un punto c ∈ (a, b) tale che f(c) = 0.",
+      "spiegazione": "Questo teorema garantisce l'esistenza di uno zero per una funzione continua in un intervallo dove la funzione assume sia valori positivi che negativi. L'intervallo [a,b] deve essere chiuso e la funzione deve essere continua altrimenti il teorema non è valido.  In sostanza, se una funzione passa da positiva a negativa (o viceversa) in un intervallo, allora deve intersecare l'asse x almeno una volta in quell'intervallo.",
+      "formula": "\\text{ Se  }f(a) * f(b) < 0,\\text{  allora  }∃ c ∈ (a, b)\\text{  tale che  }f(c) = 0",
+      "esempio": "Sia f(x) = x^2 - 1 continua in [0, 2]. Abbiamo f(0) = -1 e f(2) = 3. Poiché f(0) < 0 e f(2) > 0, il teorema di Bolzano garantisce l'esistenza di un punto c tra 0 e 2 tale che f(c) = 0 (in questo caso, c = 1).",
+      "punti_chiave": [
+        "Il teorema di esistenza degli zeri è una condizione sufficiente, ma non necessaria, per l'esistenza di uno zero.",
+        "La continuità della funzione nell'intervallo chiuso [a, b] è un'ipotesi fondamentale del teorema.",
+        "Il teorema fornisce un metodo per localizzare gli zeri di una funzione continua."
+      ],
+      "errori_comuni": [
+        "Non verificare la condizione di continuità della funzione prima di applicare il teorema.",
+        "Confondere il teorema di esistenza degli zeri con il teorema dell'unicità dello zero.",
+        "Applicare il teorema a funzioni discontinue."
+      ]
+    },
+    {
+      "nome": "Condizione di Monotonia per l'Unicità dello Zero",
+      "definizione": "Se una funzione continua f è strettamente monotona (strettamente crescente o strettamente decrescente) in un intervallo [a, b], allora il teorema di Bolzano garantisce che esiste un unico punto c nell'intervallo aperto (a, b) tale che f(c) = 0.",
+      "spiegazione": "Se una funzione è sempre crescente o sempre decrescente in un intervallo, può intersecare l'asse x al massimo una volta. Questo implica che se troviamo uno zero, è l'unico esistente nell'intervallo considerato. La monotonia rafforza il teorema di Bolzano garantendo l'unicità della soluzione.",
+      "formula": "\\text{ Se  }f \\text{ è strettamente monotona su } [a, b],\\text{  allora  }\\text{ esiste un unico } c ∈ (a, b)\\text{  tale che  }f(c) = 0",
+      "esempio": "Consideriamo f(x) = x + 1 continua in [0, 1]. Questa funzione è strettamente crescente. Poiché f(0) = 1 e f(-1) = 0, esiste un unico zero in (-1, 0), che è -1.",
+      "punti_chiave": [
+        "La monotonia implica l'unicità dello zero quando combinata con il teorema di esistenza degli zeri.",
+        "Una funzione strettamente crescente può avere al massimo uno zero in un intervallo.",
+        "Una funzione strettamente decrescente può avere al massimo uno zero in un intervallo."
+      ],
+      "errori_comuni": [
+        "Confondere monotonia debole (non stretta) con monotonia forte (stretta).",
+        "Non considerare che la monotonia implica l'unicità dello zero solo se combinata con il teorema di Bolzano.",
+        "Applicare il teorema a funzioni non continue o non monotone."
+      ]
+    }
+  ],
+  "punti_chiave": [
+    "La ragione 'r' in una successione geometrica determina la sua crescita, decadimento o oscillazione.",
+    "Il teorema di esistenza degli zeri fornisce un criterio per l'esistenza di soluzioni a equazioni continue.",
+    "La monotonia di una funzione continua garantisce l'unicità della soluzione quando applicata con il teorema di Bolzano."
+  ],
+  "errori_comuni": [
+    "Confusione tra successioni geometriche e progressioni aritmetiche.",
+    "Mancanza di verifica delle ipotesi del teorema di esistenza degli zeri (continuità e cambio di segno).",
+    "Applicazione impropria del teorema a funzioni non continue o intervalli non chiusi."
+  ],
+  "connessioni": "Le successioni geometriche forniscono esempi concreti di sequenze, collegandosi al capitolo sui limiti. Il teorema di esistenza degli zeri è uno strumento fondamentale per la ricerca delle radici delle equazioni e trova applicazione in diverse aree dell'analisi matematica, come l'approssimazione di soluzioni.",
+  "_meta": {
+    "id": "L13",
+    "titolo": "Successione geometrica, primi teoremi per funzioni continue",
+    "pdf": "L13 nov 2025_ successione geometrica, primi teoremi per fz continue.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:57:19"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:33:22",
+    "model": "gemma3:12b"
+  }
+}

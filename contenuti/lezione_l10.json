@@ -1,0 +1,49 @@
+{
+  "titolo": "Teorema del Limite della Funzione Composta",
+  "introduzione": "Il teorema del limite della funzione composta è uno strumento fondamentale per calcolare i limiti di funzioni composte. Permette di scomporre un problema complesso in problemi più semplici, sfruttando le informazioni sui limiti delle singole funzioni componenti. Questo teorema fornisce una tecnica potente per affrontare limiti che altrimenti sarebbero difficili da risolvere direttamente.",
+  "concetti": [
+    {
+      "nome": "Funzione Composta",
+      "definizione": "Data una funzione f: A → B e una funzione g: B → C, la funzione composta f ∘ g è definita come (f ∘ g)(x) = f(g(x)), dove x ∈ A. In altre parole, l'output di g diventa l'input di f.",
+      "spiegazione": "Immagina due processi sequenziali: uno trasforma un input 'x' in un output 'y', e il secondo prende 'y' come input e produce un risultato finale. La funzione composta descrive questo processo combinato, applicando prima g e poi f.",
+      "formula": "(f ∘ g)(x) = f(g(x))",
+      "esempio": "Sia f(y) = y² e g(x) = sin(x). Allora (f ∘ g)(x) = f(sin(x)) = sin²(x)."
+    },
+    {
+      "nome": "Teorema del Limite della Funzione Composta",
+      "definizione": "Siano f: A → ℝ e g: B → ℝ due funzioni, dove A ⊆ ℝ e B ⊆ ℝ. Se g ha un punto di accumulazione x₀ in B e lim_(y→g(x₀)) f(y) = L esiste finito, allora esiste il limite lim_(x→x₀) (f ∘ g)(x) = L.",
+      "spiegazione": "Questo teorema stabilisce che se l'output di 'g', quando x si avvicina a x₀, tende a un valore, e in quel punto l'output di 'f' tende ad un altro valore specifico, allora la funzione composta (f ∘ g) tenderà allo stesso valore quando x si avvicina a x₀. In sostanza, il limite della composizione è uguale al limite del limite.",
+      "formula": "lim_(x→x₀) (f ∘ g)(x) = lim_(y→g(x₀)) f(y)",
+      "esempio": "Sia f(y) = y² e g(x) = x + 1. Vogliamo calcolare lim_(x→2) (f ∘ g)(x). Poiché lim_(y→3) f(y) = 9, per il teorema del limite della funzione composta, lim_(x→2) (f ∘ g)(x) = lim_(x→2) (x+1)² = 9."
+    },
+    {
+      "nome": "Condizioni di Domini",
+      "definizione": "Perché il teorema del limite della funzione composta sia applicabile, è necessario che f(g(x)) sia definita in un intorno di x₀ e che g(x) sia definita in un intorno di x₀.",
+      "spiegazione": "Affinché possiamo calcolare il limite della composizione, dobbiamo assicurarci che la funzione composta sia effettivamente definita vicino al punto in cui stiamo valutando il limite. Questo implica che l'output di 'g', ovvero g(x), deve appartenere al dominio di 'f', e l'input di 'g', ovvero x, deve appartenere al suo dominio.",
+      "formula": "dom(f) ⊇ \\{ g(x) : x ∈ (x₀ - ε, x₀ + ε) \\} \\text{ e } dom(g) ⊇ (x₀ - ε, x₀ + ε)",
+      "esempio": "Se f(y) = √y e g(x) = x² , per applicare il teorema del limite della funzione composta in x=0, dobbiamo assicurarci che g(x) sia definita vicino a 0 (che è vero), e che f(g(x)) = √(x²) sia definita. Poiché la radice quadrata è definita solo per valori non negativi, dobbiamo avere x² ≥ 0, il che è sempre vero."
+    }
+  ],
+  "punti_chiave": [
+    "Il teorema del limite della funzione composta semplifica il calcolo di limiti complessi attraverso la scomposizione in limiti più elementari.",
+    "La verifica delle condizioni di dominio è cruciale per l'applicazione corretta del teorema: sia g(x) che f(g(x)) devono essere definite in un intorno del punto considerato.",
+    "L'espressione 'y → g(x₀)' nel teorema indica il comportamento dell'output di g quando x si avvicina a x₀."
+  ],
+  "errori_comuni": [
+    "Dimenticare la verifica delle condizioni di dominio, portando a conclusioni errate.",
+    "Confondere l'ordine delle funzioni nella composizione: (f ∘ g)(x) ≠ (g ∘ f)(x).",
+    "Applicare il teorema senza verificare che g(x) abbia un punto di accumulazione in B."
+  ],
+  "connessioni": "Questo teorema si collega strettamente alla definizione formale del limite e al concetto di continuità. La sua applicazione è fondamentale per dimostrare la continuità di funzioni composte e per risolvere problemi che richiedono il calcolo di limiti iterati, aprendo la strada allo studio delle successioni.",
+  "_meta": {
+    "id": "L10",
+    "titolo": "Teorema limite funzione composta",
+    "pdf": "L10 23 ott 2025_ teorema sul limite della  funzione composta.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:54:17"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:29:23",
+    "model": "gemma3:12b"
+  }
+}

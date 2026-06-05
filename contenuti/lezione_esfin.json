@@ -1,0 +1,80 @@
+{
+  "titolo": "Analisi Matematica I - Esercizio Finale (26/01/2022, Turno 1)",
+  "introduzione": "Questo documento analizza un esercizio finale di Analisi Matematica I del Politecnico di Torino. L'esercizio è diviso in due parti principali: lo studio di una funzione e l'analisi di integrali impropri.",
+  "concetti": [
+    {
+      "nome": "Dominio di Definizione",
+      "definizione": "L'insieme dei valori di x per i quali la funzione è definita.",
+      "spiegazione": "Trovare il dominio richiede l'analisi delle restrizioni imposte dalle operazioni presenti nella definizione della funzione (es. radici, denominatori).",
+      "formula": "",
+      "esempio": "Per f(x) = √(e^(2x)-e^x), il dominio è dato da e^(2x) - e^x ≥ 0."
+    },
+    {
+      "nome": "Asintoti",
+      "definizione": "Linee a cui la funzione si avvicina all'infinito o in punti particolari.",
+      "spiegazione": "Esistono asintoti verticali (limite infinito), orizzontali (limite finito all'infinito) e obliqui (y = mx + q).",
+      "formula": "Asintoto verticale: lim x→c f(x) = ±∞; Asintoto orizzontale: lim x→±∞ f(x) = L; Asintoto obliquo: y = mx + q, dove m = lim x→±∞ f(x)/x e q = lim x→±∞ [f(x) - mx].",
+      "esempio": "Per una funzione con asintoto verticale in x=a, il limite di f(x) quando x tende ad a è infinito."
+    },
+    {
+      "nome": "Continuità e Derivabilità",
+      "definizione": "Una funzione continua ha un grafico senza interruzioni. Una funzione derivabile ammette una derivata in ogni punto del suo dominio.",
+      "spiegazione": "La continuità implica l'esistenza del limite destro e sinistro uguale al valore della funzione nel punto. La derivabilità richiede la continuità e il limite incrementale che esiste ed è finito.",
+      "formula": "Continuità: lim x→c f(x) = f(c); Derivabilità: f'(x) = lim h→0 [f(x+h)-f(x)]/h",
+      "esempio": "Una funzione definita a tratti può essere discontinua nei punti di raccordo."
+    },
+    {
+      "nome": "Monotonia e Punti Estremi",
+      "definizione": "Una funzione è monotona crescente se f'(x) ≥ 0, decrescente se f'(x) ≤ 0. I punti estremi locali sono i punti in cui la derivata cambia segno.",
+      "spiegazione": "La derivata fornisce informazioni sulla direzione della funzione.  I massimi e minimi locali possono essere globali se la funzione è limitata.",
+      "formula": "f'(x) > 0: crescente; f'(x) < 0: decrescente",
+      "esempio": "Se f'(x) passa da positivo a negativo in un punto, quel punto è un massimo locale."
+    },
+    {
+      "nome": "Parte Principale dell'Infinitesimo",
+      "definizione": "L'espressione che meglio approssima l'infinitesimo per x che tende ad un certo valore.",
+      "spiegazione": "Si cerca la potenza di x con il coefficiente dominante quando si sviluppa l'infinitesimo.",
+      "formula": "f(x) ~ g(x) come x → a, significa lim (x→a) f(x)/g(x) = 1",
+      "esempio": "Se f(x) = x^2 + 3x, la parte principale rispetto all'infinitesimo -x è 3x."
+    },
+    {
+      "nome": "Integrale Improprio",
+      "definizione": "Un integrale definito con limiti di integrazione infiniti o una funzione non integrabile in un intervallo finito.",
+      "spiegazione": "La convergenza dell'integrale improprio dipende dal comportamento della funzione vicino ai limiti di integrazione o all'infinito.",
+      "formula": "∫[a, ∞] f(x) dx = lim b→∞ ∫[a, b] f(x) dx",
+      "esempio": "L'integrale di 1/x da 1 a infinito è improprio."
+    },
+    {
+      "nome": "Criterio di Confronto per Integrali Impropri",
+      "definizione": "Tecnica per determinare la convergenza o divergenza di un integrale improprio confrontando con un altro integrale.",
+      "spiegazione": "Se 0 ≤ f(x) ≤ g(x) e ∫[a, ∞] g(x) dx converge, allora ∫[a, ∞] f(x) dx converge. Se f(x) ≥ g(x) ≥ 0 e ∫[a, ∞] g(x) dx diverge, allora ∫[a, ∞] f(x) dx diverge.",
+      "formula": "",
+      "esempio": "Confrontare l'integrale di 1/x^2 con quello di 1/x per determinare la convergenza."
+    }
+  ],
+  "punti_chiave": [
+    "Determinazione del dominio e degli asintoti è fondamentale per lo studio di una funzione.",
+    "La continuità è un prerequisito per la derivabilità.",
+    "L'analisi della derivata permette di determinare gli intervalli di monotonia e i punti estremi.",
+    "Per gli integrali impropri, verificare la convergenza o divergenza è cruciale.",
+    "Il criterio di confronto è uno strumento potente per analizzare la convergenza degli integrali."
+  ],
+  "errori_comuni": [
+    "Trascurare le restrizioni del dominio nella determinazione della funzione.",
+    "Confondere continuità e derivabilità.",
+    "Non considerare il comportamento asintotico all'infinito.",
+    "Applicare in modo errato i criteri di convergenza per integrali impropri.",
+    "Dimenticare che un massimo/minimo locale potrebbe non essere globale."
+  ],
+  "connessioni": [
+    "Lo studio della derivata è strettamente legato all'analisi degli intervalli di monotonia e dei punti estremi.",
+    "La parte principale dell'infinitesimo si collega allo sviluppo di Taylor-Maclaurin.",
+    "Gli integrali impropri estendono il concetto di integrale definito a casi non standard.",
+    "Il teorema fondamentale del calcolo lega l'integrazione alla derivazione."
+  ],
+  "_meta": {
+    "id": "EsFin",
+    "pdf": "Esercitazione finale 8 gen 2026.pdf",
+    "model": "gemma3:12b"
+  }
+}

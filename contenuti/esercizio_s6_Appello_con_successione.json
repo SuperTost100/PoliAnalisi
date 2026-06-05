@@ -1,0 +1,33 @@
+{
+  "nome": "Appello con successione",
+  "difficolta": "medio",
+  "argomenti": [
+    "Limiti di funzioni",
+    "Successioni",
+    "Monotonia delle Successioni",
+    "Estremi Inferiori e Superiori"
+  ],
+  "introduzione": "Questo esercizio verifica la comprensione dei concetti fondamentali relativi a successioni, in particolare la loro monotonia e l'esistenza di limiti inferiori/superiori. Richiede inoltre la conoscenza delle proprietà della funzione arctan (o logaritmo, a seconda della versione) e la capacità di applicarle per determinare il comportamento delle successioni.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "(a) Sia l’insieme A ⇢R limitato. Dare la deﬁnizione di estremo inferiore di A.\n(b) Stabilire se la successione\nan = arctan\nv2n + 3\nn + 1\n(n 2 N).\n`e monotona ed eventualmente di che tipo.\n(c) Dato l’insieme A = {an : n 2 N}, determinare (se esistono) minimo o estremo inferiore, massimo o estremo superiore di A, motivando la risposta.",
+      "strategia": "a) Ricordare la definizione formale di estremo inferiore. b) Studiare la monotonia della successione arctan( (2n+3)/(n+1) ) calcolando a_(n+1) - a_n e analizzandone il segno.  Usare il fatto che arctan è una funzione crescente. c) Determinare se la successione ammette minimo/massimo, estremo inferiore/superiore in base alla sua monotonia e al limite (se esiste).",
+      "soluzione": "a) L'estremo inferiore di A, denotato con inf(A), è un numero 'l' tale che per ogni ε > 0 esiste un elemento x ∈ A con x < l + ε.  Inoltre, se non esiste alcun numero minore di 'l', allora 'l' è l'estremo inferiore.\n\nb) Calcoliamo a_(n+1) - a_n:\na_(n+1) - a_n = arctan((2(n+1)+3)/(n+1+1)) - arctan((2n+3)/(n+1))\n= arctan((2n+5)/(n+2)) - arctan((2n+3)/(n+1))\nUsando la formula di sottrazione per l'arctan: arctan(x) - arctan(y) = arctan((x-y)/(1+xy)), otteniamo:\na_(n+1) - a_n = arctan(((2n+5)/(n+2) - (2n+3)/(n+1)) / (1 + (2n+5)/(n+2) * (2n+3)/(n+1))) \n= arctan(((2n+5)(n+1) - (2n+3)(n+2))/( (n+2)(n+1) + (2n+5)(2n+3)) / ((n+2)(n+1))) \n= arctan(((2n^2+7n+5) - (2n^2+7n+6)) / (n^2+3n+2 + 4n^2+16n+15)) = arctan(-1/(5n^2+19n+17))\nPoiché n ≥ 1,  5n^2+19n+17 > 0. Quindi a_(n+1) - a_n < 0 per ogni n. Questo implica che la successione {a_n} è decrescente.\n\nc) Poiché la successione è decrescente e limitata superiormente (arctan(x) → π/2 quando x → ∞), ammette un limite finito L.  Tuttavia, non ha né minimo né massimo. Il suo estremo inferiore è -π/2 (il limite delle arctan di numeri negativi) e il suo estremo superiore è π/2.",
+      "formule_usate": [
+        "arctan(x) - arctan(y) = arctan((x-y)/(1+xy)",
+        "lim_(x->∞) arctan(x) = π/2"
+      ],
+      "nota": "Ricordare che la funzione arctan è strettamente crescente.  L'analisi del segno della differenza tra termini consecutivi determina la monotonia."
+    }
+  ],
+  "riepilogo": "Questo esercizio consolida la comprensione delle definizioni di estremo inferiore/superiore e l'applicazione dei concetti di monotonia per studiare il comportamento delle successioni. È fondamentale ricordare le proprietà delle funzioni inverse come arctan (o logaritmo) e saperle utilizzare per analizzare le successioni.",
+  "_meta": {
+    "settimana": "6",
+    "nome": "Appello con successione",
+    "pdf": "Appello con successione.pdf",
+    "soluzione_pdf": "Appello con successione_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:33:25"
+  }
+}

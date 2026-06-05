@@ -1,0 +1,75 @@
+{
+  "nome": "Itinere2-24-25",
+  "difficolta": "medio",
+  "argomenti": [
+    "Parte Principale",
+    "Limiti di funzioni",
+    "Teoremi sui Limiti"
+  ],
+  "introduzione": "Questo esercizio verifica la comprensione dei concetti di parte principale, limiti di funzioni (in particolare quando coinvolgono esponenziali e funzioni trigonometriche) e l'applicazione dei teoremi fondamentali dell'analisi matematica. Richiede familiarità con le definizioni e la capacità di manipolare espressioni algebriche e trigonometriche.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Determinare la parte principale di f(x) = sin(→4x + x⁵/3 ) →8xe→x², per x ↑0, rispetto al campione ω(x) = x.",
+      "strategia": "Per determinare la parte principale, si cerca un'espressione asintotica della funzione quando x tende a 0. Si semplifica l'argomento del seno e si usa il fatto che sin(u) ~ u per u piccolo.  Si considera poi il comportamento di 8xe→x² rispetto a ω(x)=x.",
+      "soluzione": "Sia f(x) = sin(4x + x⁵/3) + 8xe^x². Per x → 0, si ha che x⁵/3 è trascurabile. Quindi l'argomento del seno diventa circa 4x.  Sappiamo che sin(u) ~ u per u piccolo, quindi sin(4x + x⁵/3) ~ 4x quando x → 0. Inoltre, e^x² = 1 + x² + O(x⁴), quindi 8xe^x² ≈ 8x(1+x²) = 8x + 8x³.  Quindi f(x) ≈ 4x + 8x + 8x³ = 12x + 8x³. La parte principale di f(x) rispetto a ω(x)=x è quindi 12x.",
+      "formule_usate": [
+        "sin(u) ~ u per u piccolo",
+        "e^x = 1 + x + O(x^2)",
+        "lim (f(x)/ω(x)) = c"
+      ],
+      "nota": "Ricordare che la parte principale è quella che rimane quando si sottrae un multiplo di ω(x)."
+    },
+    {
+      "numero": 2,
+      "testo": "Sia f : R ↑R tale che limx↑+↓f(x) = 7. Sia g(x) = f ! 2 / x³ . Determinare limx↑0+ g(x).",
+      "strategia": "Si applica direttamente la definizione di limite del rapporto di due funzioni.  Se il limite del denominatore è diverso da zero, si può portare fuori il limite.",
+      "soluzione": "limx→0+ g(x) = limx→0+ f(2/x³) = limx→0+ 7 = 7",
+      "formule_usate": [
+        "lim (f(g(x))/h(x)) = lim f(g(x)) / lim h(x)",
+        "lim c = c"
+      ],
+      "nota": "L'ipotesi che il limite di f sia finito è cruciale."
+    },
+    {
+      "numero": 3,
+      "testo": "Determinare, se esiste, limx↑+↓sin ! 1 / x M(x), dove M denota la funzione mantissa.",
+      "strategia": "La mantissa di sin(x) è sempre compresa tra 0 e 1.  Si analizza il comportamento del denominatore (1/x).",
+      "soluzione": "M(sin(1/x)) = sin(1/x). Quindi lim x→+∞ sin(1/x) = 0 e lim x→-∞ sin(1/x) = 0. Il limite esiste ed è uguale a 0.",
+      "formule_usate": [
+        "Mantissa(sin(x)) = sin(x)",
+        "lim (sin(x)) = 0"
+      ],
+      "nota": "La mantissa di una funzione periodica come il seno è la sua stessa immagine."
+    },
+    {
+      "numero": 4,
+      "testo": "Determinare, se esiste, limn↑+↓sin # 6n²ε + nω / (3n+2) .",
+      "strategia": "Si tratta di un limite trigonometrico. Si cerca di esprimere l'argomento del seno come multiplo di π.",
+      "soluzione": "Questo limite non può essere risolto senza ulteriori informazioni su ω e ε. In generale, i limiti di funzioni seno/coseno sono molto difficili da risolvere senza una forma chiusa per l'argomento.",
+      "formule_usate": [
+        "lim sin(x) = 0"
+      ],
+      "nota": "Spesso questi limiti richiedono un'analisi più approfondita o l'uso di risultati specifici."
+    },
+    {
+      "numero": 5,
+      "testo": "Enunciare il teorema dei valori intermedi.",
+      "strategia": "Ricordare la definizione del teorema e le sue condizioni necessarie.",
+      "soluzione": "Sia f una funzione continua in un intervallo [a, b]. Allora, per ogni valore y compreso tra f(a) e f(b), esiste almeno un punto c nell'intervallo [a, b] tale che f(c) = y.",
+      "formule_usate": [
+        "Continuità di una funzione"
+      ],
+      "nota": "Il teorema dei valori intermedi garantisce l'esistenza di soluzioni a equazioni nel caso in cui la funzione sia continua."
+    }
+  ],
+  "riepilogo": "Questo esercizio fornisce pratica nell'applicazione dei concetti fondamentali dell'analisi matematica, come il calcolo della parte principale, la valutazione di limiti e l'utilizzo dei teoremi sui valori intermedi. È importante sviluppare una solida comprensione delle definizioni e delle tecniche per manipolare espressioni algebriche e trigonometriche.",
+  "_meta": {
+    "settimana": "6",
+    "nome": "Itinere2-24-25",
+    "pdf": "Itinere2-24-25.pdf",
+    "soluzione_pdf": "Itinere2-24-25_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:35:09"
+  }
+}

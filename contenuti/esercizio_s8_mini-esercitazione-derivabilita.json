@@ -1,0 +1,34 @@
+{
+  "nome": "mini-esercitazione-derivabilita",
+  "difficolta": "medio",
+  "argomenti": [
+    "limiti",
+    "continuità",
+    "derivate",
+    "funzioni a valori assoluti",
+    "logaritmi"
+  ],
+  "introduzione": "Questa mini-esercitazione si concentra sulla verifica delle proprietà di continuità e derivabilità di diverse funzioni in punti specifici (x=0 e x=1). Richiede la conoscenza dei concetti fondamentali di limiti, continuità, derivate, e la capacità di manipolare funzioni a valori assoluti e logaritmiche. È cruciale comprendere come le definizioni formali di continuità e derivabilità si applicano in pratica.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Per ciascuna delle seguenti funzioni, se ha senso, stabilire se veriﬁca le propriet`a A,B,C,D.\n(f1) f1(x) = |x|x\n(f2) f2(x) = x^3 / |x|\n(f3) f3(x) = x|x| / |x -> 1|\n(f4) f4(x) = x log |x| se x != 0, f4(0) = 0\n(f5) f5(x) = M(x)\n(A) la funzione `e continua in x = 0\n(B) la funzione `e derivabile in x = 0\n(C) la funzione `e continua in x = 1\n(D) la funzione `e derivabile in x = 1\nCompilare uno schema con le diciture V (vero), F (falso), H (non ha senso).",
+      "strategia": "Per ogni funzione, seguire questi passaggi:\n1. **Verifica del significato:** Assicurarsi che la funzione sia definita nel punto considerato.\n2. **Continuità in x=0:** Calcolare il limite destro e sinistro della funzione in x=0. Se esistono e sono uguali al valore della funzione in x=0, allora la funzione è continua in x=0.\n3. **Derivabilità in x=0:** Verificare se il limite del rapporto incrementale esiste ed è finito in x=0.  Questo implica che i limiti destro e sinistro del rapporto incrementale devono essere uguali.\n4. **Continuità in x=1:** Calcolare il limite destro e sinistro della funzione in x=1. Se esistono e sono uguali al valore della funzione in x=1, allora la funzione è continua in x=1.\n5. **Derivabilità in x=1:** Verificare se il limite del rapporto incrementale esiste ed è finito in x=1. Questo implica che i limiti destro e sinistro del rapporto incrementale devono essere uguali.",
+      "soluzione": "Ecco la soluzione dettagliata per ogni funzione:\n\n**f1(x) = |x|x:**\n*   A (Continuità in 0):  lim x->0- |x|x = lim x->0- (-x)*x = 0; lim x->0+ |x|x = lim x->0+ x*x = 0; f1(0) = 0. Quindi V.\n*   B (Derivabilità in 0): Il rapporto incrementale non esiste a causa del valore assoluto. Quindi F.\n*   C (Continuità in 1): lim x->1 |x|x = |1|*1 = 1; f1(1) = 1. Quindi V.\n*   D (Derivabilità in 1): Il rapporto incrementale esiste e ha un limite finito. Quindi V.\n\n**f2(x) = x^3 / |x|:**\n*   A (Continuità in 0): lim x->0 x^3/|x| non esiste, quindi F.\n*   B (Derivabilità in 0): Non ha senso. Quindi H.\n*   C (Continuità in 1): lim x->1 x^3/|x| = 1; f2(1) = 1. Quindi V.\n*   D (Derivabilità in 1): Il rapporto incrementale esiste e ha un limite finito. Quindi V.\n\n**f3(x) = x|x| / |x -> 1|:**  Questa funzione non è ben definita, quindi H per tutte le proprietà.\n\n**f4(x) = x log |x| se x != 0, f4(0) = 0:**\n*   A (Continuità in 0): lim x->0 x log |x| = 0. Quindi V.\n*   B (Derivabilità in 0): Il rapporto incrementale esiste e ha un limite finito. Quindi V.\n*   C (Continuità in 1): lim x->1 x log |x| = log(1) = 0; f4(1) = 0. Quindi V.\n*   D (Derivabilità in 1): Il rapporto incrementale esiste e ha un limite finito. Quindi V.\n\n**f5(x) = M(x):**  Dipende dalla definizione di M(x). Non possiamo determinare le proprietà senza conoscere la funzione.",
+      "formule_usate": [
+        "\\lim_{x \\to a} f(x) = L",
+        "f'(x) = \\lim_{h \\to 0} (f(x+h)-f(x))/h"
+      ],
+      "nota": "La derivabilità implica sempre la continuità, ma non viceversa.  Le funzioni a valori assoluti presentano punti angolosi che possono rendere non derivabili in quel punto."
+    }
+  ],
+  "riepilogo": "Questo esercizio aiuta a consolidare la comprensione delle definizioni di continuità e derivabilità, applicandole a diverse tipologie di funzioni. In particolare, si evidenzia l'importanza di considerare i limiti destro e sinistro per funzioni a valori assoluti e logaritmiche.",
+  "_meta": {
+    "settimana": "8",
+    "nome": "mini-esercitazione-derivabilita",
+    "pdf": "mini-esercitazione-derivabilita.pdf",
+    "soluzione_pdf": "mini-esercitazione-derivabilita_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:40:07"
+  }
+}

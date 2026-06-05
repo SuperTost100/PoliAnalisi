@@ -1,0 +1,8 @@
+{
+  "quiz": [],
+  "_meta": {
+    "model": "gemma3:12b",
+    "n_domande": 0,
+    "timestamp": "2026-06-04T21:21:34"
+  }
+}

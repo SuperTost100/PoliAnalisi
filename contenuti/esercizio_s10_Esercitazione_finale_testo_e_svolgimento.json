@@ -1,0 +1,123 @@
+{
+  "nome": "Esercitazione finale",
+  "difficolta": "medio",
+  "argomenti": [
+    "Funzioni",
+    "Numeri Complessi",
+    "Limiti",
+    "Derivate",
+    "Teorema di Rolle",
+    "Parte Principale",
+    "Concavità/Convessità",
+    "Integrali Definiti",
+    "Equazioni Differenziali"
+  ],
+  "introduzione": "Questa esercitazione copre una vasta gamma di argomenti fondamentali di Analisi Matematica 1, tra cui definizioni di funzioni, rappresentazione nel piano complesso, calcolo di limiti, derivabilità, teorema di Rolle, parte principale, concavità/convessità, integrali definiti e risoluzione di equazioni differenziali. Richiede una solida comprensione dei concetti base del corso.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Dare la definizione di funzione iniettiva.",
+      "strategia": "Ricordare la definizione formale di iniettività. Una funzione f è iniettiva se per ogni x1 e x2 nel dominio, se f(x1) = f(x2), allora x1 = x2. In alternativa, si può dire che ogni elemento del codominio ha al massimo un preimmagine.",
+      "soluzione": "Una funzione f: A -> B è iniettiva (o 1-1) se per ogni x1, x2 ∈ A,  f(x1) = f(x2) implica x1 = x2. Equivalentemente, se x1 ≠ x2 allora f(x1) ≠ f(x2).",
+      "formule_usate": [],
+      "nota": "È importante distinguere iniettività da suriettività e biiettività."
+    },
+    {
+      "numero": 2,
+      "testo": "Rappresentare nel piano complesso l’insieme A = {z ∈ C : |z| ≥2} \\\\ {z ∈ C : Rez < 0}.",
+      "strategia": "Comprendere cosa rappresentano le disuguaglianze in termini di regioni del piano complesso.  |z| ≥ 2 rappresenta l'esterno (e il bordo) di un cerchio centrato nell'origine con raggio 2. Rez < 0 rappresenta la semipiano aperto a sinistra dell'asse immaginario. L'insieme A è quindi l'area esterna al cerchio di raggio 2, ma solo per z con parte reale non negativa.",
+      "soluzione": "L'insieme A è rappresentato dalla regione del piano complesso che consiste in tutti i punti complessi la cui distanza dall'origine è maggiore o uguale a 2 e la cui parte reale è maggiore o uguale a zero.  Si tratta della metà destra (inclusa l'asse verticale) di un cerchio di raggio 2 centrato nell'origine.",
+      "formule_usate": [
+        "|z| = √(Re(z)^2 + Im(z)^2)"
+      ],
+      "nota": "Visualizzare la regione è fondamentale. Disegnare il cerchio e il semipiano aiuta a capire l'insieme."
+    },
+    {
+      "numero": 3,
+      "testo": "Calcolare, se esiste, lim n→∞ (2n + (−1)n sin n)/(n^2 + 1).",
+      "strategia": "Applicare il teorema del confronto. Si sa che -1 ≤ sin(n) ≤ 1. Quindi, -2n - 1 ≤ 2n + (-1)^n sin(n) ≤ 2n + 1. Dividere per n^2+1.",
+      "soluzione": "Dividendo numeratore e denominatore per n^2 si ottiene: lim (2/n + (-1)^n sin(n)/n)/(1 + 1/n^2). Poiché lim (sin(n)/n) = 0, il limite è 0.",
+      "formule_usate": [
+        "lim (f(x)/g(x)) = lim f(x) / lim g(x)"
+      ],
+      "nota": "Il teorema del confronto è cruciale per risolvere questo tipo di limiti."
+    },
+    {
+      "numero": 4,
+      "testo": "Stabilire per quali x ∈ R la funzione f(x) = (x −1)|x −1| è derivabile.",
+      "strategia": "Analizzare la derivabilità in x=1.  La funzione è una combinazione di una funzione lineare e un valore assoluto. La funzione valore assoluto è derivabile ovunque tranne che in 0, quindi bisogna controllare la derivabilità in x=1.",
+      "soluzione": "f(x) = (x-1)|x-1|. Per x ≠ 1, f'(x) = |x-1| + (x-1). In x=1, il limite destro è 0 e il limite sinistro è 0. Tuttavia, la derivata destra in x=1 è 0 mentre la derivata sinistra è 2. Quindi non è derivabile in x=1.  La funzione è derivabile per ogni x ∈ R \\ {1}.",
+      "formule_usate": [
+        "|x| = x se x ≥ 0, -x se x < 0"
+      ],
+      "nota": "Ricordare le regole di derivazione delle funzioni valore assoluto."
+    },
+    {
+      "numero": 5,
+      "testo": "Sia f(x) = 1 + sin 3x. Considerata f ristretta all’intervallo [0, 4π], stabilire quanti punti soddisfano la tesi del teorema di Rolle in questo intervallo.",
+      "strategia": "Applicare il teorema di Rolle: f deve essere continua su [a, b], derivabile su (a, b) e f(a) = f(b).",
+      "soluzione": "f è continua e derivabile su tutto R. f(0) = 1 + sin(0) = 1. f(4π) = 1 + sin(12π) = 1. Quindi, le condizioni del teorema di Rolle sono soddisfatte.  f'(x) = 3cos(3x). I punti in cui f'(x) = 0 sono x = π/3, π, 5π/3, 4π/3, 2π, 7π/3. Ci sono quindi 6 punti che soddisfano la tesi del teorema di Rolle.",
+      "formule_usate": [
+        "Teorema di Rolle"
+      ],
+      "nota": "Controllare sempre le ipotesi del teorema."
+    },
+    {
+      "numero": 6,
+      "testo": "Determinare la parte principale della funzione f(x) = log(cos x^3)/(cos 3x −1) rispetto al campione standard per x → 0.",
+      "strategia": "Usare le espansioni in serie di Taylor delle funzioni coinvolte. cos(x) = 1 - x^2/2 + O(x^4). log(1+x) = x - x^2/2 + O(x^3).",
+      "soluzione": "cos(x^3) = 1 - x^6/2 + O(x^12), quindi log(cos(x^3)) = -x^6/2 + O(x^12). cos(3x) = 1 - 9x^2/2 + O(x^4). Quindi, cos(3x)-1 = -9x^2/2 + O(x^4). La parte principale è (-x^6/2)/(-9x^2/2) = x^4/9.",
+      "formule_usate": [
+        "Espansioni in serie di Taylor"
+      ],
+      "nota": "La parte principale descrive il comportamento della funzione vicino a 0."
+    },
+    {
+      "numero": 7,
+      "testo": "Determinare gli intervalli di concavità e convessità della funzione F(x) = ∫_0^x e^(-t) dt.",
+      "strategia": "Calcolare la derivata prima e seconda. La concavità/convessità è determinata dal segno della derivata seconda.",
+      "soluzione": "F'(x) = e^(-x). F''(x) = -e^(-x). Poiché e^(-x) > 0 per ogni x, allora F''(x) < 0 per ogni x. Quindi la funzione è concava su tutto R.",
+      "formule_usate": [
+        "Regola di Leibniz"
+      ],
+      "nota": "Ricordare che F'' > 0 implica convessità e F'' < 0 implica concavità."
+    },
+    {
+      "numero": 8,
+      "testo": "Calcolare ∫_1^5 log₂(t) / t dt.",
+      "strategia": "Usare la sostituzione u = log₂(t), du = (1/ln(2))dt",
+      "soluzione": "Sia u = log₂(t). Allora t = 2^u e dt = (1/ln(2)) * 2^u du. Quando t=1, u=0; quando t=5, u=log₂(5). L'integrale diventa ∫_0^(log₂(5)) u / 2^u * (1/ln(2)) du = (1/ln(2)) ∫_0^(log₂(5)) u * e^(-u ln(2)) du. Si può risolvere per parti.",
+      "formule_usate": [
+        "Integrazione per sostituzione",
+        "Integrazione per parti"
+      ],
+      "nota": "La scelta della sostituzione è cruciale."
+    },
+    {
+      "numero": 9,
+      "testo": "Sia dato l’integrale ∫_0^1 sin(x) / √x³ dx. Stabilire se converge a un valore positivo, converge a un valore negativo, diverge positivamente, diverge negativamente.",
+      "strategia": "Usare il criterio del confronto. Poiché x³ < 1 per x ∈ (0, 1], allora √x³ < 1. Quindi sin(x) / √x³ < sin(x).",
+      "soluzione": "Poiché sin(x)/√x³ è positiva su [0, 1] e ∫_0^1 sin(x) dx converge (è finito), anche l'integrale dato converge a un valore positivo.",
+      "formule_usate": [
+        "Criterio del confronto"
+      ],
+      "nota": "Conoscere i criteri di convergenza degli integrali impropri è fondamentale."
+    },
+    {
+      "numero": 10,
+      "testo": "Scrivere l’integrale generale dell’equazione differenziale x'' + 4x = 0.",
+      "strategia": "Risolvere l'equazione differenziale lineare omogenea del secondo ordine con coefficienti costanti. L'equazione caratteristica è r^2 + 4 = 0.",
+      "soluzione": "L'equazione caratteristica è r² + 4 = 0, quindi r = ±2i. La soluzione generale è x(t) = c₁cos(2t) + c₂sin(2t), dove c₁ e c₂ sono costanti arbitrarie.",
+      "formule_usate": [
+        "Equazioni differenziali lineari"
+      ],
+      "nota": "Conoscere le soluzioni delle equazioni differenziali del secondo ordine."
+    }
+  ],
+  "riepilogo": "Questa esercitazione ha fornito una revisione dei concetti chiave di Analisi Matematica 1, dalla definizione di funzioni iniettive al calcolo di integrali e alla risoluzione di equazioni differenziali. La comprensione di questi argomenti è essenziale per affrontare problemi più complessi nel corso.",
+  "_meta": {
+    "id": "esercizio_s10_Esercitazione_finale_testo_e_svolgimento.json",
+    "pdf": "Esercitazione finale testo_e_svolgimento.pdf",
+    "model": "gemma3:12b"
+  }
+}

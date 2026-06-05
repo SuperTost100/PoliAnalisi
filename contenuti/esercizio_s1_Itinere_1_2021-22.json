@@ -1,0 +1,77 @@
+{
+  "nome": "Itinere 1 2021-22",
+  "difficolta": "medio",
+  "argomenti": [
+    "trigonometria",
+    "disequazioni",
+    "logaritmi",
+    "grafici",
+    "limiti"
+  ],
+  "introduzione": "Questa prova in itinere copre argomenti fondamentali di Analisi Matematica 1, tra cui equazioni e disequazioni trigonometriche, disequazioni con valori assoluti e logaritmi, tracciamento di grafici e concetti relativi a estremi superiori/inferiori, massimi e minimi. Richiede una buona comprensione delle definizioni e la capacità di applicare le tecniche risolutive appropriate.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Determinare le soluzioni dell’equazione sin(x - π/2) = cos(2x) appartenenti all’intervallo [0, 2π).",
+      "strategia": "Utilizzare le identità trigonometriche per semplificare l'equazione. Ricorda che sin(x - π/2) = -cos(x) e cos(2x) = cos²(x) - sin²(x).  Risolvere l'equazione risultante e verificare le soluzioni nell'intervallo dato.",
+      "soluzione": "Trasformiamo l'equazione: -cos(x) = cos²(x) - sin²(x). Usando cos²(x) + sin²(x) = 1, possiamo scrivere cos²(x) = 1 - sin²(x), quindi l'equazione diventa -cos(x) = 1 - 2sin²(x).  Riscriviamo come 2sin²(x) - cos(x) - 1 = 0. Ponendo y = cos(x), abbiamo 2sin²(x) = 2(1 - cos²(x)) = 2 - 2cos²(x), quindi l'equazione diventa 2 - 2cos²(x) - cos(x) - 1 = 0, ovvero 2cos²(x) + cos(x) - 1 = 0. Risolvendo questa equazione di secondo grado per cos(x): cos(x) = (-1 ± √(1 + 8)) / 4 = (-1 ± 3) / 4. Quindi cos(x) = 1/2 o cos(x) = -1. Per cos(x) = 1/2, x = π/3 e x = 5π/3 nell'intervallo [0, 2π). Per cos(x) = -1, x = π nell'intervallo [0, 2π). Le soluzioni sono quindi x = π/3, π, 5π/3.",
+      "formule_usate": [
+        "sin(a-b) = sin(a)cos(b)-cos(a)sin(b)",
+        "cos(2x) = cos²(x) - sin²(x)",
+        "cos²(x)+sin²(x)=1"
+      ],
+      "nota": "Verificare sempre le soluzioni nell'intervallo specificato."
+    },
+    {
+      "numero": 2,
+      "testo": "Risolvere la disequazione |3x + 3| ≤ 5.",
+      "strategia": "Rimuovere il valore assoluto creando due casi: uno in cui l'espressione all'interno del valore assoluto è positiva e uno in cui è negativa. Risolvere le disequazioni risultanti e trovare la loro intersezione.",
+      "soluzione": "Caso 1: 3x + 3 ≥ 0  =>  3x ≥ -3  => x ≥ -1. In questo caso, |3x + 3| = 3x + 3 ≤ 5 => 3x ≤ 2 => x ≤ 2/3. Quindi, in questo caso, -1 ≤ x ≤ 2/3. Caso 2: 3x + 3 < 0  =>  3x < -3  => x < -1. In questo caso, |3x + 3| = -(3x + 3) ≤ 5 => -3x - 3 ≤ 5 => -3x ≤ 8 => x ≥ -8/3. Quindi, in questo caso, -8/3 ≤ x < -1. L'unione delle soluzioni è [-8/3, 2/3].",
+      "formule_usate": [
+        "|a| <= b  =>  -b <= a <= b"
+      ],
+      "nota": "Ricordare di considerare entrambi i casi quando si lavora con valori assoluti."
+    },
+    {
+      "numero": 3,
+      "testo": "Risolvere la disequazione 1/(2px) < px/(3px).",
+      "strategia": "Semplificare l'espressione e trovare il dominio della variabile.  Portare tutti i termini su un lato della disequazione e analizzare i segni.",
+      "soluzione": "Assumendo che p > 0, si semplifica la disequazione: 1/(2x) < x/(3x). Poiché x ≠ 0, possiamo dividere numeratore e denominatore per x: 1/(2x) < 1/3.  Quindi, 1 < (2x)/3 => 3 < 2x => x > 3/2. Il dominio è x≠0. La soluzione è x > 3/2.",
+      "formule_usate": [
+        "a/b < c  => a < bc"
+      ],
+      "nota": "Controllare sempre il dominio della variabile."
+    },
+    {
+      "numero": 4,
+      "testo": "Risolvere l’equazione 2(log x)³ − log x = log x². [Col simbolo log si intende il logaritmo naturale, in base e.]",
+      "strategia": "Sostituire log x con una variabile ausiliaria per semplificare l'equazione. Risolvere l'equazione risultante e sostituire la variabile ausiliaria con log x.",
+      "soluzione": "Poniamo y = log x. L'equazione diventa 2y³ - y = y².  Riscrivendo, otteniamo 2y³ - y² - y = 0 => y(2y² - y - 1) = 0. Quindi y = 0 o 2y² - y - 1 = 0. Risolvendo la seconda equazione: y = (1 ± √(1 + 8)) / 4 = (1 ± 3) / 4. Quindi y = 1 o y = -1/2.  Se y = 0, log x = 0 => x = e⁰ = 1. Se y = 1, log x = 1 => x = e¹. Se y = -1/2, log x = -1/2 => x = e⁻¹/².",
+      "formule_usate": [
+        "log(a^b) = b*log(a)",
+        "e^(log(x)) = x"
+      ],
+      "nota": "Ricordare che il dominio del logaritmo è positivo."
+    },
+    {
+      "numero": 5,
+      "testo": "Tracciare il grafico di f(x) = |1 − x²| + x² − 2x.",
+      "strategia": "Analizzare la funzione a tratti considerando i casi in cui (1 - x²) è positivo o negativo. Semplificare l'espressione per ogni caso e tracciare i grafici risultanti.  Considerare anche il vertice della parabola.",
+      "soluzione": "f(x) = |1 − x²| + x² − 2x. Caso 1: 1 - x² ≥ 0 => x² ≤ 1 => -1 ≤ x ≤ 1. In questo caso, f(x) = 1 - x² + x² - 2x = 1 - 2x.  Caso 2: 1 - x² < 0 => x² > 1 => x < -1 oppure x > 1. In questo caso, f(x) = -(1 - x²) + x² - 2x = -1 + x² + x² - 2x = 2x² - 2x - 1.",
+      "formule_usate": [
+        "|a| = a se a >= 0",
+        "|a| = -a se a < 0"
+      ],
+      "nota": "Analizzare il segno dell'argomento del valore assoluto per semplificare l'espressione."
+    }
+  ],
+  "riepilogo": "Questa prova in itinere ha permesso di ripassare concetti fondamentali come equazioni e disequazioni trigonometriche, valori assoluti, logaritmi e grafici. È importante esercitarsi con diversi esempi per consolidare le tecniche risolutive.",
+  "_meta": {
+    "settimana": "1",
+    "nome": "Itinere 1 2021-22",
+    "pdf": "Itinere 1 2021-22.pdf",
+    "soluzione_pdf": "Itinere1-2023-24_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:15:14"
+  }
+}

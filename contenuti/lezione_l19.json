@@ -1,0 +1,76 @@
+{
+  "titolo": "Teoremi di derivazione",
+  "introduzione": "La derivata di una funzione fornisce informazioni cruciali sul suo comportamento, come la sua crescita o decrescita e i suoi punti stazionari. Questo paragrafo esplora alcuni teoremi fondamentali che ci permettono di analizzare le proprietà delle funzioni attraverso le loro derivate, fornendo strumenti per determinare massimi, minimi e flessi.",
+  "concetti": [
+    {
+      "nome": "Teorema di Rolle",
+      "definizione": "Sia f una funzione continua in un intervallo chiuso [a, b] e derivabile in un intervallo aperto (a, b). Se f(a) = f(b), allora esiste almeno un punto c ∈ (a, b) tale che f'(c) = 0.",
+      "spiegazione": "Il teorema di Rolle afferma che se una funzione è continua su un intervallo chiuso e derivabile in quell'intervallo aperto, e i valori della funzione agli estremi dell'intervallo sono uguali, allora esiste almeno un punto interno all'intervallo dove la retta tangente al grafico della funzione è orizzontale. Questo punto c rappresenta un potenziale massimo o minimo locale. Intuitivamente, se una curva inizia con un certo valore di y e termina con lo stesso valore, deve esistere almeno un punto intermedio in cui la pendenza è zero.",
+      "formula": "f(a) = f(b) ⇒ ∃ c ∈ (a, b): f'(c) = 0",
+      "esempio": "Consideriamo f(x) = x² - 4x + 3 su [0, 4]. Si ha f(0) = 3 e f(4) = 3. La derivata è f'(x) = 2x - 4. Risolvendo l'equazione 2x - 4 = 0 si ottiene x = 2, che appartiene all'intervallo (0, 4).",
+      "punti_chiave": [
+        "Il teorema di Rolle stabilisce una relazione tra i valori della funzione agli estremi di un intervallo e l'esistenza di punti in cui la derivata si annulla.",
+        "Le ipotesi fondamentali del teorema sono la continuità su [a, b] e la derivabilità su (a, b), oltre all'uguaglianza dei valori della funzione in a e b."
+      ],
+      "errori_comuni": [
+        "Confondere il teorema di Rolle con il teorema del valor medio: Rolle richiede f(a) = f(b), mentre il valor medio no.",
+        "Non verificare le condizioni di applicabilità del teorema (continuità su [a, b] e derivabilità su (a, b)).",
+        "Interpretare erroneamente il punto c trovato come un massimo o minimo globale senza ulteriori verifiche."
+      ],
+      "connessioni": "Il teorema di Rolle fornisce una base per comprendere le condizioni necessarie per l'esistenza di massimi e minimi locali, che saranno approfondite nello studio delle derivate seconde."
+    },
+    {
+      "nome": "Teorema del Valor Medio",
+      "definizione": "Sia f una funzione continua in un intervallo chiuso [a, b] e derivabile in un intervallo aperto (a, b). Allora esiste almeno un punto c ∈ (a, b) tale che f'(c) = (f(b) - f(a)) / (b - a).",
+      "spiegazione": "Il teorema del valor medio è una generalizzazione del teorema di Rolle. Afferma che se una funzione è continua e derivabile su un intervallo, allora esiste almeno un punto in quell'intervallo dove la derivata è uguale alla pendenza della retta secante che congiunge i punti estremi dell'intervallo. In altre parole, esiste una tangente al grafico della funzione parallela alla retta che collega gli estremi dell'intervallo.",
+      "formula": "f'(c) = (f(b) - f(a)) / (b - a)",
+      "esempio": "Consideriamo f(x) = x² su [1, 3]. Si ha f(1) = 1 e f(3) = 9. La derivata è f'(x) = 2x. Quindi, (f(3) - f(1)) / (3 - 1) = (9 - 1) / 2 = 4. Risolvendo l'equazione 2x = 4 si ottiene x = 2, che appartiene all'intervallo (1, 3).",
+      "punti_chiave": [
+        "Il teorema del valor medio stabilisce una relazione tra la derivata di una funzione in un punto e la pendenza della retta secante tra due punti dell'intervallo.",
+        "Le ipotesi fondamentali sono la continuità su [a, b] e la derivabilità su (a, b)."
+      ],
+      "errori_comuni": [
+        "Non verificare le condizioni di applicabilità del teorema (continuità su [a, b] e derivabilità su (a, b)).",
+        "Confondere la retta secante con la retta tangente."
+      ],
+      "connessioni": "Il teorema del valor medio fornisce una connessione importante tra il tasso di variazione istantaneo (derivata) e il tasso di variazione medio di una funzione su un intervallo, utile per l'analisi di fenomeni fisici."
+    },
+    {
+      "nome": "Teorema di Fermat",
+      "definizione": "Se f è derivabile in un punto c e f ha un massimo o minimo locale in c, allora f'(c) = 0.",
+      "spiegazione": "Questo teorema afferma che se una funzione ha un massimo o minimo locale in un punto, la retta tangente al grafico della funzione in quel punto deve essere orizzontale. In altre parole, la derivata in quel punto deve essere zero. Questo perché, per raggiungere un picco o una valle, la pendenza della funzione deve momentaneamente annullarsi.",
+      "formula": "\\text{ Se  }f \\text{ ha un massimo/minimo locale in } c ⇒ f'(c) = 0",
+      "esempio": "Consideriamo f(x) = x². Ha un minimo locale in x=0. La derivata è f'(x) = 2x, quindi f'(0) = 0.",
+      "punti_chiave": [
+        "Il teorema di Fermat fornisce una condizione necessaria per l'esistenza di massimi e minimi locali: la derivata deve essere zero in tali punti."
+      ],
+      "errori_comuni": [
+        "Assumere che un punto in cui la derivata è zero sia sempre un massimo o minimo locale (potrebbe essere un flesso).",
+        "Non considerare il fatto che f'(c) = 0 è una condizione necessaria, ma non sufficiente, per avere un massimo o minimo locale."
+      ],
+      "connessioni": "Il teorema di Fermat fornisce la base per l'utilizzo della derivata prima per trovare i punti critici di una funzione, che saranno poi classificati come massimi, minimi o flessi utilizzando la derivata seconda."
+    }
+  ],
+  "punti_chiave": [
+    "I teoremi di Rolle e del valor medio forniscono condizioni sufficienti per l'esistenza di punti in cui la derivata si annulla.",
+    "Il teorema di Fermat collega i massimi/minimi locali all'annullamento della derivata.",
+    "Questi teoremi sono fondamentali per trovare punti critici e analizzare il comportamento delle funzioni."
+  ],
+  "errori_comuni": [
+    "Confondere il teorema di Rolle con il teorema del valor medio: Rolle richiede f(a) = f(b), mentre il valor medio no.",
+    "Non verificare le condizioni di applicabilità dei teoremi (continuità e derivabilità).",
+    "Assumere che un punto in cui la derivata è zero sia sempre un massimo o minimo locale (potrebbe essere un flesso)."
+  ],
+  "connessioni": "Questi teoremi sono essenziali per l'ottimizzazione, lo studio di funzione e la comprensione del comportamento delle funzioni. Sono anche alla base di altri risultati più avanzati in analisi matematica.",
+  "_meta": {
+    "id": "L19",
+    "titolo": "Teoremi di derivazione",
+    "pdf": "L19 21 nov 2025_ teoremi di derivazione.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:03:50"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:40:21",
+    "model": "gemma3:12b"
+  }
+}

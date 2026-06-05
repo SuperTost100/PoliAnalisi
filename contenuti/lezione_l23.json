@@ -1,0 +1,49 @@
+{
+  "titolo": "Integrali Indefiniti",
+  "introduzione": "L'integrazione indefinita è l'operazione inversa della derivazione. Permette di trovare tutte le funzioni la cui derivata è uguale a una data funzione, fornendo uno strumento fondamentale per risolvere problemi in diverse discipline, come fisica ed economia.",
+  "concetti": [
+    {
+      "nome": "Funzione Primitiva",
+      "definizione": "Data una funzione f: I → ℝ definita su un intervallo I, una funzione F: I → ℝ è detta primitiva di f se F'(x) = f(x) per ogni x ∈ I.",
+      "spiegazione": "Una funzione primitiva è una funzione tale che la sua derivata sia uguale alla funzione originale. Poiché la derivata è un'operazione che non considera le costanti, esistono infinite funzioni primitive per una data funzione, differenziate solo da una costante additiva. Questa costante arbitraria è indicata con 'C'.",
+      "formula": "F(x) + C",
+      "esempio": "Se f(x) = 2x, allora F(x) = x² + C è una primitiva di f(x), poiché la derivata di (x² + C) è 2x."
+    },
+    {
+      "nome": "Integrale Indefinito",
+      "definizione": "L'integrale indefinito di una funzione f(x), denotato come ∫f(x) dx, rappresenta l'insieme di tutte le primitive di f(x).",
+      "spiegazione": "L'integrale indefinito non fornisce un singolo valore, ma piuttosto una famiglia di funzioni. Ogni funzione in questa famiglia differisce dalle altre solo per una costante additiva 'C'. Pertanto, la soluzione generale dell'integrale indefinito è espressa come una primitiva più una costante arbitraria.",
+      "formula": "∫f(x) dx = F(x) + C",
+      "esempio": "∫2x dx = x² + C"
+    },
+    {
+      "nome": "Regole di Integrazione",
+      "definizione": "Le regole di integrazione sono un insieme di tecniche che consentono di calcolare l'integrale indefinito di funzioni più complesse, basandosi sull'integrazione di funzioni elementari.",
+      "spiegazione": "Esistono diverse regole per semplificare il processo di integrazione. Tra queste, la linearità (∫[af(x) + bg(x)] dx = a∫f(x) dx + b∫g(x) dx), l'integrazione per parti (∫u dv = uv - ∫v du) e l'integrazione per sostituzione (∫f(g(x)) g'(x) dx = ∫f(u) du, dove u = g(x)). La scelta della regola appropriata dipende dalla forma dell'integranda.",
+      "formula": "\\text{ Regole specifiche a seconda del tipo di integrale }",
+      "esempio": "Utilizzando l'integrazione per parti: ∫ x sin(x) dx = -x cos(x) + ∫cos(x) dx = -x cos(x) + sin(x) + C."
+    }
+  ],
+  "punti_chiave": [
+    "L'integrale indefinito rappresenta una famiglia di funzioni, caratterizzata da una costante arbitraria.",
+    "La costante di integrazione 'C' è essenziale per esprimere la soluzione generale dell'integrale e deve essere sempre inclusa.",
+    "Le regole di integrazione forniscono strumenti fondamentali per affrontare integrali più complessi e diversificati."
+  ],
+  "errori_comuni": [
+    "Omettere la costante di integrazione 'C'.",
+    "Applicare in modo errato le regole di integrazione, in particolare l'integrazione per parti e per sostituzione.",
+    "Non riconoscere la forma dell'integranda necessaria per applicare una specifica regola di integrazione."
+  ],
+  "connessioni": "L'argomento degli integrali indefiniti è strettamente legato alla derivazione, in quanto rappresenta l'operazione inversa. Inoltre, costituisce il fondamento per lo studio degli integrali definiti e delle loro applicazioni nel calcolo di aree, volumi e nella risoluzione di equazioni differenziali.",
+  "_meta": {
+    "id": "L23",
+    "titolo": "Integrali indefiniti",
+    "pdf": "L23 4 dic 2025_ integrali indefiniti.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:08:11"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:46:54",
+    "model": "gemma3:12b"
+  }
+}

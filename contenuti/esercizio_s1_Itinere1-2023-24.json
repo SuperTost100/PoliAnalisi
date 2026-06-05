@@ -1,0 +1,73 @@
+{
+  "nome": "Itinere1-2023-24",
+  "difficolta": "medio",
+  "argomenti": [
+    "Disequazioni esponenziali",
+    "Ordine tra numeri reali",
+    "Insiemi e intervalli",
+    "Massimo e minimo di insiemi",
+    "Definizioni"
+  ],
+  "introduzione": "Questa prova in itinere copre argomenti fondamentali di Analisi Matematica 1, tra cui la risoluzione di disequazioni esponenziali, l'ordinamento di numeri reali (inclusi quelli con valori assoluti), la rappresentazione di insiemi tramite intervalli e la comprensione dei concetti di estremo superiore, minimo, massimo e inferiore di un insieme. Richiede una buona conoscenza delle proprietà delle funzioni esponenziali, dei valori assoluti e della teoria degli insiemi.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Risolvere la disequazione ex + 12e→x →8",
+      "strategia": "Si tratta di una disequazione esponenziale. Si può riscrivere come ex + 12/ex > 8.  Ponendo y = ex, si ottiene l'equazione equivalente y + 12/y > 8. Moltiplicando per y (tenendo conto del segno), si ottiene un'equazione di secondo grado.",
+      "soluzione": "Sia y = ex. La disequazione diventa y + 12/y > 8.  Moltiplicando entrambi i membri per y (poiché e^x >0, y>0) otteniamo: y^2 + 12 > 8y => y^2 - 8y + 12 > 0. Risolviamo l'equazione di secondo grado y^2 - 8y + 12 = 0 con la formula quadratica: y = (8 ± √(64-48))/2 = (8 ± 4)/2 => y = 6 oppure y = 2.  La disequazione y^2 - 8y + 12 > 0 è soddisfatta per y < 2 oppure y > 6.  Ritornando alla sostituzione originale, abbiamo ex < 2 oppure ex > 6. Quindi x < ln(2) oppure x > ln(6).",
+      "formule_usate": [
+        "y = (8 ± √(b^2 - 4ac))/(2a)",
+        "e^x"
+      ],
+      "nota": "Ricordare di considerare il segno di y quando si moltiplica per y nella disequazione."
+    },
+    {
+      "numero": 2,
+      "testo": "Sia ↑1 < ω < 0. Collocare in ordine crescente i numeri ω, ↑ω, 1/ω, 2|ω|, ω^2, 1/(2ω).",
+      "strategia": "Dato che ω è negativo, |ω| = -ω.  Si devono valutare i singoli termini e confrontarli. Ricordare che ω < 0 implica ω^2 > 0 e 1/ω < 0.",
+      "soluzione": "Poiché ω < 0, allora |ω| = -ω > 0. Inoltre, ω^2 > 0 e 1/ω < 0.  Sappiamo che -1 < ω < 0, quindi 0 < |ω| < 1.  Quindi: ω < 0; 1/ω < 0; 2|ω| > 0; ω^2 > 0; 1/(2ω) < 0. Confrontando i valori negativi, si ha che ω < 1/ω perché |ω| < 1.  Inoltre, 1/ω < 1/(2ω) perché 2ω < ω. Quindi l'ordine crescente è: ω < 1/ω < 1/(2ω) < -ω < ω^2 < 2|ω|. ",
+      "formule_usate": [
+        "|x| = x se x >= 0",
+        "|x| = -x se x < 0"
+      ],
+      "nota": "Considerare il segno di ogni termine è cruciale per l'ordinamento."
+    },
+    {
+      "numero": 3,
+      "testo": "Scrivere, usando gli intervalli, l’insieme A = {|x + 1| : x^2 + x - 2 < 0}",
+      "strategia": "Prima si risolve la disequazione x^2 + x - 2 < 0. Poi, per ogni x che soddisfa questa disequazione, si calcola |x+1|. Infine, si rappresenta l'insieme dei valori di |x+1| ottenuti come unione di intervalli.",
+      "soluzione": "Risolviamo x^2 + x - 2 < 0. Troviamo le radici dell'equazione x^2 + x - 2 = 0: (x+2)(x-1) = 0 => x = -2 oppure x = 1.  La disequazione è soddisfatta per -2 < x < 1. Per ogni x in questo intervallo, calcoliamo |x+1|. Se -2 < x < -1, allora x+1 < 0 e |x+1| = -(x+1) = -x-1. Se -1 <= x < 1, allora x+1 >= 0 e |x+1| = x+1. Quindi A = { -x-1 : -2 < x < -1 } U { x+1 : -1 <= x < 1 }.  In termini di intervalli: A = (-1, 0) U (0, 2).",
+      "formule_usate": [
+        "(x-a)(x-b)=0"
+      ],
+      "nota": "Considerare i casi separati per il valore assoluto."
+    },
+    {
+      "numero": 4,
+      "testo": "Scrivere se esistono e indicare i valori di estremo superiore, estremo inferiore, massimo e minimo dell’insieme A = {1/n + (1/1)^n : n ∈ N \\ {0}}.",
+      "strategia": "Si analizza il comportamento della successione a_n = 1/n + (1/1)^n = 1/n + 1 per n che tende all'infinito. Si cerca di determinare se l'insieme ha un limite superiore e inferiore, e se esiste un massimo o minimo.",
+      "soluzione": "La successione è a_n = 1/n + 1. Quando n → ∞, 1/n → 0, quindi a_n → 1.  Inoltre, per n=1, a_1 = 1/1 + 1 = 2; per n=2, a_2 = 1/2 + 1 = 3/2; per n=3, a_3 = 1/3 + 1 = 4/3.  L'insieme A è {2, 3/2, 4/3, ...}. L'estremo superiore è sup(A) = 1 (non raggiunto). L'estremo inferiore non esiste perché la successione tende a 1 ma non raggiunge mai quel valore. Il minimo non esiste. Non c’è un massimo.",
+      "formule_usate": [
+        "\\lim_{n \\to \\infty} 1/n = 0"
+      ],
+      "nota": "Distinguere tra estremo superiore, limite superiore e massimo."
+    },
+    {
+      "numero": 5,
+      "testo": "Dare la deﬁnizione di estremo superiore di un sottoinsieme A ↔R.",
+      "strategia": "Ricordare la definizione formale di estremo superiore. Si tratta di un valore che è limitato superiormente da tutti gli elementi dell'insieme.",
+      "soluzione": "Sia A ⊆ ℝ. Un numero reale 'b' è detto estremo superiore di A (scritto sup(A)) se per ogni x ∈ A, si ha x ≤ b e se per ogni ε > 0 esiste un elemento x ∈ A tale che b - ε < x.",
+      "formule_usate": [],
+      "nota": "Comprendere la differenza tra estremo superiore e limite superiore."
+    }
+  ],
+  "riepilogo": "Questa prova in itinere ha fornito l'opportunità di esercitarsi con disequazioni esponenziali, ordinamento di numeri reali, rappresentazione di insiemi tramite intervalli e comprensione dei concetti fondamentali di estremo superiore, minimo, massimo e inferiore. La capacità di risolvere problemi applicativi richiede una solida base teorica e la pratica nell'applicazione delle tecniche risolutive.",
+  "_meta": {
+    "settimana": "1",
+    "nome": "Itinere1-2023-24",
+    "pdf": "Itinere1-2023-24.pdf",
+    "soluzione_pdf": "Itinere1-2023-24_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:18:59"
+  }
+}

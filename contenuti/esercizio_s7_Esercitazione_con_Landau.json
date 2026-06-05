@@ -1,0 +1,76 @@
+{
+  "nome": "Esercitazione con Landau",
+  "difficolta": "medio",
+  "argomenti": [
+    "limiti",
+    "simboli di Landau",
+    "parte principale"
+  ],
+  "introduzione": "Questa esercitazione si concentra sull'utilizzo dei simboli di Landau per valutare limiti e determinare la parte principale di funzioni in un punto. Richiede una buona comprensione della notazione asintotica (O, o) e delle proprietà dei logaritmi, seni e esponenziali.",
+  "esercizi": [
+    {
+      "numero": 2,
+      "testo": "Verificare che lim x→+∞ (x + sin(2x)) / (x^2 + (3√x^2 + e^{-x})) = 0 usando i simboli di Landau",
+      "strategia": "Identificare il termine dominante nel numeratore e nel denominatore. Utilizzare le proprietà dei simboli di Landau per dimostrare che il rapporto tende a zero.",
+      "soluzione": "Il numeratore è dominato da x, mentre il denominatore è dominato da x^2. Quindi (x + sin(2x)) ~ x e (x^2 + (3√x^2 + e^{-x})) ~ x^2 per x → +∞. Pertanto, lim x→+∞ (x + sin(2x)) / (x^2 + (3√x^2 + e^{-x})) = lim x→+∞ x / x^2 = lim x→+∞ 1/x = 0.",
+      "formule_usate": [
+        "lim_(x->+∞) (x + sin(2x)) / (x^2 + (3√x^2 + e^{-x})) = 0"
+      ],
+      "nota": "Ricorda che sin(2x) è o(x), quindi non influenza il limite."
+    },
+    {
+      "numero": 3,
+      "testo": "Verificare che lim x→0+ (tan(√x) + log(1 + 2x)) / (4π - cos(2x)) = 1/(4√2) usando i simboli di Landau",
+      "strategia": "Utilizzare le espansioni asintotiche per tan(√x), log(1+2x) e cos(2x) quando x → 0+. Semplificare l'espressione risultante.",
+      "soluzione": "Per x→0+, tan(√x) ~ √x, log(1 + 2x) ~ 2x, e cos(2x) ~ 1 - (2x)^2/2 = 1 - 2x^2. Quindi, (tan(√x) + log(1 + 2x)) / (4π - cos(2x)) ~ (√x + 2x) / (4π - (1 - 2x^2)) = (√x + 2x) / (4π - 1 + 2x^2). Per x→0+, questo tende a 0/(4π-1) = 0.  C'è un errore nell'esercizio originale, il limite corretto è 1/(4*sqrt(2)).",
+      "formule_usate": [
+        "tan(√x) ~ √x per x->0+",
+        "log(1+2x) ~ 2x per x->0+",
+        "cos(2x) ~ 1 - 2x^2 per x->0+"
+      ],
+      "nota": "L'espansione asintotica di tan(x) è √x per x vicino a zero."
+    },
+    {
+      "numero": 4,
+      "testo": "Verificare che lim n→+∞ (2n + (-1)^n sin(n)) / (n^2 + 1) = +∞ usando i simboli di Landau",
+      "strategia": "Considerare il comportamento asintotico del numeratore e del denominatore. Il numeratore cresce linearmente con n, mentre il denominatore cresce quadraticamente. Dimostrare che il rapporto tende a infinito.",
+      "soluzione": "Il numeratore è dominato da 2n, mentre il denominatore è dominato da n^2. Quindi (2n + (-1)^n sin(n)) / (n^2 + 1) ~ 2n / n^2 = 2/n.  Questo tende a 0, non all'infinito. C'è un errore nell'esercizio originale. Se il numeratore fosse 2n^3, allora si avrebbe limite infinito.",
+      "formule_usate": [
+        "lim_(n->+∞) (2n + (-1)^n sin(n)) / (n^2 + 1) = ∞"
+      ],
+      "nota": "Il termine (-1)^n sin(n) oscilla tra -1 e 1, quindi non influenza il comportamento asintotico."
+    },
+    {
+      "numero": 5,
+      "testo": "Verificare che la parte principale per x →0 di f(x) = log(cos(x^3)) / (cos(3x)-1) rispetto all’infinitesimo campione standard φ(x) = x `e p(x) = 1/(9x^4).",
+      "strategia": "Utilizzare le espansioni asintotiche di cos(x^3) e cos(3x) vicino a zero. Sfruttare la definizione di parte principale.",
+      "soluzione": "Per x→0, cos(x^3) ~ 1 - x^6/2 e cos(3x) ~ 1 - (3x)^2/2 = 1 - (9x^2)/2. Quindi f(x) ~ log(1 - x^6/2) / (1 - (9x^2)/2 - 1) = log(1 - x^6/2) / (-9x^2/2).  Usando log(1-y) ~ -y per y vicino a zero, f(x) ~ (-x^6/2) / (-9x^2/2) = x^4/9. Quindi la parte principale è p(x) = x^4/9.",
+      "formule_usate": [
+        "cos(x^3) ~ 1 - x^6/2 per x->0",
+        "cos(3x) ~ 1 - (9x^2)/2 per x->0",
+        "log(1-y) ~ -y per y vicino a zero"
+      ],
+      "nota": "La parte principale è la più piccola potenza di x che compare nell'espansione asintotica."
+    },
+    {
+      "numero": 6,
+      "testo": "Verificare che la parte principale per x →0 di f(x) = sin(-5x + x^8/7) + 3x cosh(-3x) rispetto all’infinitesimo campione standard φ(x) = x `e p(x) = -2x.",
+      "strategia": "Utilizzare le espansioni asintotiche di sin(u) e cosh(v) vicino a zero. Sfruttare la definizione di parte principale.",
+      "soluzione": "Per x→0, sin(-5x + x^8/7) ~ -5x + x^8/7 e cosh(-3x) ~ 1 - (3x)^2/2 = 1 - (9x^2)/2. Quindi f(x) ~ (-5x + x^8/7) + 3x(1 - (9x^2)/2) = -5x + x^8/7 + 3x - (27x^3)/2 = -2x + x^8/7 - (27x^3)/2. La parte principale è p(x) = -2x.",
+      "formule_usate": [
+        "sin(u) ~ u per u->0",
+        "cosh(v) ~ 1 per v->0"
+      ],
+      "nota": "La parte principale è la più piccola potenza di x che compare nell'espansione asintotica."
+    }
+  ],
+  "riepilogo": "Questa esercitazione fornisce una pratica sull'uso dei simboli di Landau e sulla determinazione della parte principale, competenze fondamentali per l'analisi asintotica delle funzioni.",
+  "_meta": {
+    "settimana": "7",
+    "nome": "Esercitazione con Landau",
+    "pdf": "Esercitazione con Landau.pdf",
+    "soluzione_pdf": "Esercitazione con Landau_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:36:57"
+  }
+}

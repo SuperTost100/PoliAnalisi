@@ -1,0 +1,49 @@
+{
+  "titolo": "Introduzione ai limiti",
+  "introduzione": "Il concetto di limite è fondamentale in Analisi Matematica perché ci permette di studiare il comportamento delle funzioni quando l'argomento tende a un certo valore. Comprendere i limiti è cruciale per analizzare la continuità, le derivate e gli integrali, elementi costitutivi dell'analisi stessa.",
+  "concetti": [
+    {
+      "nome": "Limite di una funzione",
+      "definizione": "Si dice che la funzione f(x) ha limite L per x che tende a c se, per ogni ε > 0, esiste un δ > 0 tale che se 0 < |x - c| < δ allora |f(x) - L| < ε.",
+      "spiegazione": "Intuitivamente, il limite di una funzione in un punto descrive il valore a cui la funzione si avvicina quando l'argomento x si avvicina a quel punto.  È importante notare che la funzione non deve essere definita nel punto stesso; ciò che conta è il suo comportamento nelle immediate vicinanze. La definizione formale quantifica questa idea, stabilendo una relazione precisa tra quanto possiamo rendere piccolo |x - c| e quanto possiamo rendere piccolo |f(x) - L|.",
+      "formula": "lim_{x \\to c} f(x) = L",
+      "esempio": "Consideriamo la funzione f(x) = x + 1 e il punto c = 2. Il limite di f(x) per x che tende a 2 è 3, poiché quando x si avvicina a 2, il valore di x+1 si avvicina a 3."
+    },
+    {
+      "nome": "Continuità",
+      "definizione": "Una funzione f(x) è continua in un punto c se lim_{x \\to c} f(x) = f(c).",
+      "spiegazione": "La continuità in un punto implica che il valore della funzione nel punto coincide con il limite della funzione in quel punto. Graficamente, questo si traduce in un grafico senza interruzioni o 'salti' in quel punto specifico. La continuità è una proprietà essenziale per l'applicabilità di molti teoremi e risultati nell'analisi matematica.",
+      "formula": "f(c) = lim_{x \\to c} f(x)",
+      "esempio": "La funzione f(x) = x^2 è continua in ogni punto del suo dominio, poiché il suo valore in ogni punto coincide con il limite della funzione in quel punto."
+    },
+    {
+      "nome": "Discontinuità",
+      "definizione": "Una funzione f(x) è discontinua in un punto c se non è continua in quel punto.",
+      "spiegazione": "Le discontinuità possono essere classificate in diversi tipi: eliminabili (il limite esiste ma non coincide con il valore della funzione o la funzione non è definita), di salto (limiti destro e sinistro esistono ma sono distinti) e infinite (la funzione tende all'infinito). La tipologia di discontinuità influenza significativamente il comportamento locale della funzione.",
+      "formula": null,
+      "esempio": "La funzione f(x) = 1/x è discontinua in x=0, poiché tende all'infinito quando x si avvicina a zero."
+    }
+  ],
+  "punti_chiave": [
+    "Il limite di una funzione in un punto non dipende dal valore della funzione nel punto stesso; ciò che conta è il comportamento della funzione nelle immediate vicinanze.",
+    "La continuità è una condizione necessaria per l'applicabilità di molti teoremi fondamentali dell'analisi matematica, come il teorema del valor medio e il teorema di Bolzano.",
+    "Esistono diverse tipologie di discontinuità (eliminabili, di salto, infinite), ciascuna caratterizzata da proprietà specifiche che influenzano il comportamento della funzione."
+  ],
+  "errori_comuni": [
+    "Confondere il limite di una funzione nel punto in cui si calcola con il valore stesso della funzione in quel punto.",
+    "Affidarsi unicamente all'interpretazione grafica del concetto di limite, trascurando la sua definizione formale e le sue implicazioni rigorose.",
+    "Non distinguere correttamente i diversi tipi di discontinuità e le loro caratteristiche distintive."
+  ],
+  "connessioni": "Il concetto di limite costituisce il fondamento per la definizione di derivata (come limite del rapporto incrementale) e integrale (come limite di una somma di Riemann). Inoltre, lo studio dei limiti è essenziale per l'analisi asintotica delle funzioni e per comprendere il comportamento delle funzioni all'infinito.",
+  "_meta": {
+    "id": "L6",
+    "titolo": "Introduzione ai limiti",
+    "pdf": "L6 8 ott 2025_ introduzione ai limiti.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:50:14"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:56:19",
+    "model": "gemma3:12b"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "nome": "Itinere3-24-25",
+  "difficolta": "medio",
+  "argomenti": [
+    "Derivate",
+    "Sviluppo di Maclaurin",
+    "Punti di non derivabilità",
+    "Integrali Indefiniti",
+    "Numeri Complessi"
+  ],
+  "introduzione": "Questa prova in itinere copre diversi argomenti fondamentali di Analisi Matematica 1, tra cui il calcolo delle derivate, lo sviluppo di Maclaurin, l'analisi della derivabilità di funzioni a valori assoluti, l'integrazione immediata e le proprietà dei numeri complessi. Richiede una buona comprensione delle definizioni e delle tecniche di base.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Calcolare la derivata prima della seguente funzione f(x) = cos((x^2 + x)^5)",
+      "strategia": "Applicare la regola della catena. Identificare le funzioni composte e calcolare le loro derivate separatamente.",
+      "soluzione": "Sia u(x) = (x^2 + x)^5 e v(x) = cos(x). Allora f(x) = v(u(x)).  f'(x) = v'(u(x)) * u'(x).  u'(x) = 5(x^2 + x)^4 * (2x + 1). v'(x) = -sin(x). Quindi, f'(x) = -sin((x^2 + x)^5) * 5(x^2 + x)^4 * (2x + 1)",
+      "formule_usate": [
+        "Regola della catena: d/dx [f(g(x))] = f'(g(x)) * g'(x)"
+      ],
+      "nota": "Ricordare l'ordine corretto delle operazioni nella regola della catena."
+    },
+    {
+      "numero": 2,
+      "testo": "Calcolare lo sviluppo di Maclaurin di ordine 4 della funzione f(x) = log(2 - cos x)",
+      "strategia": "Utilizzare lo sviluppo di Maclaurin per la funzione coseno e il logaritmo. Ricordare che log(1+x) = x - x^2/2 + x^3/3 - ...  e cos(x) = 1 - x^2/2! + x^4/4! - ...",
+      "soluzione": "f(x) = log(2 - (1 - x^2/2 + x^4/24 - ...)) = log(1 + x^2/2 - x^4/24 + ...)  Usando lo sviluppo di log(1+t) = t - t^2/2 + t^3/3 - t^4/4 + O(t^5), con t = x^2/2 - x^4/24, otteniamo f(x) ≈ (x^2/2 - x^4/24) - (1/2)(x^2/2 - x^4/24)^2 + ...  Sviluppando e prendendo i termini fino all'ordine 4, si ottiene lo sviluppo di Maclaurin.",
+      "formule_usate": [
+        "Sviluppo di Maclaurin per log(1+x)",
+        "Sviluppo di Maclaurin per cos(x)"
+      ],
+      "nota": "Lo sviluppo di Maclaurin richiede attenzione ai termini di ordine superiore."
+    },
+    {
+      "numero": 3,
+      "testo": "Determinare, se esistono, i punti di non derivabilità della funzione f(x) = |2x^2 - x^3|",
+      "strategia": "Analizzare la funzione all'interno del valore assoluto. Trovare i punti in cui l'espressione all'interno del valore assoluto cambia segno.",
+      "soluzione": "L'espressione all'interno del valore assoluto è g(x) = 2x^2 - x^3 = x^2(2-x).  g(x) = 0 quando x = 0 o x = 2. Quindi, la funzione f(x) potrebbe non essere derivabile in x=0 e x=2. Verificare se i limiti destro e sinistro della derivata coincidono in questi punti.",
+      "formule_usate": [
+        "Definizione di derivata",
+        "Proprietà del valore assoluto"
+      ],
+      "nota": "I punti in cui l'espressione all'interno del valore assoluto cambia segno sono candidati per la non derivabilità."
+    },
+    {
+      "numero": 4,
+      "testo": "Calcolare il seguente integrale indefinito ”immediato” ∫ (1 + cos x) / (x + sin x) dx",
+      "strategia": "Riconoscere la forma di una derivata. Utilizzare la sostituzione u = x + sin x.",
+      "soluzione": "Sia u = x + sin x. Allora du/dx = 1 + cos x, quindi du = (1 + cos x) dx. L'integrale diventa ∫ 1/u du = log|u| + C = log|x + sin x| + C",
+      "formule_usate": [
+        "Regola della sostituzione per integrali"
+      ],
+      "nota": "La chiave è riconoscere la forma di una derivata per semplificare l'integrale."
+    },
+    {
+      "numero": 5,
+      "testo": "Mostrare con un controesempio che la seguente affermazione sui numeri complessi `e FALSA: Se |z| = 1 allora z = ±1.",
+      "strategia": "Trovare un numero complesso il cui modulo sia 1 ma che non sia uguale a 1 o -1.",
+      "soluzione": "Consideriamo z = i.  Il modulo di i è |i| = √(0^2 + 1^2) = 1. Tuttavia, i ≠ ±1. Quindi l'affermazione è falsa.",
+      "formule_usate": [
+        "Definizione di modulo di un numero complesso"
+      ],
+      "nota": "Un controesempio sufficiente dimostra la falsità dell'affermazione."
+    }
+  ],
+  "riepilogo": "Questo esercizio ha permesso di ripassare le tecniche fondamentali del calcolo differenziale e integrale, nonché alcune proprietà dei numeri complessi. È importante saper applicare la regola della catena, sviluppi di Maclaurin, analizzare la derivabilità di funzioni a valori assoluti e riconoscere forme integrali standard.",
+  "_meta": {
+    "settimana": "9",
+    "nome": "Itinere3-24-25",
+    "pdf": "Itinere3-24-25.pdf",
+    "soluzione_pdf": "Itinere3-24-25_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:43:27"
+  }
+}

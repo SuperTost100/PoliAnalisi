@@ -1,0 +1,49 @@
+{
+  "titolo": "Limiti e continuità",
+  "introduzione": "L'analisi matematica si fonda sul concetto di limite per descrivere il comportamento delle funzioni quando l'input si avvicina a un certo valore. La continuità, a sua volta, è una proprietà fondamentale che permette alle funzioni di essere ben comportate e utilizzabile in molte applicazioni.",
+  "concetti": [
+    {
+      "nome": "Punti di accumulazione",
+      "definizione": "Sia A un sottoinsieme dei numeri reali. Un punto c ∈ R è detto punto di accumulazione per l'insieme A se, per ogni intorno I(c) = (c - ε, c + ε) con ε > 0, esiste almeno un elemento x ∈ A tale che x ∈ I(c) e x ≠ c.",
+      "spiegazione": "Un punto di accumulazione è un punto attorno al quale l'insieme 'si addensa'. Intuitivamente, non importa quanto piccolo sia l'intervallo che prendiamo attorno a questo punto; troveremo sempre punti dell'insieme al suo interno (escludendo il punto stesso). Questi punti sono cruciali per definire i limiti.",
+      "formula": "",
+      "esempio": "Considera l'insieme A = {1, 2, 3}. Il punto 2 è un punto di accumulazione perché ogni intorno di 2 contiene almeno uno dei punti 1, 2 o 3 (escludendo 2 stesso)."
+    },
+    {
+      "nome": "Limiti di una funzione",
+      "definizione": "Data una funzione f: R → R e un punto c ∈ R, si dice che il limite di f per x che tende a c è L se, per ogni ε > 0, esiste δ > 0 tale che, se 0 < |x - c| < δ, allora |f(x) - L| < ε.",
+      "spiegazione": "Il limite descrive il valore a cui una funzione si avvicina quando l'input 'x' si avvicina al punto 'c'.  Formalmente, per ogni grado di precisione desiderato (ε), possiamo trovare un intervallo attorno a 'c' (di ampiezza δ) tale che tutti i valori di x in quell'intervallo producano valori della funzione vicini a L. È importante notare che il limite non richiede che f(c) sia uguale a L.",
+      "formula": "lim_(x→c) f(x) = L",
+      "esempio": "Considera f(x) = x^2 e c = 2. Il limite di f(x) per x che tende a 2 è 4, perché possiamo rendere f(x) arbitrariamente vicino a 4 scegliendo x sufficientemente vicino a 2."
+    },
+    {
+      "nome": "Continuità di una funzione",
+      "definizione": "Una funzione f: R → R è continua in un punto c ∈ R se lim_(x→c) f(x) = f(c).",
+      "spiegazione": "Perché una funzione sia continua in un punto, tre condizioni devono essere soddisfatte: il limite deve esistere finito, f(c) deve essere definita e il limite deve essere uguale al valore della funzione nel punto. Graficamente, questo significa che il grafico della funzione non presenta salti o interruzioni in quel punto.",
+      "formula": "f(c) = lim_(x→c) f(x)",
+      "esempio": "La funzione f(x) = x^2 è continua in ogni punto perché il suo valore in quel punto coincide con il limite della funzione in quel punto."
+    }
+  ],
+  "punti_chiave": [
+    "I punti di accumulazione sono essenziali per definire i limiti e caratterizzano il comportamento dell'insieme attorno a un determinato punto.",
+    "Il limite descrive il valore che la funzione assume quando l'input si avvicina a un certo valore, senza necessariamente essere definito in quel punto.",
+    "La continuità di una funzione implica che essa varia in modo regolare, senza bruschi cambiamenti o interruzioni nel suo grafico."
+  ],
+  "errori_comuni": [
+    "Confondere il limite di una funzione con il valore della funzione nel punto considerato; il limite descrive il comportamento vicino al punto, non necessariamente nel punto stesso.",
+    "Affidarsi esclusivamente all'intuizione grafica per determinare i limiti, trascurando la definizione formale e rigorosa.",
+    "Dimenticare che, affinché una funzione sia continua in un punto, è necessario che il limite esista finito e sia uguale al valore della funzione nel punto."
+  ],
+  "connessioni": "I concetti di limiti e continuità costituiscono le fondamenta per lo studio delle derivate e degli integrali. Una solida comprensione di questi argomenti è cruciale per affrontare i capitoli successivi del corso di Analisi Matematica 1.",
+  "_meta": {
+    "id": "L7",
+    "titolo": "Limiti e continuità",
+    "pdf": "L7 10 ott 2025_ limiti e continuita'.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:51:08"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:57:23",
+    "model": "gemma3:12b"
+  }
+}

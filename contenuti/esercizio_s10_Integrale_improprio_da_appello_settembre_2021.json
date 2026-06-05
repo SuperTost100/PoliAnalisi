@@ -1,0 +1,51 @@
+{
+  "nome": "Integrale improprio da appello settembre 2021",
+  "difficolta": "medio",
+  "argomenti": [
+    "integrali impropri",
+    "criterio asintotico",
+    "gerarchia degli infinitesimi"
+  ],
+  "introduzione": "Questo esercizio riguarda la valutazione della convergenza di un integrale improprio utilizzando il criterio asintotico. Richiede la comprensione del concetto di integrale improprio, la conoscenza del criterio asintotico e una buona familiarità con la gerarchia degli infinitesimi.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Consideriamo l'integrale improprio ∫₀^∞ (x² + sin(x)) / x³ dx. Determina se converge o diverge applicando il criterio asintotico.",
+      "strategia": [
+        "Identificare l'integrale improprio e i suoi limiti di integrazione: in questo caso, 0 e ∞.",
+        "Analizzare il comportamento asintotico della funzione integranda f(x) = (x² + sin(x)) / x³ per x → ∞. Si può riscrivere la funzione come f(x) = x²/x³ + sin(x)/x³ = 1/x + sin(x)/x³.",
+        "Scegliere una funzione di confronto g(x). In questo caso, si può scegliere g(x) = 1/x perché domina il termine sin(x)/x³ per x → ∞.",
+        "Verificare la condizione necessaria per l'applicazione del criterio asintotico: calcolare \\lim_{x \\to \\infty} [f(x)/g(x)] = \\lim_{x \\to \\infty} [(1/x + sin(x)/x³) / (1/x)] = \\lim_{x \\to \\infty} [1 + sin(x)/x²].",
+        "Concludere sulla convergenza o divergenza dell'integrale in base alla convergenza o divergenza dell'integrale di g(x).  Se il limite calcolato nel punto precedente esiste ed è finito, si procede a valutare l'integrale di g(x) per determinare la convergenza/divergenza di f(x)."
+      ],
+      "soluzione": [
+        "La funzione integranda è f(x) = (x² + sin(x)) / x³.",
+        "Per x → ∞, f(x) ≈ 1/x. Quindi, scegliamo g(x) = 1/x come funzione di confronto.",
+        "Calcoliamo il limite: \\lim_{x \\to \\infty} [f(x)/g(x)] = \\lim_{x \\to \\infty} [(1/x + sin(x)/x³) / (1/x)] = \\lim_{x \\to \\infty} [1 + sin(x)/x²].",
+        "Poiché -1 ≤ sin(x) ≤ 1, allora -1/x² ≤ sin(x)/x² ≤ 1/x².  Quindi, \\lim_{x \\to \\infty} sin(x)/x² = 0. Pertanto, \\lim_{x \\to \\infty} [1 + sin(x)/x²] = 1.",
+        "Poiché il limite è finito e diverso da zero (cioè, 1), l'integrale converge se e solo se ∫₀^∞ 1/x dx converge.  Tuttavia, ∫₀^∞ 1/x dx diverge perché è un integrale di tipo logaritmico.",
+        "Conclusione: L'integrale improprio ∫₀^∞ (x² + sin(x)) / x³ dx diverge."
+      ],
+      "formule_usate": [
+        "f(x) = \\frac{x^2 + \\sin(x)}{x^3}",
+        "g(x) = \\frac{1}{x}",
+        "\\lim_{x\\to \\infty} \\frac{f(x)}{g(x)} = 1",
+        "\\int_0^{\\infty} \\frac{1}{x} dx"
+      ],
+      "nota": "La scelta della funzione di confronto g(x) è cruciale. In questo caso, l'analisi asintotica ha permesso di identificare 1/x come la funzione dominante per x → ∞."
+    }
+  ],
+  "riepilogo": "Questo esercizio aiuta a consolidare la comprensione dei criteri di convergenza degli integrali impropri, in particolare il criterio asintotico. È importante saper identificare il comportamento asintotico delle funzioni e applicare correttamente il criterio confrontando con funzioni più semplici.",
+  "_meta": {
+    "settimana": "10",
+    "nome": "Integrale improprio da appello settembre 2021",
+    "pdf": "Integrale improprio da appello settembre 2021.pdf",
+    "soluzione_pdf": "Funzione integrale_testo_e_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:19:51"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T19:52:56",
+    "model": "gemma3:12b"
+  }
+}

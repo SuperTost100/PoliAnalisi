@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PoliAnalisi - Analisi Matematica 1 | PoliTost</title>
+  <meta name="description" content="Studia Analisi Matematica 1 in modo intelligente: spiegazioni AI, esercizi interattivi, grafici, quiz e molto altro. Progetto open source di PoliTost.">
+  <meta name="keywords" content="analisi matematica, polito, studio, derivate, integrali, limiti, politecnico di torino, matematica, esercizi, grafici, quiz">
+  <meta name="author" content="SuperTost100 - PoliTost">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0d0e17">
+  
+  <link rel="canonical" href="https://politost.it/analisi">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PoliAnalisi - Analisi Matematica 1 | PoliTost">
+  <meta property="og:description" content="Piattaforma open source per studiare Analisi 1 con spiegazioni AI, quiz interattivi e grafici avanzati.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://politost.it/analisi">
+  <meta property="og:image" content="https://politost.it/analisi/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PoliAnalisi - Analisi Matematica 1">
+  <meta name="twitter:description" content="Piattaforma open source per studiare Analisi 1 con spiegazioni AI, quiz interattivi e grafici.">
+  <meta name="twitter:image" content="https://politost.it/analisi/og-image.png">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "PoliAnalisi",
+    "url": "https://politost.it/analisi",
+    "description": "Studia Analisi Matematica 1 in modo intelligente: spiegazioni AI, esercizi interattivi, grafici e quiz.",
+    "applicationCategory": "EducationalApplication",
+    "author": {
+      "@type": "Person",
+      "name": "SuperTost100"
+    },
+    "inLanguage": "it"
+  }
+  </script>
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+          onload="window._katexLoaded=true; if(window._renderMathPending) renderMathAll()"></script>
+
+  <!-- Plotly.js (grafici interattivi, no API key, dark mode) -->
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js" charset="utf-8"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Toast -->
+<div class="toast" id="toast"><span id="toastMsg"></span></div>
+
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay" onclick="handleSearchOverlayClick(event)">
+  <div class="search-box">
+    <div class="sb-in">
+      <span style="font-size:1rem;color:var(--t3)">🔍</span>
+      <input type="text" id="searchInput" placeholder="Cerca lezioni, esercizi, argomenti…" autocomplete="off">
+      <span style="font-size:0.68rem;color:var(--t3);padding:2px 6px;background:var(--bg-card-h);border-radius:4px;border:1px solid var(--border)">ESC</span>
+    </div>
+    <div class="sb-results" id="searchResults">
+      <div class="sr-empty">Inizia a digitare per cercare…</div>
+    </div>
+  </div>
+</div>
+
+<!-- Content Viewer Modal -->
+<div class="viewer-modal" id="viewerModal">
+  <div class="viewer-overlay" onclick="closeViewer()"></div>
+  <div class="viewer-box">
+    <div class="viewer-toolbar">
+      <span class="viewer-title" id="viewerTitle">-</span>
+      <div class="viewer-tabs" id="viewerTabs"></div>
+      <button class="btn-i" id="btnExternalPDF" onclick="openExternalPDF()" title="Apri PDF originale">📄</button>
+      <button class="btn-close" onclick="closeViewer()">✕</button>
+    </div>
+    <div class="viewer-content" id="viewerContent">
+      <div class="pdf-loading"><div class="spinner"></div><span>Caricamento…</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- APP -->
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sb-logo">
+      <div class="logo-gem">∫</div>
+      <div class="logo-words">
+        <span class="logo-t">PoliAnalisi</span>
+        <span class="logo-s">Analisi Matematica 1</span>
+      </div>
+    </div>
+
+    <nav class="sb-nav">
+      <span class="nav-section">Principale</span>
+      <div class="nav-item active" data-view="home" onclick="nav('home',this)">
+        <span class="ni-icon">🏠</span><span>Home</span>
+      </div>
+      <div class="nav-item" data-view="lezioni" onclick="nav('lezioni',this)">
+        <span class="ni-icon">📚</span><span>Lezioni</span>
+        <span class="ni-badge">28</span>
+      </div>
+      <div class="nav-item" data-view="esercizi" onclick="nav('esercizi',this)">
+        <span class="ni-icon">📝</span><span>Esercizi</span>
+      </div>
+
+      <span class="nav-section">Studio</span>
+      <div class="nav-item" data-view="teoria" onclick="nav('teoria',this)">
+        <span class="ni-icon">🧮</span><span>Teoria &amp; Formule</span>
+      </div>
+      <div class="nav-item" data-view="quiz" onclick="nav('quiz',this)">
+        <span class="ni-icon">🎯</span><span>Quiz</span>
+      </div>
+      <div class="nav-item" data-view="grafici" onclick="nav('grafici',this)">
+        <span class="ni-icon">📊</span><span>Grafici Interattivi</span>
+      </div>
+    </nav>
+
+    <div class="sb-foot">
+      <div class="prog-row"><span>Progresso quiz</span><span id="progPct">0%</span></div>
+      <div class="prog-wrap"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
+      <div class="sb-links">
+        <a href="https://github.com/SuperTost100/PoliAnalisi" target="_blank" rel="noopener" class="sb-link">GitHub</a>
+        <span class="sb-sep">·</span>
+        <a href="https://politost.it" target="_blank" rel="noopener" class="sb-link">PoliTost</a>
+        <span class="sb-sep">·</span>
+        <a href="https://github.com/SuperTost100/PoliAnalisi/blob/main/LICENSE" target="_blank" rel="noopener" class="sb-link">Apache 2.0</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- TOPBAR -->
+    <header class="topbar">
+      <span class="tb-title" id="tbTitle">Home</span>
+      <div class="search-pill" onclick="openSearch()">
+        <span>🔍</span><span>Cerca…</span>
+        <span style="font-size:0.7rem;padding:1px 6px;background:var(--bg-card-h);border-radius:4px;border:1px solid var(--border)">⌘K</span>
+      </div>
+      <div class="tb-actions">
+        <button class="btn-i" onclick="showStats()" title="Statistiche">📊</button>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="view active" id="view-home">
+      <div class="hero">
+        <div class="hero-deco">∫ ∞ ∂ Σ</div>
+        <p class="hero-eye">📐 Analisi Matematica 1 - Progetto open source</p>
+        <h1 class="hero-h1">Studia in modo<br>intelligente.</h1>
+        <p class="hero-sub">Lezioni con spiegazioni AI, esercizi guidati, grafici interattivi e quiz - tutto gratis, open source, per tutti.</p>
+        <div class="hero-acts">
+          <button class="btn btn-primary" onclick="nav('lezioni',document.querySelector('[data-view=lezioni]'))">📚 Vai alle Lezioni</button>
+          <button class="btn btn-secondary" onclick="nav('quiz',document.querySelector('[data-view=quiz]'))">🎯 Fai il Quiz</button>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><div class="stat-ico ico-v">📚</div><div><div class="stat-val">28</div><div class="stat-lbl">Lezioni disponibili</div></div></div>
+        <div class="stat"><div class="stat-ico ico-c">📝</div><div><div class="stat-val" id="statEs">37+</div><div class="stat-lbl">Esercizi &amp; prove</div></div></div>
+        <div class="stat"><div class="stat-ico ico-pk">🎯</div><div><div class="stat-val" id="statQuiz">0</div><div class="stat-lbl">Quiz completati</div></div></div>
+        <div class="stat"><div class="stat-ico ico-am">⭐</div><div><div class="stat-val" id="statScore">0</div><div class="stat-lbl">Risposte corrette</div></div></div>
+      </div>
+
+      <div class="sec-head" style="margin-top:8px">
+        <h2 class="sec-title">Accesso Rapido per Argomento</h2>
+        <span class="sec-link" onclick="nav('lezioni',document.querySelector('[data-view=lezioni]'))">Tutte le lezioni →</span>
+      </div>
+      <div class="quick-grid" id="quickGrid"></div>
+
+      <div class="dash2">
+        <div class="card">
+          <div class="card-title" style="font-size:0.75rem;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:12px">📂 Argomenti del corso</div>
+          <div id="argList"></div>
+        </div>
+        <div class="card" itemscope itemtype="https://schema.org/SoftwareSourceCode">
+          <h2 class="card-title" style="font-size:0.75rem;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:10px">ℹ️ Informazioni sul Progetto</h2>
+          <div class="info-box">
+            <meta itemprop="name" content="PoliAnalisi">
+            <meta itemprop="programmingLanguage" content="JavaScript, HTML, CSS">
+            <meta itemprop="license" content="https://opensource.org/licenses/Apache-2.0">
+            <p itemprop="description">Piattaforma gratuita e open source per lo studio dell'<strong>Analisi Matematica 1</strong>. Sviluppata da <a href="https://github.com/SuperTost100" target="_blank" rel="author noopener" class="info-link" itemprop="author">SuperTost100</a> come parte del progetto didattico <a href="https://politost.it" target="_blank" rel="noopener" class="info-link">PoliTost</a>.</p>
+            <p style="margin-top:8px">Rilasciata sotto licenza <a href="https://github.com/SuperTost100/PoliAnalisi/blob/main/LICENSE" target="_blank" rel="noopener" class="info-link"><strong>Apache 2.0</strong></a>. Codice e materiali liberamente accessibili su <a href="https://github.com/SuperTost100/PoliAnalisi" target="_blank" rel="noopener" class="info-link">GitHub</a>.</p>
+            <p style="margin-top:8px;font-size:0.74rem;color:var(--t3)">Scopri l'ecosistema su <strong>politost.it</strong> - prova anche <a href="https://politost.it/chimiquiz" target="_blank" rel="noopener" class="info-link">ChimiQuiz</a>.</p>
+            <div id="aiStatusBadge" style="margin-top:12px"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEZIONI -->
+    <section class="view" id="view-lezioni">
+      <div class="sec-head" style="margin-bottom:12px">
+        <h2 class="sec-title">📚 Lezioni</h2>
+      </div>
+      <div class="filter-bar" id="lezFilter"></div>
+      <div class="lezioni-grid" id="lezGrid"></div>
+    </section>
+
+    <!-- ESERCIZI -->
+    <section class="view" id="view-esercizi">
+      <h2 class="sec-title" style="margin-bottom:6px">📝 Esercizi</h2>
+      <p style="color:var(--t3);font-size:0.83rem;margin-bottom:18px">Itinere, appelli e mini-esercitazioni - con soluzione guidata dall'AI. <span style="color:var(--v-l)">Clicca per aprire la guida.</span></p>
+      <div class="sett-grid" id="settGrid"></div>
+    </section>
+
+    <!-- TEORIA -->
+    <section class="view" id="view-teoria">
+      <h2 class="sec-title" style="margin-bottom:5px">🧮 Teoria &amp; Formule Chiave</h2>
+      <p style="color:var(--t3);font-size:0.83rem;margin-bottom:18px">Formule fondamentali con rendering LaTeX preciso. Teoremi con dimostrazione.</p>
+
+      <div class="view-tabs">
+        <div class="vtab active" onclick="switchTab('formule',this)">📐 Formule</div>
+        <div class="vtab" onclick="switchTab('teoremi',this)">📜 Teoremi</div>
+        <div class="vtab" onclick="switchTab('mclaurin',this)">〜 McLaurin</div>
+      </div>
+
+      <div id="tab-formule"><div class="formule-grid" id="formGrid"></div></div>
+      <div id="tab-teoremi" class="hidden"><div id="teorList"></div></div>
+      <div id="tab-mclaurin" class="hidden"><div class="mclaurin-grid" id="mclGrid"></div></div>
+    </section>
+
+    <!-- QUIZ -->
+    <section class="view" id="view-quiz">
+      <h2 class="sec-title" style="margin-bottom:5px">🎯 Quiz di Autovalutazione</h2>
+      <p style="color:var(--t3);font-size:0.83rem;margin-bottom:18px">Testa le tue conoscenze con feedback immediato e spiegazioni dettagliate.</p>
+
+      <div class="quiz-hbar">
+        <div class="qprog">
+          <div class="qprog-lbl"><span>Progresso</span><span id="qProgLbl">0 / <span id="qTot">-</span></span></div>
+          <div class="prog-bar" style="height:5px"><div class="fill" id="qProgBar" style="width:0%"></div></div>
+        </div>
+        <div class="q-score">✓ <span id="qScore">0</span> corrette</div>
+        <button class="btn btn-ghost" onclick="shuffleAndReset()" style="font-size:0.78rem;padding:6px 12px">🔀 Mescola</button>
+        <button class="btn btn-ghost" onclick="resetQuiz()" style="font-size:0.78rem;padding:6px 12px">↺ Reset</button>
+      </div>
+
+      <div id="quizContainer"></div>
+    </section>
+
+    <!-- GRAFICI -->
+    <section class="view" id="view-grafici">
+      <div style="display:flex;flex-direction:column;height:100%">
+        <div style="flex-shrink:0">
+          <h2 class="sec-title" style="margin-bottom:5px">📊 Grafici Interattivi</h2>
+          <p style="color:var(--t3);font-size:0.83rem;margin-bottom:14px">Esplora funzioni, derivate e tangenti. <strong style="color:var(--v-l)">Zoom</strong> con la rotella, <strong style="color:var(--v-l)">trascina</strong> per spostare.</p>
+
+          <div class="graph-ctrls-row">
+          <label class="graph-lbl">Funzione:
+            <select class="graph-sel" id="graphFn" onchange="plotGraph()">
+              <option value="sin">f(x) = sin(x)</option>
+              <option value="cos">f(x) = cos(x)</option>
+              <option value="tan">f(x) = tan(x)</option>
+              <option value="exp">f(x) = eˣ</option>
+              <option value="ln">f(x) = ln(x)</option>
+              <option value="x2">f(x) = x²</option>
+              <option value="x3">f(x) = x³</option>
+              <option value="sinx_x">f(x) = sin(x)/x</option>
+              <option value="abs">f(x) = |x|</option>
+              <option value="sqrt">f(x) = √x</option>
+              <option value="1_x">f(x) = 1/x</option>
+              <option value="sigmoid">f(x) = σ(x)</option>
+              <option value="x2_minus1">f(x) = x²−1</option>
+              <option value="x3_minus_x">f(x) = x³−x</option>
+            </select>
+          </label>
+          <label class="graph-lbl">
+            <input type="checkbox" id="showDerivative" onchange="plotGraph()">
+            <span style="margin-left:4px">Mostra f'(x)</span>
+          </label>
+          <label class="graph-lbl">
+            <input type="checkbox" id="showTangent" onchange="plotGraph()">
+            <span style="margin-left:4px">Tangente in x₀</span>
+          </label>
+          <label class="graph-lbl" id="x0Label" style="display:none">
+            x₀ = <strong id="x0Val" style="color:var(--am)">0.0</strong>
+            <input type="range" class="graph-range" id="x0Slider" min="-50" max="50" value="0" oninput="updateX0()" style="width:100px">
+          </label>
+          <button class="btn btn-ghost" onclick="plotGraph()" style="font-size:0.78rem;padding:5px 12px">↻ Aggiorna</button>
+        </div>
+      </div>
+      <div id="plotlyGraph" style="flex-grow:1;min-height:520px;border-radius:var(--r-md);overflow:hidden;margin-top:10px"></div>
+      <div id="graphInfo" style="margin-top:8px;font-size:0.8rem;color:var(--t3);padding:6px 12px;background:var(--bg-card);border-radius:var(--r-sm);border:1px solid var(--border)"></div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+
+<script>
+// KaTeX render
+window._renderMathPending = false;
+function renderMathAll() {
+  if (!window._katexLoaded) { window._renderMathPending = true; return; }
+  if (typeof renderMathInElement === 'function') {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '\\(', right: '\\)', display: false},
+        {left: '\\[', right: '\\]', display: true},
+      ],
+      throwOnError: false
+    });
+  }
+}
+function renderMathIn(el) {
+  if (!window._katexLoaded || !el) return;
+  if (typeof renderMathInElement === 'function') {
+    renderMathInElement(el, {
+      delimiters: [
+        {left: '\\(', right: '\\)', display: false},
+        {left: '\\[', right: '\\]', display: true},
+      ],
+      throwOnError: false
+    });
+  }
+}
+document.addEventListener('DOMContentLoaded', () => setTimeout(renderMathAll, 200));
+</script>
+
+</body>
+</html>

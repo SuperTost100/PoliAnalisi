@@ -1,0 +1,68 @@
+{
+  "titolo": "Sup, inf, max, min, funzioni",
+  "introduzione": "In questa lezione approfondiremo i concetti di estremo superiore (sup), estremo inferiore (inf), massimo (max) e minimo (min) per insiemi reali. Questi concetti sono fondamentali per comprendere il comportamento delle successioni e delle funzioni, elementi chiave dell'Analisi Matematica 1.",
+  "concetti": [
+    {
+      "nome": "Insieme Limitato Superiormente",
+      "definizione": "Un insieme A di numeri reali è limitato superiormente se esiste un numero reale M tale che per ogni a ∈ A, a ≤ M.",
+      "spiegazione": "Significa che l'insieme non 'esce mai' al di sopra di un certo valore. Immagina una corsa: se c'è un limite alla velocità massima raggiungibile, la corsa è limitata superiormente. Questo limite superiore potrebbe essere effettivamente raggiunto da alcuni corridori o no.",
+      "formula": "∃ M ∈ ℝ : ∀ a ∈ A, a ≤ M",
+      "esempio": "L'insieme A = {1, 2, 3} è limitato superiormente perché 3 è un suo limite superiore. Anche 4 è un limite superiore di A."
+    },
+    {
+      "nome": "Estremo Superiore (sup)",
+      "definizione": "Se un insieme A è limitato superiormente, il più piccolo dei suoi limiti superiori è detto estremo superiore di A e si indica con sup(A).",
+      "spiegazione": "L'estremo superiore è il 'limite superiore più stretto'. È il più piccolo numero che è maggiore o uguale a tutti gli elementi dell'insieme. Non necessariamente appartiene all'insieme stesso, ma se lo fa, allora è anche il suo massimo.",
+      "formula": "sup(A) = {M ∈ ℝ : M \\text{ è un limite superiore di } A} ∩ ℝ",
+      "esempio": "Per l'insieme A = {1, 2, 3}, sup(A) = 3.  Per l'insieme A = (0, 1], sup(A) = 1."
+    },
+    {
+      "nome": "Massimo (max)",
+      "definizione": "Il massimo di un insieme A è un elemento a ∈ A tale che per ogni b ∈ A, a ≤ b.",
+      "spiegazione": "Il massimo è l'elemento più grande dell'insieme. Se esiste, allora l'estremo superiore coincide con il massimo (sup(A) = max(A)).",
+      "formula": "max(A) = {a ∈ A : ∀ b ∈ A, a ≤ b}",
+      "esempio": "Per l'insieme A = {1, 2, 3}, max(A) = 3. L'insieme (0, 1] non ha un massimo."
+    },
+    {
+      "nome": "Insieme Limitato Inferiormente",
+      "definizione": "Un insieme A di numeri reali è limitato inferiormente se esiste un numero reale m tale che per ogni a ∈ A, a ≥ m.",
+      "spiegazione": "Analogamente al limite superiore, questo significa che l'insieme non scende mai sotto un certo valore.  Immagina una corsa: se c'è un limite alla velocità minima raggiungibile, la corsa è limitata inferiormente.",
+      "formula": "∃ m ∈ ℝ : ∀ a ∈ A, a ≥ m",
+      "esempio": "L'insieme A = {1, 2, 3} è limitato inferiormente perché 1 è un suo limite inferiore. Anche 0 è un limite inferiore di A."
+    },
+    {
+      "nome": "Estremo Inferiore (inf)",
+      "definizione": "Se un insieme A è limitato inferiormente, il più grande dei suoi limiti inferiori è detto estremo inferiore di A e si indica con inf(A).",
+      "spiegazione": "L'estremo inferiore è il 'limite inferiore più stretto'. È il più grande numero che è minore o uguale a tutti gli elementi dell'insieme. Non necessariamente appartiene all'insieme stesso, ma se lo fa, allora è anche il suo minimo.",
+      "formula": "inf(A) = {m ∈ ℝ : m \\text{ è un limite inferiore di } A} ∩ ℝ",
+      "esempio": "Per l'insieme A = {1, 2, 3}, inf(A) = 1. Per l'insieme A = [0, 1), inf(A) = 0."
+    },
+    {
+      "nome": "Minimo (min)",
+      "definizione": "Il minimo di un insieme A è un elemento a ∈ A tale che per ogni b ∈ A, a ≥ b.",
+      "spiegazione": "Il minimo è l'elemento più piccolo dell'insieme. Se esiste, allora l'estremo inferiore coincide con il minimo (inf(A) = min(A)).",
+      "formula": "min(A) = {a ∈ A : ∀ b ∈ A, a ≥ b}",
+      "esempio": "Per l'insieme A = {1, 2, 3}, min(A) = 1. L'insieme (0, 1) non ha un minimo."
+    }
+  ],
+  "punti_chiave": [
+    "Un insieme può essere limitato superiormente senza avere un estremo superiore.",
+    "L'estremo superiore è il più piccolo dei limiti superiori, mentre il massimo è l'elemento più grande dell'insieme.",
+    "Analogamente, un insieme può essere limitato inferiormente senza avere un estremo inferiore.",
+    "L'estremo inferiore è il più grande dei limiti inferiori, mentre il minimo è l'elemento più piccolo dell'insieme."
+  ],
+  "errori_comuni": [
+    "Confondere limite superiore con estremo superiore e massimo.",
+    "Confondere limite inferiore con estremo inferiore e minimo.",
+    "Non riconoscere quando un insieme non ha massimo o minimo, ma ha estremo superiore o inferiore.",
+    "Applicare i concetti in modo errato a insiemi illimitati."
+  ],
+  "connessioni": "Questi concetti sono cruciali per definire la convergenza di successioni e il comportamento delle funzioni. In particolare, l'estremo superiore e l'estremo inferiore sono fondamentali per la definizione del teorema di Bolzano-Weierstrass e per lo studio della continuità.",
+  "_meta": {
+    "id": "L3",
+    "titolo": "Sup, inf, max, min, funzioni",
+    "pdf": "L3 26 set 2025_ sup, inf, max, min, funzioni.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:47:28"
+  }
+}

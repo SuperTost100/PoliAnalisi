@@ -1,0 +1,32 @@
+{
+  "nome": "Dimostrazione del Supremium",
+  "introduzione": "Questo esercizio riguarda la verifica del supremo di un insieme definito in termini di successioni. Richiede una solida comprensione della definizione di supremo e la capacità di applicarla per dimostrare che un dato valore è il supremum dell'insieme. È fondamentale conoscere il concetto di limite all'infinito.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Si consideri l’insieme A = { n/(n+1) : n ∈ N}. Usando la definizione di supremo, verificare che sup(A) = 1.",
+      "strategia": "Per dimostrare che sup(A) = 1, è necessario:\n\n1. Dimostrare che 1 è un limite superiore per A: ovvero, per ogni a ∈ A, si ha a ≤ 1.\n2. Dimostrare che non esiste alcun numero minore di 1 che sia anche un limite superiore per A.",
+      "soluzione": "Dimostrazione:\n\n**Parte 1: Verifica che 1 è un limite superiore di A.**\n\nSia a ∈ A, quindi a = n/(n+1) per qualche n ∈ N. Dobbiamo dimostrare che a ≤ 1.\n\nPoiché n ≥ 1 (per definizione di numeri naturali), si ha n + 1 > n.  Quindi, n/(n+1) < 1. Inoltre, poiché n/(n+1) è sempre positivo, si ha 0 ≤ n/(n+1) < 1.\n\nPertanto, ogni elemento di A è minore o uguale a 1. Quindi, 1 è un limite superiore per A.\n\n**Parte 2: Verifica che non esiste alcun numero minore di 1 che sia un limite superiore per A.**\n\nSupponiamo, per assurdo, che esista un numero 'l' tale che l < 1 e 'l' sia un limite superiore per A. Ciò implicherebbe che per ogni a ∈ A, si ha a ≤ l.\n\nSappiamo che lim_(n→∞) n/(n+1) = 1. Quindi, esiste un N ∈ N tale che per ogni n > N, si ha n/(n+1) > 1 - ε per qualsiasi ε > 0.\n\nSe 'l' fosse un limite superiore di A, allora avremmo n/(n+1) ≤ l per ogni n. Ma questo contraddice il fatto che possiamo trovare un N tale che per n>N, n/(n+1) > 1 - ε e quindi maggiore di qualsiasi numero minore di 1 (come 'l').\n\nQuindi, la nostra assunzione che esista un limite superiore minore di 1 è falsa. Pertanto, 1 deve essere il più piccolo limite superiore possibile, ovvero il supremum.\n",
+      "formule_usate": [
+        "\\lim_{n \\to \\infty} \\frac{n}{n+1} = 1",
+        "a = \\frac{n}{n+1}",
+        "n > N",
+        "\\frac{n}{n+1} > 1 - \\epsilon"
+      ],
+      "nota": "Ricorda che la definizione di supremo richiede di dimostrare sia che il valore candidato è un limite superiore, sia che non esistono limiti superiori più piccoli."
+    }
+  ],
+  "riepilogo": "Questo esercizio consolida la comprensione della definizione di supremum e fornisce pratica nell'applicazione di questa definizione per verificare se un dato valore è il supremo di un insieme. Inoltre, rafforza la capacità di ragionamento per assurdo e l'utilizzo dei limiti all'infinito.",
+  "_meta": {
+    "settimana": "3",
+    "nome": "dimostrazione di sup",
+    "pdf": "dimostrazione di sup.pdf",
+    "soluzione_pdf": "dimostrazione di sup_risposta.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:27:08"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:07:37",
+    "model": "gemma3:12b"
+  }
+}
