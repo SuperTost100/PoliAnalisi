@@ -1,0 +1,45 @@
+{
+  "titolo": "Parte Principale di una Funzione",
+  "introduzione": "Quando studiamo il comportamento di una funzione vicino a un punto particolare (spesso infinito), spesso ci interessano solo i termini dominanti che ne determinano l'andamento. La parte principale è proprio questo termine dominante, che ci permette di semplificare l'analisi e comprendere meglio le caratteristiche della funzione.",
+  "concetti": [
+    {
+      "nome": "Infinitesimo",
+      "definizione": "Un infinitesimo rispetto a un altro (y) è una funzione f(x) tale che lim_(x→x₀) f(x)/y = 0, dove x₀ è il punto in cui si valuta il limite.",
+      "spiegazione": "In termini più semplici, un infinitesimo 'f' rispetto a 'y' diventa trascurabile quando 'y' tende a zero.  Immagina di avere due quantità: una molto piccola (l'infinitesimo) e un'altra che diventa anch'essa molto piccola. L'infinitesimo è così piccolo rispetto all'altra, che la loro divisione tende a zero. Questo significa che l'infinitesimo non influenza significativamente il comportamento della funzione quando ci concentriamo su 'y'.",
+      "formula": "lim_(x→x₀) f(x)/y = 0",
+      "esempio": "Sia f(x) = x² e y = x. Allora f(x) è un infinitesimo rispetto a y, perché lim_(x→0) x²/x = lim_(x→0) x = 0."
+    },
+    {
+      "nome": "Parte Principale",
+      "definizione": "La parte principale di una funzione f(x) rispetto a un infinitesimo y(x), denotata come p.p.(f(x);y(x)), è l'espressione che rimane quando si divide f(x) per y(x) e si toglie la parte infinitesima.",
+      "spiegazione": "La parte principale ci fornisce il termine più importante nel comportamento di f(x) quando y(x) tende a zero.  È come estrarre l'essenza del comportamento della funzione, eliminando le piccole variazioni che non influenzano significativamente il risultato finale. Per trovarla, si divide f(x) per y(x), si identificano i termini infinitesimi e li si sottrae.",
+      "formula": "p.p.(f(x);y(x)) = lim_(x→x₀) (f(x)/y(x)) - [termine infinitesimo]",
+      "esempio": "Se f(x) = x² + 3x e y(x) = x, allora f(x)/y(x) = x + 3. La parte principale è p.p.(f(x);x) = x (perché 3 è un infinitesimo rispetto a x)."
+    },
+    {
+      "nome": "Asintoto",
+      "definizione": "Un asintoto di una funzione f(x) è una retta y = mx + q tale che \\lim_{x \\to \\infty} [f(x) - (mx + q)] = 0.",
+      "spiegazione": "Gli asintoti descrivono il comportamento di una funzione quando x tende all'infinito. Un asintoto orizzontale si ha quando la funzione si avvicina a un valore costante, mentre un asintoto obliquo rappresenta una retta che 'guida' la funzione per valori molto grandi di x. La parte principale gioca un ruolo cruciale nella determinazione degli asintoti.",
+      "formula": "\\lim_{x \\to \\infty} [f(x) - (mx + q)] = 0",
+      "esempio": "Se f(x) = x² + 2x, allora l'asintoto obliquo è y=x. Infatti, \\lim_{x \\to \\infty} [(x²+2x)-x] = \\lim_{x \\to \\infty} [x²+x]= ∞ (quindi non c’è asintoto obliquo)."
+    }
+  ],
+  "punti_chiave": [
+    "Un infinitesimo rispetto a un'altra quantità diventa trascurabile quando quest'ultima tende a zero.",
+    "La parte principale fornisce il termine dominante nel comportamento di una funzione vicino a un punto.",
+    "Gli asintoti sono retti che descrivono il comportamento di una funzione per valori molto grandi o piccoli."
+  ],
+  "errori_comuni": [
+    "Confondere un infinitesimo con una quantità non trascurabile.",
+    "Non identificare correttamente i termini infinitesimi durante la determinazione della parte principale.",
+    "Trascurare l'importanza del limite nel definire gli asintoti."
+  ],
+  "connessioni": "L'analisi delle parti principali è fondamentale per lo studio degli asintoti, dei limiti all'infinito e per la semplificazione di espressioni complesse. Questo argomento si collega direttamente allo studio delle funzioni continue e derivabili, poiché permette di analizzare il loro comportamento in prossimità di punti critici o all'infinito.",
+  "_meta": {
+    "id": "L16",
+    "titolo": "Parte principale",
+    "pdf": "L16 12 nov 2025_ parte principale.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T22:23:21"
+  }
+}

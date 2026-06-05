@@ -1,0 +1,76 @@
+{
+  "nome": "Itinere1 2022-23",
+  "difficolta": "medio",
+  "argomenti": [
+    "Disequazioni esponenziali",
+    "Confronto di numeri reali",
+    "Insiemi e intervalli",
+    "Limiti Superiori/Inferiori",
+    "Massimo/Minimo"
+  ],
+  "introduzione": "Questa prova in itinere copre argomenti fondamentali di Analisi Matematica 1, tra cui la risoluzione di disequazioni esponenziali, il confronto di numeri reali (con particolare attenzione a valori assoluti e potenze), la rappresentazione di insiemi tramite intervalli, e lo studio degli estremi superiori/inferiori, massimi e minimi di un insieme. Richiede una buona comprensione delle definizioni e la capacità di applicarle in contesti specifici.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Risolvere la disequazione ex + 12e→x →8 (per la versione A), ex + 27e→x →12 (per la versione B), ex + 4e→x →5 (per la versione C) o ex + 16e→x →10 (per la versione D).",
+      "strategia": "Riscrivere la disequazione in forma standard.  Considerare che e^x è sempre positivo, quindi si può moltiplicare per un fattore opportuno senza cambiare il segno della disequazione. Sfruttare le proprietà degli esponenti per semplificare l'espressione.",
+      "soluzione": "La disequazione generale è ex + 12e^{-x} > 8 (o 12, o 5, o 10 a seconda della versione). Ponendo y = e^x, la disequazione diventa: y + 12/y > 8. Moltiplicando per y (che è positivo), si ottiene y^2 - 8y + 12 > 0. Risolvendo questa disequazione di secondo grado, si trovano le radici y = 2 e y = 6.  Quindi, y < 2 oppure y > 6. Ritornando alla variabile x, otteniamo e^x < 2 oppure e^x > 6. Prendendo il logaritmo naturale in entrambi i casi, si ottiene x < ln(2) oppure x > ln(6).",
+      "formule_usate": [
+        "e^x > 0",
+        "ln(a*b) = ln(a) + ln(b)",
+        "y^2 - 8y + 12 = 0"
+      ],
+      "nota": "Ricordare di verificare il segno del fattore per cui si moltiplica la disequazione."
+    },
+    {
+      "numero": 2,
+      "testo": "Sia ↑1 < ω < 0. Collocare in ordine crescente (versione A) o decrescente (versioni B, C e D) i numeri ω, ↑ω, 1/ω, 2|ω|, ω^2, 1/(2ω).",
+      "strategia": "Analizzare le proprietà dei numeri coinvolti. Dato che ω è negativo, |ω| = -ω.  Calcolare i valori di tutti i termini e confrontarli direttamente.",
+      "soluzione": "Poiché ω < 0, allora ↑ω > 0. Inoltre, 1/ω < 0 e 2|ω| = -2ω > 0. ω^2 > 0.  1/(2ω) < 0. In ordine crescente (versione A): ↑ω < ω < 1/ω < 1/(2ω) < ω^2 < 2|ω|.  In ordine decrescente (versioni B, C e D): 2|ω| > ω^2 > ↑ω > 1/ω > 1/(2ω) > ω.",
+      "formule_usate": [
+        "|x| = x se x >= 0",
+        "|x| = -x se x < 0"
+      ],
+      "nota": "Considerare attentamente il segno di ω per determinare i segni degli altri termini."
+    },
+    {
+      "numero": 3,
+      "testo": "Scrivere, usando gli intervalli, l’insieme A = {!|x + 1| : x^2 + x ↑2 < 0} (versione A), A = {!|x + 2| : x^2 + x ↑6 < 0} (versione B), A = {!|x ↑1| : x^2 ↑3x ↑10 < 0} (versione C) o A = {!|x ↑2| : x^2 ↑6x + 5 < 0} (versione D).",
+      "strategia": "Risolvere la disequazione che definisce l'insieme.  Esprimere la soluzione come unione di intervalli.",
+      "soluzione": "La soluzione dipende dalla disequazione specifica. Risolvere x^2 + x ↑2 < 0 (o simile) per trovare gli intervalli in cui |x+1| (o simile) è definito. Ad esempio, se fosse x^2 + x - 2 < 0, le radici sarebbero x = -2 e x = 1, quindi l'insieme sarebbe (-2, 1).",
+      "formule_usate": [
+        "Disequazione di secondo grado"
+      ],
+      "nota": "Fare attenzione ai segni quando si risolve la disequazione."
+    },
+    {
+      "numero": 4,
+      "testo": "Scrivere se esistono e indicare i valori di estremo superiore, estremo inferiore, massimo e minimo dell’insieme A = #{1/n + (↑1)^n : n ↓N \\ {0}} (versione A), A = #{↑1/n + (↑1)^n : n ↓N \\ {0}} (versione B), A = #{1/n ↑(↑1)^n : n ↓N \\ {0}} (versione C) o A = #{↑1/n ↑(↑1)^n : n ↓N \\ {0}} (versione D).",
+      "strategia": "Analizzare il comportamento della funzione f(n) = 1/n + (↑1)^n al tendere di n all'infinito. Calcolare alcuni valori iniziali per avere un'idea del comportamento dell'insieme.",
+      "soluzione": "Poiché n tende a infinito, 1/n tende a zero e (↑1)^n tende a zero. Quindi, l'insieme A è limitato inferiormente da 0 e superiormente da 1.  L'estremo inferiore è 0 e l'estremo superiore è 1. Non ci sono massimo o minimo perché i valori non sono mai effettivamente raggiunti.",
+      "formule_usate": [
+        "lim (1/n) = 0 quando n -> ∞"
+      ],
+      "nota": "Considerare il comportamento asintotico della funzione."
+    },
+    {
+      "numero": 5,
+      "testo": "Dare la definizione di estremo superiore di un sottoinsieme A ↔R (versione A), massimo di un sottoinsieme A ↔R (versione B), estremo inferiore di un sottoinsieme A ↔R (versione C) o minimo di un sottoinsieme A ↔R (versione D).",
+      "strategia": "Ricordare le definizioni formali.",
+      "soluzione": "L'estremo superiore (o limite superiore) di un insieme A è un numero 'b' tale che ogni elemento di A sia minore o uguale a 'b', e qualsiasi numero minore di 'b' non sia un estremo superiore di A. Il massimo di un insieme A è un elemento appartenente ad A che è anche l'estremo superiore di A.  L'estremo inferiore (o limite inferiore) di un insieme A è un numero 'a' tale che ogni elemento di A sia maggiore o uguale a 'a', e qualsiasi numero maggiore di 'a' non sia un estremo inferiore di A. Il minimo di un insieme A è un elemento appartenente ad A che è anche l'estremo inferiore di A.",
+      "formule_usate": [
+        "Definizioni formali di estremo superiore, massimo, estremo inferiore e minimo"
+      ],
+      "nota": "Distinguere tra estremo superiore/inferiore (che possono non essere elementi dell'insieme) e massimo/minimo (che devono essere elementi dell'insieme)."
+    }
+  ],
+  "riepilogo": "Questa prova in itinere ha permesso di consolidare la comprensione delle disequazioni esponenziali, del confronto tra numeri reali, della rappresentazione degli insiemi tramite intervalli e dello studio degli estremi superiori/inferiori e dei massimi/minimi. La capacità di applicare queste conoscenze a problemi specifici è fondamentale per affrontare le prove successive.",
+  "_meta": {
+    "settimana": "1",
+    "nome": "Itinere1 2022-23",
+    "pdf": "Itinere1 2022-23.pdf",
+    "soluzione_pdf": "Itinere1-2023-24_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:17:04"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "nome": "Itinere1-2024-25",
+  "difficolta": "base|medio",
+  "argomenti": [
+    "Insiemi",
+    "Funzioni Logaritmiche",
+    "Proposizioni Logiche",
+    "Disequazioni Assolute",
+    "Definizioni di Minimo e Massimo"
+  ],
+  "introduzione": "Questa prova in itinere copre concetti fondamentali di Analisi Matematica 1, tra cui la determinazione di estremi di insiemi, l'analisi di funzioni logaritmiche, la valutazione della veridicità di proposizioni logiche su un insieme finito, la risoluzione di disequazioni con valori assoluti e la comprensione delle definizioni di punti di minimo/massimo assoluto e funzioni illimitate.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Scrivere se esistono e indicare i valori di estremo superiore, estremo inferiore, massimo e minimo dell’insieme A = (!→4 n →2, n ↑Z \\ {0}) ↓{→10}.",
+      "strategia": "Identificare l'insieme.  Si tratta di un insieme limitato superiormente da 4 e inferiormente da 2 (escluso lo zero). L'insieme è formato dai numeri reali strettamente maggiori di 2 e minori o uguali a 4, escludendo lo zero. Determinare se gli estremi esistono e calcolarli.",
+      "soluzione": "L'insieme A è l'intervallo (2, 4] con lo zero escluso.  inf A = 2, sup A = 4. Poiché l'estremo inferiore non è incluso nell'insieme, min A non esiste. Poiché l'estremo superiore è incluso nell'insieme, max A = 4.",
+      "formule_usate": [],
+      "nota": "Ricordare le definizioni di estremo superiore, estremo inferiore, massimo e minimo."
+    },
+    {
+      "numero": 2,
+      "testo": "Sia f(x) = log0.4(|x|). Determinare la controimmagine f→1((0, +↔)) e rappresentarla tramite intervalli.",
+      "strategia": "Trovare i valori di x tali che f(x) appartenga all'intervallo (0, +∞). Risolvere l'equazione log0.4(|x|) = y per y > 0. Ricordare le proprietà delle funzioni logaritmiche e dei valori assoluti.",
+      "soluzione": "log0.4(|x|) > 0  => |x| < 0.4^(-1) => |x| < (10/4)^(1/2) = (5/2)^(1/2). Quindi, -√(5/2) < x < √(5/2). La controimmagine è l'intervallo (-√(5/2), √(5/2)).",
+      "formule_usate": [
+        "log_a(x) > 0 => x > 1"
+      ],
+      "nota": "Ricordare che la base del logaritmo deve essere compresa tra 0 e 1."
+    },
+    {
+      "numero": 3,
+      "testo": "Determinare il valore di verità in A = {1, 2, 3} della proposizione ↗x : ↘y, x² < y + 2.",
+      "strategia": "Verificare la proposizione per ogni coppia (x, y) con x ∈ A e y ∈ A. Costruire una tabella di verità.",
+      "soluzione": "Per x=1: y=1 => 1<3 (V), y=2 => 1<4 (V), y=3 => 1<5 (V). Per x=2: y=1 => 4<3 (F), y=2 => 4<4 (F), y=3 => 4<5 (V). Per x=3: y=1 => 9<3 (F), y=2 => 9<4 (F), y=3 => 9<5 (F). La proposizione è vera per le coppie (1,1), (1,2), (1,3), (2,3). Quindi la verità è FALSO.",
+      "formule_usate": [],
+      "nota": "Comprendere il significato di quantificatori universali ed esistenziali."
+    },
+    {
+      "numero": 4,
+      "testo": "Risolvere la seguente disequazione: |x³ - 4x²| > |4 - x²|.",
+      "strategia": "Rimuovere i valori assoluti elevando al quadrato entrambi i membri. Semplificare e risolvere la disequazione risultante.",
+      "soluzione": "(x³ - 4x²)² > (4 - x²)².  (x³ - 4x²)² - (4 - x²)² > 0. Si può usare la differenza di quadrati: ((x³-4x²)+(4-x²))((x³-4x²)-(4-x²))>0. Quindi, (x³-5x²+4)(x³-3x²-4)>0. Risolvere questa disequazione polinomiale richiede metodi numerici o fattorizzazione.",
+      "formule_usate": [
+        "a^2 - b^2 = (a+b)(a-b)"
+      ],
+      "nota": "La risoluzione di disequazioni polinomiali può essere complessa."
+    },
+    {
+      "numero": 5,
+      "testo": "Sia f : dom f ≃R ⇒R. Dare la definizione di punto di minimo assoluto per f.",
+      "strategia": "Ricordare la definizione formale di punto di minimo assoluto.",
+      "soluzione": "Un punto x₀ ∈ dom(f) è un punto di minimo assoluto (o globale) di f se, per ogni x ∈ dom(f), vale f(x) ≥ f(x₀).",
+      "formule_usate": [],
+      "nota": "Distinguere tra minimo assoluto e locale."
+    }
+  ],
+  "riepilogo": "Questa prova in itinere ha permesso di ripassare concetti chiave come la gestione degli insiemi, le proprietà delle funzioni logaritmiche, l'interpretazione di proposizioni logiche, la risoluzione di disequazioni con valori assoluti e le definizioni fondamentali dell'analisi matematica.",
+  "_meta": {
+    "settimana": "2",
+    "nome": "Itinere1-2024-25",
+    "pdf": "Itinere1-2024-25.pdf",
+    "soluzione_pdf": "Itinere1-2024-25_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:26:24"
+  }
+}

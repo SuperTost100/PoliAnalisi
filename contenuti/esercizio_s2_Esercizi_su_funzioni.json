@@ -1,0 +1,87 @@
+{
+  "nome": "Esercizi su funzioni",
+  "difficolta": "medio",
+  "argomenti": [
+    "dominio di una funzione",
+    "simmetrie delle funzioni",
+    "iniettività",
+    "funzioni inverse",
+    "controimmagine",
+    "composizione di funzioni",
+    "grafici di funzioni",
+    "periodicità",
+    "limitatezza"
+  ],
+  "introduzione": "Questo esercizio tratta diversi aspetti fondamentali delle funzioni, tra cui il calcolo del dominio, l'analisi della simmetria e dell'iniettività, la determinazione della controimmagine, la composizione di funzioni, la costruzione di grafici e le proprietà di periodicità e limitatezza. Richiede una buona comprensione dei concetti base di funzione e delle tecniche algebriche per manipolare espressioni contenenti logaritmi, valori assoluti, radici e funzioni trigonometriche inverse.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Sia f(x) = log(2−|x|). Determinare il dominio, discutere eventuali simmetrie e l’iniettivit`a di f. Determinare la controimmagine f−1((−∞, 0]).",
+      "strategia": "1. Trova il dominio: determina i valori di x per cui l'argomento del logaritmo è positivo (2-|x| > 0).  2. Verifica la simmetria: controlla se f(x) = f(-x) (pari) o f(-x) = -f(x) (dispari). 3. Determina l'iniettività: verifica se funzioni diverse danno valori diversi. 4. Calcola la controimmagine: risolvi l'equazione f(x) < 0.",
+      "soluzione": "1. Dominio: 2 - |x| > 0  => |x| < 2 => -2 < x < 2. Quindi, il dominio è (-2, 2). 2. Simmetrie: f(-x) = log(2-|-x|) = log(2-|x|) = f(x), quindi la funzione è pari. 3. Iniettività: La funzione non è iniettiva perché f(1) = f(-1) = log(1) = 0.  4. Controimmagine di (-∞, 0]: log(2-|x|) < 0 => 2-|x| < 1 => |x| > 1 => x < -1 oppure x > 1. Quindi, la controimmagine è (-∞, -1) ∪ (1, ∞).",
+      "formule_usate": [
+        "log(a) > b  => a > e^b"
+      ],
+      "nota": "Ricorda che il dominio di log(x) è x > 0."
+    },
+    {
+      "numero": 2,
+      "testo": "Data la funzione f(x) = (x^2 −x −1 se x ≤1; 4 −x se x > 1), determinare la controimmagine dell’intervallo (1/2, 2).",
+      "strategia": "Considera i due casi separatamente: x <= 1 e x > 1. Per ciascun caso, risolvi l'equazione f(x) = y per y appartenente all'intervallo (1/2, 2).",
+      "soluzione": "Caso 1: x ≤ 1.  x^2 - x - 1 = y => x^2 - x - (1+y) = 0. Risolvi l'equazione quadratica per x. Considera solo le soluzioni x <= 1. Caso 2: x > 1. 4 - x = y => x = 4 - y.  Considera solo le soluzioni x > 1.",
+      "formule_usate": [
+        "Formula quadratica: x = (-b ± √(b^2 - 4ac)) / (2a)"
+      ],
+      "nota": "Verifica che le soluzioni trovate appartengano all'intervallo corretto."
+    },
+    {
+      "numero": 3,
+      "testo": "Determinare il dominio delle funzioni f(x) = √(log(2 −x) −log(x + 1)) e g(x) = arcsin(2x−√(x + 1)).",
+      "strategia": "Per f(x), devi considerare le condizioni per l'esistenza del logaritmo (argomento positivo) e la radice quadrata (argomento non negativo). Per g(x), devi considerare il dominio della funzione arcsin (-1 <= argomento <= 1).",
+      "soluzione": "f(x):  log(2-x) > 0 e log(x+1) >= 0. Questo implica che x + 1 > 1, quindi x > 0 e 2 - x > 1, quindi x < 1. Quindi il dominio è (0,1). g(x): -1 <= 2x - √(x+1) <= 1.",
+      "formule_usate": [
+        "log(a) > 0 => a > 1"
+      ],
+      "nota": "Ricorda le condizioni di esistenza dei logaritmi e delle radici."
+    },
+    {
+      "numero": 4,
+      "testo": "Disegnare il grafico della funzione f(x) = |x −1| + |2x + 3|.",
+      "strategia": "Rimuovi i valori assoluti considerando i diversi intervalli definiti dai punti in cui l'argomento del valore assoluto cambia segno (x=1 e x=-3/2).",
+      "soluzione": "Considera tre intervalli: x < -3/2, -3/2 <= x <= 1, x > 1. In ciascun intervallo, rimuovi i valori assoluti e disegna la funzione risultante.",
+      "formule_usate": [
+        "|x| = x se x >= 0; |x| = -x se x < 0"
+      ],
+      "nota": "Il grafico sarà a tratti lineare."
+    },
+    {
+      "numero": 5,
+      "testo": "Disegnare il grafico della funzione f(x) = |2x^2 −|x −1||.",
+      "strategia": "Rimuovi i valori assoluti considerando i diversi intervalli definiti dal segno di (x-1). Poi rimuovi il valore assoluto esterno",
+      "soluzione": "Considera due casi: x >= 1 e x < 1. In ciascun caso, rimuovi il valore assoluto interno e poi quello esterno.",
+      "formule_usate": [
+        "|x| = x se x >= 0; |x| = -x se x < 0"
+      ],
+      "nota": "Il grafico sarà a tratti."
+    },
+    {
+      "numero": 6,
+      "testo": "Sia f(x) = x^2. Sia A = [0, 1]. Verificare che f−1(f(A)) = [−1, 1]. Determinare gli intervalli massimali in cui f `e iniettiva.",
+      "strategia": "Calcola f(A). Trova l'inversa di f (ricorda che non è definita globalmente). Verifica se f^-1(f(A)) = [-1, 1]. Per l'iniettività, verifica se f(x) = f(y) implica x=y.",
+      "soluzione": "f(A) = [0, 1]. L'inversa di f non è definita globalmente. f^-1(f(A)) = [-1, 1] solo considerando la parte positiva dell'inversa. f è iniettiva in intervalli del tipo [-infinito, a] e [b, +infinito].",
+      "formule_usate": [
+        "f^-1(f(x)) = x"
+      ],
+      "nota": "La funzione f(x) = x^2 non è iniettiva su tutto R."
+    }
+  ],
+  "riepilogo": "Questo esercizio ha fornito una panoramica completa delle proprietà fondamentali delle funzioni, dalla determinazione del dominio e dell'iniettività alla composizione di funzioni e all'analisi della periodicità e limitatezza. La capacità di risolvere problemi che coinvolgono logaritmi, valori assoluti e funzioni trigonometriche inverse è cruciale per la comprensione più avanzata dell'Analisi Matematica.",
+  "_meta": {
+    "settimana": "2",
+    "nome": "Esercizi su funzioni",
+    "pdf": "Esercizi su funzioni.pdf",
+    "soluzione_pdf": "Esercizi su funzioni_risposte.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:24:48"
+  }
+}

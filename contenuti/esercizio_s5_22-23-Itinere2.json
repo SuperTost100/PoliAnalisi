@@ -1,0 +1,70 @@
+{
+  "nome": "22-23-Itinere2",
+  "difficolta": "medio",
+  "argomenti": [
+    "limiti",
+    "massimo e minimo assoluto",
+    "funzioni trigonometriche",
+    "numeri complessi"
+  ],
+  "introduzione": "Questa prova in itinere copre diversi argomenti fondamentali di Analisi Matematica 1, tra cui la definizione di limite, l'individuazione di massimi e minimi assoluti di una funzione su un intervallo chiuso, il calcolo di limiti notevoli e la rappresentazione geometrica di soluzioni di equazioni complesse. Richiede una buona comprensione delle definizioni, delle tecniche di base per il calcolo dei limiti e delle proprietà delle funzioni trigonometriche ed esponenziali.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Sia f : R ! R. Dare la deﬁnizione di limx!3 f(x) = +1.",
+      "strategia": "Ricordare la definizione formale di limite per il caso in cui il limite è un numero positivo.",
+      "soluzione": "Per ogni ε > 0, esiste un δ > 0 tale che se x ∈ R e 0 < |x - 3| < δ, allora |f(x) - 1| < ε.",
+      "formule_usate": [],
+      "nota": "La definizione formale è cruciale per dimostrare proprietà dei limiti."
+    },
+    {
+      "numero": 2,
+      "testo": "Determinare i punti di massimo e minimo assoluto della funzione f(x) = exp⇥2 cos(x −π/3)⇤ nell’intervallo [0, 2π].",
+      "strategia": "1. Calcolare la derivata prima f'(x). 2. Trovare i punti critici risolvendo f'(x) = 0. 3. Valutare f(x) nei punti critici e agli estremi dell'intervallo [0, 2π]. 4. Confrontare i valori ottenuti per identificare il massimo e il minimo assoluto.",
+      "soluzione": "1. f'(x) = 2 * exp(2 cos(x - π/3)) * (-sin(x - π/3)).  2. Risolvendo f'(x) = 0, si ottiene sin(x - π/3) = 0, quindi x - π/3 = kπ, con k intero. In [0, 2π], le soluzioni sono x = π/3 e x = (4π)/3.  3. f(0) = exp(2 cos(-π/3)) = exp(-1), f(π/3) = exp(2 cos(0)) = exp(2), f((4π)/3) = exp(2 cos(4π/3 - π/3)) = exp(2 cos(π)) = exp(-2), f(2π) = exp(2 cos(2π - π/3)) = exp(2 cos(5π/3)) = exp(1). 4. Confrontando i valori, il minimo assoluto è exp(-2) in x = (4π)/3 e il massimo assoluto è exp(2) in x = π/3.",
+      "formule_usate": [
+        "f'(x) = d/dx [exp(g(x))] = g'(x) * exp(g(x))"
+      ],
+      "nota": "Ricordare che la funzione esponenziale è sempre positiva, quindi il segno della derivata determina se la funzione sta crescendo o decrescendo."
+    },
+    {
+      "numero": 3,
+      "testo": "Calcolare lim x!0 (ex + x2 sin(1/x)) / x2.",
+      "strategia": "Utilizzare le proprietà dei limiti e il limite notevole lim(sin(x)/x) = 1 per x -> 0.  Si può riscrivere l'espressione come lim x->0 ex/x2 + sin(1/x).",
+      "soluzione": "lim x!0 (ex / x2 + sin(1/x)) . Si ha che lim x!0 ex / x2 = +∞ e lim x!0 sin(1/x) non esiste.  Quindi il limite tende all'infinito.",
+      "formule_usate": [
+        "lim(sin(x)/x) = 1"
+      ],
+      "nota": "Questo limite è un esempio di forma indeterminata ∞ + ∞ e richiede attenzione."
+    },
+    {
+      "numero": 4,
+      "testo": "Calcolare lim x!+1 log(1 + 1/x2) (e-x + 2x2).",
+      "strategia": "Utilizzare l'espansione log(1+t) = t - t^2/2 + O(t^3) per t piccolo. Sostituire t=1/x^2 e semplificare.",
+      "soluzione": "lim x!+1 (1/x^2 - 1/(2x^4)) (e-x + 2x^2).  Quando x -> 1, l'espressione diventa (1 - 1/2) (e^-1 + 2) = (1/2)(e^-1+2).",
+      "formule_usate": [
+        "log(1+t) ≈ t per t piccolo"
+      ],
+      "nota": "L'uso di espansioni in serie semplifica il calcolo dei limiti."
+    },
+    {
+      "numero": 5,
+      "testo": "Rappresentare sul piano complesso l’insieme delle soluzioni dell’equazione z2z = 4z.",
+      "strategia": "Riscrivere l'equazione come z3 - 4z = 0. Fattorizzare e trovare le radici.",
+      "soluzione": "z(z^2 - 4) = 0.  Quindi z = 0 oppure z^2 = 4, che implica z = ±2. Le soluzioni sono z1 = 0, z2 = 2, z3 = -2. Rappresentazione: tre punti sul piano complesso in (0,0), (2,0) e (-2,0).",
+      "formule_usate": [
+        "z^3 - a = 0 ha soluzioni complesse"
+      ],
+      "nota": "Ricordare come trovare le radici di un polinomio."
+    }
+  ],
+  "riepilogo": "Questa prova in itinere fornisce una panoramica delle competenze necessarie per affrontare problemi di Analisi Matematica 1, con particolare attenzione alla definizione formale dei limiti, all'ottimizzazione di funzioni e alla manipolazione di numeri complessi. La comprensione approfondita di questi concetti è fondamentale per proseguire nello studio del corso.",
+  "_meta": {
+    "settimana": "5",
+    "nome": "22-23-Itinere2",
+    "pdf": "22-23-Itinere2.pdf",
+    "soluzione_pdf": "22-23-Itinere2-svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:31:06"
+  }
+}

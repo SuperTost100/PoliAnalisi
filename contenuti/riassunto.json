@@ -1,0 +1,21 @@
+{
+  "sezioni": [
+    {
+      "contenuto": "[ERRORE chiamata Ollama: Server error '500 Internal Server Error' for url 'http://localhost:11434/api/generate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500]",
+      "parse_error": true
+    },
+    {
+      "contenuto": "[ERRORE chiamata Ollama: Server error '500 Internal Server Error' for url 'http://localhost:11434/api/generate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500]",
+      "parse_error": true
+    },
+    {
+      "contenuto": "[ERRORE chiamata Ollama: Server error '500 Internal Server Error' for url 'http://localhost:11434/api/generate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500]",
+      "parse_error": true
+    }
+  ],
+  "_meta": {
+    "model": "gemma3:12b",
+    "n_pagine": 83,
+    "timestamp": "2026-06-04T18:41:38"
+  }
+}

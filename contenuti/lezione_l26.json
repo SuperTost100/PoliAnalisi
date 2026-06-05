@@ -1,0 +1,45 @@
+{
+  "titolo": "Integrali impropri",
+  "introduzione": "Gli integrali impropri estendono la nozione di integrale definito a funzioni che presentano comportamenti particolari, come singolarità o domini illimitati. Questo tipo di integrali ci permette di analizzare situazioni in cui l'integrale classico non è direttamente applicabile e fornisce strumenti per determinare se un integrale converge o diverge.",
+  "concetti": [
+    {
+      "nome": "Integrale improprio con dominio illimitato",
+      "definizione": "Sia f(x) una funzione continua su [a, +∞). L'integrale improprio di prima specie è definito come: ∫ₐ^∞ f(x) dx = lim ₕ→∞ ∫ₐ^ₕ f(x) dx",
+      "spiegazione": "Quando l'intervallo di integrazione si estende all'infinito, l'integrale diventa improprio. Per calcolarlo, fissiamo un limite superiore 'h' e valutiamo il limite dell'integrale definito quando 'h' tende all'infinito. Se questo limite esiste ed è finito, l'integrale converge; altrimenti diverge.",
+      "formula": "∫ₐ^∞ f(x) dx = lim ₕ→∞ ∫ₐ^ₕ f(x) dx",
+      "esempio": "Consideriamo ∫₁^∞ 1/x² dx. Calcolando il limite per h → ∞ di ∫₁^ₕ 1/x² dx, otteniamo 1, quindi l'integrale converge a 1."
+    },
+    {
+      "nome": "Integrale improprio con singolarità",
+      "definizione": "Sia f(x) una funzione continua su [a, b] eccetto in un punto c ∈ (a, b). L'integrale improprio di seconda specie è definito come: ∫ₐ^b f(x) dx = lim ϵ→0+ ∫ₐ^(c-ϵ) f(x) dx + lim ϵ→0+ ∫_(c+ϵ)^b f(x) dx",
+      "spiegazione": "Quando una funzione presenta una singolarità (ad esempio, un punto in cui non è definita) all'interno dell'intervallo di integrazione, l'integrale diventa improprio. Per calcolarlo, dividiamo l'integrale in due parti: una da 'a' a 'c-ϵ' e l'altra da 'c+ϵ' a 'b', dove ϵ è un valore positivo che tende a zero. Valutiamo poi i limiti di queste due parti quando ϵ tende a zero.",
+      "formula": "∫ₐ^b f(x) dx = lim ϵ→0+ ∫ₐ^(c-ϵ) f(x) dx + lim ϵ→0+ ∫_(c+ϵ)^b f(x) dx",
+      "esempio": "Consideriamo ∫₀^¹ 1/√x dx. La funzione ha una singolarità in x=0. Calcolando i limiti, otteniamo che l'integrale diverge."
+    },
+    {
+      "nome": "Criterio del confronto",
+      "definizione": "Siano f(x) e g(x) due funzioni continue e positive su [a, +∞). Se 0 ≤ f(x) ≤ g(x) per ogni x ≥ a, allora:\n- Se ∫ₐ^∞ g(x) dx converge, anche ∫ₐ^∞ f(x) dx converge.\n- Se ∫ₐ^∞ f(x) dx diverge, anche ∫ₐ^∞ g(x) dx diverge.",
+      "spiegazione": "Il criterio del confronto è uno strumento utile per determinare la convergenza o divergenza di integrali impropri. Confrontando la funzione da integrare con un'altra funzione di cui conosciamo il comportamento dell'integrale, possiamo dedurre se l'integrale originale converge o diverge.",
+      "formula": "\\text{ Se  }0 ≤ f(x) ≤ g(x), allora:\n- ∫ₐ^∞ g(x) dx converges ⇒ ∫ₐ^∞ f(x) dx converges\n- ∫ₐ^∞ f(x) dx diverges ⇒ ∫ₐ^∞ g(x) dx diverges",
+      "esempio": "Per determinare la convergenza di ∫₁^∞ 1/x³ dx, possiamo confrontarlo con ∫₁^∞ 1/x² dx, che sappiamo convergere. Poiché 1/x³ ≤ 1/x² per x ≥ 1, l'integrale originale converge."
+    }
+  ],
+  "punti_chiave": [
+    "Un integrale improprio è definito quando il dominio di integrazione è illimitato o la funzione integranda presenta una singolarità nell'intervallo di integrazione.",
+    "Per calcolare un integrale improprio, si utilizzano limiti per evitare le indeterminatezze.",
+    "Il criterio del confronto è uno strumento fondamentale per stabilire la convergenza o divergenza di integrali impropri."
+  ],
+  "errori_comuni": [
+    "Non considerare correttamente i limiti quando si calcolano gli integrali impropri.",
+    "Applicare il criterio del confronto senza verificare le condizioni necessarie (segno e ordine delle funzioni).",
+    "Confondere la convergenza assoluta con la convergenza semplice."
+  ],
+  "connessioni": "Gli integrali impropri sono un'estensione degli integrali definiti e forniscono una base per lo studio di serie numeriche e altre tecniche di analisi avanzata. La comprensione dei concetti di limite e confronto è cruciale anche in altri ambiti dell'analisi matematica.",
+  "_meta": {
+    "id": "L26",
+    "titolo": "Integrali impropri",
+    "pdf": "L26 12 dic 2025_ integrali impropri.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T22:27:13"
+  }
+}

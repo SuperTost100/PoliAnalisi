@@ -1,0 +1,32 @@
+{
+  "nome": "Es 2 appello gennaio 2020",
+  "difficolta": "medio",
+  "argomenti": [
+    "Estremi Superiori e Inferiori",
+    "Completezza di R",
+    "Massimo e Minimo"
+  ],
+  "introduzione": "Questo esercizio verifica la comprensione dei concetti fondamentali di estremo superiore, estremo inferiore, massimo e minimo di un insieme. Richiede inoltre la capacità di applicare queste definizioni a insiemi specifici e di calcolare i valori di g(x) per tali insiemi.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "(a) Fornire la definizione di estremo superiore di un sottoinsieme A ⊆ R ed enunciare la proprietà di completezza di R.\n(b) Dato l’insieme\nA = {2/n - 1 : n ∈ Z, n ≠ 0} ∪ {10},\ndeterminare (se esistono e motivando) sup A, inf A, max A, min A.\n(c) Determinare (se esistono e motivando) sup g(A), inf g(A), max g(A), min g(A), dove A è l’insieme del punto precedente e g(x) = e^{-|x|}.",
+      "strategia": "a) Ricordare le definizioni di estremo superiore e completezza. b) Analizzare l'insieme A, separando la parte {2/n - 1 : n ∈ Z, n ≠ 0} dalla parte {10}. Studiare il comportamento della successione 2/n - 1 quando n tende a ±∞. Calcolare gli estremi superiori e inferiori di ciascuna parte e poi combinare i risultati per ottenere quelli dell'insieme A intero. Determinare se esistono massimo e minimo. c) Applicare la funzione g(x) = e^{-|x|} all'insieme A e ripetere il ragionamento del punto (b).",
+      "soluzione": "a) **Definizione di Estremo Superiore:** Un numero M è un estremo superiore di un insieme A ⊆ R se per ogni x ∈ A, si ha x ≤ M.  Un estremo superiore è anche detto limite superiore. \n**Proprietà di Completezza di R:** Ogni successione monotona e limitata di numeri reali è convergente. (Esistono altre formulazioni equivalenti, come il Teorema del Massimo).\n\nb) **Analisi dell'insieme A:** L'insieme A è l'unione tra la successione {2/n - 1 : n ∈ Z, n ≠ 0} e l'insieme contenente solo il numero 10.  Consideriamo separatamente le due parti.\n*Successione {2/n - 1}:* Quando n → ±∞, 2/n → 0, quindi 2/n - 1 → -1. Inoltre, quando n → 0, 2/n tende a infinito (sia positivo che negativo). Quindi la successione non è limitata superiormente.  Tuttavia, ha un limite inferiore di -1.\n*Insieme {10}:* Questo insieme contiene solo il numero 10.\nCombinando le due parti, abbiamo:\n*inf A = -1* (poiché la successione tende a -1).\n*sup A = 10* (perché 10 è un elemento dell'insieme e tutti gli altri elementi sono minori o uguali a 10).\n*max A = 10* (poiché 10 è l'estremo superiore ed è anche un elemento dell'insieme).\n*min A = -1* (poiché -1 è il limite inferiore della successione e tutti gli altri elementi sono maggiori o uguali a -1, anche se non è esplicitamente presente nell'insieme).  Formalmente, per ogni ε > 0, esiste n tale che |2/n - 1| < ε. Quindi, possiamo trovare un elemento arbitrariamente vicino a -1.\n\nc) **Applicazione di g(x) = e^{-|x|}:**\n*g(A) = {e^{-|2/n - 1|} : n ∈ Z, n ≠ 0} ∪ {e^{-|10|}\\}*\nPoiché la funzione esponenziale è decrescente, quando n → ±∞, |2/n - 1| → 1, quindi e^{-|2/n - 1|} → e^{-1}.  Inoltre, g(10) = e^{-10}.\n*inf g(A) = e^{-1}*\n*sup g(A) = e^{-10}*\n*max g(A) = e^{-10}*\n*min g(A) = e^{-1}* (per lo stesso ragionamento del punto b).\n",
+      "formule_usate": [
+        "\\lim_{n \\to \\infty} 2/n = 0",
+        "e^{-|x|}"
+      ],
+      "nota": "È cruciale distinguere tra estremo superiore, massimo, estremo inferiore e minimo. L'estremo superiore è un numero che 'sorveglia' l'insieme dall'alto, mentre il massimo è un elemento dell'insieme che è anche il più grande."
+    }
+  ],
+  "riepilogo": "Questo esercizio consolida la comprensione delle definizioni di estremi superiori e inferiori, completezza dei reali, massimo e minimo. Richiede inoltre la capacità di applicare queste nozioni a insiemi specifici e di analizzare il comportamento di funzioni.",
+  "_meta": {
+    "settimana": "2",
+    "nome": "Es 2 appello gennaio 2020",
+    "pdf": "Es 2 appello gennaio 2020.pdf",
+    "soluzione_pdf": "Es su inf sup appello gennaio 2020_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:23:03"
+  }
+}

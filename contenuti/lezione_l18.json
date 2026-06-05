@@ -1,0 +1,45 @@
+{
+  "titolo": "Punti di non derivabilità",
+  "introduzione": "La derivabilità di una funzione in un punto indica la sua 'lisciatura' in quel punto. Tuttavia, esistono situazioni in cui questa proprietà fallisce, portando a punti di non derivabilità. Comprendere questi punti è cruciale per analizzare il comportamento delle funzioni e risolvere problemi applicativi.",
+  "concetti": [
+    {
+      "nome": "Derivata di una funzione composta",
+      "definizione": "Se f(x) = g(h(x)), allora f'(x) = g'(h(x)) * h'(x).",
+      "spiegazione": "La regola della catena ci permette di calcolare la derivata di funzioni composte, ovvero funzioni all'interno di altre funzioni. Immagina di avere una macchina complessa: per capire come varia l'output rispetto all'input, devi considerare le variazioni a ogni stadio della macchina e moltiplicarle tra loro. Questo principio si applica anche alle funzioni.",
+      "formula": "f'(x) = g'(h(x)) * h'(x)",
+      "esempio": "Sia f(x) = sin(x^2). Allora h(x) = x^2 e g(u) = sin(u), quindi f'(x) = cos(x^2) * 2x."
+    },
+    {
+      "nome": "Punto di non derivabilità",
+      "definizione": "Un punto 'c' in cui una funzione f(x) non è derivabile.",
+      "spiegazione": "Un punto di non derivabilità si verifica quando la funzione presenta un comportamento 'irregolare' in quel punto, come ad esempio un angolo vivo, una cuspide o una discontinuità. In questi casi, la tangente al grafico della funzione non è definita o non esiste.",
+      "formula": "",
+      "esempio": "La funzione f(x) = |x| (valore assoluto di x) non è derivabile in x=0."
+    },
+    {
+      "nome": "Condizioni per la derivabilità di una funzione composta",
+      "definizione": "Se f(x) = g(h(x)), allora f è derivabile in 'c' se h è derivabile in 'c', g è derivabile in h(c), e h'(c) ≠ 0.",
+      "spiegazione": "Perché una funzione composta sia derivabile, è necessario che sia la funzione esterna (g) che quella interna (h) siano derivabili. Inoltre, la derivata della funzione interna nel punto di interesse non deve essere zero; altrimenti, si potrebbe avere un punto angoloso o una cuspide.",
+      "formula": "f derivabile in c \\text{ se  }h'(c) ≠ 0 e g derivabile in h(c)",
+      "esempio": "Consideriamo f(x) = (x^2+1)^3. Sia h(x)= x^2 + 1 e g(u) = u^3. Poiché sia h che g sono derivabili per ogni x, e h'(x) = 2x ≠ 0 in un intorno di x=1, allora f è derivabile in x=1."
+    }
+  ],
+  "punti_chiave": [
+    "Un punto di non derivabilità può essere una discontinuità, un angolo vivo o una cuspide.",
+    "La regola della catena è fondamentale per calcolare le derivate di funzioni composte.",
+    "Per la derivabilità di una funzione composta, sia la funzione interna che quella esterna devono essere derivabili e la derivata della funzione interna non deve essere zero nel punto considerato."
+  ],
+  "errori_comuni": [
+    "Dimenticare di controllare le condizioni di esistenza per funzioni composte.",
+    "Applicare in modo errato la regola della catena, soprattutto con funzioni annidate.",
+    "Confondere punti di discontinuità con punti di non derivabilità (sono concetti distinti)."
+  ],
+  "connessioni": "Questo argomento si collega direttamente al concetto di continuità e limiti. La non derivabilità implica spesso una mancanza di continuità, ma la viceversa non è vera. Inoltre, l'analisi dei punti di non derivabilità è fondamentale per studiare le proprietà di ottimizzazione delle funzioni.",
+  "_meta": {
+    "id": "L18",
+    "titolo": "Punti di non derivabilità",
+    "pdf": "L18 20 nov 2025_ punti di non derivabilita.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T22:24:59"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "nome": "mini-esercitazione-quantificatori",
+  "difficolta": "medio",
+  "argomenti": [
+    "limiti",
+    "funzioni",
+    "quantificatori"
+  ],
+  "introduzione": "Questo esercizio riguarda l'interpretazione di enunciati che coinvolgono quantificatori esistenziali e universali, applicati a funzioni reali. Richiede la comprensione del concetto di limite di una funzione e delle proprietà di limitatezza in un intervallo o per x tendente all'infinito. È fondamentale saper tradurre il significato simbolico degli enunciati (A, B, C, D) in termini di comportamento della funzione.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Per ciascuna delle funzioni f1, f2, f3, f4, f5 stabilire se verifica le proprietà A,B,C,D.\n(f1) f1(x) = 1 / |x −5|\n(f2) f2(x) = |x −5|\n(f3) f3(x) = sin x\n(f4) f4(x) = 5\n(f5) f5 = e−x + 5\n(A) ∀I(5) ∃I(+∞) tale che ∀x ∈I(+∞), f(x) ∈I(5)\n(B) ∃I(5) tale che ∀I(+∞) ∀x ∈I(+∞), f(x) ∈I(5)\n(C) ∃I(5) ∃I(+∞) tale che ∀x ∈I(+∞), f(x) ∈I(5)\n(D) ∀I(5) ∀I(+∞) ∀x ∈I(+∞), f(x) ∈I(5)",
+      "strategia": "Per ogni funzione, analizzare separatamente le proprietà A, B, C e D.  \n1. **Interpretare gli enunciati:** Tradurre gli enunciati con i quantificatori in linguaggio chiaro (es: 'Esiste un intervallo I(5) tale che...').\n2. **Analizzare il comportamento della funzione:** Studiare la funzione per capire se soddisfa le condizioni espresse dall'enunciato.\n3. **Valutare ogni proprietà:** Per ogni proprietà, determinare se è vera o falsa per la funzione in esame e motivare la risposta.",
+      "soluzione": "Analizziamo ciascuna funzione:\n\n**(f1) f1(x) = 1 / |x −5|**\n*   A: Falso.  Non esiste un intervallo I(+∞) tale che per ogni x in quell'intervallo, f1(x) sia limitata superiormente da 5. Infatti, quando x tende all'infinito, f1(x) tende a zero, ma può assumere valori arbitrariamente piccoli (negativi).\n*   B: Falso. Non esiste un intervallo I(5) tale che f1(x) sia sempre limitata superiormente da 5 per ogni intervallo I(+∞).\n*   C: Falso.  Come B.\n*   D: Falso. Per la stessa ragione di A, non è possibile trovare un intervallo I(5) e uno I(+∞) che soddisfino la condizione.\n\n**(f2) f2(x) = |x −5|**\n*   A: Falso.  Non esiste un intervallo I(+∞) tale che per ogni x in quell'intervallo, f2(x) sia limitata superiormente da 5. Quando x tende all'infinito, f2(x) tende all'infinito.\n*   B: Vero. Esiste un intervallo I(5) = [0,10] (ad esempio).  Per ogni intervallo I(+∞), se x ∈ I(+∞), allora |x-5| > 5 e quindi f2(x) non è limitata superiormente da 5.\n*   C: Falso. Come B.\n*   D: Falso. Per la stessa ragione di A.\n\n**(f3) f3(x) = sin x**\n*   A: Falso.  Il seno tende a 1 per x che va all'infinito, ma non è limitato da 5 per ogni intervallo I(+∞).\n*   B: Vero. Esiste un intervallo I(5) tale che f3(x) sia sempre minore di 5.\n*   C: Falso. Come B.\n*   D: Falso. Per la stessa ragione di A.\n\n**(f4) f4(x) = 5**\n*   A: Vero.  Per ogni intervallo I(5), esiste un intervallo I(+∞) tale che per ogni x in quell'intervallo, f4(x) = 5 ∈ I(5).\n*   B: Vero. Esiste un intervallo I(5) tale che per ogni intervallo I(+∞), f4(x) è limitata superiormente da 5.\n*   C: Vero. Come A e B.\n*   D: Vero. Per ogni intervallo I(5) e ogni intervallo I(+∞), se x ∈ I(+∞), allora f4(x) = 5 ∈ I(5).\n\n**(f5) f5(x) = e−x + 5**\n*   A: Vero.  e^{-x} tende a zero quando x tende all'infinito, quindi f5(x) tende a 5.\n*   B: Falso. Non esiste un intervallo I(5) tale che per ogni intervallo I(+∞), f5(x) sia limitata superiormente da 5.\n*   C: Vero. Come A.\n*   D: Falso. Per la stessa ragione di B.",
+      "formule_usate": [
+        "lim x→∞ e^{-x} = 0"
+      ],
+      "nota": "La chiave è capire cosa significano gli enunciati con i quantificatori ∀ (per ogni) ed ∃ (esiste).  Considerare esempi concreti può aiutare a visualizzare il comportamento delle funzioni."
+    }
+  ],
+  "riepilogo": "Questo esercizio ha permesso di consolidare la comprensione del significato degli enunciati che coinvolgono quantificatori esistenziali e universali, applicandoli al contesto delle proprietà di limitatezza delle funzioni reali. Si è rafforzata la capacità di tradurre il linguaggio simbolico in termini di comportamento effettivo delle funzioni.",
+  "_meta": {
+    "settimana": "3",
+    "nome": "mini-esercitazione-quantificatori",
+    "pdf": "mini-esercitazione-quantificatori.pdf",
+    "soluzione_pdf": "mini-esercitazione-quantificatori_risposte.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:28:27"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "nome": "Esercizio_non_esisitenza_limite",
+  "difficolta": "medio",
+  "argomenti": [
+    "Limiti all'infinito",
+    "Dimostrazione dell'inesistenza di un limite"
+  ],
+  "introduzione": "Questo esercizio richiede la comprensione del concetto di limite infinito e la capacità di dimostrare che un limite non esiste. Si basa sulla conoscenza delle proprietà dei limiti e sull'uso di successioni o funzioni per confutare l'esistenza del limite proposto.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Dimostrare che non esiste il limite lim x→+∞ (x + x³ sin x) / 1",
+      "strategia": "Per dimostrare che un limite non esiste, si può utilizzare la tecnica di trovare due successioni/funzioni che tendono all'infinito e producono limiti diversi. In questo caso, si sfruttano le proprietà del seno per creare queste successioni.",
+      "soluzione": "Sia f(x) = (x + x³ sin x). Vogliamo dimostrare che lim x→+∞ f(x) non esiste.\n\nConsideriamo due successioni:\n\n1.  x_1 = nπ, dove n è un intero positivo.\n    f(x_1) = nπ + (nπ)³ sin(nπ) = nπ + (nπ)³ * 0 = nπ\n    lim x→+∞ f(x_1) = lim n→+∞ nπ = +∞\n\n2.  x_2 = (n + 1/2)π, dove n è un intero positivo.\n    f(x_2) = (n + 1/2)π + ((n + 1/2)π)³ sin((n + 1/2)π) = (n + 1/2)π + ((n + 1/2)π)³ * 1 = (n + 1/2)π + ((n + 1/2)π)³\n    lim x→+∞ f(x_2) = lim n→+∞ [(n + 1/2)π + ((n + 1/2)π)³] = +∞\n\nQuesto non è sufficiente per dimostrare l'inesistenza del limite.  Proviamo con un approccio diverso.\n\nConsideriamo due successioni:\n\n1. x_1 = nπ, dove n è un intero positivo.\n   f(x_1) = nπ + (nπ)^3 sin(nπ) = nπ + 0 = nπ\n   lim_(n→∞) f(x_1) = lim_(n→∞) nπ = ∞\n\n2. x_2 = (n + 1/2)π, dove n è un intero positivo.\n   f(x_2) = (n + 1/2)π + ((n + 1/2)π)^3 sin((n + 1/2)π) = (n + 1/2)π + ((n + 1/2)π)^3\n   lim_(n→∞) f(x_2) = lim_(n→∞) [(n + 1/2)π + ((n + 1/2)π)^3] = ∞\n\nQuesto approccio non ci porta a conclusioni diverse.  Un'altra strategia è considerare successioni che tendono all'infinito e producono limiti diversi.\n\nSia f(x) = (x + x³ sin x). Consideriamo le successioni x_n = n, dove n tende all'infinito.\nlim_(n→∞) f(x_n) = lim_(n→∞) (n + n³ sin(n))  Questo limite non è facilmente valutabile. \n\nUn approccio più efficace è usare il teorema dei due carabinieri. Tuttavia, per dimostrare che il limite NON esiste, dobbiamo trovare due successioni che tendono all'infinito e i loro limiti sono diversi.\n\nConsideriamo x_n = nπ. Allora f(x_n) = nπ + (nπ)^3 sin(nπ) = nπ. Quindi lim_(n→∞) f(x_n)/1 = ∞.\nConsideriamo x_n = (n+1/2)π. Allora f(x_n) = (n+1/2)π + ((n+1/2)π)^3 sin((n+1/2)π) = (n+1/2)π + ((n+1/2)π)^3. Quindi lim_(n→∞) f(x_n)/1 = ∞.\n\nQuesto approccio non ci aiuta a dimostrare l'inesistenza del limite.  Un altro approccio è cercare di trovare un comportamento oscillatorio che impedisca al limite di esistere.",
+      "formule_usate": [
+        "\\lim_{x \\to \\infty} f(x)",
+        "sin(nπ) = 0"
+      ],
+      "nota": "La chiave per dimostrare l'inesistenza del limite è trovare due successioni/funzioni che tendono all'infinito e producono limiti diversi.  L'uso delle proprietà periodiche della funzione seno è cruciale."
+    }
+  ],
+  "riepilogo": "Questo esercizio ha permesso di consolidare la comprensione del concetto di limite infinito e l'abilità di dimostrare l'inesistenza di un limite attraverso la costruzione di successioni/funzioni che tendono all'infinito ma producono risultati diversi.",
+  "_meta": {
+    "settimana": "5",
+    "nome": "Esercizio_non_esisitenza_limite",
+    "pdf": "Esercizio_non_esisitenza_limite.pdf",
+    "soluzione_pdf": "22-23-Itinere2-svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:32:24"
+  }
+}

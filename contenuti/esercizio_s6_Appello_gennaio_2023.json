@@ -1,0 +1,27 @@
+{
+  "nome": "Appello gennaio 2023",
+  "introduzione": "Questo esercizio verifica la capacità di lettura e comprensione di una stringa alfanumerica, tipica delle informazioni relative agli appelli d'esame.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Identifica l’appello d’esame rappresentato dalla seguente sequenza:\n251112023",
+      "strategia": "L'esercizio richiede di riconoscere la stringa alfanumerica come identificativo dell'appello. Non sono richiesti calcoli, ma attenzione alla trascrizione corretta.",
+      "soluzione": "La sequenza 251112023 rappresenta l’appello d’esame del gennaio 2023.",
+      "formule_usate": [],
+      "nota": "Prestare molta attenzione a non confondere cifre simili o trascurarne di esse. Un errore nella trascrizione può invalidare la risposta."
+    }
+  ],
+  "riepilogo": "L'esercizio, seppur semplice, mira a valutare l'attenzione e la precisione del candidato nel riportare informazioni chiave.",
+  "_meta": {
+    "settimana": "6",
+    "nome": "Appello gennaio 2023",
+    "pdf": "Appello gennaio 2023.pdf",
+    "soluzione_pdf": "Appello gennaio 2023_svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:33:40"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:14:57",
+    "model": "gemma3:12b"
+  }
+}

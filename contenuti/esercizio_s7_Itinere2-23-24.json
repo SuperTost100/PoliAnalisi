@@ -1,0 +1,80 @@
+{
+  "nome": "Itinere2-23-24",
+  "difficolta": "medio",
+  "argomenti": [
+    "Limiti notevoli",
+    "Monotonia di successioni",
+    "Derivazione di funzioni composte",
+    "Limiti del tipo infinito",
+    "Definizioni fondamentali"
+  ],
+  "introduzione": "Questa prova in itinere copre argomenti fondamentali di Analisi Matematica 1, tra cui il calcolo dei limiti (con particolare attenzione ai casi notevoli), lo studio della monotonia delle successioni, la derivazione di funzioni composte e la definizione di concetti chiave come limite infinito, continuità e derivabilità. Richiede una solida comprensione delle definizioni e delle tecniche di base.",
+  "esercizi": [
+    {
+      "numero": 1,
+      "testo": "Calcolare il limite: lim x→0+ (2x² sin(π/x) + 4xe⁻ˣ²) / (2x² cos x + 4 sin(x²)).",
+      "strategia": "Si tratta di un limite che richiede l'uso di limiti notevoli. Si può sfruttare la proprietà che per x → 0, sin(x) ≈ x e e⁻ˣ² ≈ 1. È importante manipolare l'espressione in modo da isolare i termini dominanti.",
+      "soluzione": "Riscriviamo il limite come: lim x→0+ (2x² sin(π/x) + 4xe⁻ˣ²) / (2x² cos x + 4 sin(x²)). Dividendo numeratore e denominatore per x², otteniamo: lim x→0+ (2sin(π/x) + 4e⁻ˣ²) / (2cos x + 4 sin(x²)/x²).  Poiché lim x→0 sin(π/x) non esiste, ma si può scrivere sin(π/x) = (π/x) * cos(π/x), otteniamo: lim x→0+ (2(π/x)cos(π/x) + 4e⁻ˣ²) / (2cos x + 4 sin(x²)/x²).  Considerando che e⁻ˣ² ≈ 1 per x → 0 e sin(x²) ≈ x² per x→0, il limite diventa: lim x→0+ (2π/x cos(π/x) + 4) / (2cos x + 4x²/x²), ovvero lim x→0+ (2π/x cos(π/x) + 4) / (2cos x + 4/x).  Poiché il numeratore tende a ±∞ e il denominatore tende a ∞, è necessario un'analisi più approfondita. Tuttavia, per x → 0+, cos(π/x) → -1, quindi il limite può essere scritto come lim x→0+ (-2π + 4)/(2cos x + 4/x).  Poiché cos x → 1 e 4/x → +∞, il denominatore tende a +∞. Pertanto, il limite è 0.",
+      "formule_usate": [
+        "\\lim_{x \\to 0} sin(x) = 0",
+        "\\lim_{x \\to 0} e^{-x^2} = 1",
+        "sin(x) = x cos(x) for small x"
+      ],
+      "nota": "La manipolazione iniziale è cruciale per semplificare l'espressione. L'analisi del segno di cos(π/x) è fondamentale."
+    },
+    {
+      "numero": 2,
+      "testo": "Ricavare il tipo di monotonia della successione aₙ = arccos(1 - 1/n²).",
+      "strategia": "Studiare la monotonia significa determinare se la successione è crescente o decrescente. Si può analizzare come varia l'argomento dell'arccos in funzione di n.",
+      "soluzione": "Consideriamo l'argomento della funzione arccos: 1 - 1/n². Poiché n tende a +∞, 1/n² tende a 0, quindi l'argomento tende a 1. La funzione arccos è una funzione decrescente nell'intervallo [0, π]. Quindi, se l'argomento diminuisce, il valore della funzione arccos diminuisce. Poiché l'argomento (1 - 1/n²) diminuisce al crescere di n, la successione aₙ = arccos(1 - 1/n²) è decrescente.",
+      "formule_usate": [
+        "arccos is decreasing"
+      ],
+      "nota": "È importante ricordare che l'arccos è una funzione decrescente."
+    },
+    {
+      "numero": 3,
+      "testo": "Siano f : dom f ⊆ ℝ → ℝ una funzione derivabile e g(x) = logₚ (f(x) + 2). Determinare l’insieme dei punti in cui g è derivabile e in questi punti calcolare la derivata di g.",
+      "strategia": "La derivabilità di g dipende dalla derivabilità di f(x) + 2 e dal dominio del logaritmo. Si applica la regola della catena per trovare la derivata.",
+      "soluzione": "g è derivabile quando f(x) + 2 > 0, ovvero f(x) > -2. La derivata di g è: g'(x) = (1 / ln(p)) * (1 / (f(x) + 2)) * f'(x). Quindi, g'(x) = f'(x) / (ln(p) * (f(x) + 2)).",
+      "formule_usate": [
+        "\\frac{d}{dx} log_a(u) = \\frac{1}{ln(a)} \\frac{1}{u} \\frac{du}{dx}",
+        "Chain rule for derivatives"
+      ],
+      "nota": "Ricordare la formula per la derivata di una funzione logaritmica."
+    },
+    {
+      "numero": 4,
+      "testo": "Calcolare il limite: lim n→+∞ (n³ * 3ⁿ) / (πⁿ).",
+      "strategia": "Si tratta di un limite del tipo infinito. Si può riscrivere l'espressione in modo da evidenziare la crescita più rapida.",
+      "soluzione": "Il limite è lim n→+∞ (n³ * 3ⁿ) / πⁿ = lim n→+∞ n³ * (3/π)ⁿ. Poiché 3/π > 1, (3/π)ⁿ tende a +∞ più velocemente di n³ quando n → ∞. Quindi il limite è +∞.",
+      "formule_usate": [
+        "Limits of exponential functions"
+      ],
+      "nota": "La crescita esponenziale domina la crescita polinomiale."
+    },
+    {
+      "numero": 5,
+      "testo": "Data una funzione f : dom f ⊆ ℝ → ℝ, dare la definizione di derivabilità di f nel punto x₀ interno al dom f.",
+      "strategia": "Ricordare la definizione formale di derivata come limite del rapporto incrementale.",
+      "soluzione": "f è derivabile in x₀ se esiste il seguente limite: f'(x₀) = lim h→0 (f(x₀ + h) - f(x₀)) / h. Questo limite deve esistere e essere finito.",
+      "formule_usate": [
+        "Definition of derivative"
+      ],
+      "nota": "La definizione formale è fondamentale per comprendere il concetto di derivata."
+    }
+  ],
+  "riepilogo": "Questa prova in itinere ha permesso di ripassare i concetti fondamentali di limiti, monotonia, derivabilità e funzioni logaritmiche. È importante esercitarsi con diversi tipi di esercizi per consolidare le proprie competenze.",
+  "_meta": {
+    "settimana": "7",
+    "nome": "Itinere2-23-24",
+    "pdf": "Itinere2-23-24.pdf",
+    "soluzione_pdf": "Itinere2-23-24-svolgimento.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:38:40"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:20:30",
+    "model": "gemma3:12b"
+  }
+}

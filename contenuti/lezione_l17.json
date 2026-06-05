@@ -1,0 +1,45 @@
+{
+  "titolo": "Derivate",
+  "introduzione": "Le derivate rappresentano uno strumento fondamentale nel calcolo infinitesimale e hanno un'ampia applicazione in diversi campi della scienza e dell'ingegneria. Permettono di studiare il comportamento delle funzioni, analizzando la loro velocità di variazione in ogni punto.",
+  "concetti": [
+    {
+      "nome": "Tasso Incrementale",
+      "definizione": "Il tasso incrementale di una funzione f(x) è definito come il rapporto tra l'incremento della variabile dipendente (Δy) e l'incremento della variabile indipendente (Δx).",
+      "spiegazione": "Immagina di avere un grafico che rappresenta una funzione. Il tasso incrementale ti dice quanto cambia l'altezza del grafico quando ti sposti orizzontalmente. È come calcolare la pendenza di una retta che congiunge due punti sul grafico della funzione.",
+      "formula": "\\frac{\\Delta y}{\\Delta x}",
+      "esempio": "Se f(x) = 2x + 1 e scegliamo x₁ = 1 e x₂ = 3, allora Δy = f(3) - f(1) = (2*3 + 1) - (2*1 + 1) = 7 e Δx = 3 - 1 = 2. Il tasso incrementale è quindi 7/2."
+    },
+    {
+      "nome": "Derivata",
+      "definizione": "La derivata di una funzione f(x) in un punto x₀ è il limite del tasso incrementale quando l'incremento Δx tende a zero.",
+      "spiegazione": "La derivata rappresenta la pendenza della retta tangente al grafico della funzione nel punto considerato.  Più precisamente, si tratta del limite del rapporto tra gli incrementi quando l'incremento di x diventa infinitesimo. Questo ci fornisce una misura precisa della variazione istantanea della funzione.",
+      "formula": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}",
+      "esempio": "Per f(x) = x², la derivata è f'(x) = 2x. In particolare, in x=2, f'(2) = 4, il che significa che la pendenza della retta tangente al grafico di y = x² nel punto (2, 4) è 4."
+    },
+    {
+      "nome": "Significato Geometrico",
+      "definizione": "La derivata f'(x) rappresenta la pendenza della retta tangente al grafico di f(x) nel punto con ascissa x.",
+      "spiegazione": "Considera una secante che interseca il grafico della funzione in due punti vicini. Man mano che i due punti si avvicinano, la secante si trasforma nella retta tangente. La derivata è proprio il valore di questa pendenza.",
+      "formula": "",
+      "esempio": "Se f'(x) = 3 per x=5, significa che nel punto del grafico con ascissa x=5, la retta tangente ha una pendenza pari a 3."
+    }
+  ],
+  "punti_chiave": [
+    "La derivata esiste solo se il limite del tasso incrementale è finito.",
+    "Una funzione derivabile in un punto è necessariamente continua in quel punto (ma non viceversa).",
+    "Se una funzione è derivabile in un intervallo, allora la sua derivata è anch'essa una funzione definita in quell'intervallo."
+  ],
+  "errori_comuni": [
+    "Confondere il tasso incrementale con la derivata: il tasso incrementale è un rapporto finito tra due incrementi, mentre la derivata è un limite.",
+    "Non considerare le condizioni di esistenza della derivata (ad esempio, punti angolosi o cuspidi).",
+    "Applicare regole di derivazione senza verificare che le funzioni coinvolte siano derivabili."
+  ],
+  "connessioni": "Le derivate sono strettamente legate al concetto di limite e costituiscono la base per lo studio della regolarità delle funzioni, l'ottimizzazione (massimi e minimi) e il calcolo integrale. Si collegano anche alle equazioni differenziali.",
+  "_meta": {
+    "id": "L17",
+    "titolo": "Derivate",
+    "pdf": "L17 14 nov 2025_derivate.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T22:24:12"
+  }
+}

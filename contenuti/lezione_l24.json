@@ -1,0 +1,49 @@
+{
+  "titolo": "Integrale Definito",
+  "introduzione": "L'integrale definito è uno strumento fondamentale per calcolare aree sotto curve e rappresenta una generalizzazione del concetto di somma di Riemann. Questa lezione introduce la definizione formale, il significato geometrico e le proprietà basilari dell'integrale definito, ponendo le basi per applicazioni successive.",
+  "concetti": [
+    {
+      "nome": "Integrale Definito",
+      "definizione": "L'integrale definito di una funzione f(x) sull'intervallo chiuso e limitato [a, b], denotato come ∫ab f(x) dx, è il limite della somma di Riemann quando la norma della partizione dell'intervallo tende a zero.",
+      "spiegazione": "Immaginiamo di approssimare l'area compresa tra la curva y = f(x), l'asse x e le rette verticali x = a e x = b con una serie di rettangoli. L'integrale definito rappresenta il limite delle somme delle aree di questi rettangoli quando la loro larghezza tende a zero. Geometricamente, può essere interpretato come l'area con segno tra la curva e l'asse x nell'intervallo [a, b], dove le aree sopra l'asse x sono positive e quelle sotto l'asse x sono negative.",
+      "formula": "∫ab f(x) dx = limn→∞ ∑i=1n f(xi) Δxi",
+      "esempio": "Consideriamo ∫01 x dx. Questo rappresenta l'area sotto la curva y = x tra x = 0 e x = 1. Il risultato è 1/2."
+    },
+    {
+      "nome": "Somme di Riemann (Inferiore e Superiore)",
+      "definizione": "Data una funzione f(x) limitata su [a, b] e una partizione P = {x0 = a < x1 < ... < xn = b} dell'intervallo [a, b], la somma inferiore di Riemann è definita come ∑i=1n m_i Δx_i, dove m_i = inf{f(x) : x ∈ [x_{i-1}, x_i]}, e la somma superiore di Riemann è definita come ∑i=1n M_i Δx_i, dove M_i = sup{f(x) : x ∈ [x_{i-1}, x_i]}. In entrambi i casi, Δx_i = x_i - x_{i-1}.",
+      "spiegazione": "Le somme di Riemann inferiori e superiori forniscono dei limiti tra l'area effettiva sotto la curva e le approssimazioni ottenute con i rettangoli. La somma inferiore utilizza il valore minimo della funzione in ogni intervallo, mentre la somma superiore utilizza il valore massimo.  La differenza tra queste due somme rappresenta un'approssimazione dell'errore commesso nell'utilizzare rettangoli per stimare l'area.",
+      "formula": "S_n = ∑i=1n m_i Δx_i,   T_n = ∑i=1n M_i Δx_i",
+      "esempio": "Se f(x) = x^2 su [0, 1] e si utilizza una partizione uniforme con n = 4, le somme inferiori e superiori forniscono delle approssimazioni dell'integrale."
+    },
+    {
+      "nome": "Condizione di Integrabilità",
+      "definizione": "Una funzione f(x) è integrabile in senso Riemann sull'intervallo [a, b] se per ogni ε > 0 esiste una partizione P = {x0, x1, ..., xn} tale che la differenza tra la somma superiore e la somma inferiore di Riemann è minore di ε:  |T_n - S_n| < ε. In altre parole, le somme inferiori e superiori convergono allo stesso limite quando la norma della partizione tende a zero.",
+      "spiegazione": "La condizione di integrabilità assicura che l'area sotto la curva possa essere determinata con precisione, indipendentemente da come viene suddiviso l'intervallo.  Questo implica che le somme inferiori e superiori si avvicinano sempre più allo stesso valore quando la partizione diventa più fine.",
+      "formula": "lim ||P||→0 |T_n - S_n| = 0",
+      "esempio": "Funzioni continue su un intervallo chiuso e limitato sono integrabili in senso Riemann."
+    }
+  ],
+  "punti_chiave": [
+    "L'integrale definito rappresenta l'area con segno tra una curva e l'asse x.",
+    "La condizione di integrabilità garantisce l'esistenza del limite delle somme di Riemann, assicurando che l'integrale sia ben definito.",
+    "Le funzioni continue su un intervallo chiuso e limitato sono sempre integrabili in senso Riemann."
+  ],
+  "errori_comuni": [
+    "Confondere l'integrale definito con l'area algebrica (non si considera il segno).",
+    "Non comprendere la relazione tra le somme di Riemann, la norma della partizione e l'integrale definito.",
+    "Applicare tecniche di integrazione senza verificare che la funzione sia integrabile in senso Riemann."
+  ],
+  "connessioni": "L'integrale definito fornisce un ponte cruciale verso il Teorema Fondamentale del Calcolo Integrale, che stabilisce una relazione profonda tra l'integrazione e la differenziazione. Questo teorema apre la strada a metodi di calcolo degli integrali più efficienti e alla risoluzione di problemi applicativi.",
+  "_meta": {
+    "id": "L24",
+    "titolo": "Integrale definito",
+    "pdf": "L24 5 dic 2025_ integrale definito.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:09:15"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:48:08",
+    "model": "gemma3:12b"
+  }
+}

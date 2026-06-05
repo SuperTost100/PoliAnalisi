@@ -1,0 +1,50 @@
+{
+  "titolo": "Funzioni limitate, massimi e minimi, funzioni monotone",
+  "introduzione": "L'analisi delle funzioni è un pilastro fondamentale dell'Analisi Matematica. Comprendere se una funzione è limitata, identificare i suoi valori massimo e minimo assoluti, e analizzarne la monotonia ci fornisce informazioni cruciali sul suo comportamento grafico e sulle sue proprietà.",
+  "concetti": [
+    {
+      "nome": "Funzione Limitata",
+      "definizione": "Una funzione f: A → ℝ è limitata superiormente se esiste un numero reale M tale che f(x) ≤ M per ogni x ∈ A. Analogamente, è limitata inferiormente se esiste un numero reale m tale che f(x) ≥ m per ogni x ∈ A.",
+      "spiegazione": "Una funzione limitata non assume valori arbitrariamente grandi o piccoli nel suo dominio. Graficamente, ciò significa che la funzione può essere 'contenuta' all'interno di due linee orizzontali parallele: una superiore e una inferiore. Il limite superiore M rappresenta il valore massimo che f(x) raggiunge (o si avvicina a), mentre il limite inferiore m rappresenta il valore minimo.",
+      "formula": "f(x) ≤ M ∀ x ∈ A  (limitata superiormente)\nf(x) ≥ m ∀ x ∈ A  (limitata inferiormente)",
+      "esempio": "La funzione f(x) = sin(x) è limitata tra -1 e 1, poiché -1 ≤ sin(x) ≤ 1 per ogni x reale."
+    },
+    {
+      "nome": "Massimo e Minimo Assoluto",
+      "definizione": "Sia f: A → ℝ una funzione. Un punto x₀ ∈ A è un punto di massimo assoluto (o globale) se f(x₀) ≥ f(x) per ogni x ∈ A.  Un punto x₁ ∈ A è un punto di minimo assoluto (o globale) se f(x₁) ≤ f(x) per ogni x ∈ A.",
+      "spiegazione": "Il massimo assoluto rappresenta il valore più grande che la funzione assume sull'intero dominio, mentre il minimo assoluto rappresenta il valore più piccolo.  Sono i punti del grafico della funzione che raggiungono le altezze e le profondità massime. È importante notare che un funzione può avere più di un punto di massimo o minimo assoluto.",
+      "formula": "x₀ \\text{ è un punto di max assoluto } \\text{ se  }f(x₀) ≥ f(x) ∀ x ∈ A\nx₁ \\text{ è un punto di min assoluto } \\text{ se  }f(x₁) ≤ f(x) ∀ x ∈ A",
+      "esempio": "Per la funzione f(x) = 1 - x² sull'intervallo [-1, 1], il massimo assoluto è 1 (in x=0) e il minimo assoluto è -1 (in x=-1 o x=1)."
+    },
+    {
+      "nome": "Funzione Monotona",
+      "definizione": "Una funzione f: A → ℝ è crescente su un insieme A se per ogni x₁, x₂ ∈ A, con x₁ < x₂, si ha f(x₁) ≤ f(x₂). È strettamente crescente se x₁ < x₂ implica f(x₁) < f(x₂). Analogamente, una funzione è decrescente se x₁ < x₂ implica f(x₁) ≥ f(x₂) e strettamente decrescente se x₁ < x₂ implica f(x₁) > f(x₂).",
+      "spiegazione": "Una funzione crescente assume valori sempre maggiori (o uguali) man mano che l'input aumenta. Una funzione decrescente fa il contrario: assume valori sempre minori (o uguali). La differenza tra 'crescente' e 'strettamente crescente' sta nel fatto che la prima permette che f(x₁) = f(x₂) per alcuni x₁, x₂ mentre la seconda no, indicando una variazione continua del valore della funzione.",
+      "formula": "f(x₁) ≤ f(x₂) \\text{ se  }x₁ < x₂ (crescente)\nf(x₁) < f(x₂) \\text{ se  }x₁ < x₂ (strettamente crescente)\nf(x₁) ≥ f(x₂) \\text{ se  }x₁ < x₂ (decrescente)\nf(x₁) > f(x₂) \\text{ se  }x₁ < x₂ (strettamente decrescente)",
+      "esempio": "La funzione f(x) = x è strettamente crescente. La funzione f(x) = x² per x ≥ 0 è crescente."
+    }
+  ],
+  "punti_chiave": [
+    "Una funzione può essere limitata superiormente senza essere limitata inferiormente, e viceversa.",
+    "Il massimo assoluto (o minimo assoluto) di una funzione potrebbe non esistere in ogni dominio.",
+    "Se una funzione è continua su un intervallo chiuso e limitato, allora ammette sia un massimo che un minimo assoluto (Teorema di Weierstrass).",
+    "La monotonia di una funzione implica la sua limitatezza: una funzione monotona crescente su un insieme illimitato inferiormente non ha limite superiore, e viceversa."
+  ],
+  "errori_comuni": [
+    "Confondere il massimo/minimo assoluto con il massimo/minimo locale.",
+    "Non distinguere tra 'crescente' e 'strettamente crescente', comprendendo la differenza nella possibilità di valori uguali.",
+    "Pensare che una funzione continua su un intervallo aperto debba necessariamente avere un massimo e un minimo assoluto (falso!)."
+  ],
+  "connessioni": "Questi concetti sono fondamentali per l'analisi del comportamento delle funzioni, la ricerca di estremanti locali, lo studio della derivabilità e l'applicazione dell'integrazione. La monotonia è strettamente legata alla derivata prima: una funzione continua è crescente dove la sua derivata è positiva e decrescente dove la sua derivata è negativa.",
+  "_meta": {
+    "id": "L5",
+    "titolo": "Funzioni limitate, massimi e minimi, funzioni monotone",
+    "pdf": "L5 3 ott 2025_ funzioni limitate, massimi e minimi di funzioni, funzioni monotone.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:49:29"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:55:14",
+    "model": "gemma3:12b"
+  }
+}

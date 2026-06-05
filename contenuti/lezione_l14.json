@@ -1,0 +1,49 @@
+{
+  "titolo": "Teorema di esistenza degli zeri",
+  "introduzione": "Il teorema di esistenza degli zeri è uno strumento fondamentale per dimostrare l'esistenza di soluzioni a equazioni del tipo f(x) = 0. Insieme al teorema di Bolzano, fornisce una base teorica cruciale per la ricerca delle radici di funzioni continue e costituisce un punto di partenza per metodi numerici di risoluzione.",
+  "concetti": [
+    {
+      "nome": "Continuità",
+      "definizione": "Una funzione f: A → ℝ è continua in un punto x₀ ∈ A se il limite quando x tende a x₀ di f(x) è uguale a f(x₀).",
+      "spiegazione": "Intuitivamente, una funzione continua può essere disegnata senza staccare la penna dal foglio.  Piccoli cambiamenti nella variabile indipendente (x) producono piccoli cambiamenti nel valore della funzione (f(x)). La continuità è un requisito essenziale per applicare il teorema di esistenza degli zeri e garantisce che la funzione non presenti 'salti' o 'interruzioni'.",
+      "formula": "lim_(x→x₀) f(x) = f(x₀)",
+      "esempio": "La funzione f(x) = x² è continua in ogni punto reale."
+    },
+    {
+      "nome": "Teorema di esistenza degli zeri",
+      "definizione": "Sia f: [a, b] → ℝ una funzione continua nell'intervallo chiuso e limitato [a, b]. Se f(a) * f(b) ≤ 0, allora esiste almeno un punto c ∈ (a, b) tale che f(c) = 0.",
+      "spiegazione": "Questo teorema garantisce l'esistenza di uno zero di una funzione continua in un intervallo dove la funzione cambia segno. Il cambio di segno implica che deve esserci almeno un punto tra 'a' e 'b' dove il valore della funzione è zero.  Il teorema non fornisce informazioni su come trovare lo zero, ma solo sulla sua esistenza; l'intervallo (a, b) potrebbe contenere più zeri.",
+      "formula": "f: [a, b] → ℝ \\text{ continua; } f(a) * f(b) ≤ 0 ⇒ ∃ c ∈ (a, b): f(c) = 0",
+      "esempio": "Se f(x) = x² - 4 è continua in [1, 3], e f(1) = -3 mentre f(3) = 5, allora esiste un punto c tra 1 e 3 tale che f(c) = 0 (in questo caso, c=2)."
+    },
+    {
+      "nome": "Monotonia",
+      "definizione": "Una funzione f è detta monotona crescente su un intervallo se per ogni x₁, x₂ ∈ I con x₁ < x₂, si ha f(x₁) ≤ f(x₂). Una funzione f è detta monotona decrescente su un intervallo se per ogni x₁, x₂ ∈ I con x₁ < x₂, si ha f(x₁) ≥ f(x₂).",
+      "spiegazione": "Una funzione monotona cresce (o decresce) sempre in una direzione. Se una funzione è strettamente monotona (cioè, crescente o decrescente senza possibilità di rimanere costante), allora lo zero è unico. Questo perché non ci possono essere due punti diversi dove la funzione assume il valore zero.",
+      "formula": "x₁ < x₂ ⇒ f(x₁) ≤ f(x₂) (crescente);  x₁ < x₂ ⇒ f(x₁) ≥ f(x₂) (decrescente)",
+      "esempio": "La funzione f(x) = x è strettamente monotona crescente."
+    }
+  ],
+  "punti_chiave": [
+    "Il teorema di esistenza degli zeri richiede che la funzione sia continua nell'intervallo considerato.",
+    "Il prodotto f(a) * f(b) ≤ 0 indica un cambio di segno della funzione tra gli estremi dell'intervallo, implicando l'esistenza di almeno uno zero in (a, b).",
+    "Se una funzione è strettamente monotona nell'intervallo [a, b], allora lo zero è unico."
+  ],
+  "errori_comuni": [
+    "Dimenticare o non verificare esplicitamente la continuità della funzione sull'intervallo considerato prima di applicare il teorema.",
+    "Confondere l'esistenza di uno zero con la sua unicità: il teorema garantisce solo l'esistenza, non l'unicità. La monotonia è necessaria per garantire l'unicità.",
+    "Non considerare correttamente i valori della funzione agli estremi dell'intervallo (a e b) nell'analisi del cambio di segno."
+  ],
+  "connessioni": "Questo teorema è strettamente legato al teorema di Bolzano, che richiede una condizione più stringente sul prodotto f(a) * f(b) (< 0). Entrambi sono fondamentali per la ricerca delle radici di equazioni e costituiscono una base per metodi numerici come il metodo della bisezione. Inoltre, si collega ai concetti di continuità e monotonia, che sono pilastri dell'analisi matematica e vengono utilizzati in altri contesti come l'integrazione.",
+  "_meta": {
+    "id": "L14",
+    "titolo": "Teorema di esistenza degli zeri",
+    "pdf": "L14  6 nov 2025_ teorema esistenza zeri.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:58:19"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:34:31",
+    "model": "gemma3:12b"
+  }
+}

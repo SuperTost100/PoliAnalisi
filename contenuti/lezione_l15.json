@@ -1,0 +1,42 @@
+{
+  "titolo": "Teorema dei Valori Intermedi e Simboli di Landau",
+  "introduzione": "Il teorema dei valori intermedi (TVI) è uno strumento cruciale per dimostrare l'esistenza di soluzioni a equazioni e studiare il comportamento delle funzioni continue. In parallelo, introduciamo i simboli di Landau (O, o, Θ), che forniscono un linguaggio formale per descrivere il comportamento asintotico delle funzioni, particolarmente utile nell'analisi della complessità degli algoritmi.",
+  "concetti": [
+    {
+      "nome": "Teorema dei Valori Intermedi (TVI)",
+      "definizione": "Sia f una funzione continua definita su un intervallo chiuso e limitato [a, b]. Allora, per ogni valore y compreso tra f(a) e f(b), esiste almeno un punto c appartenente all'intervallo [a, b] tale che f(c) = y.",
+      "spiegazione": "Il teorema dei valori intermedi garantisce che una funzione continua 'attraversi' tutti i valori intermedi tra il suo valore in a e il suo valore in b. Immaginate di disegnare un grafico continuo: se inizia ad un certo livello e finisce a un altro, deve necessariamente toccare tutti i livelli interposti. Questo teorema è fondamentale per dimostrare l'esistenza di soluzioni a equazioni.",
+      "formula": "Sia f : [a, b] → ℝ \\text{ continua; } allora, ∀ y ∈ ℝ ∃ c ∈ [a, b]\\text{  tale che  }f(c) = y.",
+      "esempio": "Consideriamo la funzione f(x) = x² definita su [0, 2]. Abbiamo f(0) = 0 e f(2) = 4. Pertanto, per ogni valore y compreso tra 0 e 4 (ad esempio, y = 1), esiste un c in [0, 2] tale che f(c) = 1. In questo caso specifico, c = 1."
+    },
+    {
+      "nome": "Simboli di Landau: O, o, Θ",
+      "definizione": "I simboli di Landau forniscono una notazione per descrivere il comportamento asintotico delle funzioni quando la variabile indipendente tende all'infinito.  O(g(x)) indica che f(x) è limitata superiormente da un multiplo positivo di g(x). o(g(x)) indica che f(x) cresce più lentamente di g(x). Θ(g(x)) indica che f(x) cresce alla stessa velocità di g(x), ovvero è asintoticamente equivalente a g(x).",
+      "spiegazione": "Quando si analizza la complessità degli algoritmi o il comportamento delle funzioni per valori molto grandi, ci interessa come crescono rispetto ad altre funzioni. I simboli di Landau offrono un modo formale e preciso per esprimere queste relazioni di crescita asintotica. Ad esempio, se f(x) = x² e g(x) = x³, allora f(x) è O(g(x)) perché la velocità di crescita di x² è inferiore a quella di x³.",
+      "formula": "f(x) = O(g(x)) ⇔ ∃ C > 0, ∀ x ∈ X: 0 ≤ f(x) ≤ C * g(x)\nf(x) = o(g(x)) ⇔ lim (x→∞) f(x)/g(x) = 0\nf(x) = Θ(g(x)) ⇔ f(x) = O(g(x)) e f(x) = o(g(x))",
+      "esempio": "Consideriamo f(x) = 3x² + 5x e g(x) = x². Allora f(x) = O(x^2) perché, per x sufficientemente grande, il termine dominante di f(x) è x². Tuttavia, f(x) non è Θ(x²) a causa del termine lineare 5x."
+    }
+  ],
+  "punti_chiave": [
+    "Il teorema dei valori intermedi richiede che la funzione sia continua sull'intervallo considerato.",
+    "I simboli di Landau permettono di classificare il comportamento asintotico delle funzioni, fornendo informazioni sulla loro crescita relativa.",
+    "La comprensione e l'applicazione corretta dei simboli di Landau sono cruciali nell'analisi della complessità degli algoritmi."
+  ],
+  "errori_comuni": [
+    "Applicare il teorema dei valori intermedi a funzioni non continue o su intervalli non chiusi.",
+    "Confondere la notazione O(g(x)) con Θ(g(x)), non tenendo conto della presenza di termini dominanti diversi da g(x).",
+    "Trascurare l'importanza dei limiti nel calcolo del comportamento asintotico quando si utilizzano i simboli di Landau."
+  ],
+  "connessioni": "Il teorema dei valori intermedi fornisce una base per dimostrare l'esistenza di soluzioni a equazioni, un concetto fondamentale in ottimizzazione e analisi numerica. I simboli di Landau sono essenziali nell'analisi della complessità degli algoritmi, un argomento centrale nell'informatica teorica e nello sviluppo di software efficienti.",
+  "_meta": {
+    "id": "L15",
+    "titolo": "Teorema valori intermedi, simboli di Landau",
+    "pdf": "L15 7 nov 2025_ teor valori intermedi, simboli di Laundau.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T18:59:14"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:35:41",
+    "model": "gemma3:12b"
+  }
+}

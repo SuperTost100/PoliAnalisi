@@ -1,0 +1,41 @@
+{
+  "nome": "EDO, complessi, integrali impropri 18 dic 2025",
+  "difficolta": "medio",
+  "argomenti": [
+    "Equazioni Differenziali del Primo Ordine",
+    "Numeri Complessi",
+    "Integrali Impropri"
+  ],
+  "introduzione": "Questo esercizio riguarda la risoluzione di un'equazione differenziale lineare del secondo ordine a coefficienti costanti, l'interpretazione geometrica delle soluzioni e il concetto di limitatezza su R. Richiede una buona comprensione delle equazioni differenziali lineari, dei numeri complessi e degli integrali impropri.",
+  "esercizi": [
+    {
+      "numero": 2,
+      "testo": "Si consideri l’equazione differenziale y'' + 5y = 0.\n(a) Dire cosa significa che una funzione y = f(x) è soluzione dell’equazione data su un intervallo I ⊆ R.\n(b) Dimostrare che se f₁(x) e f₂(x) sono due soluzioni dell’equazione su R, allora la funzione 2f₁(x) - 3f₂(x) è una soluzione dell’equazione su R.\n(c) Determinare per quali valori di α ∈ R le soluzioni dell’equazione y'' + 5y = (1/3)e^(αx) sono limitate su R (non è richiesto il calcolo esplicito dell’integrale generale).",
+      "strategia": [
+        "a) Definire cosa significa che una funzione è soluzione di un'equazione differenziale: deve soddisfare l'equazione e essere continua e derivabile due volte sull'intervallo considerato.",
+        "b) Applicare la proprietà di linearità delle equazioni differenziali per dimostrare che una combinazione lineare di soluzioni è ancora una soluzione.",
+        "c) Analizzare la forma generale della soluzione dell'equazione non omogenea e determinare le condizioni affinché il termine esponenziale non contribuisca alla non limitatezza."
+      ],
+      "soluzione": "a) Una funzione y = f(x) è una soluzione dell’equazione differenziale y'' + 5y = 0 su un intervallo I ⊆ R se, per ogni x ∈ I, si ha che f''(x) + 5f(x) = 0 e f(x) è continua e derivabile due volte su I. Solitamente sono richieste condizioni iniziali (es: y(0)=y₀, y'(0)=y₁).\n b) Sia f₁(x) e f₂(x) soluzioni dell'equazione differenziale su R. Allora f₁''(x) + 5f₁(x) = 0 e f₂''(x) + 5f₂(x) = 0 per ogni x ∈ R. Consideriamo la funzione g(x) = 2f₁(x) - 3f₂(x).  Allora g''(x) + 5g(x) = 2f₁''(x) - 3f₂''(x) + 5(2f₁(x) - 3f₂(x)) = 2f₁''(x) - 3f₂''(x) + 10f₁(x) - 15f₂(x) = 2[f₁''(x) + 5f₁(x)] - 3[f₂''(x) + 5f₂(x)] = 2*0 - 3*0 = 0. Quindi g(x) è una soluzione dell'equazione differenziale su R.\n c) La soluzione generale dell’equazione y'' + 5y = (1/3)e^(αx) si ottiene come somma della soluzione dell’omogenea e di una particolare. La soluzione generale dell’omogenea è y_h(x) = c₁ cos(√5 x) + c₂ sin(√5 x).  Una soluzione particolare ha la forma y_p(x) = Ae^(αx). Sostituendo nell'equazione differenziale, si ottiene -α²Ae^(αx) + 5Ae^(αx) = (1/3)e^(αx), quindi (5-α²)A = 1/3, da cui A = 1/(3(5-α²)). La soluzione generale è y(x) = c₁ cos(√5 x) + c₂ sin(√5 x) + (1/(3(5-α²)))e^(αx). Per essere limitata su R, il termine esponenziale deve essere limitato. Questo implica che 5 - α² ≠ 0, cioè α ≠ ±√5. Inoltre, per garantire la limitatezza, è necessario che |A| sia finito e che i termini trigonometrici siano limitati (cosa sempre vera). Quindi le soluzioni sono limitate su R per ogni α ∈ R \\ {±√5}.",
+      "formule_usate": [
+        "y'' + 5y = 0",
+        "y_h(x) = c₁ cos(√5 x) + c₂ sin(√5 x)",
+        "y_p(x) = Ae^(αx)"
+      ],
+      "nota": "La linearità delle equazioni differenziali è fondamentale per dimostrare il punto (b).  Inoltre, la limitatezza di una soluzione dipende dalla presenza di termini esponenziali e trigonometrici."
+    }
+  ],
+  "riepilogo": "Questo esercizio consolida la comprensione di equazioni differenziali lineari, l'importanza delle condizioni iniziali e come le soluzioni si comportano in relazione ai parametri dell'equazione.",
+  "_meta": {
+    "settimana": "11",
+    "nome": "EDO, complessi, integrali impropri 18 dic 2025",
+    "pdf": "EDO, complessi, integrali impropri 18 dic 2025.pdf",
+    "soluzione_pdf": null,
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:21:55"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T19:54:44",
+    "model": "gemma3:12b"
+  }
+}

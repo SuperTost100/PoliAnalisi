@@ -1,0 +1,57 @@
+{
+  "titolo": "Equazioni Differenziali Ordinarie",
+  "introduzione": "Le equazioni differenziali descrivono relazioni tra una funzione incognita e le sue derivate, modellando fenomeni che variano nel tempo o nello spazio. Questo capitolo introduce il concetto di equazione differenziale ordinaria (EDO) e i metodi per determinarne le soluzioni, fondamentali in diverse discipline scientifiche e ingegneristiche.",
+  "concetti": [
+    {
+      "nome": "Equazione Differenziale Ordinaria (EDO)",
+      "definizione": "Un'equazione differenziale ordinaria è un'equazione che coinvolge una funzione incognita di una variabile indipendente e almeno una delle sue derivate rispetto a tale variabile.",
+      "spiegazione": "In termini più semplici, un'EDO esprime una relazione tra una quantità (la funzione) e il suo tasso di variazione (una sua derivata). Risolvere un'EDO significa trovare la funzione che soddisfa l'equazione. Le EDO sono utilizzate per modellare fenomeni fisici come il moto di un oggetto, la crescita di una popolazione o la diffusione di calore.",
+      "formula": "y'(x) + f(x)y(x) = g(x)",
+      "esempio": "dy/dx + 2y = x. Questa equazione mette in relazione la funzione y e la sua derivata prima dy/dx."
+    },
+    {
+      "nome": "Soluzione di un'EDO",
+      "definizione": "Una soluzione di un'equazione differenziale ordinaria è una funzione che, sostituita nell'equazione, la rende identicamente vera per tutti i valori della variabile indipendente in un determinato intervallo.",
+      "spiegazione": "La soluzione rappresenta il comportamento del sistema descritto dall'EDO. Esistono infinite soluzioni possibili, rappresentate dall'integrale generale. L'imposizione di condizioni iniziali o ai bordi determina una specifica soluzione, detta integrale particolare.",
+      "formula": "y(x) = g(x) + c",
+      "esempio": "Se y' = 2x, una soluzione è y(x) = x^2 + C, dove C è una costante arbitraria."
+    },
+    {
+      "nome": "Integrale Generale e Particolare",
+      "definizione": "L'integrale generale rappresenta l'insieme di tutte le soluzioni possibili dell'EDO, contenente una costante arbitraria. L'integrale particolare è una soluzione specifica ottenuta imponendo condizioni iniziali o ai bordi.",
+      "spiegazione": "L'integrale generale esprime la famiglia di soluzioni che soddisfano l'equazione differenziale. Imponendo una condizione iniziale (ad esempio, y(0) = 1), si determina il valore della costante arbitraria e si ottiene l'integrale particolare, ovvero la soluzione specifica che soddisfa tale condizione.",
+      "formula": "\\text{ Integrale Generale }: y(x) = g(x) + c; \\text{ Integrale Particolare }: y(x) = g(x) + c_0 (\\text{ \\text{ dove c_0 è determinato dalle condizioni iniziali }) }",
+      "esempio": "Se l'integrale generale di un'EDO è y(x) = x^2 + C, e imponiamo la condizione iniziale y(1) = 4, allora 4 = 1 + C => C = 3. L'integrale particolare è y(x) = x^2 + 3."
+    },
+    {
+      "nome": "Equazione Autonoma",
+      "definizione": "Un'equazione differenziale ordinaria si definisce autonoma se la variabile indipendente non compare esplicitamente nella funzione a destra del segno di uguale.",
+      "spiegazione": "In altre parole, il tasso di variazione della funzione incognita dipende unicamente dal suo valore attuale. Questo semplifica l'analisi e la risoluzione dell'equazione, permettendo spesso una visualizzazione geometrica più intuitiva. Le equazioni autonome sono caratterizzate dalla dipendenza esplicita solo dalla variabile dipendente.",
+      "formula": "dy/dx = f(y)",
+      "esempio": "dy/dx = y^2 è un'equazione autonoma, mentre dy/dx = x + y è non autonoma."
+    }
+  ],
+  "punti_chiave": [
+    "Le EDO sono strumenti essenziali per la modellizzazione di fenomeni fisici e ingegneristici.",
+    "La soluzione di un'EDO descrive l'evoluzione del sistema nel tempo o nello spazio.",
+    "L'integrale generale rappresenta una famiglia di soluzioni, mentre l'integrale particolare è una soluzione specifica determinata da condizioni iniziali o ai bordi.",
+    "Le equazioni autonome presentano proprietà che semplificano la loro analisi e interpretazione."
+  ],
+  "errori_comuni": [
+    "Confondere l'integrale generale con l'integrale particolare, dimenticando che il primo contiene una costante arbitraria.",
+    "Non considerare le condizioni iniziali o ai bordi nella determinazione della soluzione specifica.",
+    "Applicare tecniche di integrazione inappropriate, portando a soluzioni errate."
+  ],
+  "connessioni": "Gli argomenti trattati in questo capitolo costituiscono la base per lo studio di equazioni differenziali lineari, sistemi di equazioni differenziali e applicazioni specifiche in campi come fisica, ingegneria e biologia. Richiedono una solida comprensione del calcolo integrale.",
+  "_meta": {
+    "id": "EDO",
+    "titolo": "Equazioni Differenziali Ordinarie",
+    "pdf": "EDO.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:13:21"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:26:59",
+    "model": "gemma3:12b"
+  }
+}

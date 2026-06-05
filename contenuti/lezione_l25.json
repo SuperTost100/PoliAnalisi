@@ -1,0 +1,49 @@
+{
+  "titolo": "Teorema Fondamentale del Calcolo Integrale (TFCI)",
+  "introduzione": "Il Teorema Fondamentale del Calcolo Integrale (TFCI) è un risultato centrale della matematica che stabilisce una connessione profonda tra le operazioni di derivazione e integrazione. Questo teorema fornisce un metodo efficiente per calcolare integrali definiti, riducendo il problema a un semplice calcolo di funzioni.",
+  "concetti": [
+    {
+      "nome": "Funzione Primitiva (o Antiderivata)",
+      "definizione": "Una funzione F(x) è una primitiva (o antiderivata) di f(x) se la derivata di F(x) è uguale a f(x), ovvero, formalmente, F'(x) = f(x).",
+      "spiegazione": "In altre parole, l'antiderivata 'annulla' l'effetto della derivazione.  Poiché la derivata è un'operazione che introduce una costante, esistono infinite primitive di una stessa funzione, differenziate da una costante arbitraria, solitamente indicata con 'C'.",
+      "formula": "F'(x) = f(x)",
+      "esempio": "Se f(x) = 2x, allora F(x) = x² + C è una primitiva di f(x), poiché (x² + C)' = 2x."
+    },
+    {
+      "nome": "Integrale Definito",
+      "definizione": "L'integrale definito di una funzione f(x) nell'intervallo [a, b], denotato come ∫ab f(x) dx, rappresenta l'area con segno tra il grafico della funzione y = f(x), l'asse x e le rette verticali x = a e x = b.",
+      "spiegazione": "L'integrale definito fornisce un valore numerico che quantifica questa area. Se f(x) è positiva nell'intervallo [a, b], l'integrale rappresenta l'area al di sopra dell'asse x; se f(x) è negativa, rappresenta un'area negativa.",
+      "formula": "∫ab f(x) dx",
+      "esempio": "∫01 x dx = 1/2, che corrisponde all'area del triangolo delimitato dalla curva y=x, l'asse x e la retta x=1."
+    },
+    {
+      "nome": "Teorema Fondamentale del Calcolo Integrale (TFCI)",
+      "definizione": "Sia f(x) una funzione continua sull'intervallo [a, b]. Se F(x) è una primitiva di f(x), allora l'integrale definito ∫ab f(x) dx è uguale alla differenza dei valori della primitiva valutata agli estremi dell'intervallo: ∫ab f(x) dx = F(b) - F(a).",
+      "spiegazione": "Il TFCI stabilisce che il calcolo di un integrale definito può essere ridotto al calcolo del valore di una primitiva in due punti. Questo teorema fornisce un collegamento diretto e fondamentale tra l'operazione di integrazione e quella di derivazione.",
+      "formula": "∫ab f(x) dx = F(b) - F(a)",
+      "esempio": "Sia f(x) = x e F(x) = x²/2. Allora ∫01 x dx = (1/2)² - (0/2)² = 1/4."
+    }
+  ],
+  "punti_chiave": [
+    "Il TFCI stabilisce una relazione fondamentale tra le operazioni di derivazione e integrazione, dimostrando che sono processi inversi.",
+    "L'applicazione del TFCI permette di calcolare integrali definiti attraverso la valutazione di una primitiva agli estremi dell'intervallo di integrazione.",
+    "La costante di integrazione 'C' si semplifica nel calcolo dell'integrale definito, poiché viene sottratta da se stessa."
+  ],
+  "errori_comuni": [
+    "Omettere la costante di integrazione 'C' durante il calcolo delle primitive (anche se non necessaria per l'applicazione diretta del TFCI).",
+    "Confondere l'integrale definito, che fornisce un valore numerico, con l'integrale indefinito, che rappresenta una famiglia di funzioni.",
+    "Non verificare la condizione di continuità della funzione f(x) sull'intervallo [a, b], poiché il TFCI è valido solo per funzioni continue."
+  ],
+  "connessioni": "Il Teorema Fondamentale del Calcolo Integrale costituisce un pilastro fondamentale per lo studio di tecniche di integrazione più avanzate, come l'integrazione per sostituzione. Inoltre, fornisce le basi per la comprensione di concetti chiave in fisica e ingegneria, come il calcolo del lavoro compiuto da una forza o il volume di solidi di rotazione.",
+  "_meta": {
+    "id": "L25",
+    "titolo": "Teorema Fondamentale del Calcolo Integrale (TFCI)",
+    "pdf": "L25 11 dic 2025_ TFCI.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:10:17"
+  },
+  "_revisione": {
+    "timestamp": "2026-06-04T20:49:14",
+    "model": "gemma3:12b"
+  }
+}

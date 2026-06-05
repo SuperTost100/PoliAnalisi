@@ -1,0 +1,45 @@
+{
+  "titolo": "Sviluppi di Taylor",
+  "introduzione": "Gli sviluppi di Taylor sono uno strumento fondamentale in Analisi Matematica che ci permette di approssimare una funzione complessa con un polinomio più semplice, centrato in un punto specifico. Questa approssimazione è particolarmente utile per studiare il comportamento locale della funzione e per calcoli numerici.",
+  "concetti": [
+    {
+      "nome": "Formula dell'Incremento Finito",
+      "definizione": "Data una funzione f continua e derivabile in un intervallo (a, b), l'incremento finito è la variazione di f tra due punti x e x + h nell'intervallo.",
+      "spiegazione": "La formula dell'incremento finito esprime come la variazione di una funzione dipenda dalla sua derivata. In sostanza, ci dice che la variazione della funzione è approssimativamente uguale alla variazione lineare data dalla retta tangente nel punto iniziale. La differenza tra il valore reale e l'approssimazione lineare è rappresentata dal termine di Lagrange.",
+      "formula": "f(x + h) = f(x) + f'(x)h + o(h)",
+      "esempio": "Consideriamo f(x) = x^2, x = 1 e h = 0.1.  L'incremento finito è f(1.1) - f(1) = 1.21 - 1 = 0.21. La formula dell'incremento finito ci darebbe approssimativamente: 0 + 2*1 * 0.1 = 0.2"
+    },
+    {
+      "nome": "Teorema di Lagrange (Forma Generale)",
+      "definizione": "Se f è continua in [a, b] e derivabile in (a, b), allora esiste un punto c appartenente a (a, b) tale che la variazione di f tra a e b sia uguale all'incremento della derivata valutata in c.",
+      "spiegazione": "Il teorema di Lagrange fornisce una giustificazione teorica per l'esistenza del termine di errore nell'approssimazione lineare.  Garantisce che esiste sempre un punto 'c' dove la derivata, quando moltiplicata per l'incremento, spiega esattamente la variazione della funzione tra due punti.",
+      "formula": "f(b) - f(a) = f'(c)(b - a)",
+      "esempio": "Se f(x) = x^2, a=0 e b=2, allora f(2)-f(0)=4-0=4. Il teorema di Lagrange garantisce che esiste un c tra 0 e 2 tale che f'(c) = 2c = 4/2 = 2, quindi c = 1."
+    },
+    {
+      "nome": "Sviluppo di Taylor",
+      "definizione": "Lo sviluppo di Taylor di una funzione f centrato in un punto a è una rappresentazione della funzione come somma infinita di termini derivati in quel punto.",
+      "spiegazione": "Lo sviluppo di Taylor, basandosi sul teorema di Lagrange, fornisce un'approssimazione sempre migliore della funzione man mano che includiamo più termini (derivate di ordine superiore). Il resto di Taylor rappresenta l'errore introdotto dall'approssimazione con il polinomio troncato.",
+      "formula": "f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + ... + \\frac{f^{(n)}(a)}{n!}(x-a)^n + R_n(x)",
+      "esempio": "Consideriamo lo sviluppo di Taylor di f(x) = e^x centrato in a=0. Il primo termine è e^x, il secondo è x*e^x/1!, il terzo è x^2 * e^x / 2! e così via."
+    }
+  ],
+  "punti_chiave": [
+    "Il teorema di Lagrange fornisce la base teorica per lo sviluppo di Taylor.",
+    "La formula dell'incremento finito introduce l'idea di approssimare una funzione con la sua retta tangente.",
+    "Lo sviluppo di Taylor permette di approssimare funzioni complesse con polinomi, semplificando i calcoli e lo studio del loro comportamento."
+  ],
+  "errori_comuni": [
+    "Confondere il teorema di Lagrange con la formula dell'incremento finito: il teorema garantisce l'esistenza del termine di errore, mentre la formula fornisce un'approssimazione.",
+    "Non considerare il resto (termine di errore) nello sviluppo di Taylor: ignorare il resto può portare a conclusioni errate sull'accuratezza dell'approssimazione.",
+    "Applicare lo sviluppo di Taylor al di fuori del suo intervallo di convergenza: l'approssimazione potrebbe non essere valida in regioni lontane dal punto di centraggio."
+  ],
+  "connessioni": "Gli sviluppi di Taylor sono strettamente collegati alla definizione di derivata, al teorema del valor medio e all'analisi delle serie. Sono fondamentali per lo studio delle funzioni analitiche, delle approssimazioni numeriche e per la risoluzione di equazioni differenziali.",
+  "_meta": {
+    "id": "L20",
+    "titolo": "Sviluppi di Taylor",
+    "pdf": "L20 27 nov 2025_ sviluppi di Taylor.pdf",
+    "model": "gemma3:12b",
+    "timestamp": "2026-06-04T19:04:59"
+  }
+}
