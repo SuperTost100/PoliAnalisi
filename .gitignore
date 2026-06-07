@@ -34,3 +34,4 @@ gen_missing_and_dump.py
 
 # Logs
 *.log
+scripts/
