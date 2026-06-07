@@ -671,7 +671,7 @@ async function renderQuiz() {
         <div class="q-opts">${opts}</div>
         <div class="q-exp ${expShow}" id="qexp-${qi}">💡 <strong>Spiegazione:</strong> ${q.spieg}</div>
         <div class="q-acts" id="qact-${qi}">
-          <a href="https://github.com/SuperTost100/PoliAnalisi/issues/new?title=Errore%20in%20Quiz&body=${encodeURIComponent('Domanda:\n' + q.d + '\n\nDescrivi l\'errore qui:\n')}" target="_blank" class="btn-q btn-report">⚠️ Segnala Errore</a>
+          <a href="https://github.com/SuperTost100/PoliAnalisi/issues/new?title=Errore%20in%20Quiz&body=${encodeURIComponent('Domanda:\n' + q.d + '\n\nDescrivi l%27errore qui:\n')}" target="_blank" class="btn-q btn-report">⚠️ Segnala Errore</a>
           ${!answered ? `<button class="btn-q btn-qc" id="qconf-${qi}" onclick="confirmOpt(${qi})" disabled>Conferma</button>` : ''}
           ${qi < total-1 ? `<button class="btn-q btn-qn" onclick="scrollToQ(${qi+1})">Prossima →</button>` : ''}
         </div>
@@ -718,7 +718,7 @@ function confirmOpt(qi) {
           : 'background:var(--rd-d);color:var(--rd);border:1px solid rgba(239,68,68,0.28)'}">
         ${correct ? '✓ Corretto!' : `✗ Sbagliato - Corretta: ${String.fromCharCode(65+q.ok)}`}
       </div>
-      <a href="https://github.com/SuperTost100/PoliAnalisi/issues/new?title=Errore%20in%20Quiz&body=${encodeURIComponent('Domanda:\n' + q.d + '\n\nDescrivi l\'errore qui:\n')}" target="_blank" class="btn-q btn-report">⚠️ Segnala Errore</a>
+      <a href="https://github.com/SuperTost100/PoliAnalisi/issues/new?title=Errore%20in%20Quiz&body=${encodeURIComponent('Domanda:\n' + q.d + '\n\nDescrivi l%27errore qui:\n')}" target="_blank" class="btn-q btn-report">⚠️ Segnala Errore</a>
       ${qi < total-1
         ? `<button class="btn-q btn-qn" onclick="scrollToQ(${qi+1})">Prossima →</button>`
         : '<div style="font-size:0.83rem;color:var(--v-l);font-weight:600">Quiz completato! 🎉</div>'}
