@@ -1,0 +1,2834 @@
+{
+  "suria_0": "OK",
+  "suria_1": {
+    "file": "quiz_suria.json",
+    "index": 1,
+    "d": "$\\lim_{x\\to 4}\\frac{5}{1 −cos(5x −4)} \\cdot \\frac{(x −4)}{5^2} = $",
+    "gemma_eval": "ERRORE: La funzione all'interno del limite non è definita per x=4, in quanto il denominatore tende a infinito. Non si può applicare direttamente la regola di L'Hôpital senza ulteriori verifiche sulla forma del limite."
+  },
+  "suria_2": "OK",
+  "suria_3": "OK",
+  "suria_4": "OK",
+  "suria_5": "OK",
+  "suria_6": "OK",
+  "suria_7": "OK",
+  "suria_8": "OK",
+  "suria_9": "OK",
+  "suria_10": "OK",
+  "suria_11": {
+    "file": "quiz_suria.json",
+    "index": 11,
+    "d": "Il limite $\\lim_{x\\rightarrow+\\infty}\\frac{cos x - x^2 + e^{-2x}}{sin x + e^{-3x} + x^2}$ vale",
+    "gemma_eval": "ERRORE: Il coseno e il seno non sono funzioni definite per $x \\rightarrow +\\infty$."
+  },
+  "suria_12": {
+    "file": "quiz_suria.json",
+    "index": 12,
+    "d": "La funzione $f(x) = log \\left( 3 + \\frac{4}{x^2} \\right) + 2x$ ha come asintoto obliquo sinistro la retta",
+    "gemma_eval": "ERRORE: La funzione ha un asintoto obliquo sinistro solo se $\\lim_{x \\to -\\infty} \\frac{f(x)}{x}$ esiste ed è finita. In questo caso, la presenza del termine logaritmico rende l'esistenza di tale limite dubbia e non definisce univocamente un asintoto obliquo. Inoltre, il dominio della funzione è limitato da $3 + \\frac{4}{x^2} > 0$, quindi $x$ può tendere a $-\\infty$."
+  },
+  "suria_13": "OK",
+  "suria_14": "OK",
+  "suria_15": "OK",
+  "suria_16": "OK",
+  "suria_17": "OK",
+  "suria_18": "OK",
+  "suria_19": "OK",
+  "suria_20": "OK",
+  "suria_21": "OK",
+  "suria_22": {
+    "file": "quiz_suria.json",
+    "index": 22,
+    "d": "Sia $f(x) = e^{x\\sqrt{1 + e^x}}$. Una primitiva di $f(x)$ su R è:",
+    "gemma_eval": "ERRORE: La domanda implica l'esistenza di una primitiva esprimibile con le forme proposte, senza fornire informazioni sufficienti per determinarla. Inoltre, nessuna delle opzioni sembra essere una primitiva corretta di $f(x)$. Non è possibile determinare la primitiva esatta senza ulteriori semplificazioni o tecniche di integrazione avanzate."
+  },
+  "suria_23": {
+    "file": "quiz_suria.json",
+    "index": 23,
+    "d": "La funzione $f(x) = cos(sin x) −1 + \\frac{1}{2x^2}$ ha sviluppo di MacLaurin all’ordine 2 uguale a:",
+    "gemma_eval": "ERRORE: L'affermazione \"o(x^2), per x \\to 0\" è incompleta e non definisce uno sviluppo di MacLaurin. Inoltre, l'opzione \"$0$\" è troppo generica senza specificare a quale ordine si riferisce lo sviluppo."
+  },
+  "suria_24": "OK",
+  "suria_25": "OK",
+  "suria_26": {
+    "file": "quiz_suria.json",
+    "index": 26,
+    "d": "Quesito - richiamare il teorema di Lagrange",
+    "gemma_eval": "ERRORE: Mancano il testo del quesito e le opzioni di risposta. Non è possibile valutare la domanda senza tali elementi."
+  },
+  "suria_27": {
+    "file": "quiz_suria.json",
+    "index": 27,
+    "d": "Quesito - confronto l’ordine di infinito, trascuro gli o piccoli…",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva di contesto. Non si capisce cosa si debba confrontare, né quali siano le funzioni coinvolte. L'affermazione \"trascuro gli o piccoli…\" suggerisce un confronto tra limiti, ma senza ulteriori informazioni non è possibile valutare la correttezza delle opzioni."
+  },
+  "suria_28": {
+    "file": "quiz_suria.json",
+    "index": 28,
+    "d": "Quesito - la funzione può essere scritta, per $x → - ∞$, come $f(x)=m x + q + o(1)$; ma se $x → - ∞$, $log (3+4/x^2) → log 3… quindi se $x → - ∞$$f(x) = x+log 3 +o(1)$. Oppure è possibile calcolare l’asintoto con il limite. Attenzione il limite deve tendere a – infinito.$m=lim …… ; q=",
+    "gemma_eval": "ERRORE: La domanda è confusa e presenta affermazioni illogiche. In particolare, l'affermazione \"$x → - ∞$, $log (3+4/x^2) → log 3$\" è corretta, ma la sua connessione con la funzione $f(x)$ non è chiara e il passaggio a $f(x) = x+log 3 +o(1)$ è privo di giustificazione. Inoltre, l'introduzione di $m$ e $q$ senza una definizione precisa rende impossibile valutare le opzioni di risposta. La domanda manca di contesto e chiarezza metodologica."
+  },
+  "suria_29": {
+    "file": "quiz_suria.json",
+    "index": 29,
+    "d": "Quesito - solita derivata dell’inversa",
+    "gemma_eval": "ERRORE: Mancano il testo del quesito e le opzioni di risposta. Non è possibile valutare la domanda senza tali informazioni."
+  },
+  "suria_30": {
+    "file": "quiz_suria.json",
+    "index": 30,
+    "d": "Pongo i singoli fattori maggiori di zero, indipendentemente dal segno della disequazione. E poi tolgo la realtà:",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto. Non si capisce a quale disequazione o espressione si riferisca il testo. Le opzioni di risposta sono incoerenti e non correlate tra loro senza un problema specifico. L'espressione \"tabellone ++--\" suggerisce una tabella dei segni, ma manca la funzione da analizzare."
+  },
+  "suria_31": {
+    "file": "quiz_suria.json",
+    "index": 31,
+    "d": "funzione pari $sin(log(| –x|))=sin(log |x|)=f(x)$",
+    "gemma_eval": "ERRORE: La funzione proposta non è una funzione pari. Infatti, $sin(log(|-x|))$ e $sin(log(|x|))$ non sono necessariamente uguali per ogni x. Ad esempio, se $x = -1$, allora $sin(log(|-(-1)|)) = sin(log(1)) = 0$, mentre $sin(log(|-1|)) = sin(log(1)) = 0$. Tuttavia, se $x=1$, allora $sin(log(|-1|)) = sin(log(1)) = 0$ e $sin(log(|1|)) = sin(log(1)) = 0$.  Una funzione pari dovrebbe soddisfare $f(-x) = f(x)$ per ogni x nel dominio. La relazione proposta non implica necessariamente questa proprietà."
+  },
+  "suria_32": {
+    "file": "quiz_suria.json",
+    "index": 32,
+    "d": "vedi definizione della Tabacco: x0 è punto di minimo… ricordare che la disequazione può essere attenuata",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto e non presenta una definizione chiara né una disequazione. È impossibile valutarne la correttezza matematica senza informazioni aggiuntive. L'affermazione \"vedi definizione della Tabacco\" è incomprensibile senza sapere a cosa si riferisce \"Tabacco\"."
+  },
+  "suria_33": {
+    "file": "quiz_suria.json",
+    "index": 33,
+    "d": "ovvio. Attenzione che le informazioni in zero sono esatte (centro dello sviluppo) senza gli o piccoli, mentre per $f(1)$ conosco solo un valore approssimato. $f(1)= -1+2-3+o(13)$",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva di contesto. Non si capisce cosa si stia chiedendo, né a quale funzione $f$ ci si riferisca. L'affermazione \"$f(1)= -1+2-3+o(13)$\" è sintatticamente corretta ma priva di significato senza ulteriori informazioni sulla funzione $f$."
+  },
+  "suria_34": {
+    "file": "quiz_suria.json",
+    "index": 34,
+    "d": "F(x) deve essere derivabile e la sua derivata…",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca il testo che segue \"F(x) deve essere derivabile e la sua derivata…\" e le opzioni di risposta. Non si può valutare la correttezza matematica senza queste informazioni."
+  },
+  "suria_35": {
+    "file": "quiz_suria.json",
+    "index": 35,
+    "d": "Quesito: Non è derivabile in $x=0$ e qui ha una cuspide. Fz. È pari, $x=0$ è punto di minimo non derivabile",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva del contesto della funzione Fz. Non si può determinare la correttezza dell'affermazione senza conoscere la funzione stessa. Le proprietà di derivabilità, parità e presenza di minimi dipendono dalla definizione di Fz."
+  },
+  "suria_36": {
+    "file": "quiz_suria.json",
+    "index": 36,
+    "d": "Quesito: $F(x)=- \\int Integrale…$F’(x)= - esin^2 x--- <0  $F(x)$ decrescente. Inoltre $F(0)=0$, quindi $F(x) >0$ per $x$ in  (-∞, 0) , $F(x) <0$ per $x$ in (0,+ ∞). Inoltre essendo decrescente non può l’integrale improprio tra 0 e + ∞ essere indeterminato, ma o converge o diverge. Attenzione prima della derivazione scambiare gli estremi dell’intervallo di integrazione",
+    "gemma_eval": "ERRORE: La domanda è confusa e presenta affermazioni illogiche. L'espressione \"$F(x)=- \\int Integrale…$\" è incompleta e priva di significato matematico. Inoltre, l'affermazione \"Attenzione prima della derivazione scambiare gli estremi dell’intervallo di integrazione\" è generica e non contestualizzata correttamente. La logica esposta è disconnessa e difficile da interpretare."
+  },
+  "suria_37": {
+    "file": "quiz_suria.json",
+    "index": 37,
+    "d": "Quesito: Si integra facilmente:\na. Sostituendo $ex = t$\nb. Vedendolo come integrale di una composta $ex (1+ex)1/2 ---- (1+ex)1/2+1 /(2/3) …\nc. Derivo le soluzioni e cerco",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto, non specifica quale integrale si stia parlando e le opzioni sono incomprensibili e prive di senso matematico. L'opzione b contiene espressioni illogiche e sintassi errata. L'opzione c suggerisce un metodo completamente sbagliato per risolvere integrali."
+  },
+  "suria_38": {
+    "file": "quiz_suria.json",
+    "index": 38,
+    "d": "Quesito: Sviluppo la più interna e poi vedo. Attenzione a non perdere i pezzi… il fatto di avere $x^2$ potrebbe indurmi a fermarmi a $x^2$\na. $cos(x-x^3/6+o(x^3))-1+1/2x^2 = 1- (x-x^3/6+o(x^3))^2 /2 + (…..)^4/4 -1 +1/2 x^2… ma troppo alto quindi non scrivo. Semplifico 1 e 1/2$x^2$\nb.$f(x)= x^4/6 + o(x^3)… f(x)=o(x^3)$, non c’è la risposta,, ma se in$f(x)$restano solo potenze oltre la 4° significa che$f(x)=o(x^2)$",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto e non specifica quale sviluppo o funzione si stia considerando. Le opzioni a e b contengono affermazioni matematiche incomplete, incoerenti e prive di significato senza un quesito chiaro. L'uso di \"o(x^3)\" suggerisce uno sviluppo asintotico, ma la sua applicazione è confusa e non giustificata. La frase \"ma troppo alto quindi non scrivo\" indica che il ragionamento è interrotto e incompleto."
+  },
+  "suria_39": {
+    "file": "quiz_suria.json",
+    "index": 39,
+    "d": "Quesito: a 1 è sbagliata perché $x/x^2 = 1/x..$ che tende a infinito, ma non so se + o - infinito (sopra cambia segno sotto no)\na. Nella $2_ f+g= x+o(x)+x^2+o(x^2)$. Attenzione nella somma non posso sostituire l’equiavelente, ma se lascio gli o piccoli sì. Ora $o(x)+o(x^2)=o(x)$ e quindi cancello  $x^2$ e diventa $f+g=x+o(x)$\nb. La 5 è falsa $f*g=x^3 +o(x^3)$",
+    "gemma_eval": "ERRORE: La domanda e le opzioni di risposta sono prive di contesto. Non è chiaro a cosa si riferiscano \"Quesito\", \"$2_ f+g$\", \"f\" e \"g\". Inoltre, la giustificazione fornita per l'opzione \"a\" contiene affermazioni imprecise e non corrette riguardo ai limiti e alle notazioni *o(x)*. La sintassi è confusa e rende impossibile valutare la correttezza matematica delle opzioni proposte."
+  },
+  "suria_40": "OK",
+  "suria_41": "OK",
+  "suria_42": "OK",
+  "suria_43": "OK",
+  "suria_44": "OK",
+  "suria_45": "OK",
+  "suria_46": {
+    "file": "quiz_suria.json",
+    "index": 46,
+    "d": "lo sviluppo di Mac Laurin, di ordine 3, della funzione sinh (log(x + 1)) è:",
+    "gemma_eval": "ERRORE: La funzione sinh(log(x+1)) non è sviluppabile in serie di Maclaurin nel punto x=0, poiché log(x+1) non è definita per x = -1.  Inoltre, la presenza di termini con $x^3$ al denominatore rende sospetta l'espressione stessa."
+  },
+  "suria_47": "OK",
+  "suria_48": "OK",
+  "suria_49": "OK",
+  "suria_50": "OK",
+  "suria_51": {
+    "file": "quiz_suria.json",
+    "index": 51,
+    "d": "α ∈ R per cui lim x→0+ x^α + log(1 + x^2) / x sin x = 0'",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca la definizione di cosa si intende per \"lim x→0+\". Inoltre, non è specificato se si cerca un valore specifico di α o un intervallo di valori. Infine, l'espressione `x sin x` al denominatore potrebbe causare problemi quando x tende a 0+, richiedendo ulteriori considerazioni sull'esistenza del limite."
+  },
+  "suria_52": "OK",
+  "suria_53": "OK",
+  "suria_54": "OK",
+  "suria_55": {
+    "file": "quiz_suria.json",
+    "index": 55,
+    "d": "Lo sviluppo di Mac Laurin di ordine 4 della funzione $f(x) = e^{\\cosh x}$ è:",
+    "gemma_eval": "ERRORE: Lo sviluppo di Mac Laurin richiede l'espansione attorno a x=0. Le opzioni proposte contengono termini con $1/x^2$ e $1/x^4$, che implicano uno sviluppo attorno ad un punto diverso da zero, rendendo le risposte prive di senso nel contesto della domanda. Inoltre, la prima opzione è errata perché tenta di esprimere lo sviluppo in termini di una serie di potenze di $(1 + \\frac{x^2}{2} + \\frac{x^4}{24})$, il che non è un modo standard per rappresentare uno sviluppo di Mac Laurin."
+  },
+  "suria_56": "OK",
+  "suria_57": "OK",
+  "suria_58": "OK",
+  "suria_59": "OK",
+  "suria_60": "OK",
+  "suria_61": {
+    "file": "quiz_suria.json",
+    "index": 61,
+    "d": "Quale delle seguenti proprietà NON è soddisfatta da $z = 2 + 3i$?",
+    "gemma_eval": "ERRORE: La proprietà \"$z \\cdot z \\in \\mathbb{R}$\" è falsa. Infatti, se $z = 2 + 3i$, allora $z \\cdot z = (2+3i)(2+3i) = 4 + 12i + 9i^2 = 4 + 12i - 9 = -5 + 12i$, che non è reale."
+  },
+  "suria_62": "OK",
+  "suria_63": {
+    "file": "quiz_suria.json",
+    "index": 63,
+    "d": "Lo sviluppo di Mac Laurin di ordine 2 della funzione $f(x) = 32 sin(x)$ è:",
+    "gemma_eval": "ERRORE: Lo sviluppo di Mac Laurin di una funzione $f(x)$ è dato da $f(0) + f'(0) x + \\frac{f''(0)}{2!} x^2 + ...$.  La funzione data è $f(x) = 32\\sin(x)$. Il termine costante dello sviluppo di Mac Laurin dovrebbe essere $f(0) = 32\\sin(0) = 0$, ma nessuna delle opzioni lo rispetta. Inoltre, le opzioni contengono logaritmi che non hanno senso nel contesto dello sviluppo di Mac Laurin di una funzione seno."
+  },
+  "suria_64": "OK",
+  "suria_65": "OK",
+  "suria_66": "OK",
+  "suria_67": {
+    "file": "quiz_suria.json",
+    "index": 67,
+    "d": "Quale delle seguenti proprietà è FALSA?",
+    "gemma_eval": "ERRORE: La prima opzione contiene un errore. Il simbolo di radice quadrata non può essere applicato a numeri negativi senza l'uso dei numeri complessi, e la notazione $3√−i$ è ambigua e potenzialmente scorretta. Inoltre, l'affermazione generale sulla forma delle radici complesse potrebbe essere vera o falsa a seconda del calcolo specifico, ma la presentazione è incompleta."
+  },
+  "suria_68": "OK",
+  "suria_69": "OK",
+  "suria_70": "OK",
+  "suria_71": "OK",
+  "suria_72": "OK",
+  "suria_73": "OK",
+  "suria_74": "OK",
+  "suria_75": "OK",
+  "suria_76": {
+    "file": "quiz_suria.json",
+    "index": 76,
+    "d": "$ \\int_{+∞}^{1} \\frac{1}{3} x^3 dx =",
+    "gemma_eval": "ERRORE: L'integrale improprio non è definito correttamente. Il limite di integrazione inferiore deve essere infinito positivo, ma l'integranda ha un esponente positivo. Questo implica che l'integrale diverge a -∞. Inoltre, la domanda non specifica se si tratta di integrale definito o indefinito."
+  },
+  "suria_77": "OK",
+  "suria_78": "OK",
+  "suria_79": "OK",
+  "suria_80": "OK",
+  "suria_81": "OK",
+  "suria_82": "OK",
+  "suria_83": "OK",
+  "suria_84": "OK",
+  "suria_85": {
+    "file": "quiz_suria.json",
+    "index": 85,
+    "d": "E’ lo sviluppo di un rapporto. \\\\1) sviluppo il numeratore\\\\2) sviluppo il denominatore\\\\I metodo\\\\Faccio il rapporto tra i due sviluppi (ordino lo sviluppo dalla potenza minore verso la maggiore e divido in colonna come per le divisioni tra polinomi.\\\\1 + 1\\\\3x^4|1 + 1\\\\4x^3\\\\Vedere esempio sul testo Prof. Tabacco",
+    "gemma_eval": "ERRORE: La domanda e le opzioni di risposta sono prive di senso matematico. Non si capisce quale sia \"il rapporto\" da sviluppare, né cosa siano i \"metodi I\", \"II\" e \"III\". Inoltre, la descrizione del metodo I è confusa e non corrisponde a una procedura matematica valida per lo sviluppo di rapporti (probabilmente si riferisce allo sviluppo in serie di Taylor/Maclaurin, ma l'esposizione è insufficiente). La presenza di \"1 + 1\" e \"3x^4|1 + 1\\\\4x^3\" non ha un significato chiaro."
+  },
+  "suria_86": {
+    "file": "quiz_suria.json",
+    "index": 86,
+    "d": "La successione è indeterminata, perché è vero che diverge oscillando, ma assume anche il valore nullo, quindi non tende a nulla, sembra andare a +∞, ma subito dopo assume il valor 0, poi va ad un valore negativo, poi torna a zero... se non assumesse anche lo zero sarebbe indeterminata lo stesso, ma potrebbe essere classificata come diverge oscillando.",
+    "gemma_eval": "ERRORE: La domanda non fornisce una definizione esplicita della successione, rendendo impossibile valutarne il comportamento. L'argomentazione testuale è vaga e non sufficiente per determinare la correttezza di alcuna delle opzioni proposte."
+  },
+  "suria_87": {
+    "file": "quiz_suria.json",
+    "index": 87,
+    "d": "Notare la periodicità della funzione. Osservare che la funzione è limitata e vedere anche che il grafico non è simmetrico rispetto alla retta y = 1.",
+    "gemma_eval": "ERRORE: Mancanza della definizione di funzione. Le affermazioni sono prive di significato senza una funzione specifica a cui si riferiscono."
+  },
+  "suria_88": "OK",
+  "suria_89": "OK",
+  "suria_90": {
+    "file": "quiz_suria.json",
+    "index": 90,
+    "d": "Determinare l'integrale indefinito di cos(x) * e^(2x)",
+    "gemma_eval": "ERRORE: La domanda richiede il calcolo di un integrale che necessita dell'integrazione per parti iterata o l'uso di tecniche più avanzate (come l'integrazione tabellare). Nessuna delle opzioni proposte rappresenta la soluzione corretta. L'affermazione \"non esiste\" è anch'essa errata, poiché l'integrale indefinito esiste e può essere calcolato."
+  },
+  "suria_91": "OK",
+  "suria_92": "OK",
+  "suria_93": "OK",
+  "suria_94": "OK",
+  "suria_95": "OK",
+  "suria_96": "OK",
+  "suria_97": "OK",
+  "suria_98": {
+    "file": "quiz_suria.json",
+    "index": 98,
+    "d": "Dato il sottoinsieme di $\\mathbb{R}$ così deﬁnito: A = {x $\\in \\mathbb{Q}$ : x$^2$ ≤ 5}, allora:",
+    "gemma_eval": "ERRORE: $\\sqrt{5} \\notin \\mathbb{Q}$, quindi l'opzione \"$\\sqrt{5} \\in A$\" è falsa. Inoltre, dato che A è un sottoinsieme di Q e limitato superiormente da $\\sqrt{5}$, il suo sup è $\\sqrt{5}$ ma non necessariamente il massimo."
+  },
+  "suria_99": "OK",
+  "suria_100": "OK",
+  "suria_101": "OK",
+  "suria_102": "OK",
+  "suria_103": "OK",
+  "suria_104": "OK",
+  "suria_105": "OK",
+  "suria_106": "OK",
+  "suria_107": "OK",
+  "suria_108": "OK",
+  "suria_109": "OK",
+  "suria_110": "OK",
+  "suria_111": "OK",
+  "suria_112": "OK",
+  "suria_113": {
+    "file": "quiz_suria.json",
+    "index": 113,
+    "d": "Siano $f, g$ due funzioni deﬁnite da $(c, d) \\to \\mathbb{R}$, entrambe derivabili in $(c, d)$ e tali che $\\lim_{x\\to x_0} f(x) = \\lim_{x\\to x_0} g(x)$ e $\\lim_{x\\to x_0} g'(x) \\neq 0$, $x_0 \\in(c, d)$. Quale delle seguenti aﬀermazioni è soddisfatta da $f$ e $g$?",
+    "gemma_eval": "ERRORE: L'affermazione \"Se \\lim_{x\\to x_0} \\frac{f'(x)}{g'(x)} = l, l ∈R, allora anche \\lim_{x\\to x_0} \\frac{f(x)}{g(x)} = l\" è falsa. La derivata di un rapporto non implica che il rapporto delle derivate esista e sia uguale a una costante, né implica che il rapporto stesso esista e valga tale costante."
+  },
+  "suria_114": "OK",
+  "suria_115": {
+    "file": "quiz_suria.json",
+    "index": 115,
+    "d": "Siano $f, g$ due funzioni deﬁnite da $\\mathbb{R} \\to \\mathbb{R}$. Quale delle seguenti propriet'a è vera?",
+    "gemma_eval": "ERRORE: L'opzione \"Se f è periodica di periodo T, f ◦g è periodica di periodo T\" è falsa. Se f ha periodo T, allora f(x+T) = f(x) per ogni x. Tuttavia, questo non implica che (f∘g)(x+T) = (f∘g)(x)."
+  },
+  "suria_116": "OK",
+  "suria_117": "OK",
+  "suria_118": {
+    "file": "quiz_suria.json",
+    "index": 118,
+    "d": "Sia $a > 0$. Allora $\\int_{+∞}^{a} \\frac{x^{-4}}{3} dx =$",
+    "gemma_eval": "ERRORE: L'integrale è improprio e il limite di integrazione inferiore è infinito. La forma corretta dell'integrale dovrebbe essere $\\int_{∞}^{a} \\frac{x^{-4}}{3} dx$ oppure $\\int_{0}^{a} \\frac{x^{-4}}{3} dx$. Inoltre, l'espressione $3 \\frac{3}{\\sqrt{a}}$ è sintatticamente scorretta."
+  },
+  "suria_119": "OK",
+  "suria_120": "OK",
+  "suria_121": "OK",
+  "suria_122": "OK",
+  "suria_123": "OK",
+  "suria_124": "OK",
+  "suria_125": "OK",
+  "suria_126": "OK",
+  "suria_127": "OK",
+  "suria_128": "OK",
+  "suria_129": "OK",
+  "suria_130": "OK",
+  "suria_131": {
+    "file": "quiz_suria.json",
+    "index": 131,
+    "d": "$f(x) = \\log(3x^2 + 2x^3)$",
+    "gemma_eval": "ERRORE: La derivata di log(u) è data da f'(x) = u'/u. In questo caso, u = 3x^2 + 2x^3, quindi u' = 6x + 6x^2. Nessuna delle opzioni proposte riflette questa corretta applicazione della regola di derivazione."
+  },
+  "suria_132": {
+    "file": "quiz_suria.json",
+    "index": 132,
+    "d": "Qual è l’enunciato del teorema degli zeri? Data una funzione f deﬁnita da:",
+    "gemma_eval": "ERRORE: L'enunciato del teorema degli zeri richiede che il prodotto f(a) * f(b) sia minore o uguale a zero. La prima opzione usa \"≤\", mentre le altre sono errate. Inoltre, la terza e quinta opzione propongono un enunciato completamente diverso (Teorema di Lagrange/Media)."
+  },
+  "suria_133": "OK",
+  "suria_134": "OK",
+  "suria_135": "OK",
+  "suria_136": {
+    "file": "quiz_suria.json",
+    "index": 136,
+    "d": "$x = −2$, con molteplicit'a 4, punto critico di massimo o minimo",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva di contesto. Non si capisce cosa si stia chiedendo riguardo a x = -2 con molteplicità 4. Mancano informazioni cruciali per determinare se sia un punto critico di massimo o minimo."
+  },
+  "suria_137": {
+    "file": "quiz_suria.json",
+    "index": 137,
+    "d": "$x = −3$, con molteplicit'a 1",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva di contesto. Non si capisce cosa rappresenti \"$x = −3$, con molteplicit'a 1\". Potrebbe riferirsi a una radice di un polinomio, ma senza ulteriori informazioni non è possibile valutarne la correttezza matematica."
+  },
+  "suria_138": {
+    "file": "quiz_suria.json",
+    "index": 138,
+    "d": "$x = 0$, molteplicit'a 1. Facendo $lim$ $x\\to −∞f(x) = [ +∞· (−∞) · (−π/2) ] = +∞ capiamo che $x = −2$ è un punto di massimo relativo.",
+    "gemma_eval": "ERRORE: La logica esposta è confusa e contiene affermazioni non supportate. In particolare, l'interpretazione del limite all'infinito come prodotto di segni è errata e la conclusione che x=-2 sia un punto di massimo relativo basata su tale interpretazione è priva di fondamento matematico. Inoltre, manca la definizione esplicita della funzione f(x)."
+  },
+  "suria_139": {
+    "file": "quiz_suria.json",
+    "index": 139,
+    "d": "Proviamo a imporre su un graﬁco le condizioni del quesito. In tutti i casi $x = 1$, $x = 4$ sono punti di discontinuit'a di II specie e il graﬁco ha le rette $x = 1$, $x = 4$ come asintoti verticali. Sono anche note le condizioni agli estremi del dominio. Tra tutte le conﬁgurazioni scegliere l’unica che rap rappresenta una condizione necessaria, ma non suﬃciente, perch´e la funzione abbia un solo punto di massimo (relativo)",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto e delle opzioni a cui fa riferimento. Non è possibile valutarne la correttezza matematica senza le opzioni. Inoltre, l'affermazione \"Tra tutte le configurazioni scegliere...\" implica che ci siano delle configurazioni da considerare, ma non sono fornite."
+  },
+  "suria_140": {
+    "file": "quiz_suria.json",
+    "index": 140,
+    "d": "$u = (a + ib) · (3 + i) −\\to u ∈R se e solo se a + 3b = 0$",
+    "gemma_eval": "ERRORE: La notazione \"−\\to\" è priva di significato matematico e interrompe la logica dell'affermazione. Inoltre, manca l'indicazione di cosa rappresentano a e b (numeri reali?). L'espressione \"$u \\in R$\" dovrebbe essere \"$u \\in \\mathbb{R}$\"."
+  },
+  "suria_141": {
+    "file": "quiz_suria.json",
+    "index": 141,
+    "d": "$f(x) = 2 cosh x = e^x + e^{-x}\\nOra consideriamo\\nf(x) = e^x + sin x$",
+    "gemma_eval": "ERRORE: La domanda presenta diverse incongruenze. In particolare, la definizione di f(x) cambia bruscamente tra le prime due righe, senza una giustificazione logica. Inoltre, l'uso di simboli e notazioni è confuso (es. \"∄\" al posto di un valore limite). Infine, alcune manipolazioni algebriche nelle opzioni sono incomplete o errate."
+  },
+  "suria_142": {
+    "file": "quiz_suria.json",
+    "index": 142,
+    "d": "Potremmo anche provare con De l’Hopital<br>$lim$\\nx\\to +∞log f(x)/x = $lim$\\nx\\to +∞f ′(x)/f(x)<br>1 = $lim$\\nx\\to +∞f ′(x)/f(x) = $lim$\\nx\\to +∞(e^x + o(ex))/(e^x + o(ex)) = 1",
+    "gemma_eval": "ERRORE: La domanda presenta un'applicazione incompleta e potenzialmente errata del teorema di De l'Hôpital.  Manca la definizione di f(x) e non si capisce come il limite sia stato calcolato. Inoltre, le opzioni di risposta sono prive di senso nel contesto della domanda presentata."
+  },
+  "suria_143": {
+    "file": "quiz_suria.json",
+    "index": 143,
+    "d": "Cerchiamo l’asintoto scrivendo la funzione: $x \\to ∞: f(x) = mx + q + o(1)\\nx \\to +∞:\\nf(x) = log((e^{3x})) + 0 + 4x + o(1) −\\to y = 3x + 4x è asintoto destro\\nx \\to −∞:\\nf(x) = log 4 + 0 + 4x −\\to y = 4x + 2 log 2 è asintoto obliquo sinistro",
+    "gemma_eval": "ERRORE: La notazione utilizzata è confusa e imprecisa. In particolare, l'affermazione \"$x \\to ∞: f(x) = mx + q + o(1)$\" non è corretta; dovrebbe essere $f(x) - (mx+q) \\to 0$ per $x \\to +\\infty$. Inoltre, la semplificazione di $log((e^{3x}))$ a $3x$ è corretta solo localmente e l'aggiunta di termini come \"0\" e \"4x\" senza una chiara definizione del contesto rende l'espressione priva di significato. Infine, l'affermazione \"$y = 4x + 2 log 2$ è asintoto obliquo sinistro\" è ambigua; un asintoto obliquo deve essere espresso come $y=mx+q$, dove $m$ e $q$ sono costanti finite."
+  },
+  "suria_144": {
+    "file": "quiz_suria.json",
+    "index": 144,
+    "d": "$an = ((1/2)(2+sin n))√n:$lim$\\nn\\to +∞an = ((1/2)+∞) = 0$",
+    "gemma_eval": "ERRORE: La notazione \"$((1/2)+∞) = 0$\" è priva di significato matematico. Inoltre, l'affermazione \"lim nn→+∞an = ((1/2)+∞)\" non ha senso in termini di limiti infiniti."
+  },
+  "suria_145": {
+    "file": "quiz_suria.json",
+    "index": 145,
+    "d": "E’ una funzione assegnata a tratti. Possiamo verificare prima la continuità e, nel caso sia continua, la derivabilità con il teorema tappabuchi. Con il calcolo del limite si vede che la funzione, continua a tratti, lo è anche in $x = 0$. $f'(x) = {$e^x - 1$ per $x > 0$ e $-sin x$ per $x < 0$}",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca la definizione della funzione a tratti, rendendo impossibile valutare la correttezza delle affermazioni proposte nelle opzioni di risposta. Inoltre, l'affermazione \"$f'(x) = {$e^x - 1$ per $x > 0$ e $-sin x$ per $x < 0$} \" è priva di significato senza conoscere la funzione originale."
+  },
+  "suria_146": {
+    "file": "quiz_suria.json",
+    "index": 146,
+    "d": "Sia data una funzione f, strettamente decrescente, e con $f'(0) > -1$. Quanto vale il coefficiente angolare della retta tangente al grafico della funzione inversa nel suo punto $(f(0), 0)$?",
+    "gemma_eval": "ERRORE: La domanda presuppone l'esistenza di una funzione inversa e chiede il coefficiente angolare della retta tangente al suo grafico in un punto che non ha senso. Il punto $(f(0), 0)$ indica che la funzione inversa avrebbe valore $f(0) = 0$, ma questo implica che $f(0)=0$.  Inoltre, si chiede il coefficiente angolare della retta tangente alla *funzione inversa* nel punto $(f(0), 0)$, il che è ambiguo e potenzialmente non definito. La funzione inversa di f, denotata con $f^{-1}$, avrebbe come dominio l'immagine di f, e quindi la domanda presuppone che $f(0)$ appartenga al dominio della funzione inversa.  Infine, si chiede un confronto tra il coefficiente angolare e -1, ma non è chiaro a quale retta si riferisca tale coefficiente."
+  },
+  "suria_147": "OK",
+  "suria_148": "OK",
+  "suria_149": "OK",
+  "suria_150": {
+    "file": "quiz_suria.json",
+    "index": 150,
+    "d": "Si tratta di uno sviluppo di Taylor con centro $x = −4$. \na) $f(−4) = 8$: funzione non inﬁnite sima\nb) Non è inﬁnite sima in $x=-4$\nc) OK: $f ′(−4) = 0$; $f ′′(−4) = 3 · 2 = 6$\nd) fornisce informazioni nell’intorno di $x = −4$\ne) $f ′′(−4) = 3 · 2!$",
+    "gemma_eval": "ERRORE: Mancano la domanda e le opzioni di risposta. Non è possibile valutare la correttezza matematica senza il testo completo della domanda e delle sue possibili risposte. Le opzioni fornite sono incomplete (\"opzione 1 in LaTeX\", ecc.). Inoltre, l'affermazione \"Si tratta di uno sviluppo di Taylor con centro $x = −4$\" necessita di essere collegata a una funzione specifica per poter essere valutata."
+  },
+  "suria_151": {
+    "file": "quiz_suria.json",
+    "index": 151,
+    "d": "Sia data l’equazione differenziale $y'(x) = x - x^2 / (y - y^2)$. Allora",
+    "gemma_eval": "ERRORE: L'equazione differenziale non è lineare."
+  },
+  "suria_152": {
+    "file": "quiz_suria.json",
+    "index": 152,
+    "d": "Sia $z = -1 + 2i$. Allora $\\frac{z^2 + 3}{}$",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca il denominatore della frazione."
+  },
+  "suria_153": "OK",
+  "suria_154": "OK",
+  "suria_155": {
+    "file": "quiz_suria.json",
+    "index": 155,
+    "d": "si rende minore se si maggiora il denominatore, oppure si minora il numeratore oppure si procede con entrambe le situazioni.",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto matematico specifico. Non si riferisce a una funzione, un'espressione o una relazione definita. L'affermazione generale \"si rende minore\" senza specificare cosa sia soggetto a questo cambiamento è insensata in termini matematici. Inoltre, l'uso di \"maggiora il denominatore\" e \"minora il numeratore\" suggerisce che si stia parlando di una frazione, ma non viene fornita alcuna espressione esplicita."
+  },
+  "suria_156": {
+    "file": "quiz_suria.json",
+    "index": 156,
+    "d": "si rende maggiore se si minora il denominatore, oppure si maggiora il numeratore oppure si procede con entrambe le situazioni.",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto matematico specifico. Non si riferisce a una funzione, un'espressione o una relazione definita. L'affermazione generica \"si rende maggiore\" è troppo vaga per essere valutata matematicamente. Mancano informazioni cruciali su cosa sia il \"denominatore\" e il \"numeratore\"."
+  },
+  "suria_157": "OK",
+  "suria_158": "OK",
+  "suria_159": "OK",
+  "suria_160": {
+    "file": "quiz_suria.json",
+    "index": 160,
+    "d": "f(x) = log(−sin x)",
+    "gemma_eval": "ERRORE: Il dominio della funzione logaritmo è l'insieme dei numeri reali positivi. Pertanto, log(−sin x) è definita solo quando −sin x > 0, ovvero sin x < 0. Nessuna delle opzioni proposte rappresenta una possibile espressione derivata da questa funzione nel suo dominio. Inoltre, nessuna delle opzioni fornite può essere ottenuta tramite la derivazione di f(x)."
+  },
+  "suria_161": {
+    "file": "quiz_suria.json",
+    "index": 161,
+    "d": "∫₀¹ (1 - π)/(x π - 3) dx",
+    "gemma_eval": "ERRORE: La domanda chiede di valutare la convergenza dell'integrale definito, ma non fornisce informazioni sufficienti per determinarne il valore o addirittura se esista. Il denominatore può essere zero in un punto all'interno dell'intervallo di integrazione [0,1], rendendo l'integrale improprio e richiedendo ulteriori analisi (limiti, verifiche di convergenza).  La domanda è mal posta perché non specifica come gestire la potenziale singolarità."
+  },
+  "suria_162": "OK",
+  "suria_163": {
+    "file": "quiz_suria.json",
+    "index": 163,
+    "d": "limₓ→+∞ (4x + 2x)¹⁄ˣ",
+    "gemma_eval": "ERRORE: La domanda presenta un'espressione non definita. L'esponente è una frazione e il denominatore tende a zero quando x tende all'infinito, rendendo l'espressione indeterminata. Non si può applicare direttamente la forma indicata per calcolare il limite."
+  },
+  "suria_164": "OK",
+  "suria_165": "OK",
+  "suria_166": "OK",
+  "suria_167": "OK",
+  "suria_168": "OK",
+  "suria_169": {
+    "file": "quiz_suria.json",
+    "index": 169,
+    "d": "x = 5, con molteplicità 1$\\lim_{x\\to −∞}f(x) = [+\\infty \\cdot (+\\infty) \\cdot (−\\pi^2)] = −\\infty$Quindi, immaginiamo l’andamento di una funzione continua che sale da −\\infty fino a x=0, attraversa l’asse x per poi scendere a x = −2, essere tangenta all’asse x, e quindi risalire,\\nscendendo nuovamente per attrversare x = 5Per l’item e), poiché la $f ′(x)$ si annulla tre volte in [0, 5], allora applicando alla funzione derivata prima (con\\ntre zeri) il teorema di Rolle, deduciamo che la derivata seconda (derivata della derivata prima) si annulla due\\nvolte.Tra un massimo e un minimo c’è sempre un flesso.",
+    "gemma_eval": "ERRORE: La domanda presenta diverse incongruenze logiche e matematiche. In particolare, l'affermazione \"$lim_{x\\to −∞}f(x) = [+\\infty \\cdot (+\\infty) \\cdot (−\\pi^2)] = −\\infty$\" è priva di significato e non segue alcuna regola algebrica o limite noto. Inoltre, la descrizione dell'andamento della funzione è confusa e contraddittoria (\"sale da -∞ fino a x=0, attraversa l’asse x per poi scendere a x = -2...\"). Infine, l'affermazione \"poiché f'(x) si annulla tre volte in [0, 5], allora la derivata seconda si annulla due volte\" è una conseguenza del teorema di Rolle applicato alla derivata prima, ma il ragionamento che precede non è chiaro e presenta imprecisioni. La frase \"Tra un massimo e un minimo c’è sempre un flesso\" è generalmente vera, ma in questo contesto risulta scollegata dal resto dell'argomentazione."
+  },
+  "suria_170": "OK",
+  "suria_171": {
+    "file": "quiz_suria.json",
+    "index": 171,
+    "d": "E’ una forma indeterminata del tipo $\\frac{0}{0}$. Per x → 0, in genere, sono trascurabili (o piccoli) le potenze ad esponente maggiore. Non è possibile trascurare $4x^3$ per la semplificazione di $6x$ con il primo termine dello sviluppo di Mac Laurin: $lim_{x→0}\\frac{4x^3 + 6x −2(3x −9x^2/2 + o(x^2))}{x} = lim_{x→0}\\frac{4x^3 + 6x −6x + 9x^2}{x} = lim_{x→0}\\frac{9x^2}{x} = 0$",
+    "gemma_eval": "ERRORE: La conclusione che il limite sia zero è errata. Il calcolo del limite, dopo aver semplificato, porta a $lim_{x→0} 9x = 0$, ma la motivazione e i passaggi intermedi contengono errori concettuali e di manipolazione algebrica legati allo sviluppo di Mac Laurin e alla trascurabilità degli ordini di infinito. Inoltre, l'affermazione iniziale sulla forma indeterminata $\\frac{0}{0}$ è generica e non collegata correttamente al problema specifico."
+  },
+  "suria_172": "OK",
+  "suria_173": {
+    "file": "quiz_suria.json",
+    "index": 173,
+    "d": "Qual è la parte principale, rispetto al campione standard $u(x)$, per $x → 0$ della funzione $f(x) = x + x^2 − \\frac{3}{√x^3} + x^4$? a) $\\frac{2}{3x^2}$ b) −$\\\\frac{4}{3x}$ c) $x$ d) $x^2$ e) $x^2 −x^{4/3}$",
+    "gemma_eval": "ERRORE: La funzione $f(x)$ non ha parte principale rispetto al campione standard $u(x)$ quando $x \\to 0$, poiché $\\frac{3}{\\sqrt{x^3}}$ tende a $+\\infty$ più velocemente di qualsiasi potenza positiva di $x$.  La definizione di parte principale implica l'esistenza di un limite finito."
+  },
+  "suria_174": "OK",
+  "suria_175": "OK",
+  "suria_176": "OK",
+  "suria_177": "OK",
+  "suria_178": "OK",
+  "suria_179": "OK",
+  "suria_180": "OK",
+  "suria_181": "OK",
+  "suria_182": "OK",
+  "suria_183": "OK",
+  "suria_184": "OK",
+  "suria_185": {
+    "file": "quiz_suria.json",
+    "index": 185,
+    "d": "$\\int_{+\\infty}^{2} \\frac{\\log x}{x} dx$",
+    "gemma_eval": "ERRORE: L'integrale improprio presenta limiti di integrazione mal definiti. In particolare, l'estremo inferiore è $+\\infty$, che non ha senso in un integrale definito standard. Inoltre, l'integranda $\\frac{\\log x}{x}$ non è definita per $x=0$ e tende a $-\\infty$ quando $x \\to 0^+$.  L'integrale dovrebbe essere riformulato con estremi finiti o con una definizione più precisa di integrale improprio."
+  },
+  "suria_186": {
+    "file": "quiz_suria.json",
+    "index": 186,
+    "d": "$\\lim_{n\\to+\\infty} ((\\frac{1 + \\sqrt{n}}{})^\\frac{1}{n^2}$ vale",
+    "gemma_eval": "ERRORE: La frazione $(\\frac{1 + \\sqrt{n}}{})$ è incompleta. Manca il denominatore."
+  },
+  "suria_187": "OK",
+  "suria_188": "OK",
+  "suria_189": {
+    "file": "quiz_suria.json",
+    "index": 189,
+    "d": "$\\lim_{x\\to 0} \\frac{2x - 1}{sin 5x}$ vale",
+    "gemma_eval": "ERRORE: La domanda richiede il calcolo di un limite che tende a zero, ma non fornisce informazioni sufficienti per risolverlo. In particolare, l'espressione $\\frac{2x - 1}{\\sin(5x)}$ presenta una forma indeterminata del tipo $\\frac{-1}{0}$ quando $x \\to 0$.  Il limite non esiste o è infinito e le opzioni proposte sono tutte finite."
+  },
+  "suria_190": {
+    "file": "quiz_suria.json",
+    "index": 190,
+    "d": "Scrivere lo sviluppo, di ordine 3, della funzione $f(x) = 1 + \\sin x - x^3 \\cdot \\cos x$",
+    "gemma_eval": "ERRORE: La funzione data è mal posta. Il termine $-x^3\\cos x$ non può essere sviluppato in serie di Taylor centrata in $x=0$ con termini fino all'ordine 3 senza introdurre termini che coinvolgono $\\cos x$ e $\\sin x$ a potenze superiori a 3, il che rende impossibile esprimere lo sviluppo richiesto. Inoltre, le opzioni proposte non sono coerenti con la funzione data."
+  },
+  "suria_191": "OK",
+  "suria_192": {
+    "file": "quiz_suria.json",
+    "index": 192,
+    "d": "Sia data la funzione $f(x) = cos x$. Per quale valori di n \\in N f^n(0) = 0",
+    "gemma_eval": "ERRORE: f^n(x) indica la n-esima iterazione della funzione f applicata a x. In questo caso, si chiede per quali valori di n, l'iterazione di cos(x) applicata n volte a x=0 è uguale a zero. La domanda non ha senso senza definire cosa si intende con \"f^n(0)\". Inoltre, la notazione utilizzata è ambigua e potenzialmente fuorviante."
+  },
+  "suria_193": "OK",
+  "suria_194": "OK",
+  "suria_195": "OK",
+  "suria_196": {
+    "file": "quiz_suria.json",
+    "index": 196,
+    "d": "Potremmo imporre alla soluzione data di soddisfare l’equazione",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca l'equazione e la soluzione data a cui si fa riferimento. Non è possibile valutare la correttezza senza tali informazioni."
+  },
+  "suria_197": "OK",
+  "suria_198": {
+    "file": "quiz_suria.json",
+    "index": 198,
+    "d": "Avremmo potuto scrivere l’equazione caratteristica $λ² −a = 0$.\nLe soluzioni cambiano a seconda che $a > 0 \\to δ < 0;\na = 0 \\to ∆= 0;\na > 0 \\to ∆< 0",
+    "gemma_eval": "ERRORE: L'equazione caratteristica data e le condizioni su *a* e il discriminante (δ, ∆) sono incoerenti e non seguono una logica matematica valida. In particolare, l'affermazione \"$a > 0 \\to δ < 0$\" è contraddittoria con la definizione di discriminante per un'equazione quadratica del tipo $λ² − a = 0$. Il discriminante dovrebbe essere $Δ = (-1)² - 4(1)(-a) = 1 + 4a$.  Quindi, se *a* > 0, allora Δ > 0."
+  },
+  "suria_199": {
+    "file": "quiz_suria.json",
+    "index": 199,
+    "d": "– a) Possiamo fare il limite, ma ciò equivale a dire che calcoliamo l’integrale improprio $F(x) =\n∫₊∞\n₀ e⁻ᵗ² dt . Se esso converge, allora il limite tende a$k...$in caso contrario tende a$+∞\nCi serviamo del criterio del confronto diretto\ne⁻ˣ² < 1\nx²\nPoiché ∫₊∞\n₁ 1/x² dx converge anche il nostro integrale improprio\n– $F(0) = 0$ ovvio\n– c) $F(x)$ è dispari perché la funzione integranda è pari\n– d) per studiare la monotonia, facciamo la derivata prima\nAllora la funzione $F(x)$ è monotona strettamente crescente Risposta sbagliata!!\n– Ora se $F(x)$ è crescente, ma passa per l’origine $F(0) = 0 \\to F(x) > 0$ per $x > 0\"",
+    "gemma_eval": "ERRORE: L'affermazione che il limite possa essere calcolato e che equivalga a un integrale improprio è fuorviante e impreciso. La funzione integranda nell'integrale improprio non ha una primitiva elementare, quindi l'integrazione non può essere eseguita in forma esplicita. Inoltre, l'uso del criterio del confronto diretto con 1/x² è problematico perché l'integrale da 1 a +∞ di 1/x² converge, ma questo non implica la convergenza dell'integrale da 0 a +∞ di e⁻ᵗ².  L'affermazione che F(x) sia dispari quando la funzione integranda è pari è anch'essa errata. La funzione integranda f(t) = e⁻ᵗ² è pari, quindi l'integrale definito da -∞ a ∞ sarebbe uguale al doppio dell'integrale da 0 a ∞.  L'affermazione sulla monotonia di F(x) è priva di giustificazione rigorosa."
+  },
+  "suria_200": "OK",
+  "suria_201": "OK",
+  "suria_202": "OK",
+  "suria_203": "OK",
+  "suria_204": "OK",
+  "suria_205": "OK",
+  "suria_206": "OK",
+  "suria_207": {
+    "file": "quiz_suria.json",
+    "index": 207,
+    "d": "\\lim $x\\to +∞$<br> \\frac{x^4 + 5x^2 + 4}{7 −sin^2 x} = \\na) ∄\\nb) 0\\nc) +∞\\nd) 1\\ne) 1/7",
+    "gemma_eval": "ERRORE: Il limite non è determinato perché il denominatore tende a -∞ mentre il numeratore tende a +∞. Non si può semplicemente ignorare la funzione seno nel denominatore."
+  },
+  "suria_208": "OK",
+  "suria_209": {
+    "file": "quiz_suria.json",
+    "index": 209,
+    "d": "Lo sviluppo di Mac Laurin, del terzo ordine, della funzione $f(x) = 4x$ è:\\na)$1 + 2 \\log 2 · x + 2 \\log_2 2 · x^2 + 4<br>3 \\log_3 2 · x^3 + o(x^3)$\\nb)$2 \\log 2 · x + 2 \\log_2 2 · x^2 + 4<br>3 \\log_3 2 · x^3 + o(x^3)$\\nc)$1 + 2 \\log 2 · x + 4 \\log_2 2 · x^2 + 8 \\log_3 2 · x^3 + o(x^3)$\\nd)$1 + x + \\frac{1}{2}x^2 + \\frac{1}{3!}x^3 + o(x^3)$\\ne)$1 + \\log 4 · x + \\log_2 4 · x^2 + \\log_3 4x^3 + o(x^3)$",
+    "gemma_eval": "ERRORE: La funzione f(x) = 4x è lineare, quindi il suo sviluppo di Mac Laurin di ordine 3 dovrebbe essere semplicemente f(x) stesso. Le opzioni proposte contengono logaritmi e termini costanti non necessari, rendendole tutte errate. Inoltre, la notazione \"log\" non specifica la base del logaritmo, creando ambiguità."
+  },
+  "suria_210": {
+    "file": "quiz_suria.json",
+    "index": 210,
+    "d": "Sia la successione",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca la definizione della successione."
+  },
+  "suria_211": "OK",
+  "suria_212": "OK",
+  "suria_213": {
+    "file": "quiz_suria.json",
+    "index": 213,
+    "d": "Verifichiamo se $y = e^x$ è soluzione: $y' = e^x \\Rightarrow e^x = x^3 + e^{ex}$",
+    "gemma_eval": "ERRORE: L'affermazione \"$y' = e^x \\Rightarrow e^x = x^3 + e^{ex}$\" è matematicamente scorretta. La derivata di $y=e^x$ è effettivamente $y'=e^x$, ma ciò non implica che $e^x = x^3 + e^{ex}$. Si tratta di un'equazione da risolvere, non una verifica."
+  },
+  "suria_214": "OK",
+  "suria_215": "OK",
+  "suria_216": "OK",
+  "suria_217": "OK",
+  "suria_218": {
+    "file": "quiz_suria.json",
+    "index": 218,
+    "d": "Il polinomio di Mac Laurin, di ordine 2, della funzione $f(x) = \\frac{2e^{-x} - x^2}{1 + x^2}$ è",
+    "gemma_eval": "ERRORE: Il polinomio di Mac Laurin di ordine 2 richiede il calcolo delle derivate prima e seconda della funzione nel punto x=0. L'espressione data non fornisce informazioni sufficienti per determinare tale polinomio, né indica come si debba procedere al suo calcolo. Inoltre, la presenza del termine $o(x^2)$ nella terza opzione suggerisce un'approssimazione di ordine superiore, incompatibile con l'indicazione \"di ordine 2\"."
+  },
+  "suria_219": "OK",
+  "suria_220": "OK",
+  "suria_221": "OK",
+  "suria_222": "OK",
+  "suria_223": "OK",
+  "suria_224": {
+    "file": "quiz_suria.json",
+    "index": 224,
+    "d": "Se $f : \\R \\to \\R$ è una funzione continua e derivabile almeno 5 volte nell’intorno di $x = 0$, con sviluppo di Mac Laurin $f(x) = 3x^3 + x^5 + o(x^5)$, allora l’integrale improprio $\\int_1^0 f(x) · sin x / x^\\alpha dx$",
+    "gemma_eval": "ERRORE: L'integrale improprio non è definito in modo univoco senza ulteriori informazioni su $\\alpha$. La domanda implica che l'integrale dipende da $\\alpha$, ma non fornisce un contesto sufficiente per determinarne il comportamento. Inoltre, l'integranda $f(x) \\cdot \\sin x / x^\\alpha$ potrebbe avere singolarità a $x=0$ o $x=1$ che influenzano la convergenza dell'integrale."
+  },
+  "suria_225": {
+    "file": "quiz_suria.json",
+    "index": 225,
+    "d": "$\\alpha - 4 \\geq 1 \\rightarrow \\alpha \\geq 5$ l'integrale improprio diverge ad un numero positivo, per il criterio asintotico",
+    "gemma_eval": "ERRORE: La domanda associa in modo illogico una disuguaglianza algebrica a un integrale improprio e ad un criterio di divergenza. Non c'è alcuna connessione matematica tra la prima parte della frase e la seconda. Inoltre, l'affermazione \"l'integrale improprio diverge ad un numero positivo\" è vaga e non specifica quale integrale si stia considerando."
+  },
+  "suria_226": {
+    "file": "quiz_suria.json",
+    "index": 226,
+    "d": "$\\alpha - 4 < 1 \\rightarrow \\alpha < 5$ l'integrale improprio converge ad un numero positivo, per il criterio asintotico",
+    "gemma_eval": "ERRORE: La domanda associa in modo illogico una disuguaglianza algebrica ($\\alpha - 4 < 1 \\rightarrow \\alpha < 5$) alla convergenza di un integrale improprio tramite il criterio asintotico. Non c'è alcuna connessione matematica tra le due affermazioni. Inoltre, manca la definizione dell'integrale improprio a cui si fa riferimento."
+  },
+  "suria_227": {
+    "file": "quiz_suria.json",
+    "index": 227,
+    "d": "La funzione $f : [a, e] \\rightarrow \\mathbb{R}, f(x) = \\log |x|, a \\leq e,$ soddisfa le ipotesi del teorema degli zeri se:",
+    "gemma_eval": "ERRORE: La funzione logaritmo è definita solo per valori positivi. Pertanto, $|x| > 0$ implica che $x \\neq 0$. Il teorema degli zeri richiede che la funzione sia continua nell'intervallo $[a, e]$.  La funzione $f(x) = \\log |x|$ non è continua in $x=0$, il che rende l'affermazione problematica a meno che $0$ non sia escluso dall'intervallo. Le opzioni proposte non garantiscono che $0$ sia escluso, o che le ipotesi del teorema degli zeri siano soddisfatte."
+  },
+  "suria_228": "OK",
+  "suria_229": "OK",
+  "suria_230": "OK",
+  "suria_231": "OK",
+  "suria_232": "OK",
+  "suria_233": "OK",
+  "suria_234": {
+    "file": "quiz_suria.json",
+    "index": 234,
+    "d": "$\\int_0^{+∞} \\frac{x\\sqrt{x} + \\sin x}{x^2 + 1} dx$",
+    "gemma_eval": "ERRORE: La domanda richiede una valutazione della convergenza di un integrale improprio. Per determinarla, sarebbe necessario analizzare il comportamento degli integrali $\\int_0^{+∞} \\frac{x\\sqrt{x}}{x^2 + 1} dx$ e $\\int_0^{+∞} \\frac{\\sin x}{x^2 + 1} dx$ separatamente.  La domanda è quindi incompleta perché non fornisce gli strumenti per una valutazione corretta."
+  },
+  "suria_235": {
+    "file": "quiz_suria.json",
+    "index": 235,
+    "d": "L’equazione differenziale $y′ = \\frac{x^2 + y}{x^2 + 1}$",
+    "gemma_eval": "ERRORE: L'equazione differenziale non è specificata correttamente. Manca il segno di uguale dopo la frazione. Inoltre, si tratta di un'equazione differenziale non lineare."
+  },
+  "suria_236": "OK",
+  "suria_237": "OK",
+  "suria_238": "OK",
+  "suria_239": "OK",
+  "suria_240": {
+    "file": "quiz_suria.json",
+    "index": 240,
+    "d": "L’equazione $y' = cos(y - x) + 1$",
+    "gemma_eval": "ERRORE: L'equazione differenziale non è lineare del primo ordine, ma un'equazione non lineare."
+  },
+  "suria_241": "OK",
+  "suria_242": {
+    "file": "quiz_suria.json",
+    "index": 242,
+    "d": "Sia f una funzione integrabile su ogni intervallo $[0, b] ⊆ R e tale che $f(x) ≥ 0, ∀x ≥ 0$. Allora",
+    "gemma_eval": "ERRORE: L'integrale improprio $\\int_{+∞}^{0} f(x) dx$ è definito come $-\\int_{0}^{+\\infty} f(x) dx$.  L'affermazione che può essere indeterminato o necessariamente diverge positivamente è quindi priva di senso, dato che la sua convergenza/divergenza dipende dal comportamento di $\\int_0^\\infty f(x)dx$. Inoltre, l'ipotesi $f(x) \\ge 0$ per ogni $x \\ge 0$ non implica nulla sulla convergenza o divergenza dell'integrale improprio."
+  },
+  "suria_243": "OK",
+  "suria_244": {
+    "file": "quiz_suria.json",
+    "index": 244,
+    "d": "$\\lim_{x \\to +∞} 3 / (x · log(e^{2x} + x)) =$",
+    "gemma_eval": "ERRORE: La funzione argomento del logaritmo potrebbe tendere all'infinito, rendendo il limite indefinito. Inoltre, non è chiaro se si intende il logaritmo naturale o un altro tipo di logaritmo."
+  },
+  "suria_245": "OK",
+  "suria_246": "OK",
+  "suria_247": {
+    "file": "quiz_suria.json",
+    "index": 247,
+    "d": "\\text{Quesito 13} \\forall x_1 < x_2, x_1, x_2 \\in domf, \\rightarrow f(x_1) \\leq f(x_2)\\text{ Funzione decrescente in senso stretto: }\\forall x_1 < x_2, x_1, x_2 \\in domf, \\rightarrow f(x_1) < f(x_2)\\text{ La funzione è monotona decrescente (non parla di strettamente decrescente!) ed è continua in un intervallo chiuso e limitato. Allora la sua immagine è un intervallo chiuso e limitato (propriet'a delle funzioni continue in [a, b]); (Weierstrass assicura che ammetta il max e il min assoluto)",
+    "gemma_eval": "ERRORE: La domanda è confusa e mescola definizioni di funzioni crescenti/decrescenti con il teorema del Weierstrass. Inoltre, le opzioni di risposta sono disconnesse dal quesito iniziale e presentano affermazioni imprecise e contraddittorie. L'affermazione \"falsa perché la funzione è decrescente [f(3), f(0)]\" non ha senso logico."
+  },
+  "suria_248": {
+    "file": "quiz_suria.json",
+    "index": 248,
+    "d": "\\text{Quesito 14} g'(x) = cos f(x) \\cdot f'(x); g'(x) = 0 \\text{ se e solo se } cos f(x) = 0 \\rightarrow f(x) = \\frac{\\pi}{2} + k\\pi; oppure f'(x) = 0\\text{ Ma } cos f(x) = 0 \\rightarrow f(x) = \\frac{\\pi}{2}; \\text{ cioè almeno se x = 0 : x = 1. }f'(x) = 0 \\text{ almeno una volta per Rolle.",
+    "gemma_eval": "ERRORE: La domanda è confusa, priva di contesto (cosa sono g(x) e f(x)?), e presenta un ragionamento illogico. L'affermazione \"g'(x) = cos f(x) * f'(x); g'(x) = 0 se e solo se cos f(x) = 0\" è priva di significato senza una definizione di g(x). Inoltre, l'implicazione \"cos f(x) = 0 -> f(x) = pi/2 + k*pi\" è vera solo in un certo intervallo e non può essere considerata una condizione generale. Infine, il riferimento a Rolle e alla condizione x=0, x=1 è totalmente arbitrario e privo di giustificazione."
+  },
+  "suria_249": {
+    "file": "quiz_suria.json",
+    "index": 249,
+    "d": "\\text{Quesito 15} \\lim_{x\\to0^-} \\frac{3x + \\sqrt{4x^2 + 3x^3}}{x^{\\alpha}} = \\lim_{x\\to0^-} \\frac{3x + 2|x|}{x^{\\alpha}} = \\lim_{x\\to0^-} \\frac{3x - 2x}{x^{\\alpha}} = \\lim_{x\\to0^-} \\frac{x}{x^{\\alpha}} = 1 \\text{ se } \\alpha = 1\\text{ Parte Principale = x, x \\rightarrow 0-\\text{ Se } x \\rightarrow 0+, \\lim_{x\\to0^+} \\frac{3x + \\sqrt{4x^2 + 3x^3}}{x^{\\alpha}} = \\lim_{x\\to0^+} \\frac{3x + 2x}{x^{\\alpha}} = 5 \\text{ se } \\alpha = 1\\text{ Parte Principale = 5x, x \\rightarrow 0+\\}\\text{N.B. Se la funzione fosse stata } f(x) = 3x + \\sqrt{9x^2 + 4x^3} \\text{ 1) }x \\to 0^- f(x) \\sim 3x - 3x!!! \\text{ allora gli o piccoli contano, torno indietro e razionalizzo con il limite, non posso trascurare}\\text{ 2) } x \\to 0^+ f(x) \\sim 3x + 3x = 6x!!! \\text{ In questo caso il metodo porta a risulatati corretti.",
+    "gemma_eval": "ERRORE: La manipolazione algebrica è confusa e contiene errori. In particolare, l'affermazione \"3x - 2x\" quando si considera il limite da sinistra ignora il valore assoluto. Inoltre, la conclusione che il limite sia 1 se α = 1 non è giustificata in modo rigoroso e sembra basarsi su un ragionamento incompleto sulla parte principale. La nota finale introduce ulteriori confusione con un esempio diverso e commenti non pertinenti."
+  },
+  "suria_250": {
+    "file": "quiz_suria.json",
+    "index": 250,
+    "d": "$\\int (\\frac{1 + \\frac{2}{x-1}}{}) dx = x + 2 \\log |x-1| + c \\rightarrow x - \\log (x-1)^2 + c \\rightarrow x + \\log (1-x)^2 + c$",
+    "gemma_eval": "ERRORE: La domanda presenta un'espressione di integrale incompleta. Manca il denominatore nella frazione $\\frac{1 + \\frac{2}{x-1}}{}$. Inoltre, le \"soluzioni\" proposte sono matematicamente scorrette a causa della manipolazione dei logaritmi."
+  },
+  "suria_251": {
+    "file": "quiz_suria.json",
+    "index": 251,
+    "d": "E’ il teorema della media integrale.",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca l'enunciato del teorema della media integrale e le opzioni di risposta. Non si può valutare la correttezza senza tali informazioni."
+  },
+  "suria_252": {
+    "file": "quiz_suria.json",
+    "index": 252,
+    "d": "\\text{Nella risposta d) manca } f(c) = \\frac{1}{b-a} \\int_b^a f(x) dx",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Non fornisce la domanda originale a cui si riferiscono le opzioni di risposta. Senza il contesto della domanda, non è possibile valutare la correttezza dell'affermazione \"Nella risposta d) manca f(c) = \\frac{1}{b-a} \\int_b^a f(x) dx\"."
+  },
+  "suria_253": {
+    "file": "quiz_suria.json",
+    "index": 253,
+    "d": "Si tratta della funzione integrale: ricordiamo le proprietà.",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca il testo della funzione integrale e le opzioni di risposta. Non è possibile valutarne la correttezza matematica senza tali informazioni."
+  },
+  "suria_254": {
+    "file": "quiz_suria.json",
+    "index": 254,
+    "d": "$\\int_x^x f(t) dt = - \\int_x^4 f(t) dt$",
+    "gemma_eval": "ERRORE: Il limite inferiore dell'integrale di sinistra è uguale alla variabile indipendente x, il che rende l'espressione priva di significato senza ulteriori informazioni su x. Inoltre, la presenza di x sia come limite inferiore che come argomento della funzione f(t) suggerisce un errore nella formulazione."
+  },
+  "suria_255": "OK",
+  "suria_256": "OK",
+  "suria_257": {
+    "file": "quiz_suria.json",
+    "index": 257,
+    "d": "Sia $f : \\mathbb{R} \\to \\mathbb{R}$ una funzione continua, e $F(x) = \\int_0^x f(t) dt$. Allora, se $f \\leq 0$ in $\\mathbb{R}$, possiamo dedurre che",
+    "gemma_eval": "ERRORE: L'affermazione \"se $f \\leq 0$ in $\\mathbb{R}$, possiamo dedurre che $F(x) \\leq 0$ per ogni $x \\in \\mathbb{R}$\" è falsa.  La funzione integranda può essere negativa, ma l'integrale definito da 0 a x può comunque essere positivo se l'area \"sotto la curva\" (negativa) è compensata da aree negative precedenti."
+  },
+  "suria_258": "OK",
+  "suria_259": {
+    "file": "quiz_suria.json",
+    "index": 259,
+    "d": "Risposta esatta: a. Infatti, siccome $a_n$ converge ad un numero $\\neq 0$ allora la successione $\\frac{1}{a_n}$ e’ limitata, quindi la successione proposta $b_n/a_n$ e’ limitata in quanto prodotto delle successioni limitate $\\frac{1}{a_n}$ e $b_n$.",
+    "gemma_eval": "ERRORE: L'affermazione che se una successione converge ad un numero diverso da zero, allora la sua inversa è limitata è falsa. Inoltre, il prodotto di due successioni limitate non è necessariamente limitato."
+  },
+  "suria_260": {
+    "file": "quiz_suria.json",
+    "index": 260,
+    "d": "3. Dato l’insieme $A = {cosh x, x ∈R} ∪ {-9}$",
+    "gemma_eval": "ERRORE: L'insieme $A$ contiene la funzione coseno iperbolico, che assume valori maggiori o uguali a 1.  L'unione con {-9} introduce un valore minimo. La domanda non è ben definita perché \"cosh x\" dovrebbe essere una variabile dipendente da x e non semplicemente \"cosh x\". Inoltre, l'insieme contiene sia una funzione (cosh x) che un numero (-9), rendendo la determinazione di inf/sup o min/max problematica senza ulteriori specificazioni."
+  },
+  "suria_261": "OK",
+  "suria_262": "OK",
+  "suria_263": "OK",
+  "suria_264": "OK",
+  "suria_265": "OK",
+  "suria_266": {
+    "file": "quiz_suria.json",
+    "index": 266,
+    "d": "$\\lim_{x\\to +∞} \\frac{x^2}{(e^{3x} - \\cos(1/x))}$",
+    "gemma_eval": "ERRORE: La domanda è matematicamente valida, ma l'opzione di risposta corretta non è tra quelle proposte. Il limite tende a zero, ma si può dimostrare che il limite è effettivamente 0. Infatti, per $x \\to +\\infty$, $e^{3x}$ domina $\\cos(1/x)$, quindi il denominatore si comporta come $e^{3x}$.  Pertanto, $\\lim_{x\\to +∞} \\frac{x^2}{e^{3x}} = 0$."
+  },
+  "suria_267": {
+    "file": "quiz_suria.json",
+    "index": 267,
+    "d": "$\\int_{+\\infty}^{1} \\frac{1}{1 - \\pi x^{\\pi-3}} dx$",
+    "gemma_eval": "ERRORE: L'integrale definito ha limiti di integrazione invertiti. Inoltre, la funzione integranda potrebbe essere indefinita per alcuni valori di x nell'intervallo di integrazione."
+  },
+  "suria_268": "OK",
+  "suria_269": "OK",
+  "suria_270": "OK",
+  "suria_271": "OK",
+  "suria_272": {
+    "file": "quiz_suria.json",
+    "index": 272,
+    "d": "lim_{x\\to +∞} \\frac{x}{(cos(\\frac{1}{x}) - e^{\\frac{4}{x}})} =",
+    "gemma_eval": "ERRORE: Il limite non esiste. Quando x tende a +infinito, cos(1/x) tende a 1 e e^(4/x) tende a 1. Quindi il denominatore tende a 0, mentre il numeratore tende a +infinito.  Il limite dovrebbe essere infinito, ma con segno indefinito (dipende da come cos(1/x) - e^(4/x) si avvicina a zero). Non è possibile determinare un valore finito o infinito specifico senza ulteriori analisi."
+  },
+  "suria_273": {
+    "file": "quiz_suria.json",
+    "index": 273,
+    "d": "Siano A e B due insiemi, con $A$ e $B \\subseteq R$ e tali che $sup A=sup B=3$. Allora",
+    "gemma_eval": "ERRORE: L'affermazione \"se max A=3 allora max B=3\" è potenzialmente fuorviante. Il sup di un insieme è definito, ma il max potrebbe non esistere. Non si può dedurre che se il sup sia 3, anche il massimo sia 3."
+  },
+  "suria_274": "OK",
+  "suria_275": "OK",
+  "suria_276": "OK",
+  "suria_277": {
+    "file": "quiz_suria.json",
+    "index": 277,
+    "d": "Se $g(x) = f(x^2)$, allora il polinomio di Taylor di grado 2 della funzione $g$ con centro in $x = 0 è :",
+    "gemma_eval": "ERRORE: Mancano termini nel polinomio di Taylor. Il termine costante deve essere $f(0)$. Inoltre, il coefficiente di $x$ dovrebbe essere derivato da $g'(0)$, che è diverso da $f'(0)$ a meno di condizioni specifiche su $f$."
+  },
+  "suria_278": {
+    "file": "quiz_suria.json",
+    "index": 278,
+    "d": "Sia f : \\mathbb{R} \\rightarrow\\mathbb{R} una funzione di classe $C^n(\\mathbb{R})$. Quale delle seguenti affermazioni è SEMPRE vera?",
+    "gemma_eval": "ERRORE: L'affermazione \"Se f(1) = 1 e f(-1) = -1 allora $f^2$ ha un minimo assoluto\" non è sempre vera. Ad esempio, se f(x) = x, allora f(1)=1 e f(-1)=-1, ma f^2(x) = x^2 ha un solo punto di minimo in 0. Se f(x) = -x, allora f(1)=-1 e f(-1)=1, quindi l'ipotesi non è soddisfatta."
+  },
+  "suria_279": "OK",
+  "suria_280": {
+    "file": "quiz_suria.json",
+    "index": 280,
+    "d": "Lo sviluppo di Mac Laurin, di ordine 6, della funzione $f(x) = log(\\frac{2 + sin(x^6)}{}) è",
+    "gemma_eval": "ERRORE: La funzione logaritmo è incompleta. Manca l'argomento del logaritmo. Non si può calcolare lo sviluppo di Mac Laurin senza un argomento completo."
+  },
+  "suria_281": "OK",
+  "suria_282": {
+    "file": "quiz_suria.json",
+    "index": 282,
+    "d": "Sia data la funzione $f(x) = sinh x$. Allora:",
+    "gemma_eval": "ERRORE: L'affermazione \"$f^{(n)}(\\frac{\\pi}{2}) = 1 se k = 4k, k \\in\\mathbb{N}$\" è priva di significato matematico. Inoltre, le altre affermazioni sono potenzialmente errate e richiederebbero un'analisi più approfondita delle derivate di $sinh(x)$."
+  },
+  "suria_283": "OK",
+  "suria_284": {
+    "file": "quiz_suria.json",
+    "index": 284,
+    "d": "$\\lim_{x \\to +\\infty} \\log(\\frac{x-1}{2})^2 - \\cos^2 x$",
+    "gemma_eval": "ERRORE: La funzione logaritmo è definita solo per argomenti positivi. Il limite considerato implica che x tende a infinito, quindi (x-1)/2 tende a infinito positivo. Tuttavia, la forma indeterminata $\\log(\\frac{x-1}{2})^2 - \\cos^2 x$ non permette di determinare immediatamente il segno del limite. Inoltre, l'opzione $0-$ è priva di significato matematico in questo contesto."
+  },
+  "suria_285": "OK",
+  "suria_286": "OK",
+  "suria_287": "OK",
+  "suria_288": {
+    "file": "quiz_suria.json",
+    "index": 288,
+    "d": "$lim_{x\\rightarrow 0}\\frac{5x - 1}{\\sin 4x}$",
+    "gemma_eval": "ERRORE: La domanda richiede il calcolo di un limite che tende a zero, ma non fornisce informazioni sul comportamento del denominatore in prossimità dello zero. Il denominatore $\\sin(4x)$ tende a zero quando x tende a zero, quindi si presenta una forma indeterminata del tipo 0/0. Per risolvere il limite è necessario utilizzare tecniche come l'applicazione di regole di L'Hôpital o manipolazioni algebriche che non sono evidenti dalla sola espressione fornita.  Senza ulteriori informazioni o indicazioni su come procedere, la domanda è incompleta e non risolvibile in modo univoco."
+  },
+  "suria_289": "OK",
+  "suria_290": "OK",
+  "suria_291": {
+    "file": "quiz_suria.json",
+    "index": 291,
+    "d": "Sia data una funzione $f$ crescente in $[a, b]$. Detto $I = \\int_b^a f(x) dx$, quale delle seguenti affermazioni NON è necessariamente VERA?",
+    "gemma_eval": "ERRORE: L'affermazione \"L’area della parte di piano compresa tra il graﬁco di $f(x)$, l’asse x e le rette $x = a$, $x = b$ è $\\int_b^a |f(x)| dx$\" è errata perché l'integrale $\\int_b^a f(x) \\, dx$ restituisce un valore negativo, mentre l'area deve essere positiva. L'area corretta sarebbe data da $-\\int_b^a f(x) \\, dx = \\int_a^b |f(x)| dx$. Inoltre, la domanda chiede quale affermazione NON è necessariamente vera, e questa è chiaramente falsa."
+  },
+  "suria_292": "OK",
+  "suria_293": "OK",
+  "suria_294": "OK",
+  "suria_295": {
+    "file": "quiz_suria.json",
+    "index": 295,
+    "d": "Sia $f(x) = \\frac{3x + 7 + 9 sin x + 1}{x^2 + 1}$ e sia $g(x) = 3x + 7$ il suo asintoto obliquo. Allora",
+    "gemma_eval": "ERRORE: L'affermazione che $g(x)$ sia l'asintoto obliquo di $f(x)$ è falsa. Un asintoto obliquo si ha quando il limite del rapporto tra $f(x)$ e $x$ tende a un valore finito non nullo, oppure quando il limite della differenza tra $f(x)$ e una retta del tipo $ax+b$ tende a zero. La funzione data non ammette asintoto obliquo."
+  },
+  "suria_296": {
+    "file": "quiz_suria.json",
+    "index": 296,
+    "d": "Sia data una funzione $f(x)$ tale che $f(x) ≥ x$, $\\forall x ∈R$. Allora",
+    "gemma_eval": "ERRORE: La domanda presenta affermazioni non logicamente consequenziali dalle ipotesi. In particolare, l'affermazione \"$∀x ∈ [-1/2, 1]$ f(x) è positiva$\" non può essere dedotta dal fatto che $f(x) ≥ x$ per ogni $x \\in \\mathbb{R}$. Ad esempio, se $x < 0$, allora $f(x) \\geq x$ implica solo che $f(x)$ potrebbe essere negativa. Analogamente, le altre opzioni non sono logicamente derivabili dalle ipotesi date."
+  },
+  "suria_297": {
+    "file": "quiz_suria.json",
+    "index": 297,
+    "d": "L’integrale improprio $\\int_{-1}^{-∞} sin x · e^x dx$",
+    "gemma_eval": "ERRORE: L'integrale improprio ha un limite inferiore finito (-1) e un limite superiore infinito. Questo implica che l'integranda deve essere considerata in un intorno dell'infinito, il che non è specificato. Inoltre, la funzione $sin(x) \\cdot e^x$ non si comporta in modo tale da garantire la convergenza o divergenza dell'integrale improprio."
+  },
+  "suria_298": "OK",
+  "suria_299": "OK",
+  "suria_300": {
+    "file": "quiz_suria.json",
+    "index": 300,
+    "d": "La parte principale, x → 0 della funzione f(x) = ⾒7x - ⾒8x + x2 - x è:",
+    "gemma_eval": "ERRORE: La notazione \"⾒\" è incomprensibile e rende la funzione non definita. Non si può determinare la parte principale senza sapere cosa rappresenti quel simbolo."
+  },
+  "suria_301": {
+    "file": "quiz_suria.json",
+    "index": 301,
+    "d": "La retta tangente al graﬁco della funzione f(x) = e2e x in x = 0 è:",
+    "gemma_eval": "ERRORE: La funzione f(x) è scritta in modo ambiguo. Potrebbe essere intesa come e^(2e*x) oppure come (e^2)*e^x. Entrambe le interpretazioni portano a derivate diverse, rendendo la domanda priva di una risposta univoca corretta."
+  },
+  "suria_302": {
+    "file": "quiz_suria.json",
+    "index": 302,
+    "d": "Il pi'u grande intervallo, illimitato superiormente, in cui f(x) = -|x -2|e-1 3/x è monotona, è:",
+    "gemma_eval": "ERRORE: La funzione f(x) = -|x -2|e-1 3/x è mal posta. L'esponente \"-1\" applicato a \"e\" e la frazione \"3/x\" non sono chiaramente definiti nell'espressione, rendendo impossibile determinare la monotonia della funzione. Inoltre, l'uso di \"pi'u\" suggerisce un errore di battitura o una formulazione imprecisa."
+  },
+  "suria_303": "OK",
+  "suria_304": "OK",
+  "suria_305": "OK",
+  "suria_306": "OK",
+  "suria_307": "OK",
+  "suria_308": {
+    "file": "quiz_suria.json",
+    "index": 308,
+    "d": "$La successione a_n = n \\log(n!) - (n!) \\log n$ è$",
+    "gemma_eval": "ERRORE: La presenza di \"pi'u\" suggerisce un errore di battitura, probabilmente intendeva infinito. Tuttavia, l'espressione log(n!) può essere semplificata usando la formula per il logaritmo del fattoriale, ma non è chiaro se le opzioni proposte siano coerenti con il comportamento della successione risultante. Senza conoscere le opzioni corrette, non posso determinare se la domanda sia valida o meno."
+  },
+  "suria_309": {
+    "file": "quiz_suria.json",
+    "index": 309,
+    "d": "x = 1\nlim\nx→ 1\n\\sqrt{|ex −e|} \n\\sqrt{|(x −1)(x −2)|} −0 \nx −1\nPer calcolare il limite ed eliminare la forma di indeterminazione possiamo fare una sostituzione mentale \\nx −1 = t, ex−1 −1 ∼(x −1), x → 1\nlim\nx→ 1\n\\sqrt{|e(x −1)|} \n\\sqrt{|x −1|(|x −1|(−1))|} \nx −1\n= lim\nx→ 1\n\\sqrt{e|x −1|} \n\\sqrt{|x −1|}\nx −1\n= lim\nx→ 1\n\\sqrt{e|x −1|} \nx −1\n= ±\\sqrt{e} \nx = 1 punto angoloso",
+    "gemma_eval": "ERRORE: La sostituzione mentale proposta è errata e porta a conclusioni inesatte. In particolare, l'affermazione \"ex−1 −1 ∼(x −1), x → 1\" è priva di significato matematico e la manipolazione algebrica successiva introduce errori che invalidano il calcolo del limite. Inoltre, l'interpretazione finale come punto angoloso non è giustificata."
+  },
+  "suria_310": {
+    "file": "quiz_suria.json",
+    "index": 310,
+    "d": "$x = 2$\n$\\lim$\n$x\\to 2$\n$\\sqrt{|ex −e|}$\n$\\sqrt{(x −1)(x −2)|} −0$\n$x −2$\n$\\lim$\n$x\\to 2$\n$\\sqrt{|e2 −e|}$\n$\\sqrt{(2 −1)(x −2)|} −0$\n$x −2$\n$= \\sqrt{|e2 −e|} \\lim$\n$x\\to 2$\n$\\sqrt{|x −2|}$\n$x −2$\n$= \\sqrt{e2 −e} \\lim$\n$x\\to 2$\n$\\sqrt{|x −2|}$\n$x −2$\n$= ±∞$\n$x = 2$ è punto di cuspide",
+    "gemma_eval": "ERRORE: La domanda presenta diverse incongruenze e errori logici. In particolare, l'uso di \"$\\lim x\\to 2 \\sqrt{|ex - e|}$\" è privo di significato poiché $e$ è una costante (il numero di Nepero) e non una variabile. Inoltre, la manipolazione algebrica e le sostituzioni sono incomprensibili e apparentemente arbitrarie. La conclusione che $x=2$ sia un punto di cuspide è basata su passaggi errati."
+  },
+  "suria_311": {
+    "file": "quiz_suria.json",
+    "index": 311,
+    "d": "$f(x) = (1 −2x^2 / 2! + o(x^3)) · (\\sqrt{3x} −3 / (2x^2 + 3\\sqrt{3} / 3 x^3 + o(x^3))) = \\sqrt{3x} −3 / (2x^2 + o(x^3))$",
+    "gemma_eval": "ERRORE: L'affermazione implica un'uguaglianza tra due funzioni, una delle quali è definita come prodotto di due serie. La semplificazione a destra non è giustificata e non risulta da una manipolazione algebrica corretta del lato sinistro. Inoltre, l'espressione $o(x^3)$ suggerisce che si tratta di un'approssimazione di ordine 3, ma la sua gestione nel prodotto e nella successiva semplificazione è problematica e non standard."
+  },
+  "suria_312": {
+    "file": "quiz_suria.json",
+    "index": 312,
+    "d": "f ′(x) = −2 / ((2x + 1)^2 log x + 1 / (2x + 1 · 1)) = 1 / (2x + 1) (−2x log x + 2x + 1 / x(2x + 1))",
+    "gemma_eval": "ERRORE: La derivata proposta è complessa e apparentemente errata. Non è chiaro quale funzione sia f(x) e la manipolazione algebrica per arrivare all'espressione finale sembra contenere errori significativi. L'uguaglianza tra i due membri non può essere verificata senza conoscere la funzione originale f(x)."
+  },
+  "suria_313": {
+    "file": "quiz_suria.json",
+    "index": 313,
+    "d": "Si potrebbe calcolare l’asintoto utilizzando le $formula$, ma forse è più facile se riusciamo a riscrivere l’equazione:\n$f(x) = x + 1 + x^2 −x −1 / (x^3 + 1) + |x| \\sqrt{1 + 1/x}$\n$x \\to +∞ f(x) ∼ x + 1 + x = 2x + 1$\n$x \\to −∞ f(x) ∼ x + 1 −x = 1$\nasintoto destro: $y = 2x + 1$\nasintoto sinistro: $y = 1$",
+    "gemma_eval": "ERRORE: L'analisi asintotica fornita è parzialmente errata. La semplificazione per x → +∞ è corretta, ma quella per x → -∞ ignora il termine |x|.  Inoltre, l'affermazione che y=1 sia un asintoto sinistro non è giustificata e richiede una verifica più rigorosa considerando il comportamento di f(x) quando x tende a -∞."
+  },
+  "suria_314": {
+    "file": "quiz_suria.json",
+    "index": 314,
+    "d": "$\\int_x \\sqrt{2 + x^2} dx =$ ",
+    "gemma_eval": "ERRORE: La domanda è mal posta. L'integrale deve avere dei limiti di integrazione, non solo la variabile di integrazione. Inoltre, nessuna delle opzioni proposte rappresenta l'integrale corretto di $\\sqrt{2+x^2}$."
+  },
+  "suria_315": "OK",
+  "suria_316": "OK",
+  "suria_317": "OK",
+  "suria_318": {
+    "file": "quiz_suria.json",
+    "index": 318,
+    "d": "Quale delle seguenti proprietà NON è soddisfatta dalla funzione $f(x) = (3 - x)^6 (5 - x)^{\\log x}$?",
+    "gemma_eval": "ERRORE: Il dominio della funzione non è specificato correttamente. La presenza di $\\log x$ implica che $x > 0$. Inoltre, $(5-x)$ deve essere positivo per valori reali di $x$, quindi $x < 5$.  L'affermazione \"ha almeno 3 punti critici in (0, 5)\" non è verificabile senza considerare il dominio corretto. Le altre opzioni dipendono da questo dominio e dalla sua influenza sul segno della funzione."
+  },
+  "suria_319": "OK",
+  "suria_320": "OK",
+  "suria_321": "OK",
+  "suria_322": "OK",
+  "suria_323": {
+    "file": "quiz_suria.json",
+    "index": 323,
+    "d": "La soluzione del problema di Cauchy è:",
+    "gemma_eval": "ERRORE: Manca il problema di Cauchy. La domanda è priva di significato senza l'equazione differenziale e la condizione iniziale."
+  },
+  "suria_324": "OK",
+  "suria_325": {
+    "file": "quiz_suria.json",
+    "index": 325,
+    "d": "b) I₂ è Riemann integrabile perché $f(x) = 1/x^2$ è limitata in $[1, 199]$",
+    "gemma_eval": "ERRORE: La funzione f(x) = 1/x^2 non è integrabile in senso di Riemann sull'intervallo [1, 199] perché presenta una discontinuità eliminabile in x=0. L'affermazione che sia limitata è vera, ma la limitatezza da sola non implica l'integrabilità di Riemann."
+  },
+  "suria_326": "OK",
+  "suria_327": {
+    "file": "quiz_suria.json",
+    "index": 327,
+    "d": "d) I₄ è Riemann integrabile perché in $x = 0$ la funzione non è continua, ma è limitata. Infatti $f(x) \\sim x^2\\x = 1/2$",
+    "gemma_eval": "ERRORE: La notazione \"$f(x) \\sim x^2\\x = 1/2$\" è priva di significato matematico. Inoltre, l'affermazione che la non continuità in un punto e la limitatezza implichino Riemann integrabilità è falsa."
+  },
+  "suria_328": "OK",
+  "suria_329": "OK",
+  "suria_330": "OK",
+  "suria_331": {
+    "file": "quiz_suria.json",
+    "index": 331,
+    "d": "(a) $x \\to +∞$: P.P.(f1) = $-x^{4/3}$ (non si ha la cancellazione dei termini di grado massimo e allora teniamo la potenza di grado maggiore) (b) $x \\to −∞$: P.P.(f2) = $-x^{4/3}$ (non si ha la cancellazione dei termini di grado massimo e allora teniamo la potenza di grado maggiore) (c) In questo caso i termini di grado massimo ($x$) si cancellano e allora devo raccogliere... $x \\to +∞$: $f3 = x −x^{3/√1 + 1/x} = x −x · ( 1 + 1/(3x) + o(1/x)) = x −x −1/3 + o(1) -\\to  (d) per$x$tendente a zero tengo la potenza minore (in questo caso$x$): non si ha la cancellazione dei termini in$x$e quindi posso trascurare le potenze maggiori:$x \\to 0 : P.P.(f4) = 2x −x = x$(e) per$x$tendente a zero, si cancellano le potenze minori e allora procedo con Mac laurin dopo aver raccolto la$x$con la potenza minore$x \\to 0 : f5 = x −x^{3/√1 + x} = x −x ( 1 + 1/(3x) + o(x)) = −1/3x^2 + o(x^2)$N.B. Avremo potuto procedere, in tutti e cinque i casi, raccogliendo: (a)$x \\to 0$la potenza di grado minore (b)$x \\to ∞$la potenza di grado maggiore",
+    "gemma_eval": "ERRORE: La domanda presenta una serie di affermazioni e calcoli che sono in parte incoerenti e non sempre giustificati. In particolare, l'uso del termine \"P.P.\" è ambiguo (potrebbe riferirsi al polinomio predominante o ad altro), le manipolazioni algebriche presentano errori e omissioni logiche, e la notazione `o(1/x)` e `o(x)` non è usata correttamente. Inoltre, l'affermazione \"N.B.\" che suggerisce un metodo generale per raccogliere potenze di grado minore o maggiore è contraddittoria a seconda del caso considerato. Infine, alcune espressioni sono sintatticamente incomplete (es. $3/√1$)."
+  },
+  "suria_332": "OK",
+  "suria_333": {
+    "file": "quiz_suria.json",
+    "index": 333,
+    "d": "1. Sia $f$ localmente integrabile su $(0, +∞)$; si dice che l’integrale improprio $\\int_{+∞}^{0} f(x) dx$ è divergente se: (a) $lim t\\to +∞f(x)$ non è ﬁnito (b) $lim t\\to +∞\\int_{t}^{0} f(x) dx$ non esiste (c) $\\int_{+∞}^{0} f(x) dx = +∞$ (d) $lim t\\to +∞\\int_{t}^{0} f(x) dx$ esiste e non è ﬁnito (e) $lim t\\to +∞\\int_{t}^{0} |f(x)| dx$ esiste ed è $+∞$ 2. Sia data una funzione $f$ deﬁnita su un intervallo $I$. Una primitiva di $f$ su $I$ è una funzione $F$ tale che: (a) $F$ è derivabile ed esiste $x_0 ∈I$ tale che $F ′(x_0) = f(x_0)$ (b) $F$ è derivabile in $I$ e $F ′(x) = f(x), ∀x ∈I$ (c) $F(x) = \\int_{x}^{a} f(t) dt, ∀x ∈I, ∀a ∈R$ (d) $F$ ha dominio $I$ e $F ′(x) = f(x)$ 3. Sia data la funzione $f(x) = e^{sin2 x}$. Quale delle seguenti propriet'a NON è soddisfatta dalla funzione $F(x) = \\int_{x}^{0} f(t) dt$? (a) $F(x) ≥0, ∀x ∈[0, +∞)$ (b) $F(x)$ è crescente ∀$x ∈R$ (c) $F(x) = F(−x), ∀x ∈R$ (d) $F ′(x) = f(x), ∀x ∈R$ (e) $F(x)$ è una funzione dispari 4. Una primitiva della funzione $f(x) = e^{2x}\\sqrt{1 + e^{2x}}$ su $R$ è: (a) $F(x) = (1 + e^{2x}) \\sqrt{1 + e^{2x}}/2$ (b) $F(x) = (1 + e^{2x}) \\sqrt{1 + e^{2x}}/3 + e^{2x}$ (c) $F(x) = e^{2x}(1 + e^{2x})^{3/2}$ (d) $F(x) = 2/3(1 + e^{2x})^{3/2}$ (e) $F(x) = (1 + e^{2x}) \\sqrt{1 + e^{2x}}/3 −8$",
+    "gemma_eval": "ERRORE: La domanda 1 presenta un errore concettuale. L'integrale improprio $\\int_{+∞}^{0} f(x) dx$ è uguale a $-\\int_{0}^{+\\infty} f(x) dx$.  Quindi, la divergenza dell'integrale improprio $\\int_{+∞}^{0} f(x) dx$ equivale alla divergenza di $-\\int_{0}^{+\\infty} f(x) dx$, che a sua volta è legata al comportamento del limite di $\\int_0^t f(x)dx$ quando $t \\to +\\infty$. Le opzioni proposte non riflettono correttamente questa relazione."
+  },
+  "suria_334": "OK",
+  "suria_335": "OK",
+  "suria_336": "OK",
+  "suria_337": "OK",
+  "suria_338": {
+    "file": "quiz_suria.json",
+    "index": 338,
+    "d": "Sei un esperto di LaTeX e Analisi Matematica. Il seguente testo contiene 5 domande a risposta multipla estratte grezzamente da un PDF.",
+    "gemma_eval": "ERRORE: Mancano la domanda e le opzioni di risposta concrete. La struttura fornita è solo una cornice vuota."
+  },
+  "suria_339": {
+    "file": "quiz_suria.json",
+    "index": 339,
+    "d": "$x^3$",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca la definizione della funzione F di cui si parla nelle opzioni. Non è chiaro a cosa si riferisca \"$x^3$\" e come sia collegato alle proprietà richieste (parità, concavità, derivate)."
+  },
+  "suria_340": {
+    "file": "quiz_suria.json",
+    "index": 340,
+    "d": "$\\int_1^0 f(x) sinh x / (x^{\\alpha}) dx$",
+    "gemma_eval": "ERRORE: L'integrale è mal posto. Il denominatore $x^{\\alpha}$ potrebbe portare a singolarità in $x=0$ e $x=1$. Inoltre, l'integranda non è definita per tutti i valori di $\\alpha$. La domanda richiede una valutazione della convergenza senza specificare la funzione $f(x)$, rendendo impossibile determinare la correttezza delle opzioni."
+  },
+  "suria_341": {
+    "file": "quiz_suria.json",
+    "index": 341,
+    "d": "$\\int_{+\\infty}^0 te^{-2t} dt$",
+    "gemma_eval": "ERRORE: L'integrale improprio presenta un limite di integrazione infinito che richiede una manipolazione specifica e potrebbe non convergere. Inoltre, l'integrazione per parti è necessaria, ma la scelta del metodo non è esplicitata nella domanda. La presenza di +∞ come risposta suggerisce una possibile divergenza, ma senza calcoli precisi non si può affermare con certezza."
+  },
+  "suria_342": {
+    "file": "quiz_suria.json",
+    "index": 342,
+    "d": "$\\int_{+\\infty}^a (5x)^{-1/3} dx$",
+    "gemma_eval": "ERRORE: L'integrale improprio presenta un limite di integrazione infinito inferiore, il che lo rende mal definito e richiede una valutazione specifica. La domanda non indica come gestire questo limite, rendendo l'espressione incompleta e potenzialmente errata. Inoltre, le opzioni proposte non tengono conto della natura impropria dell'integrale."
+  },
+  "suria_343": "OK",
+  "suria_344": "OK",
+  "suria_345": "OK",
+  "suria_346": "OK",
+  "suria_347": {
+    "file": "quiz_suria.json",
+    "index": 347,
+    "d": "$\\lim_{n\\to +∞} \\frac{\\log n^{10} + sin n}{\\sqrt{n} −3}$",
+    "gemma_eval": "ERRORE: La funzione logaritmo non è definita per $n$ che tende all'infinito. Inoltre, il limite di una somma e di un rapporto tra funzioni non può essere valutato separatamente in questo modo. Il termine $\\sin n$ oscilla indefinitamente mentre $n \\to +\\infty$."
+  },
+  "suria_348": "OK",
+  "suria_349": "OK",
+  "suria_350": "OK",
+  "suria_351": "OK",
+  "suria_352": "OK",
+  "suria_353": "OK",
+  "suria_354": {
+    "file": "quiz_suria.json",
+    "index": 354,
+    "d": "Il seguente integrale deﬁnito ∫₄² 1/x(2 −log x) dx vale:",
+    "gemma_eval": "ERRORE: L'integrale è mal posto, in quanto l'estremo superiore di integrazione (2) è minore dell'estremo inferiore (4). Questo implica che l'integrale deve essere valutato con un segno negativo. Inoltre, la presenza di \"log\" senza specificare base non è standard e rende l'espressione ambigua. Infine, le opzioni di risposta sono incomprensibili a causa della notazione confusa."
+  },
+  "suria_355": {
+    "file": "quiz_suria.json",
+    "index": 355,
+    "d": "Qual è la corretta formulazione del teorema della media integrale?",
+    "gemma_eval": "ERRORE: La prima opzione afferma che µ=f(c), il che è falso. L'opzione 4 usa f'(x) quando dovrebbe essere f(x). L'opzione 5 afferma che µ = f'(c), il che è falso. Il teorema della media integrale non coinvolge la derivata."
+  },
+  "suria_356": "OK",
+  "suria_357": "OK",
+  "suria_358": "OK",
+  "suria_359": "OK",
+  "suria_360": "OK",
+  "suria_361": "OK",
+  "suria_362": {
+    "file": "quiz_suria.json",
+    "index": 362,
+    "d": "Infatti, se $A ⊂B$, ogni minorante di $B$ è anche un minorante $A$, quindi il massimo dei minoranti di $A$ è ≥ del massimo dei minoranti di $B$. L’esempio dato da $A = (0, 1)$, $B = [0, 2)$ mostra che le risposte a e c sono sbagliate, mentre l’esempio dato da $A = (0, 1)$, $B = [-1, 2)$ mostra che le risposte b e d sono sbagliate.",
+    "gemma_eval": "ERRORE: La domanda è priva di un quesito specifico e delle opzioni di risposta. Si limita a fornire una giustificazione per escludere alcune risposte, ma non presenta la domanda vera e propria che si suppone debba essere risolta.  Inoltre, l'affermazione \"il massimo dei minoranti di A è ≥ del massimo dei minoranti di B\" necessita di maggiore chiarezza e rigorosità matematica (ad esempio, cosa si intende per \"massimo dei minoranti\"?)."
+  },
+  "suria_363": "OK",
+  "suria_364": {
+    "file": "quiz_suria.json",
+    "index": 364,
+    "d": "Infatti, ogni successione monotona è convergente, o divergente positivamente o divergente negativamente, quindi ammette limite (finito o $+∞o −∞$).",
+    "gemma_eval": "ERRORE: L'affermazione è falsa. Non ogni successione monotona è convergente; una successione monotona può divergere positivamente o negativamente."
+  },
+  "suria_365": {
+    "file": "quiz_suria.json",
+    "index": 365,
+    "d": "Basta applicare la formula per la derivata di funzione composta.",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva di contesto. Non specifica quale funzione o derivata debba essere calcolata, rendendo impossibile valutare la correttezza delle opzioni. L'affermazione \"Basta applicare la formula per la derivata di funzione composta\" è priva di significato senza una funzione da considerare."
+  },
+  "suria_366": "OK",
+  "suria_367": {
+    "file": "quiz_suria.json",
+    "index": 367,
+    "d": "Se $f$ non sia derivabile in $x_0$, $x - x_0$, $g$ è dato da $\\frac{g(x)-g(x_0)}{x-x_0}$. Se $g(x) = (x -x_0)f(x)$, allora $g(x_0) = 0$, e quindi $\\frac{(x-x_0)f(x)}{x-x_0} = f(x)$ per $x \\rightarrow x_0$.  Inoltre, $f(x_0)$.",
+    "gemma_eval": "ERRORE: La domanda presenta affermazioni illogiche e incomplete. In particolare, l'affermazione \"Inoltre, f(x_0)\" è priva di contesto e non segue logicamente dalle premesse precedenti. Inoltre, la conclusione $\\frac{(x-x_0)f(x)}{x-x_0} = f(x)$ per $x \\rightarrow x_0$ è corretta solo se $x \\neq x_0$, ma questo aspetto non viene esplicitato e potrebbe portare a confusione. La definizione di g è problematica perché implica una divisione per zero quando x=x_0, dato che il denominatore sarebbe zero."
+  },
+  "suria_368": "OK",
+  "suria_369": {
+    "file": "quiz_suria.json",
+    "index": 369,
+    "d": "$f(x) = x^2 −4x + 3$",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Non specifica quale teorema o proprietà si deve applicare alla funzione f(x). Senza contesto, le opzioni di risposta sono prive di significato."
+  },
+  "suria_370": "OK",
+  "suria_371": {
+    "file": "quiz_suria.json",
+    "index": 371,
+    "d": "$[ln(5 −x^2)]^x$",
+    "gemma_eval": "ERRORE: La domanda non specifica cosa si chiede di trovare. Si tratta del dominio della funzione? Di un intervallo di valori? Senza una richiesta chiara, la domanda è priva di significato matematico."
+  },
+  "suria_372": {
+    "file": "quiz_suria.json",
+    "index": 372,
+    "d": "$f(x) = 0 −\\to log(x^2 + 2 = 0; x^2 + 2 = 1; x^2 = −1.$",
+    "gemma_eval": "ERRORE: La domanda è priva di senso. Contiene una notazione confusa e incompleta che mescola definizioni di funzione, equazioni e affermazioni logiche in modo incoerente. L'espressione \"$f(x) = 0 −\\to log(x^2 + 2 = 0; x^2 + 2 = 1; x^2 = −1$\" non rappresenta una definizione di funzione valida né un problema matematico ben posto."
+  },
+  "suria_373": "OK",
+  "suria_374": {
+    "file": "quiz_suria.json",
+    "index": 374,
+    "d": "$f(x) = −e^{x}$",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca l'indicazione dell'intervallo o del contesto in cui si cercano i punti di massimo/minimo. Inoltre, le opzioni di risposta utilizzano simboli non definiti (xm, xM) senza fornire una loro interpretazione."
+  },
+  "suria_375": "OK",
+  "suria_376": {
+    "file": "quiz_suria.json",
+    "index": 376,
+    "d": "$f(x) = ln x + x$",
+    "gemma_eval": "ERRORE: La domanda non specifica quale operazione si deve eseguire su f(x). Le opzioni proposte sembrano tentare di fornire una forma alternativa, ma senza un'istruzione chiara (es. \"trova la derivata\", \"calcola l'integrale\", \"trova l'approssimazione di Taylor\") la domanda è priva di significato matematico."
+  },
+  "suria_377": "OK",
+  "suria_378": "OK",
+  "suria_379": "OK",
+  "suria_380": "OK",
+  "suria_381": {
+    "file": "quiz_suria.json",
+    "index": 381,
+    "d": "Se $f : \\mathbb{R} \\to\\mathbb{R}$ è strettamente crescente allora sicuramente in $\\mathbb{R}:$",
+    "gemma_eval": "ERRORE: La domanda presuppone una conseguenza necessaria della stretta crescenza, che non è necessariamente vera per tutte le opzioni. Ad esempio, la stretta crescenza implica l'iniettività, ma non implica la suriettività né la limitatezza inferiormente né che la derivata sia sempre positiva (perché potrebbe non essere derivabile)."
+  },
+  "suria_382": "OK",
+  "suria_383": "OK",
+  "suria_384": "OK",
+  "suria_385": "OK",
+  "suria_386": "OK",
+  "suria_387": {
+    "file": "quiz_suria.json",
+    "index": 387,
+    "d": "Sia $f(x)$ una funzione deﬁnita su $(a, b)$ e derivabile in $x_0 ∈(a, b)$. Il fatto che $f'(x_0) = 0$ è a) sufficiente perchè $x_0$ sia un punto di minimo o massimo locale b) necessaria e sufficiente perchè $x_0$ sia un punto di minimo o massimo locale c) nessuna delle altre risposte d) necessaria perchè $x_0$ sia un punto di minimo o massimo locale",
+    "gemma_eval": "ERRORE: L'affermazione che $f'(x_0) = 0$ sia condizione *sufficiente* per un punto di massimo o minimo locale è falsa. Esistono punti stazionari che non sono né massimi né minimi locali (es. flessi a tangente orizzontale)."
+  },
+  "suria_388": "OK",
+  "suria_389": "OK",
+  "suria_390": {
+    "file": "quiz_suria.json",
+    "index": 390,
+    "d": "La derivata della funzione $f(x) = (x^{2x})^{2x}$ è",
+    "gemma_eval": "ERRORE: La domanda richiede la derivata di una funzione complessa e le opzioni proposte contengono errori nella manipolazione degli esponenti e nell'applicazione della regola della catena. Non vi è un modo chiaro per determinare quale sia l'errore più grave senza una valutazione completa della derivazione."
+  },
+  "suria_391": "OK",
+  "suria_392": "OK",
+  "suria_393": "OK",
+  "suria_394": "OK",
+  "suria_395": {
+    "file": "quiz_suria.json",
+    "index": 395,
+    "d": "Sia $w = 5 + i \\frac{3 -i}{}$",
+    "gemma_eval": "ERRORE: La frazione $i \\frac{3 -i}{}$ è incompleta. Manca il denominatore."
+  },
+  "suria_396": {
+    "file": "quiz_suria.json",
+    "index": 396,
+    "d": "$\\lim_{x \\to +\\infty} \\frac{sin x + x + log x - 5}{2 + cos^2 x} =$ ",
+    "gemma_eval": "ERRORE: Il limite non esiste perché il numeratore tende a infinito mentre il denominatore è limitato. Tuttavia, l'opzione \"$\\nexists$\" è la più appropriata e indica che il limite non esiste, ma la domanda non specifica se si cercano i limiti destro e sinistro."
+  },
+  "suria_397": "OK",
+  "suria_398": "OK",
+  "suria_399": "OK",
+  "suria_400": {
+    "file": "quiz_suria.json",
+    "index": 400,
+    "d": "$f(x) = \\frac{4 \\sqrt{x^4 + x^3 + αx}}{}$",
+    "gemma_eval": "ERRORE: La domanda presenta una formula incompleta. Il denominatore in $f(x) = \\frac{4 \\sqrt{x^4 + x^3 + αx}}{}$ manca, rendendo la funzione non definita e impedendone l'analisi asintotica o il comportamento al variare di α. Inoltre, l'opzione \"x \\to 0, ∀α, P.P.(f(x)) = \\frac{4 \\sqrt{x^3}}{}\" presenta una formula incompleta simile."
+  },
+  "suria_401": {
+    "file": "quiz_suria.json",
+    "index": 401,
+    "d": "$f(x) = \\frac{3x}{x^2 - 4}$",
+    "gemma_eval": "ERRORE: La domanda non specifica cosa si chiede. Le opzioni proposte sembrano derivare da una qualche operazione su f(x), ma manca l'indicazione dell'operazione stessa (es. integrale, derivata, limite, ecc.). Senza questa informazione, la domanda è priva di significato matematico."
+  },
+  "suria_402": "OK",
+  "suria_403": {
+    "file": "quiz_suria.json",
+    "index": 403,
+    "d": "Quale delle seguenti derivate NON è la derivata della funzione $f(x) = (2x)^{2x^{2x}}$?",
+    "gemma_eval": "ERRORE: La derivata di una funzione della forma y=f(x)^g(x) richiede l'uso della derivazione logaritmica. Le opzioni proposte sembrano tentare di applicare questa tecnica, ma presentano errori nella manipolazione dei termini logaritmici e nelle proprietà delle derivate. L'opzione $f'(x) = (2x) \\cdot (2x) \\cdot (2x)^{2x}$ è chiaramente errata perché non rappresenta una derivata nel senso corretto del termine."
+  },
+  "suria_404": "OK",
+  "suria_405": "OK",
+  "suria_406": "OK",
+  "suria_407": "OK",
+  "suria_408": "OK",
+  "suria_409": {
+    "file": "quiz_suria.json",
+    "index": 409,
+    "d": "Il rapporto incrementale della funzione $g(x) = f^{3}(x)$ relativa al punto $x = 3$, con $f(3) = −4$ vale",
+    "gemma_eval": "ERRORE: La domanda chiede il rapporto incrementale di $g(x) = f^3(x)$ relativo al punto $x=3$, ma non specifica quale valore di $x$ deve essere usato nel numeratore del rapporto incrementale. L'espressione \"$\\frac{f^3(x) - 4}{x-3}$\" è ambigua perché usa $x$ sia come punto rispetto a cui si calcola il rapporto incrementale (cioè, $x=3$) che come argomento della funzione $f$. Inoltre, l'affermazione \"$f(3) = −4$\" non viene utilizzata correttamente in nessuna delle opzioni. Il rapporto incrementale dovrebbe essere $\\frac{g(x)-g(3)}{x-3} = \\frac{f^3(x) - f^3(3)}{x-3}$."
+  },
+  "suria_410": "OK",
+  "suria_411": {
+    "file": "quiz_suria.json",
+    "index": 411,
+    "d": "La parte principale, rispetto al campione standard $u(x)$, $x \\to 0$ della funzione $f(x) = 5√x + x^2 − 5√x + x / 5 / 6 è:",
+    "gemma_eval": "ERRORE: La funzione $f(x)$ è mal definita. In particolare, $√x$ non è definito per $x < 0$. Inoltre, l'espressione \"$x / 5 / 6$\" è ambigua e potrebbe essere interpretata in modi diversi (es. $x/(5\\cdot 6)$ o $(x/5)/6$).  La richiesta di trovare la parte principale rispetto a un campione standard non ha senso senza una definizione chiara della funzione e del suo comportamento vicino allo zero."
+  },
+  "suria_412": {
+    "file": "quiz_suria.json",
+    "index": 412,
+    "d": "La parte principale, rispetto al campione standard $u(x) = x$, $x \\to +∞$ della funzione $f(x) = 5√x + x^2 − 5√x + x / 5 / 6 è:",
+    "gemma_eval": "ERRORE: La funzione $f(x)$ è mal definita e non si capisce cosa significhi \"parte principale rispetto al campione standard\". Inoltre, l'espressione $x / 5 / 6$ è ambigua. Sembra che ci sia un errore nella formulazione della domanda."
+  },
+  "suria_413": "OK",
+  "suria_414": "OK",
+  "suria_415": {
+    "file": "quiz_suria.json",
+    "index": 415,
+    "d": "Quale delle seguenti proprietà è FALSA per la funzione $f(x) = \\begin{cases} −(x + 5)^2 & x ≤−5 \\\\ (x + 5)^3 & x > −5\n\\end{cases}$",
+    "gemma_eval": "ERRORE: La domanda presuppone che si possa determinare quale proprietà sia falsa. Tuttavia, senza ulteriori verifiche (calcolo dei limiti destro e sinistro in x=-5, derivata in x=-5, ecc.), non è possibile stabilire con certezza quale delle affermazioni sia falsa.  La domanda è mal posta perché richiede una conclusione che non può essere raggiunta solo leggendo la definizione della funzione."
+  },
+  "suria_416": "OK",
+  "suria_417": {
+    "file": "quiz_suria.json",
+    "index": 417,
+    "d": "Lo sviluppo di Mac Laurin, di ordine 3, della funzione $f(x) = \\text{esinh } x$",
+    "gemma_eval": "ERRORE: Lo sviluppo di Mac Laurin della funzione $\\text{esinh } x$ deve includere il termine corretto derivante dalla terza derivata valutata in $x=0$. Infatti, $\\text{esinh } x = 1 + \\frac{x}{1!} + \\frac{x^2}{2!} + \\frac{x^3}{3!} + ...$, quindi lo sviluppo di ordine 3 dovrebbe essere $1 + x + \\frac{x^2}{2} + \\frac{x^3}{6} + o(x^3)$. Nessuna delle opzioni proposte è corretta."
+  },
+  "suria_418": {
+    "file": "quiz_suria.json",
+    "index": 418,
+    "d": "Lo sviluppo di Mac Laurin, di ordine 3, della funzione sinh (log(x + 1)) è:",
+    "gemma_eval": "ERRORE: La domanda è mal posta. Lo sviluppo di Mac Laurin richiede che la funzione sia sviluppata attorno a x=0, ma log(x+1) non è definita in x=0. Inoltre, le opzioni proposte sono prive di senso matematico e contengono espressioni illogiche come \"sinh(...)^3\"."
+  },
+  "suria_419": "OK",
+  "suria_420": "OK",
+  "suria_421": {
+    "file": "quiz_suria.json",
+    "index": 421,
+    "d": "Qual è la proprietà FALSA per la funzione $f(x) = \\sin x + \\log (x - 5)/2^2 + \\cos^2 x$?",
+    "gemma_eval": "ERRORE: La funzione $f(x)$ non è definita per $x < 5$ a causa del termine $\\log(x-5)$. Le opzioni che considerano il comportamento asintotico per $x \\rightarrow -\\infty$ o $x \\rightarrow 0^+$ sono quindi prive di significato. Inoltre, l'affermazione \"$\\lim_{x \\rightarrow +\\infty} sin x + log (x - 5)/2^2 + cos^2 x = -\\infty$\" è problematica perché il limite non esiste a causa dell'oscillazione del $\\sin(x)$. Infine, la prima e la quinta opzione presentano un errore nella scrittura della funzione."
+  },
+  "suria_422": "OK",
+  "suria_423": "OK",
+  "suria_424": {
+    "file": "quiz_suria.json",
+    "index": 424,
+    "d": "$\\int_1^0 \\frac{2 + \\sin(1)}{x} \\sqrt{x} dx$",
+    "gemma_eval": "ERRORE: I limiti di integrazione sono invertiti. L'integrale definito dovrebbe essere $\\int_0^1 \\frac{2 + \\sin(1)}{x} \\sqrt{x} dx$. Inoltre, la funzione integranda presenta una singolarità in $x=0$, quindi è necessario valutare attentamente la convergenza dell'integrale."
+  },
+  "suria_425": {
+    "file": "quiz_suria.json",
+    "index": 425,
+    "d": "$\\int_\\infty^1 \\frac{2 + \\sin(1)}{x} \\sqrt{x} dx$",
+    "gemma_eval": "ERRORE: Limiti di integrazione invertiti e integrale improprio non definito."
+  },
+  "suria_426": "OK",
+  "suria_427": "OK",
+  "suria_428": {
+    "file": "quiz_suria.json",
+    "index": 428,
+    "d": "\\lim_{x\\to 0^+}\\frac{\\sin x - x - 0}{x - 0} = 0 \\rightarrow \\text{la derivata destra in } x = 0 \\text{ è nulla −\\to il graﬁco della funzione è a tangente orizzontale. Per la simmetria anche il }\\lim_{x\\to 0^-}\\frac{f(x) - f(0)}{x - 0} = 0. \\text{ La funzione è quindi derivabile}",
+    "gemma_eval": "ERRORE: L'affermazione \"lim_{x\\to 0^+}\\frac{\\sin x - x - 0}{x - 0} = 0\" è falsa. Il limite corretto è lim_{x→0^+} (sinx-x)/x = -1. Inoltre, l'interpretazione del limite come derivata destra e il ragionamento sulla simmetria sono errati e non portano alla conclusione corretta sulla derivabilità."
+  },
+  "suria_429": "OK",
+  "suria_430": {
+    "file": "quiz_suria.json",
+    "index": 430,
+    "d": "Teorema dei carabinieri. \\frac{e^{\\sqrt{x}}}{4} \\le \\frac{e^{\\sqrt{x}}}{4 - \\sin^2 x} \\le \\frac{e^{\\sqrt{x}}}{3}. Prima osservazione: si maggiora la frazione diminuendo il denominatore e si minora la frazione maggiorando il denominatore. Seconda osservazione il valore minimo del denominatore è: 4 -1; il valore massimo del denominatore è: 4 -0. Terza osservazione: i due estremi tendono a } 4 + \\infty",
+    "gemma_eval": "ERRORE: L'affermazione \"i due estremi tendono a } 4 + \\infty\" è priva di significato matematico. Inoltre, l'osservazione sul valore minimo del denominatore (4-1) e massimo (4-0) non è coerente con il teorema dei carabinieri e la sua applicabilità. Il teorema richiede che gli estremi tendano allo stesso limite, non a valori specifici."
+  },
+  "suria_431": "OK",
+  "suria_432": "OK",
+  "suria_433": "OK",
+  "suria_434": "OK",
+  "suria_435": "OK",
+  "suria_436": "OK",
+  "suria_437": {
+    "file": "quiz_suria.json",
+    "index": 437,
+    "d": "$Quale delle seguenti definizioni NON è corretta?$\na) $Una funzione f definita in un intorno di un punto x_0 ∈ℝ, ed ivi continua, è derivabile in x_0 se e solo se f è derivabile da destra e da sinistra in x_0 e le derivate destra e sinistra coincidono$\nb) $Una funzione continua in x_0 e derivabile in tutti i punti x ̸= x_0 di un intorno di x_0, è derivabile anche in x_0 se esiste ed è finito il limite della f ′, per x \\to x_0$\nc) $Una funzione si dice derivabile n volte se esiste la derivata ennesima della funzione, ma non è richiesta al continuità della derivata ennesima$\nd) $Una funzione continua in x_0 e derivabile in tutti i punti x ̸= x_0 di un intorno di x_0, è derivabile anche in x_0 se esiste ed è finito il limite della f ′(x), per x \\to x_0$\ne) $Una funzione definita in x_0 e derivabile in tutti i punti x ̸= x_0 di un intorno di x_0, è derivabile anche in x_0 se esiste ed è finito il limite della f ′(x), per x \\to x_0$",
+    "gemma_eval": "ERRORE: L'opzione (e) non specifica la continuità in $x_0$, che è un requisito necessario per la derivabilità in quel punto."
+  },
+  "suria_438": "OK",
+  "suria_439": "OK",
+  "suria_440": "OK",
+  "suria_441": {
+    "file": "quiz_suria.json",
+    "index": 441,
+    "d": "$a = c ∧ b ̸= d ⇒ f(x) − g(x) = b − d + o(1)$",
+    "gemma_eval": "ERRORE: L'affermazione combina logica proposizionale (c ∧ b ̸= d) con un'equazione che coinvolge funzioni f(x) e g(x). La freccia di implicazione non è definita in questo contesto. Non ha senso matematico."
+  },
+  "suria_442": {
+    "file": "quiz_suria.json",
+    "index": 442,
+    "d": "a = c ∧ b = d ⇒ y = o(1): quindi sappiamo che la funzione differenza è infinitesima o(1), x \\to +∞⇒y = 0 è asintoto orizzontale",
+    "gemma_eval": "ERRORE: La domanda mescola notazioni logiche (∧, ⇒) con notazione di analisi matematica (o(1), asintoto orizzontale). L'affermazione è priva di significato matematico coerente."
+  },
+  "suria_443": "OK",
+  "suria_444": "OK",
+  "suria_445": "OK",
+  "suria_446": "OK",
+  "suria_447": "OK",
+  "suria_448": "OK",
+  "suria_449": {
+    "file": "quiz_suria.json",
+    "index": 449,
+    "d": "Sia $f : \\mathbb{R} \\to \\mathbb{R}$ una funzione tale che $\\lim_{x\\to 2} f(x) = 1$. Allora ",
+    "gemma_eval": "ERRORE: La domanda implica una confusione tra limite e valore della funzione nel punto. Il limite esiste ed è uguale a 1, ma non dice nulla sul valore di f(2)."
+  },
+  "suria_450": "OK",
+  "suria_451": "OK",
+  "suria_452": "OK",
+  "suria_453": {
+    "file": "quiz_suria.json",
+    "index": 453,
+    "d": "Quale delle seguenti affermazioni è vera?",
+    "gemma_eval": "ERRORE: L'affermazione \"Se a^2 > b^2, allora a > b\" è falsa. Ad esempio, se a = -2 e b = 1, allora a^2 = 4 e b^2 = 1, quindi a^2 > b^2, ma a < b."
+  },
+  "suria_454": "OK",
+  "suria_455": "OK",
+  "suria_456": "OK",
+  "suria_457": "OK",
+  "suria_458": "OK",
+  "suria_459": "OK",
+  "suria_460": "OK",
+  "suria_461": {
+    "file": "quiz_suria.json",
+    "index": 461,
+    "d": "Calcolare il valor medio delle funzioni dell’esercizio precedente, nel loro intervallo di integrazione",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Non fornisce l'esercizio precedente né le funzioni di cui si chiede il valor medio, rendendo impossibile valutarne la correttezza o risolvibilità."
+  },
+  "suria_462": "OK",
+  "suria_463": "OK",
+  "suria_464": {
+    "file": "quiz_suria.json",
+    "index": 464,
+    "d": "Se $f(x) \\in C(\\infty) \\to  g(x) = f_{15}(x) \\in C(?)",
+    "gemma_eval": "ERRORE: La notazione $f(x) \\in C(\\infty)$ è priva di significato. L'appartenenza a uno spazio di funzioni continue richiede un insieme specifico, non il simbolo $\\infty$. Inoltre, $f_{15}(x)$ suggerisce una successione di funzioni, ma la relazione con $f(x)$ e $g(x)$ non è definita in modo chiaro."
+  },
+  "suria_465": "OK",
+  "suria_466": "OK",
+  "suria_467": "OK",
+  "suria_468": "OK",
+  "suria_469": "OK",
+  "suria_470": "OK",
+  "suria_471": "OK",
+  "suria_472": "OK",
+  "suria_473": "OK",
+  "suria_474": "OK",
+  "suria_475": "OK",
+  "suria_476": "OK",
+  "suria_477": "OK",
+  "suria_478": {
+    "file": "quiz_suria.json",
+    "index": 478,
+    "d": "Sia $f(x) : [a; b] \\to R$ una funzione continua. Se $\\int_b^a f(x) dx > (b −a)f(a)$ allora è sicuramente vero che",
+    "gemma_eval": "ERRORE: L'affermazione iniziale implica che $\\int_b^a f(x) \\, dx > (b-a)f(a)$. Ricordando che $\\int_b^a f(x) \\, dx = -\\int_a^b f(x) \\, dx$, l'affermazione diventa $-\\int_a^b f(x) \\, dx > (b-a)f(a)$, ovvero $\\int_a^b f(x) \\, dx < (b-a)f(a)$.  Questa disuguaglianza non implica nessuna delle affermazioni proposte."
+  },
+  "suria_479": "OK",
+  "suria_480": {
+    "file": "quiz_suria.json",
+    "index": 480,
+    "d": "Sia $g(x) : R \\to R$ una funzione derivabile e tale che $g(x) ≤ x, ∀x ∈[0, 1]$. Allora è sempre vero che",
+    "gemma_eval": "ERRORE: La prima opzione contiene un errore di segno nell'integrale. Dovrebbe essere $\\int_0^x g(t) dt \\leq x \\cdot g(0)$. Inoltre, le altre opzioni non sono necessariamente vere date le condizioni poste."
+  },
+  "suria_481": {
+    "file": "quiz_suria.json",
+    "index": 481,
+    "d": "Quelle delle riposte NON è esatta?",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto e non specifica quale espressione si sta valutando. Inoltre, l'espressione \"Quelle delle riposte NON è esatta?\" è grammaticalmente scorretta e priva di significato matematico. Non è possibile determinare se le opzioni siano corrette o meno senza una domanda chiara."
+  },
+  "suria_482": "OK",
+  "suria_483": "OK",
+  "suria_484": "OK",
+  "suria_485": "OK",
+  "suria_486": "OK",
+  "suria_487": {
+    "file": "quiz_suria.json",
+    "index": 487,
+    "d": "$\\lim_{x\\to 4}\\frac{5}{1 − cos(5x −4)} \\cdot \\frac{(x −4)}{5^2} =",
+    "gemma_eval": "ERRORE: La funzione all'interno del limite non è definita per x=4, in quanto il denominatore tende a zero. Questo rende il limite indeterminato o infinito, e richiede un'analisi più approfondita (es. applicazione di regole di L'Hôpital) che non può essere determinata solo con le opzioni fornite."
+  },
+  "suria_488": "OK",
+  "suria_489": "OK",
+  "suria_490": "OK",
+  "suria_491": "OK",
+  "suria_492": "OK",
+  "suria_493": "OK",
+  "suria_494": "OK",
+  "suria_495": "OK",
+  "suria_496": "OK",
+  "suria_497": {
+    "file": "quiz_suria.json",
+    "index": 497,
+    "d": "$ \\lim_{x\\to 0} (α x - 4 sin x / x^3) = −∞$",
+    "gemma_eval": "ERRORE: La domanda implica l'esistenza di un limite infinito, ma non fornisce informazioni sufficienti per determinarlo in termini di α.  Inoltre, il limite di `sin x / x^3` per `x -> 0` è infinito, quindi la presenza di `αx` potrebbe o meno compensare questo comportamento, a seconda del valore di α. La domanda necessita di una riformulazione che permetta di determinare un valore specifico di α in base al limite dato."
+  },
+  "suria_498": {
+    "file": "quiz_suria.json",
+    "index": 498,
+    "d": "Se $g ∼ x, x \\to +∞$, allora è sempre vero che:",
+    "gemma_eval": "ERRORE: L'uso del simbolo \"∼\" è ambiguo e non standard. Inoltre, il simbolo \"∄\" (esistenza vuota) in alcune opzioni rende le affermazioni prive di significato matematico chiaro. La notazione $g \\sim x$ dovrebbe essere definita con precisione (es., $\\lim_{x\\to +\\infty} g(x)/x = 1$)."
+  },
+  "suria_499": {
+    "file": "quiz_suria.json",
+    "index": 499,
+    "d": "$ f(x) = x^{x^4}$, $x > 0$ è:",
+    "gemma_eval": "ERRORE: Le opzioni proposte non sono corrette. La derivata di $f(x) = x^{x^4}$ richiede l'uso della derivazione logaritmica o la composizione di funzioni esponenziali, e nessuna delle opzioni fornite riflette tale procedimento."
+  },
+  "suria_500": {
+    "file": "quiz_suria.json",
+    "index": 500,
+    "d": "$\\sqrt{x} + \\beta \\cos x\\ x \\geq0\\ 2(x + 5) −2x\\ x < 0}$ è continua nel suo dominio se",
+    "gemma_eval": "ERRORE: La domanda presenta una sintassi confusa e incompleta. L'espressione \"$\\sqrt{x} + \\beta \\cos x\\ x \\geq0\\ 2(x + 5) −2x\\ x < 0$\" non è chiaramente definita come funzione, né si capisce quale sia il dominio di definizione a cui si riferisce la condizione di continuità. Inoltre, l'espressione \"$2(x + 5) −2x$ \" è incompleta e priva di significato nel contesto della domanda."
+  },
+  "suria_501": {
+    "file": "quiz_suria.json",
+    "index": 501,
+    "d": "$\\frac{7\\sqrt{x^2 + x - 8}}{7\\sqrt{x} + x}$ è:",
+    "gemma_eval": "ERRORE: L'ultima opzione è incompleta. Inoltre, nessuna delle opzioni proposte sembra derivare dalla semplificazione dell'espressione data."
+  },
+  "suria_502": {
+    "file": "quiz_suria.json",
+    "index": 502,
+    "d": "$f(x) = (x^3x)x$ è:",
+    "gemma_eval": "ERRORE: La funzione f(x) è definita in modo ambiguo. L'espressione $(x^3x)x$ può essere interpretata come $x^3 \\cdot x \\cdot x = x^5$ oppure come $(x^3x)x = (x^4)x = x^5$.  Tuttavia, le opzioni di risposta suggeriscono che ci si aspetta una derivata. Senza un'operazione chiara tra i termini, non è possibile determinare univocamente la funzione e quindi calcolarne la derivata. Inoltre, alcune opzioni contengono espressioni illogiche come $4x^4x(\\log x + 1)$ o $3x^3x^2+1(2 \\log x + x)$."
+  },
+  "suria_503": "OK",
+  "suria_504": {
+    "file": "quiz_suria.json",
+    "index": 504,
+    "d": "$\\lim_{x\\rightarrow 5} \\frac{sin(x^2 −25)}{x −5} =$",
+    "gemma_eval": "ERRORE: La funzione seno non ha un dominio limitato a valori reali. L'espressione $\\sin(x^2 - 25)$ è definita per tutti i numeri reali x, quindi il limite esiste ed è finito. Inoltre, si tratta di una forma indeterminata del tipo 0/0 quando $x \\to 5$, e potrebbe essere risolto con la regola di L'Hôpital o con manipolazioni algebriche.  L'opzione \"∄\" (non esiste) è prematura senza ulteriori verifiche."
+  },
+  "suria_505": "OK",
+  "suria_506": "OK",
+  "suria_507": {
+    "file": "quiz_suria.json",
+    "index": 507,
+    "d": "Il limite $\\lim_{x\\rightarrow+\\infty}\\frac{cos x - x^2 + e^{-2x}}{sin x + e^{-3x} + x^2}$ vale",
+    "gemma_eval": "ERRORE: Il coseno e il seno non sono funzioni definite per $x \\rightarrow +\\infty$."
+  },
+  "suria_508": {
+    "file": "quiz_suria.json",
+    "index": 508,
+    "d": "$f(x) = log \\left( 3 + \\frac{4}{x^2} \\right) + 2x$ ha come asintoto obliquo sinistro la retta",
+    "gemma_eval": "ERRORE: La funzione data non ha asintoti obliqui. Ha un comportamento all'infinito determinato dal termine $2x$, ma la presenza del logaritmo ne modifica il comportamento, impedendo l'esistenza di un asintoto obliquo. Un asintoto obliquo si verifica quando il limite per x che tende a infinito (o meno) del rapporto tra f(x) e x è finito e diverso da zero. In questo caso, il termine logaritmico non permette di avere tale comportamento."
+  },
+  "suria_509": "OK",
+  "suria_510": "OK",
+  "suria_511": "OK",
+  "suria_512": "OK",
+  "suria_513": "OK",
+  "suria_514": "OK",
+  "suria_515": "OK",
+  "suria_516": "OK",
+  "suria_517": "OK",
+  "suria_518": {
+    "file": "quiz_suria.json",
+    "index": 518,
+    "d": "Sia $f(x) = e^{x\\sqrt{1 + e^x}}$. Una primitiva di $f(x)$ su R è:",
+    "gemma_eval": "ERRORE: La domanda implica l'esistenza di una primitiva esprimibile con le forme proposte, senza fornire informazioni sufficienti per determinarla. Inoltre, nessuna delle opzioni sembra essere una primitiva corretta di $f(x)$. Non è possibile determinare la primitiva esatta senza ulteriori semplificazioni o tecniche di integrazione avanzate."
+  },
+  "suria_519": "OK",
+  "suria_520": "OK",
+  "suria_521": "OK",
+  "suria_522": {
+    "file": "quiz_suria.json",
+    "index": 522,
+    "d": "Quesito - richiamo il teorema di Lagrange",
+    "gemma_eval": "ERRORE: Mancano il testo del quesito e le opzioni di risposta. Non è possibile valutare la domanda senza tali elementi."
+  },
+  "suria_523": {
+    "file": "quiz_suria.json",
+    "index": 523,
+    "d": "Quesito - confronto l’ordine di infinito, trascuro gli o piccoli…",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva di contesto. Non si capisce cosa si debba confrontare, né quali siano le funzioni coinvolte. L'affermazione \"trascuro gli o piccoli…\" suggerisce un confronto tra limiti, ma senza ulteriori informazioni non è possibile valutare la correttezza delle opzioni."
+  },
+  "suria_524": {
+    "file": "quiz_suria.json",
+    "index": 524,
+    "d": "Quesito - la funzione può essere scritta, per $x \\rightarrow -\\infty$, come $f(x)=mx+q+o(1)$; ma se $x \\rightarrow -\\infty$, $\\log (3+4/x^2) \\rightarrow \\log 3… quindi se $x \\rightarrow -\\infty$$f(x) = x+\\log 3 +o(1)$. Oppure è possibile calcolare l’asintoto con il limite. Attenzione il limite deve tendere a – infinito.$m=\\lim …… ; q=",
+    "gemma_eval": "ERRORE: La domanda è confusa e manca di chiarezza. Non specifica quale sia la funzione f(x) a cui si riferisce, rendendo impossibile valutare la correttezza delle affermazioni fatte sull'asintoto. Inoltre, l'uso di \"o(1)\" e il tentativo di combinazione con un limite non sono presentati in modo rigoroso o comprensibile."
+  },
+  "suria_525": {
+    "file": "quiz_suria.json",
+    "index": 525,
+    "d": "Quesito - solita derivata dell’inversa",
+    "gemma_eval": "ERRORE: Mancano il testo del quesito e le opzioni di risposta. Non è possibile valutare la domanda senza tali informazioni."
+  },
+  "suria_526": {
+    "file": "quiz_suria.json",
+    "index": 526,
+    "d": "Pongo i singoli fattori maggiori di zero, indipendentemente dal segno della disequazione. E poi tolgo la realtà:",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto. Non si capisce a quale disequazione o espressione si riferisca il testo. Le opzioni di risposta sono incoerenti e non correlate tra loro senza un problema specifico. L'espressione \"tabellone ++--\" suggerisce una tabella dei segni, ma manca la funzione da analizzare."
+  },
+  "suria_527": "OK",
+  "suria_528": {
+    "file": "quiz_suria.json",
+    "index": 528,
+    "d": "vedi definizione della Tabacco: x0 è punto di minimo… ricordare che la disequazione può essere attenuata",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto e non presenta una formulazione matematica completa. Non si capisce cosa sia \"definizione della Tabacco\" né a quale disequazione ci si riferisce. L'affermazione sull'attenuazione della disequazione è vaga e senza significato in questo contesto."
+  },
+  "suria_529": "OK",
+  "suria_530": {
+    "file": "quiz_suria.json",
+    "index": 530,
+    "d": "F(x) deve essere derivabile e la sua derivata…",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca il testo che segue \"F(x) deve essere derivabile e la sua derivata...\". Non si può valutare la correttezza senza sapere cosa si chiede riguardo alla derivata di F(x). Le opzioni di risposta sono inoltre prive di significato in assenza della domanda completa."
+  },
+  "suria_531": {
+    "file": "quiz_suria.json",
+    "index": 531,
+    "d": "Quesito: Non è derivabile in $x=0$ e qui ha una cuspide. Fz. È pari, $x=0$ è punto di minimo non derivabile",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva del contesto della funzione Fz. Non si può determinare la correttezza dell'affermazione senza conoscere la funzione stessa. Le proprietà di derivabilità, parità e presenza di minimi dipendono dalla definizione di Fz."
+  },
+  "suria_532": {
+    "file": "quiz_suria.json",
+    "index": 532,
+    "d": "Quesito: $F(x) = - \\int ...$ $F'(x) = - e sin^2 x < 0$  $F(x)$ decrescente. Inoltre $F(0) = 0$, quindi $F(x) > 0$ per $x$ in $(-\\infty, 0)$, $F(x) < 0$ per $x$ in $(0, +\\infty)$. Inoltre essendo decrescente non può l’integrale improprio tra 0 e + ∞ essere indeterminato, ma o converge o diverge. Attenzione prima della derivazione scambiare gli estremi dell’intervallo di integrazione",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca l'integranda all'interno dell'espressione di F(x). Inoltre, le affermazioni successive sono basate su un'ipotesi non esplicitata e potenzialmente errata. L'affermazione \"Attenzione prima della derivazione scambiare gli estremi dell’intervallo di integrazione\" è priva di contesto e potrebbe essere fuorviante senza sapere quale integrale si stia considerando."
+  },
+  "suria_533": {
+    "file": "quiz_suria.json",
+    "index": 533,
+    "d": "Quesito: Si integra facilmente:\na. Sostituendo $ex = t$\nb. Vedendolo come integrale di una composta $\\int ex (1+ex)^{1/2} \\frac{1}{(1+ex)^{1/2}+1} d(1+ex) / (2/3) …\nc. Derivo le soluzioni e cerco",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto, non si capisce quale integrale si stia parlando. Inoltre, l'opzione b contiene espressioni matematiche incomplete e sintatticamente scorrette. L'opzione c suggerisce un metodo errato per risolvere integrali."
+  },
+  "suria_534": {
+    "file": "quiz_suria.json",
+    "index": 534,
+    "d": "Quesito: Sviluppo la più interna e poi vedo. Attenzione a non perdere i pezzi… il fatto di avere $x^2$ potrebbe indurmi a fermarmi a $x^2$. $cos(x-x^3/6+o(x^3))-1+1/2x^2 = 1- (x-x^3/6+o(x^3))^2 /2 + (…..)^4/4 -1 +1/2 x^2… ma troppo alto quindi non scrivo. Semplifico 1 e 1/2$x^2$e resta $f(x)= x^4/6 + o(x^3)… f(x)=o(x^3)$, non c’è la risposta,, ma se in $f(x)$ restano solo potenze oltre la 4° significa che $f(x)=o(x^2)$",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto e non presenta un quesito chiaro. Il testo sembra essere una giustificazione confusa di un procedimento, ma manca la domanda a cui si riferisce. Inoltre, le affermazioni contenute nel testo sono in parte incoerenti e prive di fondamento matematico (es. \"ma troppo alto quindi non scrivo\", \"non c’è la risposta\"). Le opzioni di risposta sono irrilevanti senza una domanda definita."
+  },
+  "suria_535": {
+    "file": "quiz_suria.json",
+    "index": 535,
+    "d": "Quesito: a 1 è sbagliata perché $x/x^2 = 1/x$ che tende a infinito, ma non so se + o - infinito (sopra cambia segno sotto no)\na. Nella $2_ f+g= x+o(x)+x^2+o(x^2)$. Attenzione nella somma non posso sostituire l’equiavelente, ma se lascio gli o piccoli sì. Ora $o(x)+o(x^2)=o(x)$ e quindi cancello  $x^2$ e diventa $f+g=x+o(x)$\nb. La 5 è falsa $f*g=x^3 +o(x^3)$",
+    "gemma_eval": "ERRORE: La domanda e le opzioni sono prive di contesto. Non è chiaro a cosa si riferiscano \"Quesito\", \"$2_ f+g$\", \"f\" e \"g\". Inoltre, la giustificazione fornita per l'opzione \"a\" contiene affermazioni imprecise e non corrette riguardo ai limiti e alle notazioni *o(x)*. La sintassi è confusa e rende impossibile valutare la correttezza matematica delle opzioni proposte."
+  },
+  "suria_536": "OK",
+  "suria_537": "OK",
+  "suria_538": "OK",
+  "suria_539": "OK",
+  "suria_540": "OK",
+  "suria_541": "OK",
+  "suria_542": {
+    "file": "quiz_suria.json",
+    "index": 542,
+    "d": "lo sviluppo di Mac Laurin, di ordine 3, della funzione sinh (log(x + 1)) è:",
+    "gemma_eval": "ERRORE: La domanda richiede lo sviluppo di Mac Laurin di sinh(log(x+1)). Le opzioni proposte sono incomprensibili e non corrispondono a un'espansione di Taylor/Mac Laurin valida. Inoltre, la notazione \"o(x^3)\" è usata impropriamente in alcune opzioni. L'ultima opzione contiene espressioni matematiche che non hanno senso nel contesto dello sviluppo di Mac Laurin."
+  },
+  "suria_543": "OK",
+  "suria_544": "OK",
+  "suria_545": "OK",
+  "suria_546": "OK",
+  "suria_547": {
+    "file": "quiz_suria.json",
+    "index": 547,
+    "d": "Qual è l’insieme degli $\\alpha \\in\\R$ per cui $\\lim<br> x\\rightarrow 0+<br> x^{\\alpha} + \\log(1 + x^2)<br> x \\sin x = 0'$ e:",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca la definizione del limite, ovvero cosa tende a zero. Si intende che il limite deve essere uguale a zero, ma non si specifica rispetto a quale valore. Inoltre, manca l'indicazione di come risolvere il problema (esplicitare i passaggi)."
+  },
+  "suria_548": "OK",
+  "suria_549": "OK",
+  "suria_550": "OK",
+  "suria_551": {
+    "file": "quiz_suria.json",
+    "index": 551,
+    "d": "Lo sviluppo di Mac Laurin di ordine 4 della funzione $f(x) = e^{\\cosh x}$ è:",
+    "gemma_eval": "ERRORE: Lo sviluppo di Mac Laurin richiede l'espansione attorno a x=0. Le opzioni presentano termini con $1/x^2$ e $1/x^4$, che implicano uno sviluppo attorno ad un punto diverso da zero, rendendo la domanda priva di senso nel contesto richiesto. Inoltre, le prime tre opzioni contengono espressioni complesse che non corrispondono a uno sviluppo di Mac Laurin standard."
+  },
+  "suria_552": {
+    "file": "quiz_suria.json",
+    "index": 552,
+    "d": "Quale delle seguenti proprietà NON è soddisfatta da $z = 2 + 3i$?",
+    "gemma_eval": "ERRORE: La proprietà \"$z \\cdot z \\in \\mathbb{R}$\" è falsa. Infatti, se $z = 2 + 3i$, allora $z \\cdot z = (2+3i)(2+3i) = 4 + 12i + 9i^2 = 4 + 12i - 9 = -5 + 12i$, che non è reale."
+  },
+  "suria_553": "OK",
+  "suria_554": {
+    "file": "quiz_suria.json",
+    "index": 554,
+    "d": "Lo sviluppo di Mac Laurin di ordine 2 della funzione $f(x) = 32 sin x$ è:",
+    "gemma_eval": "ERRORE: Lo sviluppo di Mac Laurin di una funzione $f(x)$ è dato da $f(0) + f'(0) x + \\frac{f''(0)}{2!} x^2 + ...$.  La funzione data è $f(x) = 32\\sin x$. Il termine costante dello sviluppo di Mac Laurin è $f(0) = 32\\sin(0) = 0$.  Inoltre, $\\sin x = x - \\frac{x^3}{3!} + ...$, quindi $32\\sin x = 32x - \\frac{32x^3}{6} + ...$ Lo sviluppo di Mac Laurin di ordine 2 è dunque $f(0) + f'(0)x + \\frac{f''(0)}{2}x^2 = 0 + 32\\cos(0) x + \\frac{-32\\sin(0)}{2}x^2 = 32x + 0x^2$. Nessuna delle opzioni proposte corrisponde a questo sviluppo.  Inoltre, l'uso di logaritmi nelle opzioni è completamente inappropriato per lo sviluppo di $\\sin x$."
+  },
+  "suria_555": "OK",
+  "suria_556": "OK",
+  "suria_557": "OK",
+  "suria_558": {
+    "file": "quiz_suria.json",
+    "index": 558,
+    "d": "Quale delle seguenti proprietà è FALSA?",
+    "gemma_eval": "ERRORE: La prima opzione contiene un errore. Il simbolo di radice quadrata non può essere applicato a numeri negativi senza l'uso dei numeri complessi, e la notazione $3√−i$ è ambigua e potenzialmente scorretta. Inoltre, l'affermazione generale sulla forma delle radici complesse potrebbe essere vera o falsa a seconda del calcolo specifico, ma la presentazione è incompleta."
+  },
+  "suria_559": "OK",
+  "suria_560": "OK",
+  "suria_561": "OK",
+  "suria_562": "OK",
+  "suria_563": {
+    "file": "quiz_suria.json",
+    "index": 563,
+    "d": "Se z = 3 + 4i allora $\\frac{z-2}{}$",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca il denominatore nella frazione $\\frac{z-2}{}$."
+  },
+  "suria_564": "OK",
+  "suria_565": "OK",
+  "suria_566": "OK",
+  "suria_567": {
+    "file": "quiz_suria.json",
+    "index": 567,
+    "d": "lim $n x\\to 0 n (9x + 2x) / (x - 2x)$",
+    "gemma_eval": "ERRORE: La notazione del limite è confusa e incompleta. Manca l'argomento della variabile che tende a zero, e non è chiaro cosa rappresenti \"n\". Inoltre, la presenza di \"n\" all'interno dell'espressione suggerisce un limite per n, ma la notazione indica un limite per x."
+  },
+  "suria_568": {
+    "file": "quiz_suria.json",
+    "index": 568,
+    "d": "lim $n x\\to +∞ n (x + √x) / (10x + √x) =$",
+    "gemma_eval": "ERRORE: La variabile `n` compare sia nell'espressione del limite che all'interno dell'argomento `x`. Questo rende la domanda priva di senso matematico. Non è chiaro cosa si intenda per \"lim n x→+∞\"."
+  },
+  "suria_569": "OK",
+  "suria_570": {
+    "file": "quiz_suria.json",
+    "index": 570,
+    "d": "La notazione esponenziale del numero z = i + √3 è",
+    "gemma_eval": "ERRORE: La notazione esponenziale complessa z = re^(iθ) richiede che r sia il modulo di z. In questo caso, |z| = |i + √3| = √(1+3) = 2. Nessuna delle opzioni proposte ha un modulo pari a 2."
+  },
+  "suria_571": "OK",
+  "suria_572": "OK",
+  "suria_573": "OK",
+  "suria_574": {
+    "file": "quiz_suria.json",
+    "index": 574,
+    "d": "Le due funzioni f(x) = $\\log_{1/2} (3 - x)/(3 + x)$, g(x) = $\\log_{1/2} (3 - x) - \\log_{1/2} (3 + x)$ coincidono se:",
+    "gemma_eval": "ERRORE: La domanda presuppone che le due funzioni possano coincidere. Tuttavia, f(x) = $\\log_{1/2} (\\frac{3 - x}{3 + x})$ mentre g(x) = $\\log_{1/2} (3 - x) - \\log_{1/2} (3 + x)$ = $\\log_{1/2} (\\frac{3-x}{3+x})$. Quindi f(x) e g(x) coincidono sempre, a meno che non ci siano restrizioni sul dominio. Il problema è che il dominio di f(x) richiede $x \\neq -3$ e $x < 3$, mentre il dominio di g(x)$ richiede $x < 3$ e $x > -3$. Quindi le due funzioni coincidono quando $x \\in (-\\infty, 3)$."
+  },
+  "suria_575": "OK",
+  "suria_576": {
+    "file": "quiz_suria.json",
+    "index": 576,
+    "d": "Se f è continua e derivabile in [0, 3], quale delle seguenti affermazioni è sempre vera?",
+    "gemma_eval": "ERRORE: L'affermazione \"Esiste un c ∈[0, 3] tale che $f'(c) = 3$\" non è necessariamente vera. Il teorema del valor medio garantisce l'esistenza di un punto in cui la derivata è uguale al rapporto incrementale, ma questo valore può essere qualsiasi numero reale, non necessariamente 3."
+  },
+  "suria_577": "OK",
+  "suria_578": "OK",
+  "suria_579": "OK",
+  "suria_580": "OK",
+  "suria_581": "OK",
+  "suria_582": "OK",
+  "suria_583": "OK",
+  "suria_584": {
+    "file": "quiz_suria.json",
+    "index": 584,
+    "d": "$ \\int_{+\\infty}^{1} \\frac{1}{3} x^3 dx =",
+    "gemma_eval": "ERRORE: L'integrale improprio con estremi $+\\infty$ e $1$ non è definito in quanto l'estremo inferiore è infinito. Inoltre, la funzione integranda $\\frac{1}{3}x^3$ è positiva per $x>0$, quindi l'integrale dovrebbe essere negativo se fosse convergente."
+  },
+  "suria_585": "OK",
+  "suria_586": "OK",
+  "suria_587": "OK",
+  "suria_588": "OK",
+  "suria_589": "OK",
+  "suria_590": "OK",
+  "suria_591": "OK",
+  "suria_592": "OK",
+  "suria_593": {
+    "file": "quiz_suria.json",
+    "index": 593,
+    "d": "E’ lo sviluppo di un rapporto. \n1) sviluppo il numeratore\n2) sviluppo il denominatore\nI metodo\nFaccio il rapporto tra i due sviluppi (ordino lo sviluppo dalla potenza minore verso la maggiore e divido in colonna come per le divisioni tra polinomi.\n1 + 1\n3x$^4|1 + 1\n4x$^3\nVedere esempio sul testo Prof. Tabacco",
+    "gemma_eval": "ERRORE: La domanda e le opzioni di risposta sono prive di contesto matematico chiaro. Non si capisce quale sia il \"rapporto\" da sviluppare, né cosa siano i \"metodi I\", \"II\" e \"III\". Inoltre, la notazione matematica presente (es. \"3x$^4|1 + 1\") è incomprensibile e suggerisce un tentativo fallito di rappresentare una divisione polinomiale incompleta o errata. Il riferimento al testo del Prof. Tabacco non fornisce informazioni sufficienti per valutare la correttezza della domanda."
+  },
+  "suria_594": {
+    "file": "quiz_suria.json",
+    "index": 594,
+    "d": "La successione è indeterminata, perché è vero che diverge oscillando, ma assume anche il valore nullo, quindi non tende a nulla, sembra andare a +∞, ma subito dopo assume il valor 0, poi va ad un valore negativo, poi torna a zero... se non assumesse anche lo zero sarebbe indeterminata lo stesso, ma potrebbe essere classificata come diverge oscillando.",
+    "gemma_eval": "ERRORE: La domanda non presenta una successione specifica. Il testo descrive un comportamento, ma senza una definizione matematica della successione, l'affermazione è priva di significato in un contesto rigoroso di Analisi Matematica. Le argomentazioni fornite sono qualitative e non costituiscono una dimostrazione formale."
+  },
+  "suria_595": {
+    "file": "quiz_suria.json",
+    "index": 595,
+    "d": "Notare la periodicità della funzione. Osservare che la funzione è limitata e vedere anche che il grafico non è simmetrico rispetto alla retta y = 1.",
+    "gemma_eval": "ERRORE: La domanda è priva di una definizione esplicita della funzione a cui si riferisce. Le affermazioni sulle proprietà (periodicità, limite, simmetria) sono prive di significato senza la funzione stessa."
+  },
+  "suria_596": "OK",
+  "suria_597": "OK",
+  "suria_598": "OK",
+  "suria_599": "OK",
+  "suria_600": "OK",
+  "suria_601": "OK",
+  "suria_602": "OK",
+  "suria_603": "OK",
+  "suria_604": "OK",
+  "suria_605": {
+    "file": "quiz_suria.json",
+    "index": 605,
+    "d": "a) Si può constatare che se [a, b] = [-1, 0] l’integrale è sicuramente negativo;",
+    "gemma_eval": "ERRORE: L'affermazione \"se [a, b] = [-1, 0]\" è priva di significato matematico.  [a, b] denota un intervallo chiuso e limitato, non può essere uguale a un altro intervallo in questo modo. Inoltre, l'implicazione che segue (\"l’integrale è sicuramente negativo\") è priva di contesto (quale integrale?) e quindi non verificabile."
+  },
+  "suria_606": "OK",
+  "suria_607": {
+    "file": "quiz_suria.json",
+    "index": 607,
+    "d": "$c) se [a, b] = [0, 1]$ l’integrale può essere sia positivo sia negativo;",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca la definizione dell'integrale a cui si riferisce l'affermazione. Inoltre, manca il contesto di cosa rappresentino \"a\" e \"b\". Senza queste informazioni, non è possibile valutare la correttezza dell'affermazione."
+  },
+  "suria_608": {
+    "file": "quiz_suria.json",
+    "index": 608,
+    "d": "$d) se [a, b] = [-1, 0]$ l’integrale è sicuramente negativo, perché la funzione è maggiorata da $f(x) = x$ che ha integrale negativo;",
+    "gemma_eval": "ERRORE: L'affermazione \"se [a, b] = [-1, 0] l’integrale è sicuramente negativo\" non implica necessariamente che l'integrale sia negativo. La positività o negatività dell'integrale dipende dal segno della funzione integranda nell'intervallo di integrazione. Il fatto che la funzione sia maggiorata da $f(x) = x$ (che ha integrale negativo in [-1, 0]) non garantisce che l'integrale della funzione originale sia negativo."
+  },
+  "suria_609": {
+    "file": "quiz_suria.json",
+    "index": 609,
+    "d": "$e) se [a, b] = [0, 1]$ potrebbe essere soddisfatta la condizione, ma in figura esistono anche situazioni in cui la proprietà è falsa;",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto. Non si capisce a cosa si riferisca \"condizione\" o \"proprietà\". Inoltre, l'affermazione \"$se [a, b] = [0, 1]$ potrebbe essere soddisfatta...\" è incompleta e non ha senso senza sapere quale proprietà si sta considerando."
+  },
+  "suria_610": "OK",
+  "suria_611": {
+    "file": "quiz_suria.json",
+    "index": 611,
+    "d": "Rapporto incrementale $\\Delta g / \\Delta x = g(x) −g(1)/(x −1) = \\sin (f(x)) −\\sin (f(1))/(x −1) = \\sin (f(x)) −\\sin π/(x −1) = \\sin f(x) −0/(x −1)$",
+    "gemma_eval": "ERRORE: La definizione di rapporto incrementale è errata. Il rapporto incrementale dovrebbe essere $\\frac{g(x) - g(1)}{x-1}$, mentre l'espressione fornita tenta di manipolare direttamente la formula senza una corretta applicazione delle proprietà algebriche. Inoltre, si assume che $f(1) = \\pi$ senza specificarlo."
+  },
+  "suria_612": "OK",
+  "suria_613": {
+    "file": "quiz_suria.json",
+    "index": 613,
+    "d": "Le funzioni Riemann integrabili sono classiﬁcabili in 5 famiglie:\n(a) le funzioni continue in [a, b]\n(b) le funzioni continue a tratti su [a, b]\n(c) le funzioni continue in (a, b) e limitate su (a, b)\n(d) le funzioni monotone in [a, b]",
+    "gemma_eval": "ERRORE: L'affermazione che le funzioni Riemann integrabili siano classificabili in 5 famiglie è falsa. Le opzioni proposte contengono affermazioni parzialmente corrette, ma non esaustive e non costituiscono una classificazione completa delle funzioni Riemann integrabili. Ad esempio, esistono funzioni Riemann integrabili che non sono continue, né monotone."
+  },
+  "suria_614": "OK",
+  "suria_615": "OK",
+  "suria_616": "OK",
+  "suria_617": "OK",
+  "suria_618": "OK",
+  "suria_619": "OK",
+  "suria_620": "OK",
+  "suria_621": "OK",
+  "suria_622": "OK",
+  "suria_623": "OK",
+  "suria_624": "OK",
+  "suria_625": {
+    "file": "quiz_suria.json",
+    "index": 625,
+    "d": "Sia f : $\\mathbb{R} \\setminus \\{0\\} \\to \\mathbb{R}$ una funzione continua e $F(x) = \\int_0^x f(t)dt$. Se $f(x) < 0$, $\\forall x ∈\\mathbb{R}$, possiamo dedurre che:",
+    "gemma_eval": "ERRORE: L'affermazione \"f(x) < 0, ∀ x ∈ ℝ\" è in contrasto con il dominio specificato f : $\\mathbb{R} \\setminus \\{0\\} \\to \\mathbb{R}$. Il dominio esclude x=0. Inoltre, l'opzione \"$F'(x) = f(t), ∀x ∈ R$\" è errata; dovrebbe essere $F'(x) = f(x)$."
+  },
+  "suria_626": {
+    "file": "quiz_suria.json",
+    "index": 626,
+    "d": "Siano f, g due funzioni deﬁnite da $(c, d) \\to \\mathbb{R}$, entrambe derivabili in $(c, d)$ e tali che $\\lim_{x\\to x_0} f(x) = \\lim_{x\\to x_0} g(x)$ e $\\lim_{x\\to x_0} g'(x) ̸= 0$, $x_0 ∈(c, d)$. Quale delle seguenti aﬀermazioni è soddisfatta da f e g?",
+    "gemma_eval": "ERRORE: La domanda presuppone una relazione tra i limiti di derivate e del rapporto delle funzioni che non è sempre vera. L'affermazione \"Se \\lim_{x\\to x_0} \\frac{f'(x)}{g'(x)} = l, l ∈R, allora anche \\lim_{x\\to x_0} \\frac{f(x)}{g(x)} = l\" è falsa in generale. Inoltre, la condizione $\\lim_{x\\to x_0} f(x) = \\lim_{x\\to x_0} g(x)$ non implica che $f(x_0) = g(x_0)$, poiché i limiti possono esistere ma il valore della funzione nel punto potrebbe non essere definito."
+  },
+  "suria_627": "OK",
+  "suria_628": {
+    "file": "quiz_suria.json",
+    "index": 628,
+    "d": "Siano f, g due funzioni deﬁnite da $\\mathbb{R} \\to \\mathbb{R}$. Quale delle seguenti propriet'a è vera?",
+    "gemma_eval": "ERRORE: L'affermazione \"Se f è periodica di periodo T, $f \\circ g$ è periodica di periodo T\" è falsa. La periodicità di $f \\circ g$ implicherebbe che $(f \\circ g)(x+T) = (f \\circ g)(x)$ per ogni x, il che non è garantito solo perché f ha periodo T."
+  },
+  "suria_629": "OK",
+  "suria_630": "OK",
+  "suria_631": {
+    "file": "quiz_suria.json",
+    "index": 631,
+    "d": "Sia $a > 0$. Allora $\\int_{+∞}^{a} \\frac{x^{-4}}{3} dx =$",
+    "gemma_eval": "ERRORE: L'integrale improprio è mal posto, in quanto l'estremo inferiore di integrazione è $+\\infty$. Inoltre, la funzione integranda $x^{-4}$ non è integrabile in proprio in $[a,+\\infty)$ per ogni $a>0$, poiché $\\lim_{x \\to +\\infty} x^{-4} = 0$ ma $\\int_a^\\infty x^{-4} dx$ diverge."
+  },
+  "suria_632": "OK",
+  "suria_633": "OK",
+  "suria_634": {
+    "file": "quiz_suria.json",
+    "index": 634,
+    "d": "$\\\\int_{+\\infty}^{-\\infty} \\frac{dt}{1 + t^2} = $",
+    "gemma_eval": "ERRORE: L'integrale improprio non è definito correttamente a causa dei limiti di integrazione. Un integrale da $+\\infty$ a $-\\infty$ richiede una definizione specifica e un'analisi del comportamento della funzione integranda in corrispondenza di tali limiti, cosa che non è fatta qui. Inoltre, la funzione integranda $\\frac{1}{1+t^2}$ è positiva per ogni $t$, quindi l'integrale dovrebbe essere positivo o infinito, a meno di una manipolazione specifica."
+  },
+  "suria_635": "OK",
+  "suria_636": "OK",
+  "suria_637": "OK",
+  "suria_638": "OK",
+  "suria_639": {
+    "file": "quiz_suria.json",
+    "index": 639,
+    "d": "La funzione f(x), continua in R\\{1, 4}. Quale delle seguenti situazioni puo' descrive una funzione con un solo massimo relativo?",
+    "gemma_eval": "ERRORE: L'affermazione \"un solo massimo relativo\" è incompatibile con i limiti proposti. Un massimo relativo richiede un cambiamento di segno della derivata prima, e questo implica che la funzione deve tendere all'infinito in almeno due direzioni diverse attorno ai punti problematici (1 e 4). Le opzioni proposte non garantiscono questa condizione. Inoltre, l'uso di \"±\" è ambiguo e rende le affermazioni imprecise."
+  },
+  "suria_640": "OK",
+  "suria_641": {
+    "file": "quiz_suria.json",
+    "index": 641,
+    "d": "x = $-2$, con molteplicit'a 4, punto critico di massimo o minimo",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva di contesto. Non si capisce cosa si stia chiedendo riguardo a x = -2, molteplicità 4 e punto critico di massimo o minimo. Manca la funzione a cui si riferisce x."
+  },
+  "suria_642": {
+    "file": "quiz_suria.json",
+    "index": 642,
+    "d": "x = $-3$, con molteplicità 1",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva di contesto. Non si capisce cosa rappresenti \"x = -3, con molteplicità 1\" né a quale quesito risponda. Le opzioni di risposta sono prive di significato senza la domanda completa."
+  },
+  "suria_643": {
+    "file": "quiz_suria.json",
+    "index": 643,
+    "d": "x = $0$, molteplicit'a 1. Facendo $\\lim_{x\\to −∞}f(x) = <br>[+∞· (−∞) · (−π^2)] = +∞$ capiamo che x = $-2$ è un punto di massimo relativo.",
+    "gemma_eval": "ERRORE: La domanda presenta una serie di affermazioni illogiche e non supportate da principi matematici standard. In particolare, l'espressione `[+∞· (−∞) · (−π^2)] = +∞` è priva di significato in termini di limiti o calcoli algebrici validi. Inoltre, la conclusione che x = -2 sia un punto di massimo relativo basata su tale espressione non ha alcuna giustificazione matematica. La menzione della molteplicità di x=0 e l'uso del simbolo \"·\" suggeriscono una confusione tra moltiplicazione e prodotto limite, ma senza una definizione precisa o una dimostrazione."
+  },
+  "suria_644": {
+    "file": "quiz_suria.json",
+    "index": 644,
+    "d": "Proviamo a imporre su un grafico le condizioni del quesito. In tutti i casi x = $1$, x = $4$ sono punti di discontinuità di II specie e il grafico ha le rette x = $1$, x = $4$ come asintoti verticali. Sono anche note le condizioni agli estremi del dominio. Tra tutte le configurazioni scegliere l’unica che rappresenta una condizione necessaria, ma non sufficiente, perché la funzione abbia un solo punto di massimo (relativo)",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto e delle opzioni a cui fa riferimento. Non è possibile valutarne la correttezza matematica senza le configurazioni grafiche proposte nelle opzioni. Inoltre, l'affermazione \"condizione necessaria, ma non sufficiente\" richiede un'analisi specifica del grafico proposto."
+  },
+  "suria_645": "OK",
+  "suria_646": "OK",
+  "suria_647": "OK",
+  "suria_648": "OK",
+  "suria_649": {
+    "file": "quiz_suria.json",
+    "index": 649,
+    "d": "$lim\\ n\\to 0\\ne2x −1\\nlog(1 + 3x) =$lim$\\ nx\\to 0<br>2x<br>3x = 2<br>3$",
+    "gemma_eval": "ERRORE: La domanda è priva di senso. Contiene simboli e notazioni matematiche incoerenti e non definisce chiaramente quale limite si intende calcolare né cosa rappresentino le variabili. L'uso di \"n\" come variabile indipendente e poi il suo tendere a 0 in un contesto che coinvolge \"x\" è confuso. Inoltre, la presenza di \"\\n\" e \"<br>\" suggerisce problemi di formattazione che rendono impossibile interpretare correttamente l'espressione matematica."
+  },
+  "suria_650": {
+    "file": "quiz_suria.json",
+    "index": 650,
+    "d": "Si tratta di uno sviluppo di Taylor con centro x = $-4$\\na) f(−4) = 8: funzione non inﬁnite sima\\nb) Non è inﬁnitesima in x=-4\\nc) OK: $f ′(−4) = 0$; $f ′′(−4) = 3 · 2 = 6\\nd) fornisce informazioni nell’intorno di x = −4\\ne)$f ′′(−4) = 3 · 2!\"",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto e non presenta una funzione f(x). Le opzioni sono frammenti di affermazioni senza un riferimento chiaro. Non si può valutare la correttezza matematica senza conoscere la funzione a cui si riferiscono. Inoltre, l'uso di \"OK\" come risposta suggerita è inappropriato in un contesto di valutazione."
+  },
+  "suria_651": {
+    "file": "quiz_suria.json",
+    "index": 651,
+    "d": "Sia data l’equazione differenziale $y'(x) = x - x^2 / (y - y^2)$. Allora",
+    "gemma_eval": "ERRORE: L'equazione differenziale non è lineare."
+  },
+  "suria_652": {
+    "file": "quiz_suria.json",
+    "index": 652,
+    "d": "Sia $z = -1 + 2i$. Allora $\\frac{z^2 + 3}{}$",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca il denominatore della frazione."
+  },
+  "suria_653": "OK",
+  "suria_654": "OK",
+  "suria_655": {
+    "file": "quiz_suria.json",
+    "index": 655,
+    "d": "si rende minore se si maggiora il denominatore, oppure si minora il numeratore oppure si procede con entrambe le situazioni.",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto matematico specifico. Non si riferisce a una funzione, un'espressione o una relazione definita. L'affermazione generale \"si rende minore\" senza specificare cosa sia soggetto a questo cambiamento è insensata in termini matematici. Inoltre, l'uso di \"maggiora il denominatore\" e \"minora il numeratore\" suggerisce che si stia parlando di una frazione, ma non viene fornita alcuna espressione esplicita."
+  },
+  "suria_656": {
+    "file": "quiz_suria.json",
+    "index": 656,
+    "d": "si rende maggiore se si minora il denominatore, oppure si maggiora il numeratore oppure si procede con entrambe le situazioni.",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto matematico specifico. Non si riferisce a una funzione, un'espressione o una relazione definita. L'affermazione generica \"si rende maggiore\" è troppo vaga per essere valutata matematicamente. Mancano informazioni cruciali su cosa sia il \"denominatore\" e il \"numeratore\"."
+  },
+  "suria_657": "OK",
+  "suria_658": "OK",
+  "suria_659": {
+    "file": "quiz_suria.json",
+    "index": 659,
+    "d": "$lim n\\to +∞ (n^2 + 2kn − n^2 − 2) / (√n^2 + 2kn + √n^2 + 2) = k$",
+    "gemma_eval": "ERRORE: Mancano le opzioni di risposta. La domanda, così presentata, non può essere valutata in quanto non è possibile determinare se le risposte proposte siano corrette o meno. Inoltre, la presenza della variabile `k` nel limite suggerisce che il limite dipenda da `k`, ma senza conoscere le opzioni di risposta non si può verificare se questa dipendenza sia gestita correttamente."
+  },
+  "suria_660": "OK",
+  "suria_661": {
+    "file": "quiz_suria.json",
+    "index": 661,
+    "d": "$\\int_0^1 \\frac{1 - \\pi}{x\\pi-3} dx$",
+    "gemma_eval": "ERRORE: La domanda chiede di valutare la convergenza dell'integrale, ma non fornisce informazioni sufficienti per determinarne il valore o anche solo se è convergente. Il comportamento della funzione integranda vicino a $x=3/\\pi$ potrebbe causare una divergenza."
+  },
+  "suria_662": "OK",
+  "suria_663": "OK",
+  "suria_664": "OK",
+  "suria_665": "OK",
+  "suria_666": "OK",
+  "suria_667": "OK",
+  "suria_668": "OK",
+  "suria_669": {
+    "file": "quiz_suria.json",
+    "index": 669,
+    "d": "inﬁnitesima (stare sotto alla g) e positiva",
+    "gemma_eval": "ERRORE: La domanda è priva di significato matematico. Non è chiaro cosa si intenda per \"inﬁnitesima (stare sotto alla g) e positiva\".  Non è una domanda ben formulata."
+  },
+  "suria_670": {
+    "file": "quiz_suria.json",
+    "index": 670,
+    "d": "A segno alterno, ma comunque inﬁnitesima (in questo caso l’integrale potrebbe essere indetermi-nato). Però la funzione f deve essere schiacciata dalla g che converge, e quindi ancora può solo convergere (anche assolutamente) o divergere, in senso improprio, ad un valore negativo.",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto e non presenta una richiesta specifica o un quesito a cui rispondere. È un frammento di testo incoerente che parla di integrali impropri, convergenza e divergenza, ma senza fornire una funzione da analizzare o una proprietà da verificare. Non si può valutare la correttezza matematica in assenza di una domanda vera e propria."
+  },
+  "suria_671": {
+    "file": "quiz_suria.json",
+    "index": 671,
+    "d": "deﬁnitivamente negativa e allora l’integrale può solo convergere o divergere, non essere indeter-minato $\\f1(x) = \\frac{1}{x^2}$, $\\f2(x) = \\frac{1}{x^3}$ $\\f3(x) = e^{-x} - 3$ $\\f2(x) = \\frac{1}{x^2 sin x}$ $\\f4(x) = \\frac{1}{x^2 sin x}$",
+    "gemma_eval": "ERRORE: La domanda è incompleta e priva di un quesito specifico. Sono elencate funzioni, ma non c'è una richiesta o una domanda a cui rispondere. Inoltre, la frase \"deﬁnitivamente negativa e allora l’integrale può solo convergere o divergere, non essere indeter-minato\" è confusa e apparentemente scollegata dalle funzioni fornite."
+  },
+  "suria_672": "OK",
+  "suria_673": "OK",
+  "suria_674": {
+    "file": "quiz_suria.json",
+    "index": 674,
+    "d": "x = 5, con molteplicit'a 1 $\\lim_{x\\to −∞}f(x) = [+\\infty \\cdot (+\\infty) \\cdot (−\\pi^2)] = −\\infty$ Quindi, immaginiamo l’andamento di una funzione continua che sale da $-\\infty$ fino a x=0, attraversa l’asse x per poi scendere a x = -2, essere tangenta all’asse x, e quindi risalire,\\nscendendo nuovamente per attrversare x = 5 Per l’item e), poich´e la f ′(x) si annulla tre volte in [0, 5], allora applicando alla funzione derivata prima (con\\ntre zeri) il teorema di Rolle, deduciamo che la derivata seconda (derivata della derivata prima) si annulla due\\nvolte.Tra un massimo e un minimo c’è sempre un ﬂesso.",
+    "gemma_eval": "ERRORE: La domanda è priva di contesto, non specifica quale sia la funzione f(x) e presenta affermazioni illogiche e contraddittorie (es. \"f'(x) si annulla tre volte in [0,5]\"). Inoltre, l'espressione $\\lim_{x\\to −∞}f(x) = [+\\infty \\cdot (+\\infty) \\cdot (−\\pi^2)] = −\\infty$ è priva di significato matematico."
+  },
+  "suria_675": "OK",
+  "suria_676": {
+    "file": "quiz_suria.json",
+    "index": 676,
+    "d": "E’ una forma indeterminata del tipo $\\frac{0}{0}$. Per $x \\to 0$, in genere sono trascurabili (o piccoli) le potenze ad esponente maggiore. Non è possibile trascurare $4x^3$ per la sempliﬁcazione di $6x$ con il primo termine dello sviluppo di Mac Laurin: $lim_{x\\to 0}\\frac{4x^3 + 6x −2(3x −9x^2/2 + o(x^2))}{x} = lim_{x\\to 0}\\frac{4x^3 + 6x −6x + 9x^2}{x} = lim_{x\\to 0}\\frac{9x^2}{x} = 0$",
+    "gemma_eval": "ERRORE: La motivazione fornita è confusa e contiene affermazioni non corrette. In particolare, l'affermazione \"in genere sono trascurabili (o piccoli) le potenze ad esponente maggiore\" è vaga e non giustifica la semplificazione proposta. Inoltre, il limite calcolato è errato a causa di una manipolazione algebrica scorretta: $\\frac{9x^2}{x} = 9x$ per $x \\neq 0$, quindi $\\lim_{x\\to 0}\\frac{9x^2}{x} = 0$.  Tuttavia, la semplificazione iniziale è problematica e non giustificata."
+  },
+  "suria_677": "OK",
+  "suria_678": {
+    "file": "quiz_suria.json",
+    "index": 678,
+    "d": "Qual è la parte principale, rispetto al campione standard $u(x)$, per $x \\to 0$ della funzione $f(x) = x + x^2 − \\frac{3}{\\sqrt{x^3}} + x^4?$ ",
+    "gemma_eval": "ERRORE: La funzione non è definita in prossimità di x=0, quindi la parte principale rispetto al campione standard u(x) non può essere determinata. Il termine $\\frac{3}{\\sqrt{x^3}}$ tende all'infinito per $x \\to 0$."
+  },
+  "suria_679": "OK",
+  "suria_680": "OK",
+  "suria_681": "OK",
+  "suria_682": "OK",
+  "suria_683": "OK",
+  "suria_684": "OK",
+  "suria_685": "OK",
+  "suria_686": "OK",
+  "suria_687": "OK",
+  "suria_688": "OK",
+  "suria_689": "OK",
+  "suria_690": {
+    "file": "quiz_suria.json",
+    "index": 690,
+    "d": "$\\int_{+\\infty}^{2} \\frac{\\log x}{x} dx$",
+    "gemma_eval": "ERRORE: L'integrale improprio presenta limiti di integrazione mal definiti. In particolare, l'estremo inferiore è $+\\infty$, che non ha senso in un integrale definito standard. Inoltre, l'integranda $\\frac{\\log x}{x}$ non è definita per $x=0$ e tende a $-\\infty$ quando $x \\to 0^+$.  L'integrale dovrebbe essere riformulato con estremi finiti o con una definizione più precisa di integrale improprio."
+  },
+  "suria_691": {
+    "file": "quiz_suria.json",
+    "index": 691,
+    "d": "$\\lim_{n\\to+\\infty} (\\frac{1 + \\sqrt{n}}{})^\\frac{1}{n^2}$ vale",
+    "gemma_eval": "ERRORE: Mancanza del denominatore nella frazione. La forma $\\frac{1 + \\sqrt{n}}{}$ è incompleta e priva di significato matematico."
+  },
+  "suria_692": "OK",
+  "suria_693": "OK",
+  "suria_694": {
+    "file": "quiz_suria.json",
+    "index": 694,
+    "d": "$\\lim_{x\\to 0} \\frac{2x - 1}{sin 5x}$ vale",
+    "gemma_eval": "ERRORE: La domanda richiede il calcolo di un limite che tende a zero, ma il denominatore sin(5x tende a zero quando x tende a zero. Il limite non esiste o è infinito, quindi nessuna delle opzioni proposte può essere corretta senza ulteriori informazioni o manipolazioni (come l'applicazione della regola di L'Hôpital)."
+  },
+  "suria_695": {
+    "file": "quiz_suria.json",
+    "index": 695,
+    "d": "Scrivere lo sviluppo, di ordine 3, della funzione $f(x) = 1 + sin x − x^3 \\cdot cos x$",
+    "gemma_eval": "ERRORE: La funzione data è $f(x) = 1 + \\sin x - x^3 \\cos x$. Lo sviluppo di ordine 3 richiede il calcolo delle derivate prime, seconde e terze. L'opzione \"o(x^3)\" indica un termine che tende a zero più velocemente di x^3. Le opzioni proposte contengono termini con $x$ al denominatore, cosa che non è coerente con lo sviluppo in serie di Taylor centrato in 0 (che è quello implicito dalla richiesta di uno sviluppo \"di ordine 3\"). Inoltre, la funzione data non ha un termine costante uguale a 1. Lo sviluppo corretto dovrebbe iniziare con il valore della funzione in x=0, che è $f(0) = 1 + \\sin(0) - 0^3 \\cos(0) = 1$."
+  },
+  "suria_696": "OK",
+  "suria_697": {
+    "file": "quiz_suria.json",
+    "index": 697,
+    "d": "Sia data la funzione $f(x) = cos x$. Per quale valori di n ∈N f^n(0) = 0",
+    "gemma_eval": "ERRORE: La notazione f^n(0) non è definita in modo standard. Presumibilmente si intende la n-esima derivata di f(x) valutata in x=0, ma questo non è esplicitato e l'espressione \"f^n\" è ambigua. Inoltre, anche assumendo che si tratti della n-esima derivata, la risposta non può dipendere da un parametro k generico (k ∈ Z o k ∈ N)."
+  },
+  "suria_698": "OK",
+  "suria_699": "OK",
+  "suria_700": "OK",
+  "suria_701": {
+    "file": "quiz_suria.json",
+    "index": 701,
+    "d": "Potremmo imporre alla soluzione data di soddisfare l’equazione",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca l'equazione e la soluzione data a cui si fa riferimento. Non è possibile valutare la correttezza senza tali informazioni."
+  },
+  "suria_702": "OK",
+  "suria_703": {
+    "file": "quiz_suria.json",
+    "index": 703,
+    "d": "Avremmo potuto scrivere l’equazione caratteristica $λ² − a = 0$. Le soluzioni cambiano a seconda che $a > 0 \\to δ < 0; a = 0 \\to ∆= 0; a > 0 \\to ∆< 0",
+    "gemma_eval": "ERRORE: L'equazione caratteristica data e le condizioni su *a* e il discriminante (δ, ∆) sono incoerenti e non seguono una logica matematica valida. La relazione tra il segno di *a* e il segno del discriminante è errata. Inoltre, l'uso disomogeneo di δ e ∆ rende la domanda priva di senso."
+  },
+  "suria_704": {
+    "file": "quiz_suria.json",
+    "index": 704,
+    "d": "– a) Possiamo fare il limite, ma ciò equivale a dire che calcoliamo l’integrale improprio $F(x) =\n∫₊∞\n₀$ e⁻ᵗ² dt . Se esso converge, allora il limite tende a $k...$ in caso contrario tende a $+∞\\nCi serviamo del criterio del confronto diretto\\ne⁻ˣ² < 1\\nx²\\nPoiché ∫₊∞\n₁$ 1/x² dx$ converge anche il nostro integrale improprio<br>– $F(0) = 0$ ovvio<br>– c)$F(x)$ è dispari perché la funzione integranda è pari<br>– d) per studiare la monotonia, facciamo la derivata prima\\nAllora la funzione $F(x)$ è monotona strettamente crescente. Risposta sbagliata!!<br>– Ora se $F(x)$ è crescente, ma passa per l’origine $F(0) = 0 \\to F(x) > 0$ per $x > 0$",
+    "gemma_eval": "ERRORE: L'affermazione che il limite possa essere calcolato e che sia uguale all'integrale improprio è errata. L'integrale $\\int_{+∞}^{0} e^{-t^2} dt$ non ha senso, in quanto l'estremo superiore è finito mentre l'estremo inferiore è infinito. Inoltre, si afferma che la funzione integranda è pari quando in realtà lo è solo se l'integrale fosse da 0 a +infinito. Il criterio del confronto diretto applicato è scorretto: $e^{-x^2} < 1$ non implica la convergenza dell'integrale. Infine, l'affermazione sulla monotonia di F(x) e il suo valore in x=0 sono basate su un integrale mal definito."
+  },
+  "suria_705": "OK",
+  "suria_706": "OK",
+  "suria_707": "OK",
+  "suria_708": "OK",
+  "suria_709": "OK",
+  "suria_710": "OK",
+  "suria_711": "OK",
+  "suria_712": {
+    "file": "quiz_suria.json",
+    "index": 712,
+    "d": "$\\lim_{x\\to +∞} \\frac{x^4 + 5x^2 + 4}{7 −sin^2 x} = $",
+    "gemma_eval": "ERRORE: Il limite non esiste, ma l'opzione fornita è un simbolo matematico che indica \"non esiste\" ($∄$) e non una stringa di testo. Inoltre, il denominatore presenta $sin^2 x$, che oscilla tra 0 e 1, impedendo la convergenza a un valore finito."
+  },
+  "suria_713": "OK",
+  "suria_714": {
+    "file": "quiz_suria.json",
+    "index": 714,
+    "d": "Lo sviluppo di Mac Laurin, del terzo ordine, della funzione $f(x) = 4x$ è:\\na) $1 + 2 \\log 2 · x + 2 \\log_2 2 · x^2 + 4<br>3 \\log_3 2 · x^3 + o(x^3)$\\nb) $2 \\log 2 · x + 2 \\log_2 2 · x^2 + 4<br>3 \\log_3 2 · x^3 + o(x^3)$\\nc) $1 + 2 \\log 2 · x + 4 \\log_2 2 · x^2 + 8 \\log_3 2 · x^3 + o(x^3)$\\nd) $1 + x + \\frac{1}{2}x^2 + \\frac{1}{3!}x^3 + o(x^3)$\\ne) $1 + \\log 4 · x + \\log_2 4 · x^2 + \\log_3 4x^3 + o(x^3)$",
+    "gemma_eval": "ERRORE: La funzione f(x) = 4x è lineare, quindi il suo sviluppo di Mac Laurin di ordine 3 dovrebbe essere semplicemente la funzione stessa. Le opzioni proposte contengono termini irrilevanti e calcoli logaritmici senza senso. Inoltre, l'uso di \"o(x^3)\" suggerisce un termine di resto che non si applica a una funzione lineare."
+  },
+  "suria_715": {
+    "file": "quiz_suria.json",
+    "index": 715,
+    "d": "Sia dato l’insieme $A = \\{-\\frac{n}{n + 3} : n = 0, 1, 2...\\} \\cup\\{-3\\}$. Quale delle seguenti affermazioni è corretta?\\na) $\\lim n\\to +∞ -\\frac{n}{n + 3} = \\lim n\\to +∞ (\\frac{-1 + n}{3}) = +∞$\\nb) l’insieme $A$ non è limitato superiormente\\nc) l’insieme $A$ ammette massimo e minimo\\nd) l’insieme $A$ ammette sup, ma non massimo\\ne) l’insieme $A$ ammette inf, ma non minimo",
+    "gemma_eval": "ERRORE: L'affermazione nella prima opzione è matematicamente scorretta. Il limite di $-\\frac{n}{n+3}$ per $n \\to +\\infty$ è -1, non $+\\infty$. Inoltre, l'uguaglianza con il secondo limite è falsa."
+  },
+  "suria_716": "OK",
+  "suria_717": "OK",
+  "suria_718": {
+    "file": "quiz_suria.json",
+    "index": 718,
+    "d": "Verifichiamo se $y = e^x$ è soluzione: $y' = e^x \\Rightarrow e^x = x^3 + e^{ex}$",
+    "gemma_eval": "ERRORE: L'affermazione \"$y' = e^x \\Rightarrow e^x = x^3 + e^{ex}$\" è matematicamente scorretta. La derivata di $y=e^x$ è effettivamente $y'=e^x$, ma ciò non implica che $e^x = x^3 + e^{ex}$. Si tratta di un'equazione da risolvere, non una verifica."
+  },
+  "suria_719": "OK",
+  "suria_720": "OK",
+  "suria_721": "OK",
+  "suria_722": "OK",
+  "suria_723": {
+    "file": "quiz_suria.json",
+    "index": 723,
+    "d": "Il polinomio di Mac Laurin, di ordine 2, della funzione f(x) = $\\frac{2e^{-x} - x^2}{1 + x^2}$ è",
+    "gemma_eval": "ERRORE: Il polinomio di Mac Laurin di ordine 2 richiede il calcolo delle derivate prima e seconda in x=0, e la loro valutazione. L'espressione data non fornisce alcuna informazione su come questi calcoli siano stati eseguiti, né indica se le opzioni proposte sono corrette o meno. Inoltre, l'uso di $o(x^2)$ suggerisce un'approssimazione che non è coerente con la richiesta di un polinomio *di ordine 2*."
+  },
+  "suria_724": "OK",
+  "suria_725": "OK",
+  "suria_726": "OK",
+  "suria_727": "OK",
+  "suria_728": "OK",
+  "suria_729": {
+    "file": "quiz_suria.json",
+    "index": 729,
+    "d": "Se f : $\\R \\to \\R$ è una funzione continua e derivabile almeno 5 volte nell’intorno di x = 0, con sviluppo di Mac Laurin f(x) = $3x^3 + x^5 + o(x^5)$, allora l’integrale improprio $∫_1^0 f(x) · sin x / x^α dx$",
+    "gemma_eval": "ERRORE: L'integrale improprio ha limiti di integrazione invertiti (da 1 a 0). Questo rende la domanda priva di senso in quanto l'integranda non è definita correttamente. Inoltre, manca una definizione precisa di cosa si intenda per \"convergenza\" dell'integrale improprio."
+  },
+  "suria_730": {
+    "file": "quiz_suria.json",
+    "index": 730,
+    "d": "$α - 4 ≥ 1 \\to α ≥ 5$ l’integrale improprio diverge ad un numero positivo, per il criterio asintotico",
+    "gemma_eval": "ERRORE: L'affermazione \"$α - 4 ≥ 1 \\to α ≥ 5$\" è una disuguaglianza che non ha nulla a che vedere con integrali impropri o criteri asintotici. Inoltre, l'affermazione \"l’integrale improprio diverge ad un numero positivo\" è incompleta e priva di contesto. Non si specifica quale integrale improprio sia in questione né come il criterio asintotico venga applicato. La domanda manca completamente di una definizione dell'integrale improprio e del criterio asintotico a cui fa riferimento."
+  },
+  "suria_731": {
+    "file": "quiz_suria.json",
+    "index": 731,
+    "d": "$α −4 < 1 \\to α < 5$ l’integrale improprio converge ad un numero positivo, per il criterio asintotico",
+    "gemma_eval": "ERRORE: La domanda associa in modo illogico una disuguaglianza algebrica ($α −4 < 1 \\to α < 5$) alla convergenza di un integrale improprio tramite il criterio asintotico. Non c'è alcuna connessione matematica tra le due affermazioni. Inoltre, manca la definizione dell'integrale improprio a cui si fa riferimento."
+  },
+  "suria_732": "OK",
+  "suria_733": {
+    "file": "quiz_suria.json",
+    "index": 733,
+    "d": "Quale delle seguenti proprietà NON è soddisfatta da una funzione Riemann integrabile in [a, b]?",
+    "gemma_eval": "ERRORE: La seconda opzione (\"condizione sufficiente affinché una funzione f, definita in [a, b], sia Riemann integrabile su [a, b] è che sia derivabile in [a, b]\") è falsa. L'esistenza della derivata non implica l'integrabilità di Riemann."
+  },
+  "suria_734": "OK",
+  "suria_735": "OK",
+  "suria_736": {
+    "file": "quiz_suria.json",
+    "index": 736,
+    "d": "Lo sviluppo di Mac Laurin di ordine 3 della funzione $f(x) = e^x - \\frac{1}{\\cos x}$ è:",
+    "gemma_eval": "ERRORE: La funzione $f(x) = e^x - \\frac{1}{\\cos x}$ non è sviluppabile in serie di Mac Laurin in quanto non è definita in $x=0$ (il coseno di zero è 1, quindi il problema risiede nel termine $\\frac{1}{\\cos x}$). Inoltre, anche se fosse definita, la funzione non sarebbe analitica in $x=0$."
+  },
+  "suria_737": "OK",
+  "suria_738": {
+    "file": "quiz_suria.json",
+    "index": 738,
+    "d": "Quanto vale l’integrale improprio $\\int_0^2 \\frac{\\log(x^2)}{(x-1)} dx$  $\\quad :",
+    "gemma_eval": "ERRORE: L'integrale improprio presenta una singolarità in x=1, che si trova nell'intervallo di integrazione [0,2]. Pertanto, l'integrale non è definito e la domanda non ha senso."
+  },
+  "suria_739": "OK",
+  "suria_740": "OK",
+  "suria_741": {
+    "file": "quiz_suria.json",
+    "index": 741,
+    "d": "Quale delle seguenti proprietà NON è una proprietà dell’integrale definito su un intervallo limitato I?",
+    "gemma_eval": "ERRORE: La prima opzione è errata perché inverte i limiti di integrazione senza cambiare il segno. Inoltre, la quarta opzione presenta un'inversione nel verso dell'inequaglianza e nell'ordine dei limiti. Infine, l'ultima opzione è insensata."
+  },
+  "suria_742": "OK",
+  "suria_743": "OK",
+  "suria_744": "OK",
+  "suria_745": "OK",
+  "suria_746": "OK",
+  "suria_747": {
+    "file": "quiz_suria.json",
+    "index": 747,
+    "d": "$\\lim_(n \\rightarrow +\\infty) a_n = 3n + sin n$",
+    "gemma_eval": "ERRORE: La domanda definisce $a_n = 3n + sin n$, ma poi chiede il limite di $a_n$ quando $n$ tende all'infinito. Il limite di una funzione non dipende dalla sua definizione, ma dal suo comportamento asintotico. Inoltre, l'espressione $3n + \\sin(n)$ diverge a $+\\infty$. L'affermazione \"$\\lim_(n \\rightarrow +\\infty) a_n = 3n + sin n$\" è priva di significato matematico in quanto un limite deve essere un numero reale finito o $\\pm\\infty$, non un'espressione che dipende da $n$."
+  },
+  "suria_748": "OK",
+  "suria_749": "OK",
+  "suria_750": "OK",
+  "suria_751": "OK",
+  "suria_752": {
+    "file": "quiz_suria.json",
+    "index": 752,
+    "d": "g'(x) = cos f(x) \\cdot f'(x); g'(x) = 0 se e solo se cos f(x) = 0 -> f(x) = \\frac{\\pi}{2} + k\\pi; oppure f'(x) = 0",
+    "gemma_eval": "ERRORE: La domanda presenta un ragionamento illogico. Afferma che g'(x) = 0 se e solo se cos f(x) = 0, il che è vero solo se g'(x) = cos f(x) * f'(x) e f'(x) non è zero. Inoltre, la conclusione f(x) = π/2 + kπ è una conseguenza di cos f(x) = 0, ma non necessariamente implica che sia l'unica soluzione per f(x). L'affermazione \"oppure f'(x) = 0\" è vaga e non segue logicamente dalle premesse."
+  },
+  "suria_753": {
+    "file": "quiz_suria.json",
+    "index": 753,
+    "d": "$$\\lim_{x\\to 0^-} \\frac{3x + \\sqrt{4x^2 + 3x^3}}{x^{\\alpha}} = \\lim_{x\\to 0^-} \\frac{3x - 2|x|}{x^{\\alpha}} = \\lim_{x\\to 0^-} \\frac{x}{x^{\\alpha}} = 1 se \\alpha = 1$",
+    "gemma_eval": "ERRORE: La semplificazione $\\frac{3x + \\sqrt{4x^2 + 3x^3}}{x^{\\alpha}} = \\frac{3x - 2|x|}{x^{\\alpha}}$ è errata per $x\\to 0^-$, poiché $|x| = -x$.  Inoltre, l'affermazione che $\\lim_{x\\to 0^-} \\frac{x}{x^{\\alpha}} = 1$ implica $\\alpha=1$ è vera solo se il limite esiste e vale 1. La semplificazione iniziale invalida la conclusione."
+  },
+  "suria_754": "OK",
+  "suria_755": {
+    "file": "quiz_suria.json",
+    "index": 755,
+    "d": "E’ il teorema della media integrale.",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca l'enunciato del teorema della media integrale e le opzioni di risposta. Non si può valutare la correttezza senza tali informazioni."
+  },
+  "suria_756": {
+    "file": "quiz_suria.json",
+    "index": 756,
+    "d": "Nella risposta d) manca $f(c) = \\frac{1}{b-a} \\int_b^a f(x) dx$",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca il testo della domanda originale e le opzioni a, b, c, d, e. Non si può valutare la correttezza matematica senza queste informazioni. L'unica informazione fornita riguarda una presunta formula mancante in una delle opzioni, ma non sappiamo a quale domanda o opzione essa si riferisca."
+  },
+  "suria_757": {
+    "file": "quiz_suria.json",
+    "index": 757,
+    "d": "Si tratta della funzione integrale: ricordiamo le proprietà.",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca il testo della funzione integrale e le opzioni di risposta. Non è possibile valutarne la correttezza matematica senza tali informazioni."
+  },
+  "suria_758": {
+    "file": "quiz_suria.json",
+    "index": 758,
+    "d": "$\\int_x^x f(t) dt = - \\int_x^4 f(t) dt$",
+    "gemma_eval": "ERRORE: Il limite inferiore dell'integrale di sinistra è uguale alla variabile indipendente x, il che rende l'espressione priva di significato senza ulteriori informazioni su x. Inoltre, la presenza di x sia come limite inferiore che come argomento della funzione f(t) suggerisce un errore nella formulazione."
+  },
+  "suria_759": "OK",
+  "suria_760": "OK",
+  "suria_761": {
+    "file": "quiz_suria.json",
+    "index": 761,
+    "d": "Sia $f : \\mathbb{R} \\to \\mathbb{R}$ una funzione continua, e $F(x) = \\int_0^x f(t) dt$. Allora, se $f \\leq 0$ in $\\mathbb{R}$, possiamo dedurre che",
+    "gemma_eval": "ERRORE: L'affermazione \"se $f \\leq 0$ in $\\mathbb{R}$, possiamo dedurre che $F(x) \\leq 0$ per ogni $x \\in \\mathbb{R}$\" è falsa.  La funzione integranda può essere negativa, ma l'integrale definito da 0 a x può comunque essere positivo se l'area sotto la curva è sufficientemente grande. Inoltre, l'opzione \"F non e’ di classe $C^1$ su $\\mathbb{R}$\" è vera per il teorema fondamentale del calcolo, ma non è una *deduzione* dalla condizione data. L'ultima opzione è anch'essa falsa: $F(x)$ potrebbe essere crescente o decrescente a seconda della funzione $f$."
+  },
+  "suria_762": "OK",
+  "suria_763": {
+    "file": "quiz_suria.json",
+    "index": 763,
+    "d": "Risposta esatta: a. Infatti, siccome $a_n$ converge ad un numero $\\neq 0$ allora la successione $\\frac{1}{a_n}$ è limitata, quindi la successione proposta $b_n/a_n$ è limitata in quanto prodotto delle successioni limitate $\\frac{1}{a_n}$ e $b_n$.",
+    "gemma_eval": "ERRORE: L'affermazione che se una successione converge ad un numero diverso da zero, allora la sua inversa è limitata è falsa. Inoltre, il prodotto di due successioni limitate non è necessariamente limitato."
+  },
+  "suria_764": "OK",
+  "suria_765": "OK",
+  "suria_766": "OK",
+  "suria_767": "OK",
+  "suria_768": "OK",
+  "suria_769": {
+    "file": "quiz_suria.json",
+    "index": 769,
+    "d": "3. Dato l’insieme A = {cosh x, x ∈R} ∪ {-9}",
+    "gemma_eval": "ERRORE: L'insieme A non è ben definito. La funzione coseno iperbolico (cosh x) assume valori maggiori o uguali a 1 per ogni x reale, quindi l'unione con {-9} crea un insieme che include -9, il che è in contraddizione con la definizione di cosh(x).  Inoltre, non si può parlare di minimo e massimo senza ulteriori informazioni sulla funzione."
+  },
+  "suria_770": "OK",
+  "suria_771": "OK",
+  "suria_772": "OK",
+  "suria_773": {
+    "file": "quiz_suria.json",
+    "index": 773,
+    "d": "$\\lim_{n\\to +∞} ( 1 + \\frac{4}{n^2 + 4} )^{n}$",
+    "gemma_eval": "ERRORE: La domanda è matematicamente valida, ma nessuna delle risposte proposte è corretta. Il limite tende a 1."
+  },
+  "suria_774": "OK",
+  "suria_775": {
+    "file": "quiz_suria.json",
+    "index": 775,
+    "d": "$\\lim_{x\\to+\\infty}\\frac{x^2}{(e^{3x} - \\cos(1/x))}$",
+    "gemma_eval": "ERRORE: La domanda è matematicamente valida, ma l'opzione di risposta corretta non è tra quelle proposte. Il limite tende a zero, ma si può dimostrare che il limite è effettivamente 0 applicando la regola di L'Hôpital."
+  },
+  "suria_776": {
+    "file": "quiz_suria.json",
+    "index": 776,
+    "d": "$\\int_{+\\infty}^{1} \\frac{1}{1-\\pi x^{\\pi-3}} dx$",
+    "gemma_eval": "ERRORE: L'integrale definito ha limiti di integrazione invertiti. Inoltre, la funzione integranda potrebbe essere indefinita per alcuni valori di x nell'intervallo di integrazione."
+  },
+  "suria_777": "OK",
+  "suria_778": "OK",
+  "suria_779": "OK",
+  "suria_780": "OK",
+  "suria_781": {
+    "file": "quiz_suria.json",
+    "index": 781,
+    "d": "lim_{x→+∞} \\frac{x}{(cos(1/x) - e^{4/x})} =",
+    "gemma_eval": "ERRORE: La domanda non è risolvibile con i metodi standard di analisi. Il denominatore tende a zero troppo velocemente per applicare direttamente le regole di de l'Hôpital o altre tecniche comuni. Inoltre, il coseno e l'esponenziale non sono definiti per x che tende all'infinito in questo contesto."
+  },
+  "suria_782": "OK",
+  "suria_783": "OK",
+  "suria_784": {
+    "file": "quiz_suria.json",
+    "index": 784,
+    "d": "Sia f : R → R una funzione continua tale che f(x) = −f(−x). Quale delle seguenti affermazioni è sempre vera?",
+    "gemma_eval": "ERRORE: La condizione f(x) = -f(-x) implica che la funzione è dispari. Nessuna delle opzioni proposte deriva direttamente da questa proprietà, e alcune sono inesistenti (es. coinvolgono integrali di funzioni al quadrato senza giustificazione). Inoltre, l'affermazione $ \\int_1^0 f(x) dx = 0 $ non è necessariamente vera per una funzione dispari continua."
+  },
+  "suria_785": "OK",
+  "suria_786": {
+    "file": "quiz_suria.json",
+    "index": 786,
+    "d": "Se g(x) = f(x^2), allora il polinomio di Taylor di grado 2 della funzione g con centro in x = 0 è :",
+    "gemma_eval": "ERRORE: Mancano termini nel polinomio di Taylor. Il termine costante deve essere presente, e il coefficiente di x deve essere corretto. Inoltre, l'opzione \"f(0) + \\frac{1}{2!}f'(0)x^2\" è incompleta perché manca il termine in x."
+  },
+  "suria_787": {
+    "file": "quiz_suria.json",
+    "index": 787,
+    "d": "Sia f : \\mathbb{R} \\rightarrow\\mathbb{R} una funzione di classe $C^n(\\mathbb{R})$. Quale delle seguenti affermazioni è SEMPRE vera?",
+    "gemma_eval": "ERRORE: L'affermazione \"Se f(1) = 1 e f(-1) = -1 allora $f^2$ ha un minimo assoluto\" non è sempre vera. Ad esempio, se f(x) = x, allora f(1)=1 e f(-1)=-1, ma f^2(x) = x^2 ha un solo punto di minimo in 0. Se f(x) = -x, allora f(1)=-1 e f(-1)=1, quindi l'ipotesi non è soddisfatta."
+  },
+  "suria_788": "OK",
+  "suria_789": {
+    "file": "quiz_suria.json",
+    "index": 789,
+    "d": "Lo sviluppo di Mac Laurin, di ordine 6, della funzione f(x) = log\\left(\\frac{2 + sin(x^6)}{}\\right)è",
+    "gemma_eval": "ERRORE: La funzione log\\left(\\frac{2 + sin(x^6)}{}\\right) è incompleta. Manca il denominatore nella frazione argomento del logaritmo."
+  },
+  "suria_790": "OK",
+  "suria_791": {
+    "file": "quiz_suria.json",
+    "index": 791,
+    "d": "Sia data la funzione f(x) = sinh x. Allora:",
+    "gemma_eval": "ERRORE: L'affermazione \"$f^(n)(\\frac{\\pi}{2}) = 1 se k = 4k, k \\in\\mathbb{N}$\" è priva di significato matematico. Inoltre, le altre affermazioni sono potenzialmente errate e richiederebbero un'analisi più approfondita delle derivate di sinh x per essere confermate o smentite."
+  },
+  "suria_792": "OK",
+  "suria_793": {
+    "file": "quiz_suria.json",
+    "index": 793,
+    "d": "$\\lim_{x \\to +\\infty} \\log(\\frac{x-1}{2})^2 - \\cos^2 x$",
+    "gemma_eval": "ERRORE: La funzione logaritmo è definita solo per argomenti positivi. Il limite considerato implica che x tende a infinito, quindi (x-1)/2 tende a infinito positivo. Tuttavia, la forma indeterminata $\\log(\\frac{x-1}{2})^2 - \\cos^2 x$ non permette di determinare immediatamente il segno del limite. Inoltre, l'opzione $0-$ è priva di significato matematico in questo contesto."
+  },
+  "suria_794": "OK",
+  "suria_795": "OK",
+  "suria_796": "OK",
+  "suria_797": {
+    "file": "quiz_suria.json",
+    "index": 797,
+    "d": "$lim_{x\\rightarrow 0}\\frac{5x - 1}{\\sin 4x}$",
+    "gemma_eval": "ERRORE: La domanda richiede il calcolo di un limite che tende a zero, ma non fornisce informazioni sul comportamento del denominatore in prossimità dello zero. Il denominatore $\\sin(4x)$ tende a zero quando x tende a zero, quindi si presenta una forma indeterminata del tipo 0/0. Per risolvere il limite è necessario utilizzare tecniche come l'applicazione di regole di L'Hôpital o manipolazioni algebriche che non sono evidenti dalla sola espressione fornita.  Senza ulteriori informazioni o indicazioni su come procedere, la domanda è incompleta e non risolvibile in modo univoco."
+  },
+  "suria_798": "OK",
+  "suria_799": "OK",
+  "suria_800": {
+    "file": "quiz_suria.json",
+    "index": 800,
+    "d": "Sia data una funzione $f$ crescente in $[a, b]$. Detto $I = \\int_b^a f(x) dx$, quale delle seguenti affermazioni NON è necessariamente VERA?",
+    "gemma_eval": "ERRORE: L'affermazione \"L’area della parte di piano compresa tra il grafico di $f(x)$, l’asse x e le rette $x = a$, $x = b$ è $\\int_b^a |f(x)| dx\" è errata. L'integrale $\\int_b^a f(x)dx$ restituisce un valore negativo se $f(x)$ è positiva in $(b, a)$, e l'area deve essere positiva. Inoltre, l'area tra il grafico di $f(x)$ e l'asse x è data da $\\int_a^b |f(x)| dx$. L'integranda è invertita rispetto al valore dell'integrale dato."
+  },
+  "suria_801": "OK",
+  "suria_802": "OK",
+  "suria_803": {
+    "file": "quiz_suria.json",
+    "index": 803,
+    "d": "Sia data la funzione f(x) =  $cos x$ \nx ≥ 0 a + $x^2$ \nx < 0 Allora",
+    "gemma_eval": "ERRORE: La definizione della funzione è incompleta. Manca il valore di f(0). Inoltre, manca la chiusura del caso x<0. Si presume che si tratti di a + x^2 per x < 0, ma non è esplicitamente indicato."
+  },
+  "suria_804": "OK",
+  "suria_805": {
+    "file": "quiz_suria.json",
+    "index": 805,
+    "d": "Sia data una funzione $f(x)$ tale che $f(x) ≥ x$, $orall x ∈ ℝ$. Allora",
+    "gemma_eval": "ERRORE: L'affermazione \"$f(x) \\geq x$, $orall x \\in \\mathbb{R}$\" è sintatticamente scorretta. Dovrebbe essere \"$f(x) \\geq x$, $\\forall x \\in \\mathbb{R}$\". Inoltre, le opzioni proposte non sono logicamente conseguenti dall'ipotesi data."
+  },
+  "suria_806": {
+    "file": "quiz_suria.json",
+    "index": 806,
+    "d": "L’integrale improprio ∫_{-1}^{-∞} $sin x · e^x$ dx",
+    "gemma_eval": "ERRORE: L'integrale improprio ha un limite di integrazione finito inferiore (-1) e infinito superiore (-∞). Questo implica che l'integranda è integrata rispetto a x da -1 all'infinito. Un integrale improprio richiede uno dei limiti di integrazione ad essere infinito, ma non entrambi finiti. L'espressione data non rappresenta un integrale improprio standard."
+  },
+  "suria_807": "OK",
+  "suria_808": {
+    "file": "quiz_suria.json",
+    "index": 808,
+    "d": "$x \\to 0+ - \\to f(x) \\sim 2x$",
+    "gemma_eval": "ERRORE: La notazione \"$x \\to 0+ - \\to f(x) \\sim 2x$\" è sintatticamente scorretta e priva di significato matematico. Il simbolo \"$- \\to$\" non ha un senso definito in questo contesto. Inoltre, il simbolo $\\sim$ indica l'equivalenza asintotica, che richiede una definizione più precisa del limite."
+  },
+  "suria_809": {
+    "file": "quiz_suria.json",
+    "index": 809,
+    "d": "$x \\to 0 \\to f(x) \\sim 0!!!$",
+    "gemma_eval": "ERRORE: La notazione è insensata e incompleta. L'uso di \"∼\" suggerisce una equivalenza asintotica, ma la doppia freccia ($x \\to 0 \\to$) non ha significato matematico standard in questo contesto. Inoltre, i punti esclamativi sono privi di senso."
+  },
+  "suria_810": {
+    "file": "quiz_suria.json",
+    "index": 810,
+    "d": "E’ un quesito che abbiamo già incontrato in altre simulazioni: può essere letto alla luce del teorema di Lagrange, applicato alle due funzioni, e allora la risposta sarebbe legata alla e), ma esistono c1, c2..., con c1 non necessariamente coincidente con c2.",
+    "gemma_eval": "ERRORE: La domanda è priva di un contesto matematico specifico e non presenta una formulazione precisa. Il riferimento al teorema di Lagrange è vago senza la definizione delle funzioni coinvolte. Non si può valutare la correttezza matematica in assenza di una domanda ben definita."
+  },
+  "suria_811": {
+    "file": "quiz_suria.json",
+    "index": 811,
+    "d": "E’ una funzione continua e derivabile con tre zeri semplici.",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca la definizione della funzione di cui si sta parlando. Senza una funzione esplicitata, non è possibile determinare se sia continua, derivabile e abbia tre zeri semplici."
+  },
+  "suria_812": {
+    "file": "quiz_suria.json",
+    "index": 812,
+    "d": "E’ sufficiente pensare al grafico delle due funzioni:",
+    "gemma_eval": "ERRORE: La domanda è incompleta. Manca il testo a cui si riferisce l'affermazione \"E’ sufficiente pensare al grafico delle due funzioni\". Non è possibile valutare la correttezza matematica senza sapere quali siano le due funzioni in questione."
+  },
+  "suria_813": "OK",
+  "suria_814": {
+    "file": "quiz_suria.json",
+    "index": 814,
+    "d": "Sia $f : \\mathbb{R} \\rightarrow\\mathbb{R}$ una funzione derivabile tale che $f(0) = 0$, $f(3) = 2$. Considerando $g(x) = e^{-f(x)}$, allora \n esiste un punto $c \\in (0, 3)$ tale che",
+    "gemma_eval": "ERRORE: L'ultima parte delle opzioni di risposta è incompleta. Mancano i termini dopo la frazione."
+  },
+  "suria_815": "OK",
+  "suria_816": "OK",
+  "suria_817": "OK",
+  "suria_818": "OK",
+  "suria_819": "OK",
+  "suria_820": {
+    "file": "quiz_suria.json",
+    "index": 820,
+    "d": "Il seguente integrale deﬁnito $\\int_4^2 1/x(2-\\log x) dx$ vale:",
+    "gemma_eval": "ERRORE: L'integrale è mal posto. Il limite di integrazione inferiore è maggiore del limite superiore, quindi l'integrale dovrebbe essere valutato con un segno negativo davanti. Inoltre, le opzioni di risposta sono scritte in modo confuso e non standard."
+  },
+  "suria_821": {
+    "file": "quiz_suria.json",
+    "index": 821,
+    "d": "Qual è la corretta formulazione del teorema della media integrale?",
+    "gemma_eval": "ERRORE: La prima opzione afferma che µ=f(c), il che è falso. Il teorema della media integrale afferma l'esistenza di un punto c tale che f(c) = µ, dove µ è la media integrale. L'opzione 4 fornisce una definizione corretta della media integrale, ma non esprime la proprietà generale del teorema. L'opzione 5 introduce derivate quando il teorema riguarda integrali."
+  },
+  "suria_822": "OK",
+  "suria_823": "OK",
+  "suria_824": {
+    "file": "quiz_suria.json",
+    "index": 824,
+    "d": "La funzione $f(x) = | \\log(x - 3)|$",
+    "gemma_eval": "ERRORE: La funzione $f(x) = |\\log(x-3)|$ non è definita per $x \\le 3$. L'affermazione che sia invertibile su un intervallo deve specificare un dominio dove la funzione è definita. Inoltre, anche se fosse definita su un certo intervallo, la sua non iniettività implica la non esistenza di una inversa."
+  },
+  "suria_825": "OK",
+  "suria_826": "OK",
+  "suria_827": "OK",
+  "suria_828": {
+    "file": "quiz_suria.json",
+    "index": 828,
+    "d": "$\\lim_{x \\to +\\infty}(3x^3 - 4x^2) \\sin x$ vale",
+    "gemma_eval": "ERRORE: La domanda è mal posta. Il limite di un prodotto non può essere calcolato separando i termini in modo arbitrario. In particolare, $\\sin x$ è una funzione oscillante e il termine $(3x^3 - 4x^2)$ tende a $+\\infty$ per $x \\to +\\infty$.  Il prodotto di una funzione che tende all'infinito con una funzione oscillante tra -1 e 1 non ha un limite definito."
+  },
+  "suria_829": "OK",
+  "suria_830": "OK",
+  "suria_831": "OK",
+  "suria_832": "OK",
+  "suria_833": "OK",
+  "suria_834": {
+    "file": "quiz_suria.json",
+    "index": 834,
+    "d": "Dire quale tra i seguenti enunciati è corretto.",
+    "gemma_eval": "ERRORE: L'integrale $\\int_b^a f(x) dx$ è mal posto. In generale, $\\int_b^a f(x) dx = -\\int_a^b f(x) dx$. Le opzioni presentano errori nella notazione degli integrali e nelle relazioni proposte tra il valore della funzione in un punto e l'integrale stesso."
+  },
+  "suria_835": "OK",
+  "suria_836": "OK",
+  "suria_837": "OK",
+  "suria_838": "OK",
+  "suria_839": "OK",
+  "suria_840": "OK",
+  "suria_841": "OK",
+  "suria_842": "OK",
+  "suria_843": "OK",
+  "suria_844": {
+    "file": "quiz_suria.json",
+    "index": 844,
+    "d": "Se $a_n$ è una successione monotona, allora per $n \\to \\infty$",
+    "gemma_eval": "ERRORE: L'affermazione \"a_n non è indeterminata\" è priva di significato matematico nel contesto delle successioni. Inoltre, una successione monotona *potrebbe* essere divergente."
+  },
+  "suria_845": "OK",
+  "suria_846": "OK",
+  "suria_847": "OK",
+  "suria_848": {
+    "file": "quiz_suria.json",
+    "index": 848,
+    "d": "$\\lim_{x \\to +\\infty}(3x + 2) \\sin^2 x$",
+    "gemma_eval": "ERRORE: La domanda richiede il calcolo di un limite prodotto, ma non considera la natura asintotica delle singole funzioni. Il termine $(3x+2)$ tende a $+\\infty$ mentre $\\sin^2(x)$ è una funzione oscillante tra $0$ e $1$.  Il limite non può essere determinato senza ulteriori analisi o manipolazioni (es. applicando il teorema del confronto)."
+  },
+  "suria_849": "OK",
+  "suria_850": "OK",
+  "suria_851": "OK",
+  "suria_852": "OK",
+  "suria_853": {
+    "file": "quiz_suria.json",
+    "index": 853,
+    "d": "\\lim_{x\\to 0} \\frac{e^{\\frac{3}{8}\\sqrt{x}-2}}{(\\sqrt[3]{x}-1)} \\cdot \\frac{\\sin(7\\sqrt{x})}{1}",
+    "gemma_eval": "ERRORE: La funzione all'interno della radice quadrata, $\\frac{3}{8}\\sqrt{x}-2$, assume valori negativi per piccoli $x>0$. L'esponenziale di un numero complesso non è definito in questo contesto. Inoltre, la forma indeterminata suggerisce che sia il numeratore che il denominatore tendono a 1 quando x tende a zero, ma l'esistenza della radice quadrata con argomento negativo rende la domanda priva di senso nel campo dei numeri reali."
+  },
+  "suria_854": "OK",
+  "suria_855": "OK",
+  "suria_856": "OK",
+  "suria_857": {
+    "file": "quiz_suria.json",
+    "index": 857,
+    "d": "L’equazione differenziale $x'' - 5x' + 6x = e^{2t}$ ha una soluzione particolare $x_p(t)$ della forma",
+    "gemma_eval": "ERRORE: La variabile indipendente è 't', non 'x'. L'equazione differenziale dovrebbe essere scritta come x'' - 5x' + 6x = e^(2t).  La forma della soluzione particolare proposta deve tener conto della radice dell'omogenea (che è 2) per evitare che compaia nella soluzione."
+  },
+  "extra_0": "OK",
+  "extra_1": "OK",
+  "extra_2": "OK",
+  "extra_3": "OK",
+  "extra_4": "OK",
+  "extra_5": {
+    "file": "quiz_extra.json",
+    "index": 5,
+    "d": "Siano $f(x)=3~\\sin~2x-4$ e $X=[0,\\frac{\\pi}{2})$. Allora $f(X)$ è uguale a:",
+    "gemma_eval": "ERRORE: La notazione $f(X)$ è ambigua. Se $X$ rappresenta un intervallo, $f(X)$ dovrebbe essere l'immagine dell'intervallo tramite la funzione $f$, ovvero un insieme di valori. Le opzioni proposte sono intervalli o insiemi che non corrispondono all'immagine di $f([0,\\frac{\\pi}{2}))$."
+  },
+  "extra_6": "OK",
+  "extra_7": "OK",
+  "extra_8": "OK",
+  "extra_9": "OK",
+  "extra_10": "OK",
+  "extra_11": "OK",
+  "extra_12": "OK",
+  "extra_13": "OK",
+  "extra_14": "OK",
+  "extra_15": "OK",
+  "extra_16": "OK",
+  "extra_17": "OK",
+  "extra_18": "OK",
+  "extra_19": "OK",
+  "extra_20": "OK",
+  "extra_21": "OK",
+  "extra_22": {
+    "file": "quiz_extra.json",
+    "index": 22,
+    "d": "È data la funzione $f(x) = \\ln\\left(x - 2 - \\sqrt{x^{2} + 1}\\right)$. È vero che:",
+    "gemma_eval": "ERRORE: L'argomento del logaritmo deve essere strettamente positivo. Quindi, $x - 2 - \\sqrt{x^2 + 1} > 0$, ovvero $x - 2 > \\sqrt{x^2 + 1}$. Elevando al quadrato entrambi i membri (e considerando che il membro di destra è sempre non negativo), si ottiene $(x-2)^2 > x^2 + 1$, da cui $x^2 - 4x + 4 > x^2 + 1$, ovvero $-4x > -3$, quindi $x < \\frac{3}{4}$. Inoltre, per poter elevare al quadrato, è necessario che $x-2>0$ (cioè $x>2$).  Queste due condizioni sono incompatibili. Quindi il dominio deve essere vuoto."
+  },
+  "extra_23": {
+    "file": "quiz_extra.json",
+    "index": 23,
+    "d": "È data la funzione $f(x)=\\arcsin\\left(\\frac{2x-2}{x-2}\\right)$. È vero che:",
+    "gemma_eval": "ERRORE: La domanda chiede il dominio di una funzione arcsin. Il dominio della funzione arcsin è $[-1, 1]$. Pertanto, la domanda richiede che si trovi l'insieme dei valori di $x$ tali che $-1 \\le \\frac{2x-2}{x-2} \\le 1$. Questo implica che la domanda ha senso logico-matematico e può essere risolta. Tuttavia, nessuna delle opzioni proposte rappresenta il dominio corretto, poiché non è possibile determinare il dominio senza risolvere la disequazione. L'opzione $[-1,1]$ è il dominio della funzione arcsin, ma non necessariamente il dominio di $f(x)$."
+  },
+  "extra_24": "OK",
+  "extra_25": "OK",
+  "extra_26": "OK",
+  "extra_27": "OK",
+  "extra_28": "OK",
+  "extra_29": "OK",
+  "extra_30": "OK",
+  "extra_31": "OK",
+  "extra_32": "OK",
+  "extra_33": "OK",
+  "extra_34": "OK",
+  "extra_35": "OK",
+  "extra_36": "OK",
+  "extra_37": "OK",
+  "extra_38": "OK",
+  "extra_39": "OK",
+  "extra_40": "OK",
+  "extra_41": "OK",
+  "extra_42": "OK",
+  "extra_43": "OK",
+  "extra_44": "OK",
+  "extra_45": "OK",
+  "extra_46": "OK",
+  "extra_47": "OK",
+  "extra_48": "OK",
+  "extra_49": "OK",
+  "extra_50": "OK",
+  "extra_51": "OK",
+  "extra_52": "OK",
+  "extra_53": "OK",
+  "extra_54": "OK",
+  "extra_55": {
+    "file": "quiz_extra.json",
+    "index": 55,
+    "d": "La funzione $f(x) = \\frac{1}{4 + x^2}$ è:",
+    "gemma_eval": "ERRORE: La domanda presuppone una conoscenza implicita di cosa significhi \"invertibile\". Una funzione è invertibile se e solo se è biiettiva (iniettiva e suriettiva).  La funzione data non è iniettiva, quindi non può essere invertibile su alcun intervallo. L'opzione \"non è invertibile su alcun intervallo\" è corretta, ma la domanda non verifica che lo studente sappia cosa significhi invertibilità."
+  },
+  "extra_56": "OK",
+  "extra_57": "OK",
+  "extra_58": "OK",
+  "extra_59": "OK",
+  "extra_60": "OK",
+  "extra_61": "OK",
+  "extra_62": "OK",
+  "extra_63": "OK",
+  "extra_64": "OK",
+  "extra_65": "OK",
+  "extra_66": "OK",
+  "extra_67": "OK",
+  "extra_68": "OK",
+  "extra_69": "OK",
+  "extra_70": "OK",
+  "extra_71": {
+    "file": "quiz_extra.json",
+    "index": 71,
+    "d": "Il limite $\\lim_{x\\rightarrow+\\infty}\\frac{\\cos x-x^{2}+e^{-2x}}{\\sin x+e^{-3x}+x^{2}}$ vale",
+    "gemma_eval": "ERRORE: La funzione coseno e seno non sono definite per $x \\rightarrow +\\infty$. Il limite non esiste in quanto le funzioni trigonometriche oscillano."
+  },
+  "extra_72": "OK",
+  "extra_73": "OK",
+  "extra_74": "OK",
+  "extra_75": "OK",
+  "extra_76": "OK",
+  "extra_77": {
+    "file": "quiz_extra.json",
+    "index": 77,
+    "d": "Sia $f$ una funzione definita su $(-3,3)$ e tale che $\\lim_{x\\rightarrow 2} f(x) = -1$. È vero che:",
+    "gemma_eval": "ERRORE: L'esistenza del limite in un punto non implica necessariamente il segno della funzione in un intorno di quel punto. Inoltre, l'esistenza del limite non implica la continuità nel punto."
+  },
+  "extra_78": "OK",
+  "extra_79": "OK",
+  "extra_80": "OK",
+  "extra_81": "OK",
+  "extra_82": "OK",
+  "extra_83": "OK",
+  "extra_84": "OK",
+  "extra_85": "OK",
+  "extra_86": "OK",
+  "extra_87": "OK",
+  "extra_88": "OK",
+  "extra_89": "OK",
+  "extra_90": "OK",
+  "extra_91": "OK",
+  "extra_92": "OK",
+  "extra_93": "OK",
+  "extra_94": "OK",
+  "extra_95": {
+    "file": "quiz_extra.json",
+    "index": 95,
+    "d": "$\\lim_{n\\rightarrow+\\infty}(\\cos\\frac{2n^{2}}{n^{3}+1})^{\\arctan n}=$",
+    "gemma_eval": "ERRORE: La domanda non specifica se si intende il limite del logaritmo dell'espressione o l'espressione stessa. In entrambi i casi, la forma indeterminata richiede ulteriori manipolazioni per essere risolta, ma senza specificare quale limite calcolare, la domanda è ambigua e quindi non matematicamente valida come proposta."
+  },
+  "extra_96": "OK",
+  "extra_97": "OK",
+  "extra_98": "OK",
+  "extra_99": "OK",
+  "extra_100": "OK",
+  "extra_101": "OK",
+  "extra_102": "OK",
+  "extra_103": "OK",
+  "extra_104": "OK",
+  "extra_105": "OK",
+  "extra_106": "OK",
+  "extra_107": "OK",
+  "extra_108": "OK",
+  "extra_109": "OK",
+  "extra_110": {
+    "file": "quiz_extra.json",
+    "index": 110,
+    "d": "Il dominio della funzione $f(x) = \\log(\\cosh x - 4)$ è:",
+    "gemma_eval": "ERRORE: Il dominio della funzione logaritmo richiede argomento strettamente positivo. Quindi, $\\cosh x - 4 > 0$, ovvero $\\cosh x > 4$. Poiché $\\cosh x \\geq 1$ per ogni $x\\in\\mathbb{R}$, la condizione $\\cosh x > 4$ è verificata se e solo se $x$ soddisfa un'equazione trascendente che non ha una soluzione semplice. Il dominio non può essere determinato immediatamente dalle opzioni fornite, ma sicuramente non è $\\mathbb{R}$."
+  },
+  "extra_111": {
+    "file": "quiz_extra.json",
+    "index": 111,
+    "d": "La funzione $f(x) = \\frac{1}{4 + x^2}$:",
+    "gemma_eval": "ERRORE: La funzione non è iniettiva, quindi non può essere invertibile su nessun intervallo. L'affermazione \"nessuna delle altre risposte\" sarebbe corretta, ma le altre opzioni sono formulate in modo da suggerire che l'invertibilità dipenda dall'intervallo considerato, il che è fuorviante."
+  },
+  "extra_112": "OK",
+  "extra_113": "OK",
+  "extra_114": "OK",
+  "extra_115": "OK",
+  "extra_116": "OK",
+  "extra_117": "OK",
+  "extra_118": "OK",
+  "extra_119": "OK",
+  "extra_120": "OK",
+  "extra_121": "OK",
+  "extra_122": "OK",
+  "extra_123": "OK",
+  "extra_124": "OK",
+  "extra_125": "OK",
+  "extra_126": "OK",
+  "extra_127": "OK",
+  "extra_128": "OK",
+  "extra_129": "OK",
+  "extra_130": "OK",
+  "extra_131": "OK",
+  "extra_132": "OK",
+  "extra_133": "OK",
+  "extra_134": "OK",
+  "extra_135": "OK",
+  "extra_136": "OK",
+  "extra_137": "OK",
+  "extra_138": "OK",
+  "extra_139": "OK",
+  "extra_140": "OK",
+  "extra_141": "OK",
+  "extra_142": "OK",
+  "extra_143": "OK",
+  "extra_144": "OK",
+  "extra_145": "OK",
+  "extra_146": "OK",
+  "extra_147": "OK",
+  "extra_148": "OK",
+  "extra_149": "OK",
+  "extra_150": "OK",
+  "extra_151": "OK",
+  "extra_152": {
+    "file": "quiz_extra.json",
+    "index": 152,
+    "d": "Sia data la funzione $f(x) = \\log|\\sin(2x)|$. Determinare la sua derivata prima $f'(x)$.",
+    "gemma_eval": "ERRORE: La derivata di log|u| è f'(x) = 1/u * u'. In questo caso, u = |sin(2x)| e quindi u' = 2cos(2x) * segno(sin(2x)). Pertanto la risposta corretta dovrebbe essere qualcosa del tipo $\\frac{2\\cos(2x)}{\\sin(2x)}$ o $\\frac{2\\cos(2x)}{|\\sin(2x)|}$. Nessuna delle opzioni proposte è corretta."
+  },
+  "extra_153": "OK",
+  "extra_154": "OK",
+  "extra_155": "OK",
+  "extra_156": "OK",
+  "extra_157": "OK",
+  "extra_158": "OK",
+  "extra_159": "OK",
+  "extra_160": "OK",
+  "extra_161": {
+    "file": "quiz_extra.json",
+    "index": 161,
+    "d": "Individuare la corretta formulazione del teorema della media integrale per una funzione $f$ integrabile nell'intervallo $[a,b]$.",
+    "gemma_eval": "ERRORE: La quarta opzione contiene $f'(x)$ quando il teorema della media integrale si applica a funzioni integrabili, non necessariamente derivabili. Inoltre, l'ultima opzione afferma che $\\mu = f'(c)$, il che è falso. Il teorema della media integrale riguarda un valore medio di una funzione integrata, non la sua derivata."
+  },
+  "extra_162": "OK",
+  "extra_163": "OK",
+  "extra_164": "OK",
+  "extra_165": "OK",
+  "extra_166": "OK",
+  "extra_167": "OK",
+  "extra_168": "OK",
+  "extra_169": "OK",
+  "extra_170": "OK",
+  "extra_171": "OK",
+  "extra_172": "OK",
+  "extra_173": "OK",
+  "extra_174": "OK",
+  "extra_175": "OK",
+  "extra_176": "OK",
+  "extra_177": "OK",
+  "extra_178": "OK",
+  "extra_179": "OK",
+  "extra_180": "OK",
+  "extra_181": "OK",
+  "extra_182": {
+    "file": "quiz_extra.json",
+    "index": 182,
+    "d": "Considerata una funzione $f(x)$ che soddisfa la condizione $f(x)\\ge x$ per ogni $x \\in \\mathbb{R}$, si deduce che:",
+    "gemma_eval": "ERRORE: La condizione $f(x) \\geq x$ non implica nessuna delle affermazioni proposte. Ad esempio, se $f(x)=x$, la prima opzione è falsa per $x=0$. Se $f(x)=x+1$, la seconda opzione è falsa."
+  },
+  "extra_183": "OK",
+  "extra_184": "OK",
+  "extra_185": "OK",
+  "extra_186": "OK",
+  "extra_187": "OK",
+  "extra_188": "OK",
+  "extra_189": "OK",
+  "extra_190": "OK",
+  "extra_191": "OK",
+  "extra_192": "OK",
+  "extra_193": "OK",
+  "extra_194": "OK",
+  "extra_195": "OK",
+  "extra_196": "OK",
+  "extra_197": "OK",
+  "extra_198": "OK",
+  "extra_199": {
+    "file": "quiz_extra.json",
+    "index": 199,
+    "d": "$\\lim_{x\\rightarrow 0} \\frac{\\alpha x - 4 \\sin x}{x^{3}} = -\\infty$ se:",
+    "gemma_eval": "ERRORE: Mancano informazioni cruciali per determinare la correttezza dell'affermazione. In particolare, non è fornito il valore di $\\alpha$. Per risolvere il limite, si dovrebbe applicare l'espansione in serie di Taylor del seno e poi analizzare il comportamento asintotico in funzione di $\\alpha$. Senza conoscere $\\alpha$, non si può stabilire se il limite tende a $-\\infty$ per qualsiasi o nessun valore."
+  },
+  "extra_200": "OK",
+  "extra_201": "OK",
+  "extra_202": "OK",
+  "extra_203": {
+    "file": "quiz_extra.json",
+    "index": 203,
+    "d": "$\\lim_{x \\to 0^+} (1 + \\sin x)^{\\frac{1}{x^2}} =$",
+    "gemma_eval": "ERRORE: La domanda è matematicamente valida, ma richiede l'uso di tecniche avanzate (limite notevole o manipolazione algebrica e logaritmica) per essere risolta correttamente.  La presenza di $x^2$ nel denominatore rende il limite potenzialmente indeterminato del tipo $1^\\infty$, richiedendo una trasformazione appropriata (ad esempio, usando il fatto che $\\lim_{u \\to 0} (1+u)^{\\frac{1}{u}} = e$)."
+  },
+  "extra_204": "OK",
+  "extra_205": "OK",
+  "extra_206": "OK",
+  "extra_207": "OK",
+  "extra_208": "OK",
+  "extra_209": {
+    "file": "quiz_extra.json",
+    "index": 209,
+    "d": "$\\lim_{x\\rightarrow5}\\frac{\\sin(x^{2}-25)}{x-5}=$",
+    "gemma_eval": "ERRORE: La funzione seno non è definita per tutti i numeri reali. Inoltre, l'espressione $\\sin(x^2 - 25)$ non ha un limite finito quando x tende a 5."
+  },
+  "extra_210": "OK",
+  "extra_211": "OK",
+  "extra_212": "OK",
+  "extra_213": "OK",
+  "extra_214": "OK",
+  "extra_215": "OK",
+  "extra_216": "OK",
+  "extra_217": "OK",
+  "extra_218": "OK",
+  "extra_219": "OK",
+  "extra_220": "OK",
+  "extra_221": "OK",
+  "extra_222": {
+    "file": "quiz_extra.json",
+    "index": 222,
+    "d": "Sia $g(x) = f(x^{2})$. Determinare il polinomio di Taylor di ordine 2 centrato in $x = 0$ per la funzione $g(x)$.",
+    "gemma_eval": "ERRORE: La formula generale del polinomio di Taylor di ordine 2 centrato in x=0 è P(x) = f(0) + f'(0)x + (f''(0)/2!)x^2.  La domanda non fornisce la funzione f(x), quindi non si può determinare il polinomio di Taylor di g(x). Le opzioni proposte sono tutte errate perché non tengono conto del termine quadratico corretto derivante dalla sostituzione x^2 in f(x) e successiva derivazione."
+  },
+  "extra_223": {
+    "file": "quiz_extra.json",
+    "index": 223,
+    "d": "Sia $f:\\mathbb{R}\\rightarrow\\mathbb{R}$ una funzione di classe $C^{(n)}(\\mathbb{R})$. Quale delle seguenti proposizioni è SEMPRE vera?",
+    "gemma_eval": "ERRORE: L'opzione \"Se $f$ è crescente allora $f^{2}$ è crescente\" è falsa. Ad esempio, sia $f(x) = -x$. Allora $f$ è crescente, ma $f^2(x) = x^2$ non lo è."
+  },
+  "extra_224": "OK",
+  "extra_225": "OK",
+  "extra_226": "OK",
+  "extra_227": "OK",
+  "extra_228": "OK",
+  "extra_229": "OK",
+  "extra_230": "OK",
+  "extra_231": "OK",
+  "extra_232": {
+    "file": "quiz_extra.json",
+    "index": 232,
+    "d": "$\\lim_{x\\rightarrow+\\infty}\\frac{\\log(x^{-\\frac{1}{2}})}{2-\\cos^{2}x}$",
+    "gemma_eval": "ERRORE: Il limite non esiste. La funzione logaritmo è definita solo per x > 0, e il denominatore oscilla tra 1 e 2. Inoltre, la funzione coseno assume valori compresi tra -1 e 1, quindi cos²(x) è compreso tra 0 e 1. Il numeratore tende a $-\\infty$ mentre il denominatore è limitato. Tuttavia, l'oscillazione del coseno nel denominatore rende il limite non determinabile con le regole standard."
+  },
+  "extra_233": "OK",
+  "extra_234": "OK",
+  "extra_235": "OK",
+  "extra_236": "OK",
+  "extra_237": "OK",
+  "extra_238": "OK",
+  "extra_239": "OK",
+  "extra_240": "OK",
+  "extra_241": "OK",
+  "extra_242": "OK",
+  "extra_243": "OK",
+  "extra_244": "OK",
+  "extra_245": "OK",
+  "extra_246": "OK",
+  "extra_247": "OK",
+  "extra_248": {
+    "file": "quiz_extra.json",
+    "index": 248,
+    "d": "Calcolare il limite: $\\lim_{x\\rightarrow+\\infty} x^{3} \\left( \\cos \\frac{1}{x} - e^{\\frac{4}{x}} \\right) =$",
+    "gemma_eval": "ERRORE: Il limite tende all'infinito. L'espressione $x^3(\\cos(1/x) - e^{4/x})$ si comporta come $x^3(1 - (1 + \\frac{4}{x} + O(\\frac{1}{x^2})) = x^3(- \\frac{4}{x} + O(\\frac{1}{x^2})) = -4x^2 + O(x)$. Quindi il limite è $-\\infty$. Nessuna delle opzioni proposte è corretta."
+  },
+  "extra_249": {
+    "file": "quiz_extra.json",
+    "index": 249,
+    "d": "$\\lim_{x\\rightarrow+\\infty}x^{2}\\left(\\cos\\frac{1}{x}-e^{\\frac{4}{x}}\\right)=$",
+    "gemma_eval": "ERRORE: Il limite non esiste, poiché l'espressione tende a $-\\infty$. L'opzione $-\\infty$ è presente ma la domanda non specifica che si cercano limiti infiniti. Inoltre, il comportamento dell'espressione richiede un'analisi più approfondita per essere giustificato."
+  },
+  "extra_250": "OK",
+  "extra_251": "OK",
+  "extra_252": {
+    "file": "quiz_extra.json",
+    "index": 252,
+    "d": "$\\lim_{x\\rightarrow+\\infty}x(\\cos\\frac{1}{x}-e^{\\frac{4}{x}})=$",
+    "gemma_eval": "ERRORE: La domanda è mal posta. L'espressione all'interno del limite non ammette un limite finito per $x \\to +\\infty$. Infatti, si ha che $\\cos(\\frac{1}{x}) = 1 - \\frac{1}{2x^2} + O(\\frac{1}{x^4})$ e $e^{\\frac{4}{x}} = 1 + \\frac{4}{x} + O(\\frac{1}{x^2})$. Quindi, $x(\\cos\\frac{1}{x}-e^{\\frac{4}{x}}) = x(1 - \\frac{1}{2x^2} - 1 - \\frac{4}{x} + ...) = -\\frac{4}{x} - \\frac{1}{2x} + O(\\frac{1}{x^3}) \\to 0$ per $x\\rightarrow +\\infty$. Tuttavia, l'espressione $\\cos\\frac{1}{x}-e^{\\frac{4}{x}}$ oscilla e quindi il limite non è ben definito."
+  },
+  "extra_253": "OK",
+  "extra_254": {
+    "file": "quiz_extra.json",
+    "index": 254,
+    "d": "$\\lim_{n\\rightarrow+\\infty}(3+n)^{\\frac{5}{\\log n}}=$",
+    "gemma_eval": "ERRORE: La domanda presenta un'espressione mal posta. L'esponente contiene $\\log n$, che necessita di una base specificata (ad esempio, $\\log_{10} n$ o $\\ln n$). Senza questa specifica, l'espressione è ambigua e non definisce un limite ben definito."
+  },
+  "extra_255": "OK",
+  "extra_256": "OK",
+  "extra_257": "OK",
+  "extra_258": "OK",
+  "extra_259": "OK",
+  "extra_260": "OK",
+  "extra_261": "OK",
+  "extra_262": "OK",
+  "extra_263": "OK",
+  "extra_264": "OK",
+  "extra_265": "OK",
+  "extra_266": "OK",
+  "extra_267": "OK",
+  "extra_268": "OK",
+  "extra_269": {
+    "file": "quiz_extra.json",
+    "index": 269,
+    "d": "Sia dato il seguente integrale improprio: $I=\\int_{2}^{+\\infty}\\frac{2+e^{x}}{1+x^{5}}dx$. Allora:",
+    "gemma_eval": "ERRORE: La prima opzione è falsa. Il termine $\\frac{2+e^x}{1+x^5}$ non è dominato da $\\frac{1}{x^5}$ per $x$ sufficientemente grande, poiché $e^x$ cresce più velocemente di $x^5$. L'affermazione che l'integrale converge perché la funzione integranda è infinitesima per $x \\rightarrow +\\infty$ è insufficiente a garantire la convergenza dell'integrale improprio. La quarta opzione è corretta, ma non giustificata. La quinta opzione è priva di senso matematico."
+  },
+  "extra_270": "OK",
+  "extra_271": "OK",
+  "extra_272": {
+    "file": "quiz_extra.json",
+    "index": 272,
+    "d": "$\\lim_{x \\to +\\infty} 3x^{2} \\left( \\cos\\frac{1}{x} - e^{\\frac{x}{2}} \\right)$",
+    "gemma_eval": "ERRORE: La domanda è matematicamente valida, ma nessuna delle risposte proposte è corretta. Il limite non esiste ed è infinito."
+  },
+  "extra_273": "OK",
+  "extra_274": "OK",
+  "extra_275": "OK",
+  "extra_276": "OK",
+  "extra_277": "OK",
+  "extra_278": {
+    "file": "quiz_extra.json",
+    "index": 278,
+    "d": "Siano date una successione $a_{n}$ convergente a un numero reale $l \neq 0$, con $a_{n} \neq 0$ per ogni $n$, e una successione $b_{n}$ limitata. Allora, la successione $\\frac{b_{n}}{a_{n}}$:",
+    "gemma_eval": "ERRORE: $a_n \\to 0$ e $a_n = 0$ per ogni n sono affermazioni contraddittorie. Inoltre, la domanda non specifica se $l=0$ sia un limite destro o sinistro."
+  },
+  "extra_279": "OK",
+  "extra_280": "OK",
+  "extra_281": "OK",
+  "extra_282": "OK",
+  "extra_283": "OK",
+  "extra_284": "OK",
+  "extra_285": "OK",
+  "extra_286": "OK",
+  "extra_287": "OK",
+  "extra_288": "OK",
+  "extra_289": "OK",
+  "extra_290": {
+    "file": "quiz_extra.json",
+    "index": 290,
+    "d": "Sia $f:\\mathbb{R}\\rightarrow\\mathbb{R}$ una funzione continua, e $F(x)=\\int_{0}^{x}f(t)dt$. Allora, se $f\\le0$ in $\\mathbb{R}$, possiamo dedurre che:",
+    "gemma_eval": "ERRORE: L'affermazione \"se $f\\le0$ in $\\mathbb{R}$, possiamo dedurre che $F(x)\\le0$ per ogni $x\\in\\mathbb{R}$\" è falsa. La funzione integranda può essere negativa, ma l'integrale definito da 0 a x può comunque essere positivo se l'area \"sotto la curva\" positiva in un intervallo precedente compensa l'area negativa successiva."
+  },
+  "extra_291": "OK",
+  "extra_292": "OK",
+  "extra_293": "OK",
+  "extra_294": "OK",
+  "extra_295": "OK",
+  "extra_296": "OK",
+  "extra_297": {
+    "file": "quiz_extra.json",
+    "index": 297,
+    "d": "$\\lim_{x\\rightarrow +\\infty} 3x^{2}\\left(\\cos\\frac{1}{x} - e^{\\frac{x}{2}}\\right)$ vale:",
+    "gemma_eval": "ERRORE: Il limite non esiste, poiché il termine esponenziale domina e tende a $+\\infty$. L'espressione è illimitata."
+  },
+  "extra_298": "OK",
+  "extra_299": "OK",
+  "extra_300": "OK",
+  "extra_301": "OK",
+  "extra_302": "OK",
+  "extra_303": "OK",
+  "extra_304": "OK",
+  "extra_305": "OK",
+  "extra_306": "OK",
+  "extra_307": "OK",
+  "extra_308": "OK",
+  "extra_309": "OK",
+  "extra_310": "OK",
+  "extra_311": "OK",
+  "extra_312": "OK",
+  "extra_313": "OK",
+  "extra_314": "OK",
+  "extra_315": "OK",
+  "extra_316": "OK",
+  "extra_317": "OK",
+  "extra_318": "OK",
+  "extra_319": "OK",
+  "extra_320": "OK",
+  "extra_321": {
+    "file": "quiz_extra.json",
+    "index": 321,
+    "d": "Considerata la funzione $f(x) = e^{x} + 3x$, nota la condizione $f(0) = 1$, determinare il valore della derivata prima della funzione inversa $f^{-1}$ nel punto $x=1$, ovvero $(f^{-1})'(1)$.",
+    "gemma_eval": "ERRORE: La condizione $f(0) = 1$ è falsa, poiché $f(0) = e^0 + 3\\cdot 0 = 1$. Questo rende la domanda priva di significato logico."
+  },
+  "extra_322": "OK",
+  "extra_323": "OK",
+  "extra_324": {
+    "file": "quiz_extra.json",
+    "index": 324,
+    "d": "Sia $f: \\mathbb{R} \\to \\mathbb{R}$ una funzione continua tale che $f(1) = \\pi$. Determinare il rapporto incrementale nel punto $x_0 = 1$ per la funzione $g(x) = \\sin(f(x))$.",
+    "gemma_eval": "ERRORE: La domanda chiede il rapporto incrementale di $g(x) = \\sin(f(x))$ in $x_0=1$, che è definito come $\\lim_{x\\to 1} \\frac{g(x)-g(1)}{x-1}$. L'opzione $\\frac{\\sin f(x)-\\pi}{x-1}$ non rappresenta il rapporto incrementale corretto, poiché $\\pi = f(1) = g(1)$ e quindi dovrebbe essere $g(1) = \\sin(f(1)) = \\sin(\\pi) = 0$. Il rapporto incrementale corretto sarebbe $\\lim_{x\\to 1} \\frac{\\sin(f(x)) - \\sin(f(1))}{x-1} = \\lim_{x\\to 1} \\frac{\\sin(f(x)) - 0}{x-1} = \\lim_{x\\to 1} \\frac{\\sin(f(x))}{x-1}$. Nessuna delle opzioni fornite è corretta."
+  },
+  "extra_325": {
+    "file": "quiz_extra.json",
+    "index": 325,
+    "d": "Quale delle seguenti affermazioni NON è vera, per una funzione definita $\\forall x\\in[a,b]$?",
+    "gemma_eval": "ERRORE: La prima affermazione è falsa. L'implicazione \"derivabile implica continua\" è vera solo in insiemi aperti. In un intervallo chiuso [a, b], una funzione derivabile è continua solo nei punti interni (c, d) con a < c < d < b.\n\nLa seconda affermazione è anch'essa falsa. L'integrabilità di Riemann non implica la derivabilità.\n\nLa terza affermazione è vera. Una funzione continua è Riemann integrabile.\n\nLa quarta affermazione è vera. Esistono funzioni discontinue ma Riemann integrabili (es. la funzione a gradino).\n\nLa quinta affermazione è vera. Se una funzione è derivabile, allora è anche Riemann integrabile."
+  },
+  "extra_326": "OK",
+  "extra_327": "OK",
+  "extra_328": {
+    "file": "quiz_extra.json",
+    "index": 328,
+    "d": "Il limite $\\lim_{x\\rightarrow+\\infty}(1+4x^{2})^{1/\\log x}$ vale:",
+    "gemma_eval": "ERRORE: La domanda richiede la valutazione di un limite che coinvolge una forma indeterminata. Per risolverlo correttamente, sarebbe necessario utilizzare tecniche come l'uso dell'esponenziale e del logaritmo per manipolare l'espressione al fine di rimuovere l'indeterminazione. Le opzioni fornite non permettono di determinare quale sia la risposta corretta senza una valutazione completa del limite."
+  },
+  "extra_329": "OK",
+  "extra_330": "OK",
+  "extra_331": "OK",
+  "extra_332": "OK",
+  "extra_333": "OK",
+  "extra_334": "OK",
+  "extra_335": "OK",
+  "extra_336": "OK",
+  "extra_337": "OK",
+  "extra_338": "OK"
+}

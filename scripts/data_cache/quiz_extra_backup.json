@@ -20,7 +20,7 @@
       "d": "È data la funzione $f(x) = \\log(x^{2} + |x| - 2)$. Il suo dominio è uguale a:",
       "opts": [
         "$(2,+\\infty)$",
-        "$\\mathbb{R}\\setminus[-1,1]$",
+        "$\\mathbb{R}\\backslash[-1,1]$",
         "$(-2,1)$",
         "$(-1,1)$",
         "$(-\\infty,-2)\\cup(2,+\\infty)$"
@@ -73,13 +73,13 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Siano $f(x)=3\\sin~2x-4$ e $X=[0,\\frac{\\pi}{2})$. Allora $f(X)$ è uguale a:",
+      "d": "Siano $f(x)=3~\\sin~2x-4$ e $X=[0,\\frac{\\pi}{2})$. Allora $f(X)$ è uguale a:",
       "opts": [
         "[-7,-1]",
         "[-4,-1]",
         "[-4,-1)",
         "[-7,-4)",
-        "[-4, -3]"
+        "{0}"
       ],
       "ok": 1,
       "spieg": "Tratto dai queez extra."
@@ -118,9 +118,9 @@
       "d": "Determinare l'immagine inversa dell'insieme $Y=[-1,1]$ rispetto alla funzione razionale $f(x)=\\frac{x-1}{x+3}$, definita per $x \\neq -3$. Si richiede di identificare l'insieme dei valori di $x$ per cui $f(x) \\in [-1,1]$.",
       "opts": [
         "[-1,1]",
-        "(-\\infty,-3)\\cup(-1,\\infty)",
-        "[{-1},\\infty)",
-        "(-\\infty,-3)",
+        "$(-\\infty,-3)\\cup(-1,+\\infty)$",
+        "$[-1,+\\infty)$",
+        "$(-\\infty,-3)$",
         "(0,1)"
       ],
       "ok": 2,
@@ -300,10 +300,10 @@
       "d": "Sono date le funzioni $f(x)=x^{2}$, $g(x)=\\sqrt{x}$, $h(x)=x$. È vero che:",
       "opts": [
         "nessuna delle altre risposte è corretta",
-        "$g(f(x))=f(g(x))$",
-        "$h=g(f(x))$",
-        "$|h|=f(g(x))$",
-        "$h=f(g(x))$"
+        "$g\\circ f=f\\circ g$",
+        "$h=g\\circ f$",
+        "$|h|=f\\circ g$",
+        "$h=f\\circ g$"
       ],
       "ok": 0,
       "spieg": "Tratto dai queez extra."
@@ -328,7 +328,7 @@
       "d": "È data la funzione $f(x)=\\arcsin\\left(\\frac{2x-2}{x-2}\\right)$. È vero che:",
       "opts": [
         "dom f = $[-1,1]$",
-        "dom f = $\\\\mathbb{R}$",
+        "dom f = $\\mathbb{R}$",
         "dom f = $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$",
         "dom f = $[0, \\frac{4}{3}]$",
         "dom f = $[-\\frac{4}{3}, 0]$"
@@ -384,7 +384,7 @@
       "d": "Sia data l'equazione $5z^{6}=\\sqrt{3}+i$. Si indichi quale delle seguenti affermazioni è vera.",
       "opts": [
         "$e^{i\\frac{\\pi}{36}}$",
-        "$(\\frac{1}{5})^{\\frac{1}{6}}(cos(\\frac{\\pi}{12})+i~sin(\\frac{\\pi}{12}))$",
+        "$(\\frac{1}{5})^{\\frac{1}{6}}(cos\\frac{\\pi}{12}+i~sin\\frac{\\pi}{12})$",
         "ha una soluzione reale",
         "le sue soluzioni costituiscono i vertici di un quadrato",
         "$(\\frac{2}{5})^{\\frac{1}{6}}e^{i\\frac{13}{36}\\pi}$"
@@ -955,7 +955,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "La funzione $F(x) = \\int_0^x t^4 \\cos^4(t) dt$:",
+      "d": "La funzione $F(x) = \\int_0^x t^4 \\cos^4(t)  dt$:",
       "opts": [
         "è crescente su $\\mathbb{R}$",
         "è crescente solo su $(0, +\\infty)$",
@@ -1109,7 +1109,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Determinare l'insieme risolutore della disequazione $\\frac{x \\log(x+2)}{x-3} \\le 0$.",
+      "d": "Determinare l'insieme risolutore della disequazione $\\displaystyle \\frac{x \\log(x+2)}{x-3} \\le 0$.",
       "opts": [
         "$[-1,0]$",
         "$(-2,-1]\\cup[0,3)$",
@@ -1167,11 +1167,11 @@
       "dif": "medio",
       "d": "Sia $f$ una funzione definita su un intervallo aperto $I$. Una primitiva di $f$ su $I$ è una funzione $F$ tale che:",
       "opts": [
-        "$F(x)=\\int_{x_0}^{x}f(t)dt$, se $x, x_0\\in I$",
+        "$F(x)=\\int_{x_{0}}^{x}f(t)dt$, se $x, x_{0}\\in I$",
         "$F$ è definita su $I$ e $F'(x)=f(x)$ per ogni $x\\in I$",
         "$F$ è derivabile su $I$ e $F'(x)=f(x)$ per ogni $x\\in I$",
         "$f'(x)=F(x)$ per ogni $x\\in I$",
-        "$F$ è derivabile in $x_0\\in I$ e $F'(x_0)=f(x_0)$"
+        "$F$ è derivabile in $x_{0}\\in I$ e $F'(x_{0})=f(x_{0})$"
       ],
       "ok": 2,
       "spieg": "Tratto dai queez extra."
@@ -1251,11 +1251,11 @@
       "dif": "medio",
       "d": "Quale dei seguenti enunciati è corretto riguardo al teorema degli zeri per funzioni reali continue?",
       "opts": [
-        "Se $f$ è definita su $[a,b]$ e $f(a) f(b)<0$, allora $f$ ha almeno uno zero in $(a,b)$.",
-        "Se $f$ è continua su $[a,b]$ e $f(a) f(b)<0$, allora $f$ ha almeno uno zero in $(a,b)$.",
-        "Se $f$ è continua su $(a,b)$ e $f(a) f(b)<0$, allora $f$ ha almeno uno zero in $(a,b)$.",
-        "Se $f$ è continua su $[a,b]$ e $f(a) f(b)<0$, allora $f$ ha un unico zero in $(a,b)$.",
-        "Se $f$ è continua su $[a,b]$ e $f(a) f(b)<0$, allora $0\\in(a,b)$."
+        "Se $f$ è definita su $[a,b]$ e $f(a)\\cdot f(b)<0$, allora $f$ ha almeno uno zero in $(a,b)$.",
+        "Se $f$ è continua su $[a,b]$ e $f(a)\\cdot f(b)<0$, allora $f$ ha almeno uno zero in $(a,b)$.",
+        "Se $f$ è continua su $(a,b)$ e $f(a)\\cdot f(b)<0$, allora $f$ ha almeno uno zero in $(a,b)$.",
+        "Se $f$ è continua su $[a,b]$ e $f(a)\\cdot f(b)<0$, allora $f$ ha un unico zero in $(a,b)$.",
+        "Se $f$ è continua su $[a,b]$ e $f(a)\\cdot f(b)<0$, allora $0\\in(a,b)$."
       ],
       "ok": 1,
       "spieg": "Tratto dai queez extra."
@@ -1389,13 +1389,13 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "$\\lim_{n\\rightarrow+\\infty} \\sqrt[n]{4^{n} + 2^{n}} =$",
+      "d": "$\\lim_{n\\rightarrow+\\infty}\\sqrt[n]{4^{n}+2^{n}}=$",
       "opts": [
-        "1",
+        "$1$",
         "$+\\infty$",
         "$e$",
-        "2",
-        "4"
+        "$2$",
+        "$4$"
       ],
       "ok": 4,
       "spieg": "Tratto dai queez extra."
@@ -1445,7 +1445,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Si consideri una funzione $f$ continua e strettamente monotona, con $f(2)=7$. Dato che $f'(2)=\frac{1}{7}$ e $f'(7)=\frac{1}{2}$, determinare il valore della derivata della funzione inversa di $f$ nel punto $7$, ovvero $(f^{-1})'(7)$.",
+      "d": "Si consideri una funzione $f$ continua e strettamente monotona, con $f(2)=7$. Dato che $f'(2)=\\frac{1}{7}$ e $f'(7)=\\frac{1}{2}$, determinare il valore della derivata della funzione inversa di $f$ nel punto $7$, ovvero $(f^{-1})'(7)$.",
       "opts": [
         "$2$",
         "$7$",
@@ -1489,11 +1489,11 @@
       "dif": "medio",
       "d": "Sia $f: \\mathbb{R} \\to \\mathbb{R}$ una funzione tale che $f(x) \\sim \\log x$ per $x \\to +\\infty$. Determinare l'affermazione corretta tra le seguenti.",
       "opts": [
-        "$e^{f(x)} \\sim x$",
+        "$e^{f(x)}\\sim x$",
         "$\\lim_{x\\rightarrow+\\infty}(f(x)-\\log x)$ esiste ed è finito",
-        "$x\\to+\\infty: f(x) \\cdot x \\sim x^{2}$",
+        "$x\\rightarrow+\\infty:f(x)\\cdot x\\sim x^{2}$",
         "nessuna delle altre risposte è corretta",
-        "per $x\\to+\\infty$: $f(x) \\cdot \\log x = o(x^{2})$"
+        "per $x\\rightarrow+\\infty$: $f(x)\\cdot \\log x=o(x^{2})$"
       ],
       "ok": 4,
       "spieg": "Tratto dai queez extra."
@@ -1853,11 +1853,11 @@
       "dif": "medio",
       "d": "$f(x) = \\cos x$ è soluzione dell'equazione differenziale:",
       "opts": [
-        "$y'^2 - y^2 = 1$",
-        "$y''' + y = 0$",
-        "$y'' - y = 0$",
-        "$y'^2 + y^2 = 1$",
-        "$y'' - 2y = 0$"
+        "$y')^2 - y^2 = 1\\$",
+        "$\\y''' + y = 0\\$",
+        "$\\y'' - y = 0\\$",
+        "$y')^2 + y^2 = 1\\$",
+        "$\\y'' - 2y = 0\\$"
       ],
       "ok": 3,
       "spieg": "Tratto dai queez extra."
@@ -1963,7 +1963,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Determinare se l'insieme $A = \\left\\{-\\frac{n}{n+5} : n=0,1,2,\\dots \\right\\} \\cup \\{-3\\}$ ammette massimo e minimo, e in caso affermativo, specificarli.",
+      "d": "Determinare se l'insieme $A = \\left\\{ -\\frac{n}{n+5} : n=0,1,2,\\dots \\right\\} \\cup \\{-3\\}$ ammette massimo e minimo, e in caso affermativo, specificarli.",
       "opts": [
         "massimo, ma non minimo",
         "minimo, ma non massimo",
@@ -2052,7 +2052,7 @@
         "è suriettiva",
         "non è invertibile",
         "ha dominio $[-1, 1]$",
-        "$im(f)=[0,+\\infty)$",
+        "$im(f)=(-1,+\\infty)$",
         "è iniettiva"
       ],
       "ok": 4,
@@ -2134,10 +2134,10 @@
       "d": "Sia data la funzione $f(x) = \\log|\\sin(2x)|$. Determinare la sua derivata prima $f'(x)$.",
       "opts": [
         "$f'(x) = \\frac{\\cos(2x)}{\\sin(2x)}$",
-        "$f'(x) = 2\\frac{\\cos(x)}{\\sin(x)}|$",
+        "$f'(x) = 2\\frac{\\cos(x)}{\\sin(x)}$",
         "$f'(x) = \\frac{1}{|\\sin(2x)|}$",
-        "$f'(x) = \\frac{2\\cos(2x)}{\\sin(2x)}$",
-        "$f'(x) = \\frac{2}{\\sin(2x)}|$"
+        "$f'(x) = 2\\frac{\\cos(2x)}{\\sin(2x)}$",
+        "$f'(x) = \\frac{2}{\\sin(2x)}$"
       ],
       "ok": 3,
       "spieg": "Tratto dai queez extra."
@@ -2203,11 +2203,11 @@
       "dif": "medio",
       "d": "Indicare l'enunciato corretto del Teorema degli Zeri:",
       "opts": [
-        "se $f$ è definita su $[a,b]$ e $f(a) \\cdot f(b)<0$, allora $f$ ha almeno uno zero in $(a, b)$",
-        "se $f$ è continua su $[a,b]$ e $f(a) \\cdot f(b)<0$ allora $f$ ha almeno uno zero in $(a, b)$",
-        "se $f$ è continua su $(a,b)$ e $f(a) \\cdot f(b)<0$, allora $f$ ha almeno uno zero in $(a, b)$",
-        "se $f$ è continua su $[a,b]$ e $f(a) \\cdot f(b)<0$ allora $f$ ha al più uno zero in $(a, b)$",
-        "se $f$ è continua su $[a,b]$ e $f(a) \\cdot f(b)<0$, allora $0 \\in (a,b)$"
+        "se $f$ è definita su $[a,b]$ e $f(a)\\cdot f(b)<0$, allora $f$ ha almeno uno zero in $(a, b)$",
+        "se $f$ è continua su $[a,b]$ e $f(a)\\cdot f(b)<0$ allora $f$ ha almeno uno zero in $(a, b)$",
+        "se $f$ è continua su $(a,b)$ e $f(a)\\cdot f(b)<0$, allora $f$ ha almeno uno zero in $(a, b)$",
+        "se $f$ è continua su $[a,b]$ e $f(a)\\cdot f(b)<0$ allora $f$ ha al più uno zero in $(a, b)$",
+        "se $f$ è continua su $[a,b]$ e $f(a)\\cdot f(b)<0$, allora $0\\in(a,b)$"
       ],
       "ok": 1,
       "spieg": "Tratto dai queez extra."
@@ -2217,11 +2217,11 @@
       "dif": "medio",
       "d": "Sia $f$ una funzione continua in un intervallo $I$. Una primitiva di $f$ su $I$ è una funzione $F$ tale che:",
       "opts": [
-        "$F(x)=\\int_{x_0}^{x}f(t)dt,$ con $x_0, x\\in I$",
+        "$F(x)=\\int_{x_{0}}^{x}f(t)dt,$ con $x_0, x\\in I$",
         "$F$ è definita su $I$ e $F^{\\prime}(x)=f(x)$, $\\forall x\\in I$",
         "$F$ è derivabile su $I$ e $F^{\\prime}(x)=f(x)$, $\\forall x\\in I$",
         "$f^{\\prime}(x)=F(x)$, $\\forall x\\in I$",
-        "$F$ è derivabile in $x_0\\in I$ e $F^{\\prime}(x_0)=f(x_0)$"
+        "$F$ è derivabile in $x_{0}\\in I$ e $F^{\\prime}(x_{0})=f(x_{0})$"
       ],
       "ok": 2,
       "spieg": "Tratto dai queez extra."
@@ -2262,10 +2262,10 @@
         "$\\min\\{f\\} \\le \\mu=f(c) \\le \\max\\{f\\}$",
         "$\\min\\{f\\} \\le \\mu \\le \\max\\{f\\}$",
         "$\\inf_{x\\in[a,b]}\\{f(x)\\} \\le \\mu \\le \\sup_{x\\in[a,b]}\\{f(x)\\}$",
-        "$\\mu=\\frac{1}{b-a}\\int_{a}^{b}f(x) dx$",
+        "$\\mu=\\frac{1}{b-a}\\int_{a}^{b}f^{\\prime}(x) dx$",
         "$\\min\\{f\\} \\le \\mu=f^{\\prime}(c) \\le \\max\\{f\\}$"
       ],
-      "ok": 3,
+      "ok": 2,
       "spieg": "Tratto dai queez extra."
     },
     {
@@ -2330,9 +2330,9 @@
       "d": "Sia data una funzione $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ continua su tutto $\\mathbb{R}$ e derivabile su tutto $\\mathbb{R}$ eccetto possibilmente in $x=2$, si supponga che $\\lim_{x \\rightarrow 2} f'(x) = 5$. Ne segue necessariamente che:",
       "opts": [
         "$f$ è continua, ma non derivabile",
-        "$f$ è derivabile in $x=2$ con $f'(2)=5$",
-        "$f$ potrebbe non essere derivabile in $x=2$",
         "$f$ è derivabile in $x=2$ con $f'(5)=2$",
+        "$f$ potrebbe non essere derivabile in $x=2$",
+        "$f$ è derivabile in $x=2$ con $f'(2)=5$",
         "non è possibile calcolare il limite del rapporto incrementale"
       ],
       "ok": 3,
@@ -2431,7 +2431,7 @@
         "$(b-a)\\cdot f(a)\\le I\\le(b-a)f(b)$",
         "$\\exists c \\in (a,b): f(c)=\\frac{I}{b-a}$",
         "$\\text{L'area... è }\\int_{a}^{b}|f(x)| dx$",
-        "$\\exists\\mu\\in[f(a),f(b))|I=\\mu\\cdot(b-a)$"
+        "$\\exists\\mu\\in(f(a),f(b))|I=\\mu\\cdot(b-a)$"
       ],
       "ok": 2,
       "spieg": "Tratto dai queez extra."
@@ -2497,11 +2497,11 @@
       "dif": "medio",
       "d": "Siano date due funzioni $f$ e $g$, entrambe derivabili almeno una volta nell'intervallo $[0,5]$. Si assumano le condizioni $f(0) = g(0)$ e $f(5) = g(5)$. Quale delle seguenti affermazioni è necessariamente vera?",
       "opts": [
-        "$\\exists c \\in (0,5) : f'(c) = g'(c)$",
-        "$\\exists c \\in (0,5) : f(c) = 5 \\text{ e } g'(c) = 0$",
+        "$\\exists c \\in (0,5) : f^{\\prime}(c) = g^{\\prime}(c)$",
+        "$\\exists c \\in (0,5) : f(c) = 5 \\text{ e } g^{\\prime}(c) = 0$",
         "$\\exists c \\in (0,5) : g(c) = 5 \\text{ e } f(c) = 0$",
         "Nessuna delle altre risposte è corretta",
-        "$\\exists c_1, c_2 \\in (0,5) : f'(c_1) = g'(c_2)$"
+        "$\\exists c_{1}, c_{2} \\in (0,5) : f^{\\prime}(c_{1}) = g^{\\prime}(c_{2})$"
       ],
       "ok": 0,
       "spieg": "Tratto dai queez extra."
@@ -2523,7 +2523,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Si consideri la funzione $f: \\mathbb{R} \\to \\mathbb{R}$ definita come:\n\n$f(x) = \\begin{cases} \\cos x & \\text{se } x \\geq 0 \\\\ a + x^{2} & \\text{se } x < 0 \\end{cases}$",
+      "d": "Si consideri la funzione $f: \\mathbb{R} \\to \\mathbb{R}$ definita come:\n\n$$f(x) = \\begin{cases} \\cos x & \\text{se } x \\geq 0 \\\\ a + x^{2} & \\text{se } x < 0 \\end{cases}$$",
       "opts": [
         "$f(x)$ è derivabile in $x=0$ e $f'(0)=0$ se $a=1$",
         "$f(x)$ è derivabile in $x=0$ per ogni $a \\in \\mathbb{R}$ e $f'(0)=0$",
@@ -2553,7 +2553,7 @@
       "dif": "medio",
       "d": "Considerata una funzione $f(x)$ che soddisfa la condizione $f(x)\\ge x$ per ogni $x \\in \\mathbb{R}$, si deduce che:",
       "opts": [
-        "Per ogni $x$ nell'intervallo $[-\\frac{1}{2}, 1]$, il valore di $f(x)$ è positivo.",
+        "Per ogni $x$ nell'intervallo $[-\frac{1}{2}, 1]$, il valore di $f(x)$ è positivo.",
         "Per ogni $x$ nell'intervallo $[-1, 0]$, il valore di $f(x)$ è negativo.",
         "L'integrale definito di $f(x)$ da $-1$ a $1$ è nullo.",
         "L'integrale definito di $f(x)$ da $0$ a $1$ è uguale a $\\frac{1}{2}$.",
@@ -2623,11 +2623,11 @@
       "dif": "medio",
       "d": "Si determini quale tra le seguenti equazioni differenziali ordinarie ammette come soluzione esplicita la funzione $f(x) = \\cos x$.",
       "opts": [
-        "(y'^2 - y^2 = 1)",
-        "y''' + y = 0",
-        "y'' - y = 0",
-        "(y'^2 + y^2 = 1)",
-        "y'' - 2y = 0"
+        "$(y^{\\prime})^2 - y^2 = 1$",
+        "$y^{\\prime\\prime\\prime} + y = 0$",
+        "$y^{\\prime\\prime} - y = 0$",
+        "$(y^{\\prime})^2 + y^2 = 1$",
+        "$y^{\\prime\\prime} - 2y = 0$"
       ],
       "ok": 3,
       "spieg": "Tratto dai queez extra."
@@ -2635,7 +2635,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Determinare il valore del limite: $\\lim_{x\\rightarrow\\frac{4}{5}}\\frac{1-\\cos(5x-4)}{(x-\\frac{4}{5})^{2}}=$",
+      "d": "Determinare il valore del limite: $lim_{x\\rightarrow\\frac{4}{5}}\\frac{1-\\cos(5x-4)}{(x-\\frac{4}{5})^{2}}=$",
       "opts": [
         "$\\frac{1}{2}$",
         "$1$",
@@ -2644,6 +2644,34 @@
         "$\\frac{25}{2}$"
       ],
       "ok": 4,
+      "spieg": "Tratto dai queez extra."
+    },
+    {
+      "arg": "esame",
+      "dif": "medio",
+      "d": "$\\lim_{n\\rightarrow+\\infty} \\sqrt[n]{4^{n} + 2^{n}} =$",
+      "opts": [
+        "1",
+        "$+\\infty$",
+        "$e$",
+        "2",
+        "4"
+      ],
+      "ok": 4,
+      "spieg": "Tratto dai queez extra."
+    },
+    {
+      "arg": "esame",
+      "dif": "medio",
+      "d": "Determinare la derivata prima della funzione $f(x) = \\log(\\cos x)$.",
+      "opts": [
+        "$f'(x)=\\frac{\\sin x}{\\cos x}$",
+        "$f'(x)=\\tan x+c$",
+        "$f'(x)=-\\tan x$",
+        "$\\frac{-\\sin x}{\\log(\\cos x)}$",
+        "$-\\sin x\\cdot \\cos x$"
+      ],
+      "ok": 2,
       "spieg": "Tratto dai queez extra."
     },
     {
@@ -2708,7 +2736,7 @@
       "d": "Sia data la funzione $f:\\mathbb{R}\\rightarrow\\mathbb{R}$ tale che per $x\\rightarrow+\\infty$, $f(x)\\sim \\log x$. Allora, tra le seguenti affermazioni, quale è corretta?",
       "opts": [
         "$e^{f(x)}\\sim x$",
-        "$\\lim_{x\\rightarrow+\\infty}(f(x)-\\log x)=0$",
+        "$\\lim_{x\\rightarrow+\\infty}(f(x)-\\log x)=\\exists$",
         "$x\\rightarrow+\\infty:f(x)\\cdot x\\sim x^{2}$",
         "nessuna delle altre risposte è corretta",
         "$x\\rightarrow+\\infty$: $f(x)\\cdot \\log x=o(x^{2})$"
@@ -2791,9 +2819,9 @@
       "dif": "medio",
       "d": "Determinare la derivata prima della funzione $f(x) = x^{x^4}$ nell'intervallo $x > 0$.",
       "opts": [
-        "$x^{x^{4}+3}(1+\\log(x^{4}))$",
-        "$4x^{4}x^{x^{4}-1}\\log(x^{4})$",
-        "$x^{4}x^{x^{4}-1}(4+\\log(x^{4}))$",
+        "$x^{x^{4}+3}(1+\\log x^{4})$",
+        "$4x^{4}x^{x^{4}-1}\\log x^{4}$",
+        "$x^{4}x^{x^{4}-1}(4+\\log x^{4})$",
         "$4x^{4}x^{x^{4}-1}$",
         "$(x^{4}-1)x^{x^{3}}$"
       ],
@@ -2803,13 +2831,13 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "La funzione $f(x) = \\sqrt{x} + \\beta \\cos x$ per $x \\ge 0$ e $2(x+5)-2^{x}$ per $x < 0$ è continua nel suo dominio se:",
+      "d": "La funzione $f(x) = \\sqrt{x}+\\beta\\cos x$ per $x\\ge0$ e $2(x+5)-2^{x}$ per $x<0$ è continua nel suo dominio se:",
       "opts": [
         "$\\beta=8$",
         "$\\beta=10$",
         "$\\beta=-9$",
         "nessuna risposta è esatta",
-        "nessun $\\beta \\in \\mathbb{R}$"
+        "nessun $\\beta\\in\\mathbb{R}$"
       ],
       "ok": 3,
       "spieg": "Tratto dai queez extra."
@@ -2831,7 +2859,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Determinare il valore di $\\alpha$ per cui il seguente limite è uguale a 1: $\\lim_{x \\to +\\infty} \\frac{(1 - \\cos^2(\\frac{1}{x})) (1 + x^5)^2}{x^{\\alpha}} = 1$.",
+      "d": "Determinare il valore di $\\alpha$ per cui il seguente limite è uguale a 1: $\\lim_{x \\to +\\infty} \\frac{(1 - \\cos^2(\\frac{1}{x})) (1 + x^5)^2}{x^\\alpha} = 1$.",
       "opts": [
         "$9$",
         "$10$",
@@ -2863,7 +2891,7 @@
       "opts": [
         "$x^{\\frac{2}{7}}$",
         "$x^{\\frac{8}{7}}$",
-        "$- \\sqrt[7]{x}$",
+        "$-\\sqrt[7]{x}$",
         "$\\sqrt[7]{x^{2}}$",
         "$\\sqrt[7]{x^{2}+x}$"
       ],
@@ -2878,7 +2906,7 @@
         "$4x^{4x}(\\log x+1)$",
         "nessuna delle derivate date è corretta",
         "$3x^{2}x^{2x^{2}}$",
-        "$3x^{3x^2+1}(2\\log x+x)$",
+        "$3x^{3x^{2}+1}(2\\log x+x)$",
         "$3x^{3x^2+1} (2\\log x + 1)$"
       ],
       "ok": 4,
@@ -2932,10 +2960,10 @@
       "d": "Determinare la derivata della funzione $f(x) = x^{\\sin x}$.",
       "opts": [
         "$\\sin x \\cdot x^{\\sin x}$",
-        "$x^{\\sin x}\\left(\\cos x \\cdot \\log(x) + \\frac{\\sin x}{x}\\right)$",
+        "$x^{\\sin x}\\left(\\cos x \\cdot \\log x + \\frac{\\sin x}{x}\\right)$",
         "$x^{\\cos x}$",
-        "$x^{\\sin x}\\left(\\cos x \\cdot \\log(x) + \\frac{\\cos x}{x}\\right)$",
-        "$x^{\\cos x}\\left(\\cos x \\cdot \\log(x) + \\frac{\\sin x}{x}\\right)$"
+        "$x^{\\sin x}\\left(\\cos x \\cdot \\log x + \\frac{\\cos x}{x}\\right)$",
+        "$x^{\\cos x}\\left(\\cos x \\cdot \\log x + \\frac{\\sin x}{x}\\right)$"
       ],
       "ok": 1,
       "spieg": "Tratto dai queez extra."
@@ -3069,7 +3097,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Considerata la funzione $y(x)$ soluzione del problema di Cauchy:\\n\\begin{cases}\\ny^{\\prime\\prime} + 4y = 0,\\n\\quad x \\in \\mathbb{R},\\ny(0) = 1,$$y'(0) = 0.\\n\\end{cases}\\nDeterminare il comportamento asintotico della soluzione all'estremo positivo dell'asse reale.",
+      "d": "Considerata la funzione $y(x)$ soluzione del problema di Cauchy:\\n\\begin{cases}\\ny^{\\prime\\prime} + 4y = 0,\\n\\quad x \\in \\mathbb{R},$$y(0) = 1,$$y'(0) = 0.\\n\\end{cases}\\nDeterminare il comportamento asintotico della soluzione all'estremo positivo dell'asse reale.",
       "opts": [
         "$\\lim_{x \\rightarrow +\\infty} y(x) = 0$",
         "$\\lim_{x \\rightarrow +\\infty} y(x)$ non esiste",
@@ -3101,7 +3129,7 @@
       "opts": [
         "Se $f(1)=1$ e $f(-1)=-1$ allora $f^{2}$ ha un minimo assoluto.",
         "Se $f$ ha un punto di minimo allora $f^{2}$ ha un punto di minimo.",
-        "Se $f$ è crescente allora $f^2$ è crescente per $x > 0$ o decrescente per $x < 0$.",
+        "Se $f$ è crescente allora $f^{2}$ è crescente.",
         "Se $f$ è convessa allora $f^{2}$ è convessa.",
         "Se $f(1)=1$ e $f(-1)=-1$ allora $f^{3}$ ha un minimo assoluto."
       ],
@@ -3284,7 +3312,7 @@
         "$\\frac{16}{5}$",
         "4",
         "$\\frac{1}{4}$",
-        "$\\frac{1}{2} + \\frac{1}{3 \\cdot 2} + \\frac{1}{\\arctan 2}$",
+        "$\\frac{1}{2}+\\frac{1}{3\\cdot2}+\\frac{1}{\\arctan 2}$",
         "nessuna delle altre risposte è esatta"
       ],
       "ok": 4,
@@ -3293,7 +3321,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Sia $f$ una funzione appartenente alla classe $C^{(n)}(\\mathbb{R})$ e sia $x_{0}$ un punto di massimo locale della funzione $f$. Quale delle seguenti affermazioni è vera?",
+      "d": "Sia $f$ una funzione appartenente alla classe $\\in C^{(n)}(\\mathbb{R})$ e sia $x_{0}$ un punto di massimo locale della funzione $f$. Quale delle seguenti affermazioni è vera?",
       "opts": [
         "$\\exists\\delta > 0: \\forall x, |x-x_{0}|<\\delta \\Rightarrow f(x)<f(x_{0})$",
         "$f(x)>f(x_{0}), \\forall x\\in\\mathbb{R}$",
@@ -3349,13 +3377,13 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Determinare la derivata della funzione $f(x) = e^{\\sin(\\frac{1}{x+1})}$ rispetto alla variabile indipendente $x$.",
+      "d": "Determinare la derivata della funzione $f(x) = e^{\\sin\\frac{1}{x+1}}$ rispetto alla variabile indipendente $x$.",
       "opts": [
-        "$e^{\\cos(\\frac{1}{x+1})\\cdot(-\\frac{1}{(x+1)^{2}})}$",
-        "$e^{\\cos(\\frac{1}{x+1})\\cdot(-\\frac{1}{(x+1)^{2}})}\\cdot \\cos(\\frac{1}{x+1})$",
-        "$e^{\\cos(\\frac{1}{x+1})\\cdot\\frac{1}{(x+1)^{2}}}$",
-        "$-e^{\\sin(\\frac{1}{x+1})}\\cdot \\cos(\\frac{1}{x+1})\\cdot\\frac{1}{(x+1)^{2}}$",
-        "$e^{\\sin(\\frac{1}{x+1})}\\cdot \\cos(\\frac{1}{x+1})\\cdot\\frac{1}{(x+1)^{2}}$"
+        "$e^{\\cos\\frac{1}{x+1}\\cdot(-\\frac{1}{(x+1)^{2}})}$",
+        "$e^{\\cos\\frac{1}{x+1}\\cdot(-\\frac{1}{(x+1)^{2}})}\\cdot \\cos\\frac{1}{x+1}$",
+        "$e^{\\cos\\frac{1}{x+1}\\cdot\\frac{1}{(x+1)^{2}}}$",
+        "$-e^{\\sin\\frac{1}{x+1}}\\cdot \\cos\\frac{1}{x+1}\\cdot\\frac{1}{(x+1)^{2}}$",
+        "$e^{\\sin\\frac{1}{x+1}}\\cdot \\cos\\frac{1}{x+1}\\cdot\\frac{1}{(x+1)^{2}}$"
       ],
       "ok": 2,
       "spieg": "Tratto dai queez extra."
@@ -3606,7 +3634,7 @@
         "$I=\\log f(x)+c$",
         "$I=\\arctan f(x) + c$",
         "$I=\\log|f(x)|+c$",
-        "$I=\\frac{f''(x)\\cdot f(x)-(f'(x))^{2}}{f^{2}(x)}|$",
+        "$I=\\frac{f''(x)\\cdot f(x)-(f'(x))^{2}}{f^{2}(x)}$",
         "$I=\\frac{f(x)}{f'(x)}$"
       ],
       "ok": 2,
@@ -3674,7 +3702,7 @@
       "d": "Sia $h(x)$ una funzione derivabile. Calcolare la derivata della funzione $f(x) = \\log(h^3(x) + 1)$.",
       "opts": [
         "$f^{\\prime}(x)=\\frac{3h^{2}(x)}{h^{3}(x)+1}$",
-        "$f^{\\prime}(x)=\\frac{3h^{2}(x)\\cdot h^{\\prime}(x)}{(h^{3}(x)+1)}$",
+        "$f^{\\prime}(x)=\\frac{3h^{2}(x)\\cdot h^{\\prime}(x)}{(h^{3}(x)+1)^{2}}$",
         "$f^{\\prime}(x)=\\frac{3h^{2}(x)+1}{h^{3}(x)+1}$",
         "$f^{\\prime}(x)=\\frac{1}{h^{3}(x)+1}$",
         "$f^{\\prime}(x)=\\frac{3h^{2}(x)\\cdot h^{\\prime}(x)}{h^{3}(x)+1}$"
@@ -3699,7 +3727,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Considerata la soluzione generale $y(x;C_{1},C_{2})$ dell'equazione differenziale lineare omogenea a coefficienti costanti $y^{\\prime\\prime}(x)+10y^{\\prime}(x)+21y(x)=0$, si determini il valore del limite $\\lim_{x\\to \\infty} y(x)$.",
+      "d": "Considerata la soluzione generale $y(x;C_{1},C_{2})$ dell'equazione differenziale lineare omogenea a coefficienti costanti $y^{\\prime\\prime}(x)+10y^{\\prime}(x)+21y(x)=0$, si determini il valore del limite $\\lim_{x\\to +\\infty} y(x)$.",
       "opts": [
         "0, soltanto nel caso in cui $C_{1}=0$",
         "0, soltanto nel caso in cui $C_{2}=0$",
@@ -3730,7 +3758,7 @@
       "d": "Sia $f(x)$ una funzione continua e derivabile nel suo dominio. Sapendo che $f(0)=0$ e $f(11)=2$, per il teorema di Lagrange applicato alla funzione $g(x)=f^{2}(x)$, si può affermare che $\\exists c \\in (0,11)$ tale che:",
       "opts": [
         "$g^{\\prime}(c)=\\frac{4}{121}$",
-        "$g^{\\prime}(c)=0$",
+        "$g^{\\prime\\prime}(c)=0$",
         "$g^{\\prime}(c)=\\frac{2}{11}$",
         "$g^{\\prime}(c)=0$",
         "$g^{\\prime}(c)=\\frac{4}{11}$"
@@ -3747,9 +3775,9 @@
         "L'integrale converge perché la funzione integranda è infinitesima per $x \\rightarrow +\\infty$",
         "L'integrale converge a un valore finito positivo",
         "L'integrale diverge a $+\\infty$",
-        "$I=\\lim_{a\\rightarrow+\\infty}\\int_{2}^{a}\\frac{2+e^{x}}{1+x^{5}}dx$"
+        "$I=\\lim_{a\\rightarrow+\\infty}\\frac{2+e^{a}}{1+a^{5}}-\\frac{1+e^{2}}{33}$"
       ],
-      "ok": 4,
+      "ok": 3,
       "spieg": "Tratto dai queez extra."
     },
     {
@@ -3881,7 +3909,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Dato che una successione {$a_n$} non è limitata, si deduce che:",
+      "d": "Dato che una successione $\\{$a_n$\\}$ non è limitata, si deduce che:",
       "opts": [
         "Per ogni $M>0$, esiste $n\\in \\mathbb{N}$ tale che $a_n > M$.",
         "Per ogni $M>0$, esiste $n\\in \\mathbb{N}$ tale che $a_n < -M$.",
@@ -4035,7 +4063,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Sia $f:\\mathbb{R}\\rightarrow\\mathbb{R}$ una funzione continua, e $F(x)=\\int_{0}^{x}f(t)dt$. Allora, se $f(x)\\le0$ per ogni $x\\in\\mathbb{R}$, possiamo dedurre che:",
+      "d": "Sia $f:\\mathbb{R}\\rightarrow\\mathbb{R}$ una funzione continua, e $F(x)=\\int_{0}^{x}f(t)dt$. Allora, se $f\\le0$ in $\\mathbb{R}$, possiamo dedurre che:",
       "opts": [
         "$F(x)\\le0$ per ogni $x\\in\\mathbb{R}$",
         "$F(x)\\le0$ per ogni $x\\ge0$",
@@ -4091,7 +4119,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Si consideri l'insieme $A = \\{\\cosh x \\mid x \\in \\mathbb{R}\\ \\cup \\{-9\\}$.",
+      "d": "Si consideri l'insieme $A = \\{ \\cosh x \\mid x \\in \\mathbb{R}\\} \\cup \\{-9\\}$.",
       "opts": [
         "$\\inf=1; \\sup=+\\infty$",
         "$\\min=-9; \\sup=+\\infty$",
@@ -4151,7 +4179,7 @@
       "opts": [
         "$\\lim_{x\\rightarrow+\\infty}(f(x)-4x)=0$",
         "$\\lim_{x\\rightarrow+\\infty}(f(x)-4x)=+\\infty$",
-        "$\\lim_{x\\rightarrow+\\infty}(f(x)-4x)=-\\infty$",
+        "$\\lim_{x\\rightarrow+\\infty}(f(x)-4x)=\\#$",
         "$f(x)$ ammette la retta $y=4x+q$ come asintoto obliquo destro",
         "$f(x)\\sim4x$, $x\\rightarrow+\\infty$"
       ],
@@ -4189,7 +4217,7 @@
     {
       "arg": "esame",
       "dif": "medio",
-      "d": "Per quali valori reali di $x$ le due funzioni $f(x)=\\log\\left(\\frac{x+1}{x-1}\\right)$ e $g(x)=\\log(x+1)-\\log(x-1)$ coincidono?",
+      "d": "Per quali valori reali di $x$ le due funzioni $f(x)=\\log\\frac{x+1}{x-1}$ e $g(x)=\\log(x+1)-\\log(x-1)$ coincidono?",
       "opts": [
         "$\\forall x\\in\\mathbb{R}$",
         "$\\forall x\\in(1,+\\infty)$",
@@ -4205,11 +4233,11 @@
       "dif": "medio",
       "d": "Determinare lo sviluppo di Maclaurin (serie di Taylor attorno a $x=0$) della funzione $f(x)=e^{\\sin x}$ fino all'ordine $3$ incluso.",
       "opts": [
-        "$1+x+\\frac{1}{2}x^{2}+\frac{1}{6}x^{3}+o(x^{3})",
-        "$1+x-\\frac{1}{2}x^{2}+\frac{1}{6}x^{3}+o(x^{3})",
-        "$1+x+\\frac{1}{2}x^{2}+\frac{1}{3}x^{3}+o(x^{3})",
-        "$x+\\frac{1}{2}x^{2}+\frac{1}{6}x^{3}+o(x^{3})",
-        "$1+x+\\frac{1}{2}x^{2}+o(x^{3})"
+        "$1+x+\\frac{1}{2}x^{2}+\\frac{1}{6}x^{3}+o(x^{3})$",
+        "$1+x-\\frac{1}{2}x^{2}+\\frac{1}{6}x^{3}+o(x^{3})$",
+        "$1+x+\\frac{1}{2}x^{2}+\\frac{1}{3}x^{3}+o(x^{3})$",
+        "$x+\\frac{1}{2}x^{2}+\\frac{1}{6}x^{3}+o(x^{3})$",
+        "$1+x+\\frac{1}{2}x^{2}+o(x^{3})$"
       ],
       "ok": 0,
       "spieg": "Tratto dai queez extra."
@@ -4235,7 +4263,7 @@
       "opts": [
         "$[-1,0)\\cup(0,1]$",
         "$(-\\infty,-1)\\cup(1,+\\infty)$",
-        "$\\forall x\\in\\mathbb{R}\\setminus\\{0\\}$",
+        "$\\forall x\\in\\mathbb{R}\\backslash\\{0\\}$",
         "$[1,+\\infty)$",
         "$(-\\infty,-1]\\cup[1,+\\infty)$"
       ],
@@ -4446,7 +4474,7 @@
         "La funzione $f$ risulta essere un infinitesimo di ordine quattro nel limite per $x \\to -2$.",
         "Il punto $x = -2$ non rappresenta un punto critico per la funzione $f$.",
         "Il punto $x = -2$ non corrisponde a un punto di Fermat per $f$.",
-        "La quarta derivata di $f$ nel punto $x = -2$ assume valore $f^{(4)}(-2) = -4 \\cdot 4!$.",
+        "La quarta derivata di $f$ nel punto $x = -2$ assume valore $f^{(4)}(-2) = -4 \\cdot 4$.",
         "Il punto $x = -2$ costituisce un punto di massimo relativo per la funzione $f$."
       ],
       "ok": 4,
@@ -4513,13 +4541,13 @@
       "dif": "medio",
       "d": "Sia $f: \\mathbb{R} \\to \\mathbb{R}$ una funzione continua tale che $f(1) = \\pi$. Determinare il rapporto incrementale nel punto $x_0 = 1$ per la funzione $g(x) = \\sin(f(x))$.",
       "opts": [
-        "$\\frac{\\sin(f(x))-\\pi}{x-1}$",
+        "$\\frac{\\sin f(x)-\\pi}{x-1}$",
         "$\\frac{\\sin f(x)}{x-1}$",
         "$\\frac{\\sin(f(x-1))-1}{x-1}$",
         "$\\frac{f(\\sin x)-1}{x-1}$",
-        "$\\frac{\\sin(f(x)) - \\sin(f(1))}{x-1}$"
+        "$\\frac{f(x)-\\pi}{x-\\pi}$"
       ],
-      "ok": 4,
+      "ok": 1,
       "spieg": "Tratto dai queez extra."
     },
     {
@@ -4527,7 +4555,7 @@
       "dif": "medio",
       "d": "Quale delle seguenti affermazioni NON è vera, per una funzione definita $\\forall x\\in[a,b]$?",
       "opts": [
-        "Se una funzione è derivabile in ogni punto interno di $[a, b]$, allora è continua in quel punto",
+        "Se una funzione è derivabile $\\forall x\\in[a,b]$ è anche ivi continua",
         "Se una funzione è Riemann integrabile $\\forall x\\in[a,b]$ è anche ivi derivabile",
         "Se una funzione è continua $\\forall x\\in[a,b]$ è anche ivi Riemann integrabile",
         "Se una funzione non è continua in un punto appartenente a $[a,b]$, può essere Riemann integrabile",
@@ -4698,7 +4726,7 @@
         "$x + \\log((1-x)^2)$",
         "$x + \\log|x-1|$",
         "$x + |\\log(x-1)|$",
-        "$x + 2\\arctan(x) - 2\\arctan(\\frac{1}{x})|$",
+        "$2x + \\log|x-1|$",
         "$\\log\\left|\\frac{x+1}{x-1}\\right|$"
       ],
       "ok": 0,
