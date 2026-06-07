@@ -831,6 +831,8 @@ body{
 .btn-qc:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(124,58,237,0.5)}
 .btn-qn{background:var(--bg-card-h);border-color:var(--border);color:var(--t1)}
 .btn-qn:hover{border-color:var(--border-a);background:var(--v-d)}
+.btn-report{background:rgba(245, 158, 11, 0.1); border-color:rgba(245, 158, 11, 0.4); color:#f59e0b; text-decoration:none; display:inline-flex; align-items:center;}
+.btn-report:hover{background:rgba(245, 158, 11, 0.2); border-color:rgba(245, 158, 11, 0.8);}
 
 /* =============================================
    GRAFICI

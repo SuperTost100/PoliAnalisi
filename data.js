@@ -21,6 +21,7 @@ const DATA = {
     { id: 'integrali',  label: 'Integrali',            icon: '∫',  col: '#be185d' },
     { id: 'edo',        label: 'EDO',                  icon: '⚙️', col: '#065f46' },
     { id: 'esame',      label: 'Esame',                icon: '📝', col: '#eab308' },
+    { id: 'pretest',    label: 'Pretest',              icon: '🏁', col: '#eab308' },
   ],
 
   lezioni: [
